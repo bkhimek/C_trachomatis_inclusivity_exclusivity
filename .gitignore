@@ -39,3 +39,6 @@ __pycache__/
 # OS
 .DS_Store
 Thumbs.db
+
+# Generated human-readable reports (copied to OneDrive by sync_onedrive.sh)
+reports/

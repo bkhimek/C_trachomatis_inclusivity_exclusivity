@@ -23,6 +23,7 @@ recorded but never change the verdict.
 import collections
 import csv
 import re
+import statistics
 import sys
 from pathlib import Path
 
@@ -35,7 +36,8 @@ OVR = ROOT / "config" / "provenance_overrides.tsv"
 DOMINANT_SHARE = 0.10
 SIZE_RANGE = (1_000_000, 1_120_000)  # C. trachomatis is ~1.04 Mb (plasmid adds ~7.5 kb)
 MAX_CONTIGS = 3
-MIN_CHECKM_COMPLETENESS = 90.0
+MIN_CHECKM_COMPLETENESS = 97.0  # empirical tail of the 125 RefSeq genomes (most are >= 97)
+CHROM_DEVIATION = 8000  # nt from the median chromosome length (empirical outlier rule)
 MAX_CHECKM_CONTAMINATION = 5.0
 
 # (regex, flags, label). Scanned in strain, organism name, isolate, assembly name,
@@ -88,6 +90,14 @@ def main():
     excluded_bps = {a: reason for a, reason in read_config(EXCL, 2)}
     overrides = {a: (d.upper(), reason) for a, d, reason in read_config(OVR, 3)}
 
+    files_path = INV / "genome_files.tsv"
+    chrom = {}
+    if files_path.exists():
+        for f in csv.DictReader(open(files_path), delimiter="\t"):
+            if f.get("longest_seq"):
+                chrom[f["accession"]] = int(f["longest_seq"])
+    chrom_median = statistics.median(chrom.values()) if chrom else None
+
     bp_counts = collections.Counter(r["bioproject"] for r in rows)
     strain_counts = collections.Counter(r["strain"].lower() for r in rows if r["strain"])
     n = len(rows)
@@ -134,6 +144,9 @@ def main():
             strong.append(f"genome length {int(length)} outside {SIZE_RANGE}")
         if contigs is not None and contigs > MAX_CONTIGS:
             strong.append(f"{int(contigs)} contigs")
+        if chrom_median and r["accession"] in chrom and abs(chrom[r["accession"]] - chrom_median) > CHROM_DEVIATION:
+            strong.append(f"chromosome length {chrom[r['accession']]:,} deviates "
+                          f"{chrom[r['accession']] - chrom_median:+,.0f} nt from the median {chrom_median:,.0f}")
 
         if not (r["collection_date"] or r["geo_loc_name"] or r["host"]):
             weak.append("sparse_metadata (no collection date, location or host)")

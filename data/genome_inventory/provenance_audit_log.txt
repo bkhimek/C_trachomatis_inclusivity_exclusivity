@@ -1,11 +1,11 @@
 PROVENANCE AUDIT: 125 genomes
-  config loaded: 2 known-bad BioProjects, 33 manual overrides
-  automatic verdicts: {'INCLUDE': 93, 'REVIEW': 32}
-  final tiers (after overrides): primary 100, quality-review 7, excluded 18, unresolved REVIEW 0
+  config loaded: 2 known-bad BioProjects, 36 manual overrides
+  automatic verdicts: {'INCLUDE': 90, 'REVIEW': 35}
+  final tiers (after overrides): primary 97, quality-review 10, excluded 18, unresolved REVIEW 0
   unresolved REVIEW: 0 (decide each in config/provenance_overrides.tsv)
 
 BIOPROJECTS (count, verdicts, title)
-  PRJNA1137892   n=18  {'INCLUDE': 18}  [University of California San] Chlamydia trachomatis reference genomes
+  PRJNA1137892   n=18  {'INCLUDE': 17, 'QUALITY_REVIEW': 1}  [University of California San] Chlamydia trachomatis reference genomes
   PRJNA338746    n=14  {'INCLUDE': 14}  [Oregon State University] Same-patient Chlamydia trachoma's genome sequences
   PRJNA316787    n=7   {'INCLUDE': 7}  [CHI: Chlamydien-Wirtszell-In] Re-sequencing of Chlamydia trachomatis E and F strains
   PRJNA1102004   n=7   {'EXCLUDE': 7}  [Oregon State University] The Chlamydia trachomatis inclusion membrane protein CT135 is required for resistance to i
@@ -62,7 +62,7 @@ BIOPROJECTS (count, verdicts, title)
   PRJNA53853     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis RC-J/953 strain:RC-J953 Phenotype or Genotype
   PRJNA53855     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis RC-L2(s)/3 strain:RC-JL2s3 Phenotype or Genotype
   PRJNA53857     n=1   {'QUALITY_REVIEW': 1}  [Oregon State University] Chlamydia trachomatis RC-F(s)/342 strain:RC-Fs342 Phenotype or Genotype
-  PRJNA53859     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis RC-Js122 genome sequencing
+  PRJNA53859     n=1   {'QUALITY_REVIEW': 1}  [Oregon State University] Chlamydia trachomatis RC-Js122 genome sequencing
   PRJNA53861     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis RC-J966 genome sequencing
   PRJNA53863     n=1   {'EXCLUDE': 1}  [Oregon State University] Chlamydia trachomatis J6276tet1 genome sequencing
   PRJNA66011     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis RC-J/971 genome sequencing project.
@@ -70,7 +70,7 @@ BIOPROJECTS (count, verdicts, title)
   PRJNA230246    n=1   {'INCLUDE': 1}  [National Institute of Health] Complete genome sequence of Chlamydia trachomatis serovar C strain C/TW-3
   PRJNA266925    n=1   {'INCLUDE': 1}  [National Institute of Health] Genetic diversity among Chlamydia trachomatis lymphogranuloma venereum isolates - strain L
   PRJNA266926    n=1   {'INCLUDE': 1}  [National Institute of Health] Genetic diversity among Chlamydia trachomatis lymphogranuloma venereum isolates - strain L
-  PRJNA352770    n=1   {'INCLUDE': 1}  [Beijing Institute of Microbi] Chlamydia trachomatis Genome sequencing and assembly
+  PRJNA352770    n=1   {'QUALITY_REVIEW': 1}  [Beijing Institute of Microbi] Chlamydia trachomatis Genome sequencing and assembly
   PRJNA517183    n=1   {'EXCLUDE': 1}  [Oregon State University] Chlamydia trachomatis strain:tet9 Genome sequencing
   PRJNA886480    n=1   {'INCLUDE': 1}  [Policlinico Sant'Orsola-Malp] Chlamydia trachomatis strain:ST44 Genome sequencing
   PRJNA1066129   n=1   {'QUALITY_REVIEW': 1}  [Vircell S.A.] Bordetella pertussis strain:F Genome sequencing
@@ -78,17 +78,19 @@ BIOPROJECTS (count, verdicts, title)
 
 EXCLUDE / REVIEW GENOMES
   EXCLUDE GCF_000175515.1  L2tet1                 PRJNA39293    tetracycline-resistance marker/selection (tetR/tetN) 'tet1' in strain/organism_name/biosample_text || engineering language 'lateral gene transfer' in bioproject_titles ||
-  QUALITY_REVIEW GCF_000441635.1  RC-F(s)/852            PRJNA53849    CheckM contamination 7.15
-  QUALITY_REVIEW GCF_000441715.1  RC-F(s)/342            PRJNA53857    CheckM contamination 7.15
-  EXCLUDE GCF_000441775.1  J/6276tet1             PRJNA53863    tetracycline-resistance marker/selection (tetR/tetN) 'tet1' in strain/organism_name/bioproject_titles/biosample_text || CheckM contamination 7.15
+  QUALITY_REVIEW GCF_000441635.1  RC-F(s)/852            PRJNA53849    CheckM contamination 7.15 || chromosome length 1,083,893 deviates +41,150 nt from the median 1,042,743
+  QUALITY_REVIEW GCF_000441715.1  RC-F(s)/342            PRJNA53857    CheckM contamination 7.15 || chromosome length 1,083,842 deviates +41,099 nt from the median 1,042,743
+  QUALITY_REVIEW GCF_000441735.1  RC-J(s)/122            PRJNA53859    chromosome length 1,061,854 deviates +19,111 nt from the median 1,042,743
+  EXCLUDE GCF_000441775.1  J/6276tet1             PRJNA53863    tetracycline-resistance marker/selection (tetR/tetN) 'tet1' in strain/organism_name/bioproject_titles/biosample_text || CheckM contamination 7.15 || chromosome length 1,0
   QUALITY_REVIEW GCF_001183765.1  D/CS637/11             PRJNA234355   laboratory adaptation/passage 'Laboratory adapt' in bioproject_titles
   QUALITY_REVIEW GCF_001183805.1  E/CS1025/11            PRJNA234355   laboratory adaptation/passage 'Laboratory adapt' in bioproject_titles
   QUALITY_REVIEW GCF_001183825.1  F/CS847/08             PRJNA234355   laboratory adaptation/passage 'Laboratory adapt' in bioproject_titles
   QUALITY_REVIEW GCF_001183845.1  Ia/CS190/96            PRJNA234355   laboratory adaptation/passage 'Laboratory adapt' in bioproject_titles
+  QUALITY_REVIEW GCF_001885175.1  QH111L                 PRJNA352770   CheckM completeness 91.61 || chromosome length 1,025,839 deviates -16,904 nt from the median 1,042,743
   EXCLUDE GCF_002088315.1  chxRP4F1               PRJNA315548   mutant/mutagenesis 'mutagen' in bioproject_titles/biosample_text
   EXCLUDE GCF_002088335.1  chxRP4D10              PRJNA315548   mutant/mutagenesis 'mutagen' in bioproject_titles/biosample_text
   EXCLUDE GCF_002088355.1  chxRP1H1               PRJNA315548   mutant/mutagenesis 'mutagen' in bioproject_titles/biosample_text
-  EXCLUDE GCF_004135145.1  tet9                   PRJNA517183   tetracycline-resistance marker/selection (tetR/tetN) 'tet9' in strain/bioproject_titles/biosample_text
+  EXCLUDE GCF_004135145.1  tet9                   PRJNA517183   tetracycline-resistance marker/selection (tetR/tetN) 'tet9' in strain/bioproject_titles/biosample_text || chromosome length 1,054,567 deviates +11,824 nt from the median 
   EXCLUDE GCF_018336255.1  L2/Hefty/ct350::Tn     PRJNA386688   insertion/construct marker '::' '::' in strain/biosample_text || transposon 'Transposon' in bioproject_titles || mutant/mutagenesis 'Mutagen' in bioproject_titles
   EXCLUDE GCF_018336275.1  L2/Hefty/ct732::Tn     PRJNA386688   insertion/construct marker '::' '::' in strain/biosample_text || transposon 'Transposon' in bioproject_titles || mutant/mutagenesis 'Mutagen' in bioproject_titles
   EXCLUDE GCF_018336295.1  L2/Hefty/ct054::Tn     PRJNA386688   insertion/construct marker '::' '::' in strain/biosample_text || transposon 'Transposon' in bioproject_titles || mutant/mutagenesis 'Mutagen' in bioproject_titles
@@ -102,6 +104,7 @@ EXCLUDE / REVIEW GENOMES
   EXCLUDE GCF_039778345.1  BQ06_L04117_J_p225     PRJNA1102004  gene-function study language 'required for' in bioproject_titles
   EXCLUDE GCF_039778415.1  BQ07_A11257_D_6319     PRJNA1102004  gene-function study language 'required for' in bioproject_titles
   EXCLUDE GCF_039778425.1  BQ07_D0_D_6319         PRJNA1102004  gene-function study language 'required for' in bioproject_titles
+  QUALITY_REVIEW GCF_047421445.1  B/TW-5/OT              PRJNA1137892  CheckM completeness 93.78 || chromosome length 1,033,232 deviates -9,511 nt from the median 1,042,743
 
 WEAK NOTES (informational only): {'sparse_metadata': 53, 'duplicate_strain_name': 10, 'name_qualifier_in_parentheses': 7, 'dominant_bioproject': 32}
   strain names appearing more than once: ['A2497', 'D/UW-3/CX', 'D/UW-3/Cx', 'E/Bour', 'E/bour', 'L1/440/LN', 'L3/404/LN']
