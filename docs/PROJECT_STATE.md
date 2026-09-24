@@ -11,8 +11,8 @@ documents in `docs/archive/`, this file wins. Last updated: 2026-09-24.
 | D3 | Excluded 11 of 12 "target absent" draft assemblies traced to PRJEB35640 (MAG artifacts). The remaining one (PRJEB2035, legitimate clinical project) is flagged for independent follow-up | Provenance-verified |
 | D4 | The 43 chromosome-level assemblies are out of the primary set. This is a scope simplification, not a quality judgement | They were natural isolates; may be re-added as secondary validation |
 | D5 | Provenance audit (bin/02) runs BEFORE any analysis and is applied to the RefSeq genomes too | RefSeq status alone does not guarantee natural isolate |
-| D6 | Tm rule: probe Tm minus max(primer Tm) must be at least 7 C, enforced by a post-filter because Primer3 cannot enforce it | Earlier design had only 2-4 C gap |
-| D7 | Initial Primer3 settings: primers Tm 59/60/61, size 18/20/25; probe Tm 68/69/72 (min/opt/max), size 35/38/42. Probe size limits are provisional until bin/00 confirms what the installed Primer3 accepts | Pending verification |
+| D6 | Tm rule: probe Tm minus max(primer Tm) must be at least 5 C (hard floor, enforced by a post-filter because Primer3 cannot enforce it); sets with a gap of 7 C or more rank higher | Earlier design had only 2-4 C gap. A 5 C gap has worked in practice and 7+ C is hard to reach on an AT-rich genome |
+| D7 | Initial Primer3 settings: primers Tm 59/60/61, size 18/20/25; probe Tm 66/68/72 (min/opt/max). Probe size range is set by bin/00, since Primer3 may cap oligo length near 36 nt | Pending verification |
 | D8 | Script numbering follows the layout in README.md (00-24). The handover numbering (01-23) and LESSONS_LEARNED numbering (bin/24-25, bin/31) are superseded | Old files disagreed with each other |
 | D9 | Plasmid design must be nvCT-aware: avoid the 377 bp deletion; separate standard and nvCT sets if needed | Known clinical failure mode of earlier commercial assays |
 

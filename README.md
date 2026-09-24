@@ -10,7 +10,7 @@ The current plan and every decision made so far are in [`docs/PROJECT_STATE.md`]
 - **Inclusivity:** targets present in all natural *C. trachomatis* isolate genomes in the reference set.
 - **Exclusivity:** targets absent from other *Chlamydia* species and clinically relevant co-pathogens.
 - **Plasmid target:** must detect the Swedish new-variant (nvCT) 377 bp deletion plasmids as well as standard plasmids.
-- **Oligo design:** TaqMan probe Tm at least 7 C above the highest primer Tm.
+- **Oligo design:** TaqMan probe Tm at least 5 C above the highest primer Tm (7 C or more preferred).
 
 ## Design principles
 1. **Provenance first.** A "complete genome" label does not mean a natural isolate. Every genome is traced to its
