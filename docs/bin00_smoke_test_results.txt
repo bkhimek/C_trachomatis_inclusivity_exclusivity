@@ -1,0 +1,48 @@
+== Tool versions
+# Tool versions, recorded 2026-09-24 by bin/00_smoke_test.py
+python 3.12.2
+biopython 1.87
+pandas 3.0.3
+primer3_core: libprimer3 release 2.6.1
+blastn: blastn: 2.17.0+
+makeblastdb: makeblastdb: 2.17.0+
+mafft: v7.525 (2024/Mar/13)
+fastANI: version 1.34
+ncbi-datasets: datasets version: 18.29.1
+nextflow: version 26.04.3 build 12259
+prokka (prokka_env): prokka 1.14.6
+panaroo (panaroo_env): panaroo 1.5.2
+
+== A: probe 35-42 nt (original handover plan)
+  stderr: primer3_core: PRIMER_INTERNAL_MAX_SIZE exceeds built-in maximum
+  PRIMER_ERROR: PRIMER_INTERNAL_MAX_SIZE exceeds built-in maximum
+  internal explain: -
+  -> NO sets with a probe returned
+
+== B: probe 30-36 nt
+  internal explain: considered 6446, low tm 509, high tm 2649, high any compl 48, high hairpin stability 503, long poly-x seq 62, ok 2675
+  set 0: probe 33 nt  Tm 67.0  max primer Tm 60.0  gap 7.0
+  set 1: probe 33 nt  Tm 68.0  max primer Tm 60.0  gap 8.0
+  set 2: probe 33 nt  Tm 67.6  max primer Tm 60.0  gap 7.6
+  set 3: probe 33 nt  Tm 67.6  max primer Tm 60.0  gap 7.6
+  set 4: probe 33 nt  Tm 68.0  max primer Tm 60.0  gap 8.0
+  set 5: probe 33 nt  Tm 68.0  max primer Tm 60.0  gap 8.0
+  set 6: probe 33 nt  Tm 68.1  max primer Tm 60.0  gap 8.1
+  set 7: probe 33 nt  Tm 68.1  max primer Tm 60.0  gap 8.0
+  set 8: probe 33 nt  Tm 68.1  max primer Tm 60.0  gap 8.0
+  set 9: probe 33 nt  Tm 68.0  max primer Tm 60.0  gap 8.0
+  -> 10 sets | probe length 33-33 nt | gap >=5: 10 | gap >=7: 10
+
+== C: probe 24-36 nt (baseline)
+  internal explain: considered 12035, GC content failed 4, low tm 3057, high tm 3440, high any compl 13, high hairpin stability 366, long poly-x seq 62, ok 5093
+  set 0: probe 31 nt  Tm 66.1  max primer Tm 60.0  gap 6.1
+  set 1: probe 30 nt  Tm 67.8  max primer Tm 60.0  gap 7.7
+  set 2: probe 30 nt  Tm 67.9  max primer Tm 60.0  gap 7.9
+  set 3: probe 30 nt  Tm 67.9  max primer Tm 60.0  gap 7.9
+  set 4: probe 30 nt  Tm 67.3  max primer Tm 60.0  gap 7.3
+  set 5: probe 30 nt  Tm 67.8  max primer Tm 60.0  gap 7.7
+  set 6: probe 30 nt  Tm 68.0  max primer Tm 60.0  gap 7.9
+  set 7: probe 30 nt  Tm 67.2  max primer Tm 60.0  gap 7.2
+  set 8: probe 30 nt  Tm 67.2  max primer Tm 60.0  gap 7.2
+  set 9: probe 30 nt  Tm 67.8  max primer Tm 60.0  gap 7.7
+  -> 10 sets | probe length 30-31 nt | gap >=5: 10 | gap >=7: 9
