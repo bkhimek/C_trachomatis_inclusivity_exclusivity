@@ -1,0 +1,41 @@
+# Raw sequence data and downloads (never commit)
+*.fna
+*.fasta
+*.fa
+*.fas
+*.gbk
+*.gbff
+*.fna.gz
+data/genomes_downloaded/*
+data/plasmids_downloaded/*
+data/blast_databases/*
+!data/genomes_downloaded/.gitkeep
+!data/plasmids_downloaded/.gitkeep
+!data/blast_databases/.gitkeep
+# BLAST database files
+*.nhr
+*.nin
+*.nsq
+*.ndb
+*.not
+*.ntf
+*.nto
+*.njs
+*.nos
+*.nog
+*.nsd
+*.nsi
+# Small final oligo FASTAs are allowed
+!results/final_assay/*.fasta
+# Nextflow
+work/
+.nextflow/
+.nextflow.log*
+# Python / notebooks
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+.env
+# OS
+.DS_Store
+Thumbs.db
