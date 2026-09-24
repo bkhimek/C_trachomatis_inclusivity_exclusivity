@@ -47,3 +47,5 @@ reports/
 !data/reference/*.fasta
 results/genome_qc/fastani_all_vs_all.tsv
 results/genome_qc/genome_list.txt
+results/annotation/*/
+results/annotation/logs/
