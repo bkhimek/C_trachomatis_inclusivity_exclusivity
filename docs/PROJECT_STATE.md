@@ -16,6 +16,7 @@ documents in `docs/archive/`, this file wins. Last updated: 2026-09-24.
 | D8 | Script numbering follows the layout in README.md (00-24). The handover numbering (01-23) and LESSONS_LEARNED numbering (bin/24-25, bin/31) are superseded | Old files disagreed with each other |
 | D9 | Plasmid design must be nvCT-aware: avoid the 377 bp deletion; separate standard and nvCT sets if needed | Known clinical failure mode of earlier commercial assays |
 | D10 | The 35-42 nt probe plan is dropped: Primer3 2.6.1 rejects PRIMER_INTERNAL_MAX_SIZE above 36 (built-in limit). With identical explicit salt settings for primers and probe (placeholders: 50 mM Na, 3.0 mM Mg, 0.8 mM dNTP, 250 nM), 30-36 nt probes gave Tm 66-68 C and a gap of 6-8 C in the bin/00 smoke test (synthetic 43% GC template, not real data; see docs/bin00_smoke_test_results.txt) | Long probes were never possible. The earlier 2-4 C gap may partly reflect inconsistent Tm settings (hypothesis, unverified) |
+| D11 | Shorter probes are preferred: longer probes give higher background fluorescence (observed in earlier wet-lab work), which matters in some PCR systems. Design goal is the shortest probe that keeps Tm at least 5 C above the higher primer Tm; final ranking prefers shorter probes among sets that pass the gap filter. Probe size range is set after bin/00b (docs/probe_length_sweep_results.txt) | Supersedes the 30/33/36 nt range in D7 once bin/00b is reviewed |
 
 ## Open questions
 - RESOLVED (D10): Primer3 2.6.1 rejects probes longer than 36 nt.

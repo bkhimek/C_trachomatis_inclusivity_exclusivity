@@ -1,0 +1,47 @@
+== 1. Length cap x probe Tm floor (43% GC, Mg 3.0 mM)
+  Tm>=66 cap 22 | acceptable probes   465 | sets 10 | len 22-22 nt | probe Tm 67.8-68.3 | gap>=5: 10/10
+  Tm>=66 cap 24 | acceptable probes   962 | sets 10 | len 22-22 nt | probe Tm 67.8-68.3 | gap>=5: 10/10
+  Tm>=66 cap 26 | acceptable probes  1615 | sets 10 | len 22-22 nt | probe Tm 67.8-68.3 | gap>=5: 10/10
+  Tm>=66 cap 28 | acceptable probes  2419 | sets 10 | len 22-22 nt | probe Tm 67.8-68.3 | gap>=5: 10/10
+  Tm>=66 cap 30 | acceptable probes  3345 | sets 10 | len 22-22 nt | probe Tm 67.8-68.3 | gap>=5: 10/10
+  Tm>=66 cap 32 | acceptable probes  4313 | sets 10 | len 22-31 nt | probe Tm 66.1-68.3 | gap>=5: 10/10
+  Tm>=66 cap 36 | acceptable probes  5932 | sets 10 | len 22-31 nt | probe Tm 66.1-68.3 | gap>=5: 10/10
+  Tm>=65 cap 22 | acceptable probes   634 | sets 10 | len 22-22 nt | probe Tm 66.5-67.2 | gap>=5: 10/10
+  Tm>=65 cap 24 | acceptable probes  1287 | sets 10 | len 22-22 nt | probe Tm 66.5-67.2 | gap>=5: 10/10
+  Tm>=65 cap 26 | acceptable probes  2086 | sets 10 | len 22-22 nt | probe Tm 66.5-67.2 | gap>=5: 10/10
+  Tm>=65 cap 28 | acceptable probes  3078 | sets 10 | len 22-27 nt | probe Tm 65.7-67.2 | gap>=5: 10/10
+  Tm>=65 cap 30 | acceptable probes  4141 | sets 10 | len 22-27 nt | probe Tm 65.7-67.2 | gap>=5: 10/10
+  Tm>=65 cap 32 | acceptable probes  5176 | sets 10 | len 22-27 nt | probe Tm 65.7-67.2 | gap>=5: 10/10
+  Tm>=65 cap 36 | acceptable probes  6836 | sets 10 | len 22-27 nt | probe Tm 65.7-67.2 | gap>=5: 10/10
+  Tm>=64 cap 22 | acceptable probes   837 | sets 10 | len 22-22 nt | probe Tm 65.7-66.1 | gap>=5: 10/10
+  Tm>=64 cap 24 | acceptable probes  1656 | sets 10 | len 22-22 nt | probe Tm 65.7-66.1 | gap>=5: 10/10
+  Tm>=64 cap 26 | acceptable probes  2644 | sets 10 | len 22-26 nt | probe Tm 64.6-66.1 | gap>=5: 9/10
+  Tm>=64 cap 28 | acceptable probes  3798 | sets 10 | len 22-27 nt | probe Tm 65.7-66.1 | gap>=5: 10/10
+  Tm>=64 cap 30 | acceptable probes  4960 | sets 10 | len 22-27 nt | probe Tm 65.7-66.1 | gap>=5: 10/10
+  Tm>=64 cap 32 | acceptable probes  6030 | sets 10 | len 22-27 nt | probe Tm 65.7-66.1 | gap>=5: 10/10
+  Tm>=64 cap 36 | acceptable probes  7718 | sets 10 | len 22-27 nt | probe Tm 65.7-66.1 | gap>=5: 10/10
+
+== 2. Template GC sensitivity (Tm>=66, Mg 3.0 mM)
+  GC 0.38 cap 24 | acceptable probes   626 | sets 10 | len 22-24 nt | probe Tm 67.1-67.8 | gap>=5: 10/10
+  GC 0.38 cap 26 | acceptable probes  1037 | sets 10 | len 22-24 nt | probe Tm 67.1-67.8 | gap>=5: 10/10
+  GC 0.38 cap 28 | acceptable probes  1569 | sets 10 | len 22-24 nt | probe Tm 67.1-67.8 | gap>=5: 10/10
+  GC 0.38 cap 30 | acceptable probes  2228 | sets 10 | len 22-30 nt | probe Tm 66.2-67.8 | gap>=5: 10/10
+  GC 0.43 cap 24 | acceptable probes   962 | sets 10 | len 22-22 nt | probe Tm 67.8-68.3 | gap>=5: 10/10
+  GC 0.43 cap 26 | acceptable probes  1615 | sets 10 | len 22-22 nt | probe Tm 67.8-68.3 | gap>=5: 10/10
+  GC 0.43 cap 28 | acceptable probes  2419 | sets 10 | len 22-22 nt | probe Tm 67.8-68.3 | gap>=5: 10/10
+  GC 0.43 cap 30 | acceptable probes  3345 | sets 10 | len 22-22 nt | probe Tm 67.8-68.3 | gap>=5: 10/10
+  GC 0.48 cap 24 | acceptable probes  1482 | sets 10 | len 22-22 nt | probe Tm 67.0-68.4 | gap>=5: 10/10
+  GC 0.48 cap 26 | acceptable probes  2530 | sets 10 | len 22-22 nt | probe Tm 67.0-68.4 | gap>=5: 10/10
+  GC 0.48 cap 28 | acceptable probes  3567 | sets 10 | len 22-22 nt | probe Tm 67.0-68.4 | gap>=5: 10/10
+  GC 0.48 cap 30 | acceptable probes  4509 | sets 10 | len 22-22 nt | probe Tm 67.0-68.4 | gap>=5: 10/10
+
+== 3. Mg2+ sensitivity (Tm>=66, 43% GC)
+  Mg 1.5 mM cap 26 | acceptable probes  1087 | sets 10 | len 22-22 nt | probe Tm 68.0-68.6 | gap>=5: 10/10
+  Mg 1.5 mM cap 28 | acceptable probes  1725 | sets 10 | len 22-22 nt | probe Tm 68.0-68.6 | gap>=5: 10/10
+  Mg 1.5 mM cap 30 | acceptable probes  2532 | sets 10 | len 22-22 nt | probe Tm 68.0-68.6 | gap>=5: 10/10
+  Mg 3.0 mM cap 26 | acceptable probes  1615 | sets 10 | len 22-22 nt | probe Tm 67.8-68.3 | gap>=5: 10/10
+  Mg 3.0 mM cap 28 | acceptable probes  2419 | sets 10 | len 22-22 nt | probe Tm 67.8-68.3 | gap>=5: 10/10
+  Mg 3.0 mM cap 30 | acceptable probes  3345 | sets 10 | len 22-22 nt | probe Tm 67.8-68.3 | gap>=5: 10/10
+  Mg 5.0 mM cap 26 | acceptable probes  2062 | sets 10 | len 22-22 nt | probe Tm 67.9-68.0 | gap>=5: 10/10
+  Mg 5.0 mM cap 28 | acceptable probes  3016 | sets 10 | len 22-22 nt | probe Tm 67.9-68.0 | gap>=5: 10/10
+  Mg 5.0 mM cap 30 | acceptable probes  4001 | sets 10 | len 22-22 nt | probe Tm 67.9-68.0 | gap>=5: 10/10
