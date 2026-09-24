@@ -1,0 +1,35 @@
+# accession <TAB> decision (INCLUDE or EXCLUDE) <TAB> reason. Manual decisions for genomes bin/02 flagged REVIEW.
+# Example: GCF_000000000.1	INCLUDE	natural clinical isolate; 'tet' in name is a serovar label, not a marker
+GCF_018336255.1 EXCLUDE ct350::Tn transposon insertion mutant (PRJNA386688); engineered strain
+GCF_018336275.1 EXCLUDE ct732::Tn transposon insertion mutant (PRJNA386688); engineered strain
+GCF_018336295.1 EXCLUDE ct054::Tn transposon insertion mutant (PRJNA386688); engineered strain
+GCF_018336315.1 EXCLUDE ct404::Tn transposon insertion mutant (PRJNA386688); engineered strain
+GCF_018337015.1 EXCLUDE ct590::Tn transposon insertion mutant (PRJNA386688); engineered strain
+GCF_002088315.1 EXCLUDE chxRP4F1 mutagenesis-derived chxR mutant (PRJNA315548); laboratory-derived
+GCF_002088335.1 EXCLUDE chxRP4D10 mutagenesis-derived chxR mutant (PRJNA315548); laboratory-derived
+GCF_002088355.1 EXCLUDE chxRP1H1 mutagenesis-derived chxR mutant (PRJNA315548); laboratory-derived
+GCF_000175515.1 EXCLUDE L2tet1 laboratory-selected tetracycline-resistant derivative (PRJNA39293, lateral gene transfer study)
+GCF_000441775.1 EXCLUDE J/6276tet1 laboratory-selected tetracycline-resistant derivative
+GCF_004135145.1 EXCLUDE tet9 tetracycline-resistance selection strain (PRJNA517183); verify
+GCF_039778305.1 EXCLUDE BQ05_F_6370 isolate from experimentally infected pig-tailed macaque (host Macaca nemestrina, PRJNA1102004); experimental
+GCF_039778315.1 EXCLUDE BQ05_M04431_F_6370 isolate from experimentally infected pig-tailed macaque (PRJNA1102004); experimental
+GCF_039778325.1 EXCLUDE BQ06_D0_J_p225 isolate from experimentally infected pig-tailed macaque (PRJNA1102004); experimental
+GCF_039778335.1 EXCLUDE BQ06_K06160_J_p225 isolate from experimentally infected pig-tailed macaque (PRJNA1102004); experimental
+GCF_039778345.1 EXCLUDE BQ06_L04117_J_p225 isolate from experimentally infected pig-tailed macaque (PRJNA1102004); experimental
+GCF_039778415.1 EXCLUDE BQ07_A11257_D_6319 isolate from experimentally infected pig-tailed macaque (PRJNA1102004); experimental
+GCF_039778425.1 EXCLUDE BQ07_D0_D_6319 isolate from experimentally infected pig-tailed macaque (PRJNA1102004); experimental
+GCF_000012125.1 INCLUDE A/HAR-13 species type-strain assembly; ANI mismatch flag is an NCBI artifact on the reference itself; confirm with fastANI in bin/03
+GCF_000441635.1 QUALITY RC-F(s)/852 natural clinical isolate; CheckM contamination 7.15 and genome about 40 kb larger than typical
+GCF_000441715.1 QUALITY RC-F(s)/342 natural clinical isolate; CheckM contamination 7.15 and genome about 40 kb larger than typical
+GCF_001183765.1 QUALITY D/CS637/11 clinical isolate from a laboratory-adaptation study (PRJNA234355); no metadata
+GCF_001183805.1 QUALITY E/CS1025/11 clinical isolate from a laboratory-adaptation study (PRJNA234355)
+GCF_001183825.1 QUALITY F/CS847/08 clinical isolate from a laboratory-adaptation study (PRJNA234355)
+GCF_001183845.1 QUALITY Ia/CS190/96 clinical isolate from a laboratory-adaptation study (PRJNA234355)
+GCF_001655335.1 INCLUDE E-103 patient sample, Jena 1990 (PRJNA316787)
+GCF_001655375.1 INCLUDE E-160 patient sample, Jena 1990 (PRJNA316787)
+GCF_001655415.1 INCLUDE E-547 patient sample, Jena 1990 (PRJNA316787)
+GCF_001655455.1 INCLUDE E-8873 patient sample, Jena 1990 (PRJNA316787)
+GCF_001655495.1 INCLUDE E-32931 patient sample, Jena 1990 (PRJNA316787)
+GCF_001655535.1 INCLUDE E-DK-20 lab-maintained reference strain of a natural isolate (PRJNA316787)
+GCF_001655575.1 INCLUDE F-6068 patient sample, Jena 1990 (PRJNA316787)
+GCF_036285905.1 QUALITY LGV II 434 L2/434 culture from a reagent company; BioProject PRJNA1066129 title names Bordetella pertussis (metadata inconsistency); strain already represented

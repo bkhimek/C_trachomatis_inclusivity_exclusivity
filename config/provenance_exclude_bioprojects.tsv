@@ -1,0 +1,3 @@
+# BioProject accession <TAB> reason. Any genome linked to a listed BioProject is EXCLUDED by bin/02.
+PRJNA558398	Lab-engineered interspecies recombinants ("Chromosomal recombination targets in Chlamydia interspecies lateral gene transfer"); strain names like ::Tn(x/c)L2/tetR-; all 149 GenBank-only complete genomes of the earlier inventory
+PRJEB35640	Metagenome-assembled genome (MAG) database artifacts; 11 of 12 "target absent" draft assemblies in the earlier inventory

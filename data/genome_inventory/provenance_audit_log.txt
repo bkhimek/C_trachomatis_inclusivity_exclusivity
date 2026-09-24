@@ -1,0 +1,107 @@
+PROVENANCE AUDIT: 125 genomes
+  config loaded: 2 known-bad BioProjects, 33 manual overrides
+  automatic verdicts: {'INCLUDE': 93, 'REVIEW': 32}
+  final tiers (after overrides): primary 100, quality-review 7, excluded 18, unresolved REVIEW 0
+  unresolved REVIEW: 0 (decide each in config/provenance_overrides.tsv)
+
+BIOPROJECTS (count, verdicts, title)
+  PRJNA1137892   n=18  {'INCLUDE': 18}  [University of California San] Chlamydia trachomatis reference genomes
+  PRJNA338746    n=14  {'INCLUDE': 14}  [Oregon State University] Same-patient Chlamydia trachoma's genome sequences
+  PRJNA316787    n=7   {'INCLUDE': 7}  [CHI: Chlamydien-Wirtszell-In] Re-sequencing of Chlamydia trachomatis E and F strains
+  PRJNA1102004   n=7   {'EXCLUDE': 7}  [Oregon State University] The Chlamydia trachomatis inclusion membrane protein CT135 is required for resistance to i
+  PRJNA213111    n=5   {'INCLUDE': 5}  [Oregon State University] Chlamydia trachomatis Phenotype or Genotype
+  PRJNA386688    n=5   {'EXCLUDE': 5}  [University of Kansas] A Novel Transposon Mutagenesis System for Chlamydia trachomatis
+  PRJNA234355    n=4   {'QUALITY_REVIEW': 4}  [National Institute of Health] Laboratory adaptation of Chlamydia trachomatis
+  PRJNA315548    n=3   {'EXCLUDE': 3}  [Public Health Agency of Cana] Chlamydia trachomatis chxR mutagenesis
+  PRJNA45        n=1   {'INCLUDE': 1}  [ChGP] Serovar D strain that causes pharyngitis, bronchitis and pneumonitis | Comparison of serov
+  PRJNA13885     n=1   {'INCLUDE': 1}  [Lab of Human Bacterial Patho] Serovar A strain that causes pharyngitis, bronchitis and pneumonitis | Comparison of serov
+  PRJEA32653     n=1   {'INCLUDE': 1}  [Wellcome Trust Sanger Instit] Clinical isolate
+  PRJEA32655     n=1   {'INCLUDE': 1}  [Wellcome Trust Sanger Instit] Clinical isolate
+  PRJNA28585     n=1   {'INCLUDE': 1}  [Welcome Trust Sanger Institu] Isolated from a case of proctitis
+  PRJNA28583     n=1   {'INCLUDE': 1}  [Wellcome Trust Sanger Instit] L2 serovar that caused lymphogranuloma vernerum
+  PRJNA48087     n=1   {'INCLUDE': 1}  [Integrated Genomics, Inc.] Chlamydia trachomatis D-EC genome sequencing
+  PRJNA43143     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis E/150
+  PRJNA43145     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis G/9768 genome sequencing
+  PRJNA43147     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis G/11222 genome sequencing
+  PRJNA43149     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis G/11074 genome sequencing
+  PRJNA43141     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis E/11023 genome sequencing
+  PRJNA45851     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis G/9301 genome sequencing project
+  PRJNA48089     n=1   {'INCLUDE': 1}  [Integrated Genomics, Inc.] Chlamydia trachomatis D-LC genome sequencing
+  PRJNA32183     n=1   {'INCLUDE': 1}  [Oregon State University] Clinical isolate
+  PRJNA32185     n=1   {'INCLUDE': 1}  [Oregon State University] Clinical isolate
+  PRJNA32187     n=1   {'INCLUDE': 1}  [Oregon State University] Clinical isolate
+  PRJNA32189     n=1   {'INCLUDE': 1}  [Oregon State University] Clinical isolate
+  PRJNA32539     n=1   {'INCLUDE': 1}  [Oregon State University] Clinical isolate
+  PRJNA39293     n=1   {'EXCLUDE': 1}  [Oregon State University] Chlamydia used to study lateral gene transfer
+  PRJEA43167     n=1   {'INCLUDE': 1}  [Wellcome Trust Sanger Instit] Chlamydia trachomatis Sweden2 genome sequencing project
+  PRJNA47581     n=1   {'INCLUDE': 1}  [Emory University] Chlamydia trachomatis L2c genome sequencing project
+  PRJNA53575     n=1   {'INCLUDE': 1}  [Rocky Mountain Laboratory] Chlamydia trachomatis A2497 genome sequencing
+  PRJEA32651     n=1   {'INCLUDE': 1}  [Wellcome Trust Sanger Instit] Clinical isolate
+  PRJEA71079     n=1   {'INCLUDE': 1}  [Sanger Institute] Chlamydia trachomatis E/SW3 Phenotype or Genotype
+  PRJEA71085     n=1   {'INCLUDE': 1}  [Sanger Institute] Chlamydia trachomatis F/SW4 Genome sequencing
+  PRJEA71087     n=1   {'INCLUDE': 1}  [Sanger Institute] Chlamydia trachomatis F/SW5 Phenotype or Genotype
+  PRJEA71065     n=1   {'INCLUDE': 1}  [Sanger Institute] Chlamydia trachomatis A/363 Genome sequencing
+  PRJEA71069     n=1   {'INCLUDE': 1}  [Sanger Institute] Chlamydia trachomatis A/7249 Phenotype or Genotype
+  PRJEA71077     n=1   {'INCLUDE': 1}  [Sanger Institute] Chlamydia trachomatis E/Bour Phenotype or Genotype
+  PRJEA71093     n=1   {'INCLUDE': 1}  [Sanger Institute] Chlamydia trachomatis Ia/SotonIa1 genome sequencing
+  PRJEA71095     n=1   {'INCLUDE': 1}  [Sanger Institute] Chlamydia trachomatis Ia/SotonIa3 genome sequencing
+  PRJEA71099     n=1   {'INCLUDE': 1}  [Sanger Institute] Chlamydia trachomatis L1/440/LN genome sequencing
+  PRJEA71101     n=1   {'INCLUDE': 1}  [Sanger Institute] Chlamydia trachomatis L1/115 genome sequencing
+  PRJEA71103     n=1   {'INCLUDE': 1}  [Sanger Institute] Chlamydia trachomatis L1/224 genome sequencing
+  PRJEA71105     n=1   {'INCLUDE': 1}  [Sanger Institute] Chlamydia trachomatis L2/25667R genome sequencing
+  PRJEA71107     n=1   {'INCLUDE': 1}  [Sanger Institute] Chlamydia trachomatis L2b/8200/07 genome sequencing
+  PRJEA71109     n=1   {'INCLUDE': 1}  [Sanger Institute] Chlamydia trachomatis L2b/UCH-2 genome sequencing
+  PRJEA71115     n=1   {'INCLUDE': 1}  [Sanger Institute] Chlamydia trachomatis L2b/795 genome sequencing
+  PRJEA71127     n=1   {'INCLUDE': 1}  [Sanger Institute] Chlamydia trachomatis L3/404/LN genome sequencing
+  PRJNA182150    n=1   {'INCLUDE': 1}  [National Institute of Health] Chlamydia trachomatis L2/434/Bu(i) Genome sequencing
+  PRJNA182165    n=1   {'INCLUDE': 1}  [National Institute of Health] Chlamydia trachomatis L2/434/Bu(f) Genome sequencing
+  PRJNA53845     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis RC-F69 genome sequencing
+  PRJNA53847     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis RC-L2s46 genome sequencing
+  PRJNA53849     n=1   {'QUALITY_REVIEW': 1}  [Oregon State University] Chlamydia trachomatis RC-Fs852 genome sequencing
+  PRJNA53851     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis RC-J943 genome sequencing
+  PRJNA53853     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis RC-J/953 strain:RC-J953 Phenotype or Genotype
+  PRJNA53855     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis RC-L2(s)/3 strain:RC-JL2s3 Phenotype or Genotype
+  PRJNA53857     n=1   {'QUALITY_REVIEW': 1}  [Oregon State University] Chlamydia trachomatis RC-F(s)/342 strain:RC-Fs342 Phenotype or Genotype
+  PRJNA53859     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis RC-Js122 genome sequencing
+  PRJNA53861     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis RC-J966 genome sequencing
+  PRJNA53863     n=1   {'EXCLUDE': 1}  [Oregon State University] Chlamydia trachomatis J6276tet1 genome sequencing
+  PRJNA66011     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis RC-J/971 genome sequencing project.
+  PRJNA66013     n=1   {'INCLUDE': 1}  [Oregon State University] Chlamydia trachomatis RC-L2/55 genome sequencing project.
+  PRJNA230246    n=1   {'INCLUDE': 1}  [National Institute of Health] Complete genome sequence of Chlamydia trachomatis serovar C strain C/TW-3
+  PRJNA266925    n=1   {'INCLUDE': 1}  [National Institute of Health] Genetic diversity among Chlamydia trachomatis lymphogranuloma venereum isolates - strain L
+  PRJNA266926    n=1   {'INCLUDE': 1}  [National Institute of Health] Genetic diversity among Chlamydia trachomatis lymphogranuloma venereum isolates - strain L
+  PRJNA352770    n=1   {'INCLUDE': 1}  [Beijing Institute of Microbi] Chlamydia trachomatis Genome sequencing and assembly
+  PRJNA517183    n=1   {'EXCLUDE': 1}  [Oregon State University] Chlamydia trachomatis strain:tet9 Genome sequencing
+  PRJNA886480    n=1   {'INCLUDE': 1}  [Policlinico Sant'Orsola-Malp] Chlamydia trachomatis strain:ST44 Genome sequencing
+  PRJNA1066129   n=1   {'QUALITY_REVIEW': 1}  [Vircell S.A.] Bordetella pertussis strain:F Genome sequencing
+  PRJNA1274633   n=1   {'INCLUDE': 1}  [Konkuk University] Chlamydia trachomatis strain:D/Ep6/S19-121 Genome sequencing
+
+EXCLUDE / REVIEW GENOMES
+  EXCLUDE GCF_000175515.1  L2tet1                 PRJNA39293    tetracycline-resistance marker/selection (tetR/tetN) 'tet1' in strain/organism_name/biosample_text || engineering language 'lateral gene transfer' in bioproject_titles ||
+  QUALITY_REVIEW GCF_000441635.1  RC-F(s)/852            PRJNA53849    CheckM contamination 7.15
+  QUALITY_REVIEW GCF_000441715.1  RC-F(s)/342            PRJNA53857    CheckM contamination 7.15
+  EXCLUDE GCF_000441775.1  J/6276tet1             PRJNA53863    tetracycline-resistance marker/selection (tetR/tetN) 'tet1' in strain/organism_name/bioproject_titles/biosample_text || CheckM contamination 7.15
+  QUALITY_REVIEW GCF_001183765.1  D/CS637/11             PRJNA234355   laboratory adaptation/passage 'Laboratory adapt' in bioproject_titles
+  QUALITY_REVIEW GCF_001183805.1  E/CS1025/11            PRJNA234355   laboratory adaptation/passage 'Laboratory adapt' in bioproject_titles
+  QUALITY_REVIEW GCF_001183825.1  F/CS847/08             PRJNA234355   laboratory adaptation/passage 'Laboratory adapt' in bioproject_titles
+  QUALITY_REVIEW GCF_001183845.1  Ia/CS190/96            PRJNA234355   laboratory adaptation/passage 'Laboratory adapt' in bioproject_titles
+  EXCLUDE GCF_002088315.1  chxRP4F1               PRJNA315548   mutant/mutagenesis 'mutagen' in bioproject_titles/biosample_text
+  EXCLUDE GCF_002088335.1  chxRP4D10              PRJNA315548   mutant/mutagenesis 'mutagen' in bioproject_titles/biosample_text
+  EXCLUDE GCF_002088355.1  chxRP1H1               PRJNA315548   mutant/mutagenesis 'mutagen' in bioproject_titles/biosample_text
+  EXCLUDE GCF_004135145.1  tet9                   PRJNA517183   tetracycline-resistance marker/selection (tetR/tetN) 'tet9' in strain/bioproject_titles/biosample_text
+  EXCLUDE GCF_018336255.1  L2/Hefty/ct350::Tn     PRJNA386688   insertion/construct marker '::' '::' in strain/biosample_text || transposon 'Transposon' in bioproject_titles || mutant/mutagenesis 'Mutagen' in bioproject_titles
+  EXCLUDE GCF_018336275.1  L2/Hefty/ct732::Tn     PRJNA386688   insertion/construct marker '::' '::' in strain/biosample_text || transposon 'Transposon' in bioproject_titles || mutant/mutagenesis 'Mutagen' in bioproject_titles
+  EXCLUDE GCF_018336295.1  L2/Hefty/ct054::Tn     PRJNA386688   insertion/construct marker '::' '::' in strain/biosample_text || transposon 'Transposon' in bioproject_titles || mutant/mutagenesis 'Mutagen' in bioproject_titles
+  EXCLUDE GCF_018336315.1  L2/Hefty/ct404::Tn     PRJNA386688   insertion/construct marker '::' '::' in strain/biosample_text || transposon 'Transposon' in bioproject_titles || mutant/mutagenesis 'Mutagen' in bioproject_titles
+  EXCLUDE GCF_018337015.1  L2/Hefty/ct590::Tn     PRJNA386688   insertion/construct marker '::' '::' in strain/biosample_text || transposon 'Transposon' in bioproject_titles || mutant/mutagenesis 'Mutagen' in bioproject_titles
+  QUALITY_REVIEW GCF_036285905.1  LGV II 434             PRJNA1066129  
+  EXCLUDE GCF_039778305.1  BQ05_F_6370            PRJNA1102004  gene-function study language 'required for' in bioproject_titles
+  EXCLUDE GCF_039778315.1  BQ05_M04431_F_6370     PRJNA1102004  gene-function study language 'required for' in bioproject_titles
+  EXCLUDE GCF_039778325.1  BQ06_D0_J_p225         PRJNA1102004  gene-function study language 'required for' in bioproject_titles
+  EXCLUDE GCF_039778335.1  BQ06_K06160_J_p225     PRJNA1102004  gene-function study language 'required for' in bioproject_titles
+  EXCLUDE GCF_039778345.1  BQ06_L04117_J_p225     PRJNA1102004  gene-function study language 'required for' in bioproject_titles
+  EXCLUDE GCF_039778415.1  BQ07_A11257_D_6319     PRJNA1102004  gene-function study language 'required for' in bioproject_titles
+  EXCLUDE GCF_039778425.1  BQ07_D0_D_6319         PRJNA1102004  gene-function study language 'required for' in bioproject_titles
+
+WEAK NOTES (informational only): {'sparse_metadata': 53, 'duplicate_strain_name': 10, 'name_qualifier_in_parentheses': 7, 'dominant_bioproject': 32}
+  strain names appearing more than once: ['A2497', 'D/UW-3/CX', 'D/UW-3/Cx', 'E/Bour', 'E/bour', 'L1/440/LN', 'L3/404/LN']

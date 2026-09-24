@@ -1,0 +1,126 @@
+accession	strain	bioproject	auto_verdict	override	override_reason	final_verdict	hard_flags	strong_flags	weak_notes
+GCF_000008725.1	D/UW-3/CX	PRJNA45	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host) || duplicate_strain_name
+GCF_000012125.1	A/HAR-13	PRJNA13885	REVIEW	INCLUDE	A/HAR-13 species type-strain assembly; ANI mismatch flag is an NCBI artifact on the reference itself; confirm with fastANI in bin/03	INCLUDE		ANI match status below_threshold_mismatch	sparse_metadata (no collection date, location or host)
+GCF_000026905.1	B/TZ1A828/OT	PRJEA32653	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000026925.1	Jali20	PRJEA32655	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000068525.2	UCH-1	PRJNA28585	INCLUDE			INCLUDE			
+GCF_000068585.1	L2/434/Bu	PRJNA28583	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000092485.1	D-EC	PRJNA48087	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000092665.1	E/150	PRJNA43143	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000092685.1	G/9768	PRJNA43145	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000092705.1	G/11222	PRJNA43147	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000092725.1	G/11074	PRJNA43149	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000092745.1	E/11023	PRJNA43141	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000092805.1	G/9301	PRJNA45851	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000093005.1	D-LC	PRJNA48089	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000173475.1	6276	PRJNA32183	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000173495.1	6276s	PRJNA32185	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000173515.1	70	PRJNA32187	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000173535.1	70s	PRJNA32189	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000174055.1	2923	PRJNA32539	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000175515.1	L2tet1	PRJNA39293	REVIEW	EXCLUDE	L2tet1 laboratory-selected tetracycline-resistant derivative (PRJNA39293, lateral gene transfer study)	EXCLUDE		tetracycline-resistance marker/selection (tetR/tetN) 'tet1' in strain/organism_name/biosample_text || engineering language 'lateral gene transfer' in bioproject_titles || CheckM contamination 6.67	sparse_metadata (no collection date, location or host)
+GCF_000210495.1	Sweden2	PRJEA43167	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000220105.1	L2c	PRJNA47581	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000226605.1	A2497	PRJNA53575	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host) || duplicate_strain_name
+GCF_000284475.1	A2497	PRJEA32651	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host) || duplicate_strain_name
+GCF_000304495.1	E/SW3	PRJEA71079	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000304515.1	F/SW4	PRJEA71085	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000304535.1	F/SW5	PRJEA71087	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000318525.1	A/363	PRJEA71065	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000318565.1	A/7249	PRJEA71069	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000318645.1	E/Bour	PRJEA71077	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host) || duplicate_strain_name
+GCF_000318765.1	Ia/SotonIa1	PRJEA71093	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000318785.1	Ia/SotonIa3	PRJEA71095	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000318825.1	L1/440/LN	PRJEA71099	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host) || duplicate_strain_name
+GCF_000318845.1	L1/115	PRJEA71101	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000318865.1	L1/224	PRJEA71103	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000318885.1	L2/25667R	PRJEA71105	INCLUDE			INCLUDE			
+GCF_000318905.1	L2b/8200/07	PRJEA71107	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000318925.1	L2b/UCH-2	PRJEA71109	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000318985.1	L2b/795	PRJEA71115	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000319105.1	L3/404/LN	PRJEA71127	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host) || duplicate_strain_name
+GCF_000364765.1	L2/434/Bu(i)	PRJNA182150	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host) || name_qualifier_in_parentheses
+GCF_000364785.1	L2/434/Bu(f)	PRJNA182165	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host) || name_qualifier_in_parentheses
+GCF_000441585.1	RC-F/69	PRJNA53845	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000441615.1	RC-L2(s)/46	PRJNA53847	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host) || name_qualifier_in_parentheses
+GCF_000441635.1	RC-F(s)/852	PRJNA53849	REVIEW	QUALITY	RC-F(s)/852 natural clinical isolate; CheckM contamination 7.15 and genome about 40 kb larger than typical	QUALITY_REVIEW		CheckM contamination 7.15	sparse_metadata (no collection date, location or host) || name_qualifier_in_parentheses
+GCF_000441655.1	RC-J/943	PRJNA53851	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000441675.1	RC-J/953	PRJNA53853	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000441695.1	RC-L2(s)/3	PRJNA53855	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host) || name_qualifier_in_parentheses
+GCF_000441715.1	RC-F(s)/342	PRJNA53857	REVIEW	QUALITY	RC-F(s)/342 natural clinical isolate; CheckM contamination 7.15 and genome about 40 kb larger than typical	QUALITY_REVIEW		CheckM contamination 7.15	sparse_metadata (no collection date, location or host) || name_qualifier_in_parentheses
+GCF_000441735.1	RC-J(s)/122	PRJNA53859	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host) || name_qualifier_in_parentheses
+GCF_000441755.1	RC-J/966	PRJNA53861	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000441775.1	J/6276tet1	PRJNA53863	REVIEW	EXCLUDE	J/6276tet1 laboratory-selected tetracycline-resistant derivative	EXCLUDE		tetracycline-resistance marker/selection (tetR/tetN) 'tet1' in strain/organism_name/bioproject_titles/biosample_text || CheckM contamination 7.15	sparse_metadata (no collection date, location or host)
+GCF_000441795.1	RC-J/971	PRJNA66011	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000441815.1	RC-L2/55	PRJNA66013	INCLUDE			INCLUDE			sparse_metadata (no collection date, location or host)
+GCF_000507225.1	C/TW-3	PRJNA230246	INCLUDE			INCLUDE			
+GCF_000590575.1	F/1-93	PRJNA213111	INCLUDE			INCLUDE			
+GCF_000590615.1	F/6-94	PRJNA213111	INCLUDE			INCLUDE			
+GCF_000590635.1	F/11-96	PRJNA213111	INCLUDE			INCLUDE			
+GCF_000590675.1	D/13-96	PRJNA213111	INCLUDE			INCLUDE			
+GCF_000590755.1	J/31-98	PRJNA213111	INCLUDE			INCLUDE			
+GCF_000971705.1	L2b/CS19/08	PRJNA266925	INCLUDE			INCLUDE			
+GCF_000971725.1	L2b/CS784/08	PRJNA266926	INCLUDE			INCLUDE			
+GCF_001183765.1	D/CS637/11	PRJNA234355	REVIEW	QUALITY	D/CS637/11 clinical isolate from a laboratory-adaptation study (PRJNA234355); no metadata	QUALITY_REVIEW		laboratory adaptation/passage 'Laboratory adapt' in bioproject_titles	sparse_metadata (no collection date, location or host)
+GCF_001183805.1	E/CS1025/11	PRJNA234355	REVIEW	QUALITY	E/CS1025/11 clinical isolate from a laboratory-adaptation study (PRJNA234355)	QUALITY_REVIEW		laboratory adaptation/passage 'Laboratory adapt' in bioproject_titles	
+GCF_001183825.1	F/CS847/08	PRJNA234355	REVIEW	QUALITY	F/CS847/08 clinical isolate from a laboratory-adaptation study (PRJNA234355)	QUALITY_REVIEW		laboratory adaptation/passage 'Laboratory adapt' in bioproject_titles	
+GCF_001183845.1	Ia/CS190/96	PRJNA234355	REVIEW	QUALITY	Ia/CS190/96 clinical isolate from a laboratory-adaptation study (PRJNA234355)	QUALITY_REVIEW		laboratory adaptation/passage 'Laboratory adapt' in bioproject_titles	
+GCF_001655335.1	E-103	PRJNA316787	REVIEW	INCLUDE	E-103 patient sample, Jena 1990 (PRJNA316787)	INCLUDE		re-sequencing of laboratory strains (check for passage/derivatives) 'Re-sequencing' in bioproject_titles	
+GCF_001655375.1	E-160	PRJNA316787	REVIEW	INCLUDE	E-160 patient sample, Jena 1990 (PRJNA316787)	INCLUDE		re-sequencing of laboratory strains (check for passage/derivatives) 'Re-sequencing' in bioproject_titles	
+GCF_001655415.1	E-547	PRJNA316787	REVIEW	INCLUDE	E-547 patient sample, Jena 1990 (PRJNA316787)	INCLUDE		re-sequencing of laboratory strains (check for passage/derivatives) 'Re-sequencing' in bioproject_titles	
+GCF_001655455.1	E-8873	PRJNA316787	REVIEW	INCLUDE	E-8873 patient sample, Jena 1990 (PRJNA316787)	INCLUDE		re-sequencing of laboratory strains (check for passage/derivatives) 'Re-sequencing' in bioproject_titles	
+GCF_001655495.1	E-32931	PRJNA316787	REVIEW	INCLUDE	E-32931 patient sample, Jena 1990 (PRJNA316787)	INCLUDE		re-sequencing of laboratory strains (check for passage/derivatives) 'Re-sequencing' in bioproject_titles	
+GCF_001655535.1	E-DK-20	PRJNA316787	REVIEW	INCLUDE	E-DK-20 lab-maintained reference strain of a natural isolate (PRJNA316787)	INCLUDE		re-sequencing of laboratory strains (check for passage/derivatives) 'Re-sequencing' in bioproject_titles	
+GCF_001655575.1	F-6068	PRJNA316787	REVIEW	INCLUDE	F-6068 patient sample, Jena 1990 (PRJNA316787)	INCLUDE		re-sequencing of laboratory strains (check for passage/derivatives) 'Re-sequencing' in bioproject_titles	
+GCF_001885175.1	QH111L	PRJNA352770	INCLUDE			INCLUDE			
+GCF_002088315.1	chxRP4F1	PRJNA315548	REVIEW	EXCLUDE	chxRP4F1 mutagenesis-derived chxR mutant (PRJNA315548); laboratory-derived	EXCLUDE		mutant/mutagenesis 'mutagen' in bioproject_titles/biosample_text	
+GCF_002088335.1	chxRP4D10	PRJNA315548	REVIEW	EXCLUDE	chxRP4D10 mutagenesis-derived chxR mutant (PRJNA315548); laboratory-derived	EXCLUDE		mutant/mutagenesis 'mutagen' in bioproject_titles/biosample_text	
+GCF_002088355.1	chxRP1H1	PRJNA315548	REVIEW	EXCLUDE	chxRP1H1 mutagenesis-derived chxR mutant (PRJNA315548); laboratory-derived	EXCLUDE		mutant/mutagenesis 'mutagen' in bioproject_titles/biosample_text	
+GCF_002776745.1	SQ32	PRJNA338746	INCLUDE			INCLUDE			dominant_bioproject (14/125)
+GCF_002776795.1	SQ29	PRJNA338746	INCLUDE			INCLUDE			dominant_bioproject (14/125)
+GCF_002776845.1	SQ20	PRJNA338746	INCLUDE			INCLUDE			dominant_bioproject (14/125)
+GCF_002776885.1	SQ24	PRJNA338746	INCLUDE			INCLUDE			dominant_bioproject (14/125)
+GCF_002776955.1	SQ09	PRJNA338746	INCLUDE			INCLUDE			dominant_bioproject (14/125)
+GCF_002776975.1	SQ10	PRJNA338746	INCLUDE			INCLUDE			dominant_bioproject (14/125)
+GCF_002776995.1	SQ12	PRJNA338746	INCLUDE			INCLUDE			dominant_bioproject (14/125)
+GCF_002777015.1	SQ14	PRJNA338746	INCLUDE			INCLUDE			dominant_bioproject (14/125)
+GCF_002777035.1	SQ01	PRJNA338746	INCLUDE			INCLUDE			dominant_bioproject (14/125)
+GCF_002777055.1	SQ02	PRJNA338746	INCLUDE			INCLUDE			dominant_bioproject (14/125)
+GCF_002777075.1	SQ05	PRJNA338746	INCLUDE			INCLUDE			dominant_bioproject (14/125)
+GCF_002777095.1	SQ25	PRJNA338746	INCLUDE			INCLUDE			dominant_bioproject (14/125)
+GCF_002777135.1	SQ15	PRJNA338746	INCLUDE			INCLUDE			dominant_bioproject (14/125)
+GCF_002777155.1	SQ19	PRJNA338746	INCLUDE			INCLUDE			dominant_bioproject (14/125)
+GCF_004135145.1	tet9	PRJNA517183	REVIEW	EXCLUDE	tet9 tetracycline-resistance selection strain (PRJNA517183); verify	EXCLUDE		tetracycline-resistance marker/selection (tetR/tetN) 'tet9' in strain/bioproject_titles/biosample_text	
+GCF_018336255.1	L2/Hefty/ct350::Tn	PRJNA386688	REVIEW	EXCLUDE	ct350::Tn transposon insertion mutant (PRJNA386688); engineered strain	EXCLUDE		insertion/construct marker '::' '::' in strain/biosample_text || transposon 'Transposon' in bioproject_titles || mutant/mutagenesis 'Mutagen' in bioproject_titles	
+GCF_018336275.1	L2/Hefty/ct732::Tn	PRJNA386688	REVIEW	EXCLUDE	ct732::Tn transposon insertion mutant (PRJNA386688); engineered strain	EXCLUDE		insertion/construct marker '::' '::' in strain/biosample_text || transposon 'Transposon' in bioproject_titles || mutant/mutagenesis 'Mutagen' in bioproject_titles	
+GCF_018336295.1	L2/Hefty/ct054::Tn	PRJNA386688	REVIEW	EXCLUDE	ct054::Tn transposon insertion mutant (PRJNA386688); engineered strain	EXCLUDE		insertion/construct marker '::' '::' in strain/biosample_text || transposon 'Transposon' in bioproject_titles || mutant/mutagenesis 'Mutagen' in bioproject_titles	
+GCF_018336315.1	L2/Hefty/ct404::Tn	PRJNA386688	REVIEW	EXCLUDE	ct404::Tn transposon insertion mutant (PRJNA386688); engineered strain	EXCLUDE		insertion/construct marker '::' '::' in strain/biosample_text || transposon 'Transposon' in bioproject_titles || mutant/mutagenesis 'Mutagen' in bioproject_titles	
+GCF_018337015.1	L2/Hefty/ct590::Tn	PRJNA386688	REVIEW	EXCLUDE	ct590::Tn transposon insertion mutant (PRJNA386688); engineered strain	EXCLUDE		insertion/construct marker '::' '::' in strain/biosample_text || transposon 'Transposon' in bioproject_titles || mutant/mutagenesis 'Mutagen' in bioproject_titles	
+GCF_025723025.1	L2f	PRJNA886480	INCLUDE			INCLUDE			
+GCF_036285905.1	LGV II 434	PRJNA1066129	INCLUDE	QUALITY	LGV II 434 L2/434 culture from a reagent company; BioProject PRJNA1066129 title names Bordetella pertussis (metadata inconsistency); strain already represented	QUALITY_REVIEW			
+GCF_039778305.1	BQ05_F_6370	PRJNA1102004	REVIEW	EXCLUDE	BQ05_F_6370 isolate from experimentally infected pig-tailed macaque (host Macaca nemestrina, PRJNA1102004); experimental	EXCLUDE		gene-function study language 'required for' in bioproject_titles	
+GCF_039778315.1	BQ05_M04431_F_6370	PRJNA1102004	REVIEW	EXCLUDE	BQ05_M04431_F_6370 isolate from experimentally infected pig-tailed macaque (PRJNA1102004); experimental	EXCLUDE		gene-function study language 'required for' in bioproject_titles	
+GCF_039778325.1	BQ06_D0_J_p225	PRJNA1102004	REVIEW	EXCLUDE	BQ06_D0_J_p225 isolate from experimentally infected pig-tailed macaque (PRJNA1102004); experimental	EXCLUDE		gene-function study language 'required for' in bioproject_titles	
+GCF_039778335.1	BQ06_K06160_J_p225	PRJNA1102004	REVIEW	EXCLUDE	BQ06_K06160_J_p225 isolate from experimentally infected pig-tailed macaque (PRJNA1102004); experimental	EXCLUDE		gene-function study language 'required for' in bioproject_titles	
+GCF_039778345.1	BQ06_L04117_J_p225	PRJNA1102004	REVIEW	EXCLUDE	BQ06_L04117_J_p225 isolate from experimentally infected pig-tailed macaque (PRJNA1102004); experimental	EXCLUDE		gene-function study language 'required for' in bioproject_titles	
+GCF_039778415.1	BQ07_A11257_D_6319	PRJNA1102004	REVIEW	EXCLUDE	BQ07_A11257_D_6319 isolate from experimentally infected pig-tailed macaque (PRJNA1102004); experimental	EXCLUDE		gene-function study language 'required for' in bioproject_titles	
+GCF_039778425.1	BQ07_D0_D_6319	PRJNA1102004	REVIEW	EXCLUDE	BQ07_D0_D_6319 isolate from experimentally infected pig-tailed macaque (PRJNA1102004); experimental	EXCLUDE		gene-function study language 'required for' in bioproject_titles	
+GCF_047414635.1	L3/404/LN	PRJNA1137892	INCLUDE			INCLUDE			duplicate_strain_name || dominant_bioproject (18/125)
+GCF_047416045.1	L2-D/SF/L2c	PRJNA1137892	INCLUDE			INCLUDE			dominant_bioproject (18/125)
+GCF_047416055.1	L1/440/LN	PRJNA1137892	INCLUDE			INCLUDE			duplicate_strain_name || dominant_bioproject (18/125)
+GCF_047416065.1	K/UW-31/Cx	PRJNA1137892	INCLUDE			INCLUDE			dominant_bioproject (18/125)
+GCF_047417355.1	J/UW-36/Cx	PRJNA1137892	INCLUDE			INCLUDE			dominant_bioproject (18/125)
+GCF_047417365.1	Ia/UW-202	PRJNA1137892	INCLUDE			INCLUDE			dominant_bioproject (18/125)
+GCF_047417375.1	Ja/UW-92	PRJNA1137892	INCLUDE			INCLUDE			dominant_bioproject (18/125)
+GCF_047418505.1	G/UW-57/Cx	PRJNA1137892	INCLUDE			INCLUDE			dominant_bioproject (18/125)
+GCF_047418515.1	H/UW-4/Cx	PRJNA1137892	INCLUDE			INCLUDE			dominant_bioproject (18/125)
+GCF_047418525.1	I/UW-12/UR	PRJNA1137892	INCLUDE			INCLUDE			dominant_bioproject (18/125)
+GCF_047419415.1	F/IC-Cal-13	PRJNA1137892	INCLUDE			INCLUDE			dominant_bioproject (18/125)
+GCF_047419425.1	E/bour	PRJNA1137892	INCLUDE			INCLUDE			duplicate_strain_name || dominant_bioproject (18/125)
+GCF_047419435.1	Da/TW-448	PRJNA1137892	INCLUDE			INCLUDE			dominant_bioproject (18/125)
+GCF_047420685.1	D/UW-3/Cx	PRJNA1137892	INCLUDE			INCLUDE			duplicate_strain_name || dominant_bioproject (18/125)
+GCF_047420695.1	C/TW-3/OT	PRJNA1137892	INCLUDE			INCLUDE			dominant_bioproject (18/125)
+GCF_047420705.1	Ba/Apache-2	PRJNA1137892	INCLUDE			INCLUDE			dominant_bioproject (18/125)
+GCF_047421435.1	A/Sa-1	PRJNA1137892	INCLUDE			INCLUDE			dominant_bioproject (18/125)
+GCF_047421445.1	B/TW-5/OT	PRJNA1137892	INCLUDE			INCLUDE			dominant_bioproject (18/125)
+GCF_059083935.1	D/Ep6/S19-121	PRJNA1274633	INCLUDE			INCLUDE			
