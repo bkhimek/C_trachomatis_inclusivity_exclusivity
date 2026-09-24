@@ -42,3 +42,8 @@ Thumbs.db
 
 # Generated human-readable reports (copied to OneDrive by sync_onedrive.sh)
 reports/
+
+# Small reference sequences are tracked; raw fastANI output is regenerable
+!data/reference/*.fasta
+results/genome_qc/fastani_all_vs_all.tsv
+results/genome_qc/genome_list.txt

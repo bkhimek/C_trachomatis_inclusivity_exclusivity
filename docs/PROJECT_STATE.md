@@ -45,3 +45,15 @@ Prokka and Panaroo are in their own conda envs (not on the base PATH).
 - 2026-09-24, provenance review: PRJNA1102004 (7 genomes) come from experimentally infected pig-tailed macaques (host Macaca nemestrina) and are excluded as experimental. Quality-review tier: PRJNA234355 (laboratory-adaptation study, 4 Portuguese clinical isolates), RC-F(s)/852 and RC-F(s)/342 (CheckM contamination 7.15 and about 1.084 Mb, roughly 40 kb above typical), and LGV II 434 (Vircell; BioProject title names Bordetella pertussis). Primary: A/HAR-13 (the ANI flag is on the species type-strain assembly itself; confirm with fastANI in bin/03) and PRJNA316787 (Jena patient samples, 1990).
 - Redundancy: PRJNA338746 is 14 serial isolates from one patient (1986-1998), and several reference strains (L2/434, D/UW-3, E/Bour) are sequenced more than once. Open question for the consensus step (bin/10): collapse near-identical genomes by SNP distance or weight them, so one lineage does not dominate the 99% conservation rule.
 - 2026-09-24, QC rule: a chromosome more than 8 kb from the median (1,042,743 nt) or CheckM completeness below 97% is now flagged automatically by bin/02 (empirical tail of the 125 genomes). QH111L (-17 kb, 91.6%), B/TW-5/OT (-9.5 kb, 93.8%) and RC-J(s)/122 (+19 kb) moved to the quality-review tier: possible real deletions or assembly issues, so they are still tested for inclusivity but do not shape the consensus. Final tiers: 97 primary, 10 quality-review, 18 excluded.
+
+## Update 2026-09-24: species check, ompA typing
+
+**D14.** Serial and near-identical isolates are all kept in the primary set for consensus and inclusivity (more isolates = more chance to see variants; redundancy costs nothing). Variant frequencies are reported per near-identical cluster (bin/03 clusters) so that clonal copies are not read as independent observations.
+
+**Findings.**
+- bin/03 fastANI (125 genomes): all pairs >= 98.90% ANI, 0 flagged, so every genome is C. trachomatis. Primary set collapses to 58 clusters at ANI >= 99.99 (largest 7).
+- bin/04 ompA typing: ompA extracted from 125/125; 14 serovar groups in the primary set (checkpoint >= 8: PASS). Label vs nearest neighbour: 100 exact, 1 same group, 3 disagree of 104 labelled.
+- RC-J/971 (GCF_000441795.1): labelled J, ompA 100% L2/L2c, genome ANI to L2/434/Bu 99.71 (not identical). Kept primary; serovar label inconsistent with ompA. J is covered by 12 other genomes.
+- D/13-96 (GCF_000590675.1): ompA nearest Da at 99.75; subtype variant, no action.
+- LGV II 434 (GCF_036285905.1): already quality-review; ompA nearest L1 (100%) adds a second inconsistency.
+- D/Ep6/S19-121 (GCF_059083935.1): ompA only 95.61% to any set member; normal size/CheckM/BioProject. Kept primary pending web BLAST of its ompA (user). If hits are poor -> quality-review.

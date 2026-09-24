@@ -1,0 +1,13 @@
+  primary         n=97  identity to reference: min 83.7, median 86.5; lengths 1182-1257
+  quality-review  n=10  identity to reference: min 83.7, median 90.0; lengths 1182-1194
+  excluded        n=18  identity to reference: min 83.7, median 92.5; lengths 1182-1194
+
+  distinct ompA sequences among 97 primary genomes: 33
+  primary genomes by serovar (a trailing ? means predicted from the nearest neighbour, no label of its own):
+   A:6, B:2, Ba:1, C:2, D:6, D?:3, Da:1, E:12, F:10, G:5, H:3, I:1, Ia:7, J:11, J/L2/L2c?:1, Ja:2, K:3, L1:4, L2:8, L2b:5, L2b?:1, L2c:1, L3:2
+  distinct serovar groups in the primary set: 14 -> PASS the handover checkpoint of at least 8
+  label vs nearest-neighbour ompA type (labels shared by 2+ genomes): exact 100, same group 1, disagree 3 of 104; untestable singletons: 4
+    NO    GCF_000441795.1 RC-J/971               primary        label J    nearest L2/L2c (100.00%)
+    group GCF_000590675.1 D/13-96                primary        label D    nearest Da (99.75%)
+    NO    GCF_036285905.1 LGV II 434             quality-review label L2   nearest L1 (100.00%)
+    NO    GCF_059083935.1 D/Ep6/S19-121          primary        label D    nearest B (95.61%)
