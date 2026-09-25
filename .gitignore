@@ -68,3 +68,4 @@ results/pangenome/*
 results/exclusivity/blast_genus.tsv
 results/exclusivity/blast_clinical.tsv
 data/panel/genomes/
+results/exclusivity/blast_*.tsv
