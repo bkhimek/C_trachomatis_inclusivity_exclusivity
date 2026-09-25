@@ -74,3 +74,20 @@ figure was always correct (97 + 10).
   soft-core (95-99%), 21 shell (15-95%), 3 cloud (<15%). Very small accessory genome, as expected for
   C. trachomatis. core_genes.fasta (874 representative sequences) is the input for bin/07 exclusivity
   screening.
+
+## Update 2026-09-25: exclusivity screening, panel reuse
+
+**D16.** The exclusivity panel (10 genus-tier Chlamydia species / 31 genomes, 25 clinical-tier species / 92
+genomes, 123 genomes total) was recovered from an earlier abandoned trial run
+(~/projects/trial_C_trachomatis_inclusivity_exclusivity, not tracked in git) and reused as-is: its
+composition and rationale (docs/exclusivity_panel_species.txt) were not affected by the reasons for the
+restart (genome provenance, probe Tm gap). The already-built genomes and BLAST databases were copied over
+and verified against the trial run's own checksums rather than re-downloaded.
+
+**Findings.**
+- bin/07 exclusivity screening: of 874 core genes, 30 have a gap of >=150bp with zero BLAST similarity to
+  the genus-tier panel at any identity; 692 have such a gap when only counting hits >=85% identity (a more
+  realistic threshold for actual PCR cross-reactivity). Against the more distant clinical-tier panel, 859
+  and 873 of 874 genes are clean respectively. Full per-gene results: results/exclusivity/core_gene_exclusivity.tsv.
+- Top exclusivity-clean genes by gap size include tarP (a candidate from the earlier project), several
+  cardiolipin-synthase-related gene clusters, incG, and a number of unannotated ("hypothetical protein") genes.

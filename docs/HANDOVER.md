@@ -12,6 +12,9 @@ then primer/probe design. Owner: Krzysztof Gizynski.
 
 ## Paths (do not guess others)
 - WSL repo: `~/projects/C_trachomatis_inclusivity_exclusivity`  (NOT `..._RESTART`, despite what the old handover said)
+- Prior trial run (reference only, not a working directory): `~/projects/trial_C_trachomatis_inclusivity_exclusivity`.
+  Has a real, already-built exclusivity panel (genomes + BLAST DBs) that bin/07 reuses; may hold other salvageable
+  reference material (e.g. an old case study .docx) not yet checked.
 - OneDrive (Windows): `C:\Users\krist\OneDrive\Documents\Projects\C_trachomatis_inclusivity_exclusivity`
 - OneDrive (from WSL): `/mnt/c/Users/krist/OneDrive/Documents/Projects/C_trachomatis_inclusivity_exclusivity`
 - GitHub: https://github.com/bkhimek/C_trachomatis_inclusivity_exclusivity
@@ -41,8 +44,9 @@ then primer/probe design. Owner: Krzysztof Gizynski.
 | Prokka annotation | bin/05 | done: 107 genomes (primary + quality-review), CDS median 897 |
 | Excel/Word reports | bin/90 | done for inventory; oligo table to be added |
 | Panaroo pangenome | bin/06 | done: 874 core / 6 soft-core / 21 shell / 3 cloud (904 families, 97 primary genomes) |
-| Exclusivity screening | bin/07 | **NEXT** (input: results/pangenome/core_genes.fasta) |
-| Candidate regions, ranking, consensus, Primer3 design + post-filter, validation, plasmid, final report | bin/08+ | not started |
+| Exclusivity screening | bin/07 | done: panel reused from the trial run (35 species, 10 genus-tier + 25 clinical-tier, 123 genomes); 30/874 core genes clean vs the genus panel at any-hit level, 692/874 clean at >=85% identity; see results/exclusivity/core_gene_exclusivity.tsv |
+| Candidate region discovery, ranking | bin/08 | **NEXT** (input: results/exclusivity/core_gene_exclusivity.tsv) |
+| Consensus, Primer3 design + post-filter, validation, plasmid, final report | bin/09+ | not started |
 
 Genome tiers: primary = consensus + inclusivity claim; quality-review = natural isolates with suspicious metrics
 (oligos are tested against them, reported separately); excluded = experimental/engineered/lab-selected or non-C. trachomatis.
