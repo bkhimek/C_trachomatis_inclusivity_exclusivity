@@ -1,0 +1,875 @@
+gene	gene_name	annotation	n_primary_genomes	avg_copies	length	genus_any_maxgap	genus_any_n150	clinical_any_maxgap	clinical_any_n150	all_any_maxgap	all_any_n150	all_any_coords	genus_id85_maxgap	genus_id85_n150	clinical_id85_maxgap	clinical_id85_n150	all_id85_maxgap	all_id85_n150	all_id85_coords	n_species_genus	n_species_clinical
+tarP	tarP;	Translocated actin-recruiting phosphoprotein;hypothetical protein	97	1.05	3486	1405	2	3486	1	1405	2	327-1731	3486	1	3486	1	3486	1	1-3486	5	0
+pmpC~~~pmpC_1~~~pmpC_2	pmpC;pmpC_1;pmpC_2	putative outer membrane protein PmpC	97	1.01	5355	1228	3	5355	1	1228	3	66-1293	5308	1	5355	1	5308	1	48-5355	9	0
+clsA_4~~~clsA_3	;clsA_4;clsA_3	hypothetical protein;Cardiolipin synthase A;Cardiolipin synthase	97	1.15	1215	1215	1	1215	1	1215	1	1-1215	1215	1	1215	1	1215	1	1-1215	0	0
+clsA_2	;clsA_2	hypothetical protein;Cardiolipin synthase A	97	1.38	1467	1029	2	1467	1	1029	2	1-1029	1467	1	1467	1	1467	1	1-1467	1	0
+group_370		hypothetical protein	97	1.20	1971	775	1	1971	1	775	1	1-775	1971	1	1971	1	1971	1	1-1971	2	0
+clsA_5~~~clsA_3~~~clsA_4	clsA_5;clsA_3;;clsA_4	Cardiolipin synthase A;hypothetical protein	97	1.02	1347	735	1	1347	1	735	1	175-909	1347	1	1347	1	1347	1	1-1347	1	0
+clsA_3	;clsA_3	hypothetical protein;Cardiolipin synthase A	97	1.09	942	643	2	942	1	643	2	1-643	942	1	942	1	942	1	1-942	1	0
+incG	incG	Inclusion membrane protein G	97	1.00	504	504	1	504	1	504	1	1-504	504	1	504	1	504	1	1-504	0	0
+group_32		hypothetical protein	97	1.01	813	503	1	813	1	503	1	311-813	813	1	813	1	813	1	1-813	2	0
+group_34		hypothetical protein	97	1.00	873	454	1	873	1	454	1	231-684	873	1	873	1	873	1	1-873	1	0
+group_27		hypothetical protein	97	1.00	795	447	1	795	1	447	1	349-795	795	1	795	1	795	1	1-795	1	0
+group_367		hypothetical protein	97	1.00	444	444	1	444	1	444	1	1-444	444	1	444	1	444	1	1-444	0	0
+group_349		hypothetical protein	97	1.00	402	402	1	402	1	402	1	1-402	402	1	402	1	402	1	1-402	0	0
+group_286		hypothetical protein	97	1.00	375	375	1	375	1	375	1	1-375	375	1	375	1	375	1	1-375	0	0
+group_348		hypothetical protein	97	1.00	369	369	1	369	1	369	1	1-369	369	1	369	1	369	1	1-369	0	0
+group_369		hypothetical protein	97	1.45	1776	343	1	1776	1	343	1	63-405	1776	1	1776	1	1776	1	1-1776	2	0
+group_69		hypothetical protein	97	1.00	1482	337	1	1482	1	337	1	196-532	1482	1	1482	1	1482	1	1-1482	7	0
+group_108		hypothetical protein	97	1.00	1092	328	1	1092	1	328	1	547-874	1092	1	1092	1	1092	1	1-1092	2	0
+group_12		hypothetical protein	97	1.01	1698	309	1	1698	1	309	1	1390-1698	1698	1	1698	1	1698	1	1-1698	2	0
+group_40		hypothetical protein	97	1.04	1749	297	2	1749	1	297	2	1453-1749	1749	1	1749	1	1749	1	1-1749	2	0
+cdu1	cdu1	Deubiquitinase and deneddylase Dub1	97	1.00	1257	287	1	1257	1	287	1	218-504	1257	1	1257	1	1257	1	1-1257	2	0
+group_336		hypothetical protein	97	1.00	276	276	1	276	1	276	1	1-276	276	1	276	1	276	1	1-276	0	0
+group_79		hypothetical protein	97	2.05	1953	246	1	1953	1	246	1	1-246	1953	1	1953	1	1953	1	1-1953	2	0
+group_13		hypothetical protein	97	1.00	648	213	1	648	1	213	1	436-648	648	1	648	1	648	1	1-648	1	0
+incA	;incA	hypothetical protein;Inclusion membrane protein A	97	1.01	822	193	1	822	1	193	1	630-822	822	1	822	1	822	1	1-822	2	0
+group_277		hypothetical protein	97	1.00	183	183	1	183	1	183	1	1-183	183	1	183	1	183	1	1-183	0	0
+group_31		hypothetical protein	97	1.08	1488	178	1	1488	1	178	1	1-178	1488	1	1488	1	1488	1	1-1488	2	0
+group_313		hypothetical protein	97	1.00	708	158	1	708	1	158	1	160-317	543	1	708	1	543	1	80-622	9	0
+group_10		hypothetical protein	97	1.00	156	156	1	156	1	156	1	1-156	156	1	156	1	156	1	1-156	0	0
+incE	incE	Inclusion membrane protein E	97	1.00	399	153	1	399	1	153	1	247-399	399	1	399	1	399	1	1-399	1	0
+group_287		hypothetical protein	97	1.00	537	148	0	537	1	148	0	1-148	537	1	537	1	537	1	1-537	2	0
+group_333		hypothetical protein	97	1.00	558	129	0	558	1	129	0	1-129	558	1	558	1	558	1	1-558	1	0
+group_43		hypothetical protein	97	1.00	312	123	0	312	1	123	0	190-312	312	1	312	1	312	1	1-312	1	0
+group_320		hypothetical protein	97	1.00	972	120	0	972	1	120	0	1-120	972	1	972	1	972	1	1-972	2	0
+group_344		hypothetical protein	97	1.00	537	117	0	537	1	117	0	1-117	537	1	537	1	537	1	1-537	1	0
+group_366		hypothetical protein	97	1.00	498	117	0	498	1	117	0	1-117	345	1	498	1	345	1	1-345	2	0
+trpB_2~~~trpB_1~~~trpB	trpB_2;trpB_1;trpB	Tryptophan synthase beta chain	97	1.01	1263	115	0	281	2	115	0	1-115	1263	1	1263	1	1263	1	1-1263	4	4
+tlcA_2	tlcA_2	ADPATP carrier protein 1	97	1.00	1623	112	0	1623	1	112	0	1512-1623	1623	1	1623	1	1623	1	1-1623	10	0
+group_133		hypothetical protein	97	1.00	912	106	0	912	1	106	0	1-106	912	1	912	1	912	1	1-912	6	0
+incD	incD	Inclusion membrane protein D	97	1.00	441	102	0	441	1	102	0	1-102	441	1	441	1	441	1	1-441	1	0
+pmpB_1~~~pmpB~~~pmpB_2	pmpB_1;pmpB;pmpB_2	putative outer membrane protein PmpB	97	1.05	5259	101	0	5259	1	101	0	613-713	5259	1	5259	1	5259	1	1-5259	10	0
+group_235		hypothetical protein	97	1.00	408	99	0	408	1	99	0	1-99	408	1	408	1	408	1	1-408	2	0
+group_256		hypothetical protein	97	1.00	321	97	0	321	1	97	0	225-321	321	1	321	1	321	1	1-321	1	0
+group_242		hypothetical protein	97	1.00	366	92	0	366	1	92	0	275-366	366	1	366	1	366	1	1-366	2	0
+rluC	rluC	Ribosomal large subunit pseudouridine synthase C	97	1.00	912	88	0	912	1	88	0	825-912	600	2	912	1	600	2	1-600	9	0
+group_284		hypothetical protein	97	1.00	504	87	0	504	1	87	0	418-504	504	1	504	1	504	1	1-504	2	0
+group_25		Single-stranded DNA-binding protein	97	1.00	534	85	0	534	1	85	0	450-534	85	0	534	1	85	0	450-534	10	0
+group_14		hypothetical protein	97	1.00	696	82	0	696	1	82	0	1-82	696	1	696	1	696	1	1-696	2	0
+group_33		hypothetical protein;Farnesyl diphosphate synthase	97	1.01	876	79	0	876	1	79	0	798-876	876	1	876	1	876	1	1-876	6	0
+group_35		hypothetical protein	97	1.16	597	72	0	597	1	72	0	1-72	597	1	597	1	597	1	1-597	2	0
+group_50		hypothetical protein	97	1.00	459	71	0	459	1	71	0	389-459	459	1	459	1	459	1	1-459	2	0
+xerD	xerD	Tyrosine recombinase XerD	97	1.00	963	70	0	963	1	70	0	1-70	963	1	963	1	963	1	1-963	8	0
+group_252		hypothetical protein	97	1.00	333	69	0	333	1	69	0	265-333	333	1	333	1	333	1	1-333	1	0
+group_297		S-adenosylmethionine/S-adenosylhomocysteine transporter	97	1.00	984	67	0	984	1	67	0	1-67	984	1	984	1	984	1	1-984	10	0
+nqrE	nqrE	Na(+)-translocating NADH-quinone reductase subunit E	97	1.00	735	67	0	735	1	67	0	669-735	90	0	735	1	90	0	646-735	10	0
+group_299		hypothetical protein	97	1.00	687	66	0	687	1	66	0	1-66	687	1	687	1	687	1	1-687	2	0
+group_126		hypothetical protein	97	1.00	957	57	0	957	1	57	0	901-957	957	1	957	1	957	1	1-957	10	0
+lnt	lnt	Apolipoprotein N-acyltransferase	97	1.00	1629	56	0	1629	1	56	0	1574-1629	1629	1	1629	1	1629	1	1-1629	10	0
+group_305		hypothetical protein	97	1.00	225	55	0	225	1	55	0	171-225	225	1	225	1	225	1	1-225	2	0
+cdu2_2~~~cdu2_1~~~cdu2	cdu2_2;cdu2_1;cdu2	Deubiquitinase and deneddylase Dub2	97	1.03	1020	54	0	1020	1	54	0	1-54	1020	1	1020	1	1020	1	1-1020	2	0
+group_17		hypothetical protein	97	1.00	318	52	0	318	1	52	0	267-318	318	1	318	1	318	1	1-318	2	0
+group_2		hypothetical protein	97	1.00	351	52	0	351	1	52	0	300-351	351	1	351	1	351	1	1-351	1	0
+adk	adk	Adenylate kinase	97	1.00	738	48	0	738	1	48	0	691-738	738	1	738	1	738	1	1-738	4	0
+oppA_1	oppA_1	Oligopeptide-binding protein OppA	97	1.00	1281	48	0	1281	1	48	0	1-48	1035	2	1281	1	1035	2	1-1035	3	0
+oppD_1	oppD_1	Oligopeptide transport ATP-binding protein OppD	97	1.00	834	48	0	834	1	48	0	787-834	834	1	834	1	834	1	1-834	9	0
+uvrA	;uvrA	hypothetical protein;UvrABC system protein A	97	1.01	5361	46	0	2695	2	46	0	5316-5361	5361	1	5361	1	5361	1	1-5361	10	1
+group_330		hypothetical protein	97	1.01	1071	45	0	1071	1	45	0	1027-1071	1071	1	1071	1	1071	1	1-1071	2	0
+group_92		hypothetical protein	97	1.00	801	45	0	801	1	45	0	1-45	801	1	801	1	801	1	1-801	2	0
+gyrA_1	gyrA_1	DNA gyrase subunit A	97	1.00	2511	45	0	1497	1	45	0	2467-2511	2511	1	2511	1	2511	1	1-2511	10	16
+group_149		hypothetical protein	97	1.00	786	43	0	786	1	43	0	1-43	786	1	786	1	786	1	1-786	7	0
+group_88		hypothetical protein	97	1.00	1284	43	0	1284	1	43	0	1242-1284	1284	1	1284	1	1284	1	1-1284	10	0
+ileS	ileS	Isoleucine--tRNA ligase	97	1.00	3126	43	0	1350	3	43	0	3084-3126	3126	1	3126	1	3126	1	1-3126	10	1
+glgX	glgX	Glycogen operon protein GlgX	97	1.00	2073	42	0	2073	1	42	0	1-42	2073	1	2073	1	2073	1	1-2073	10	0
+group_187		hypothetical protein	97	1.00	570	42	0	570	1	42	0	529-570	570	1	570	1	570	1	1-570	2	0
+recO	recO	DNA repair protein RecO	97	1.00	747	42	0	747	1	42	0	706-747	747	1	747	1	747	1	1-747	10	0
+group_345		hypothetical protein	97	1.00	255	41	0	255	1	41	0	215-255	255	1	255	1	255	1	1-255	1	0
+trpA	trpA;	Tryptophan synthase alpha chain;hypothetical protein	97	1.04	762	40	0	762	1	40	0	723-762	762	1	762	1	762	1	1-762	3	0
+rnr	rnr	Ribonuclease R	97	1.00	2085	38	0	1476	2	38	0	2048-2085	2085	1	2085	1	2085	1	1-2085	10	1
+group_181		hypothetical protein	97	1.00	591	37	0	591	1	37	0	555-591	591	1	591	1	591	1	1-591	3	0
+group_291		hypothetical protein	97	1.00	1266	36	0	1266	1	36	0	1231-1266	1266	1	1266	1	1266	1	1-1266	9	0
+group_292		hypothetical protein	97	1.00	165	35	0	165	1	35	0	131-165	165	1	165	1	165	1	1-165	2	0
+rsmD	rsmD	Ribosomal RNA small subunit methyltransferase D	97	1.00	576	34	0	576	1	34	0	543-576	576	1	576	1	576	1	1-576	10	0
+group_60		hypothetical protein	97	1.00	1770	33	0	1770	1	33	0	1738-1770	1770	1	1770	1	1770	1	1-1770	10	0
+murA1	murA1	UDP-N-acetylglucosamine 1-carboxyvinyltransferase 1	97	1.00	1335	33	0	1335	1	33	0	1303-1335	1335	1	1335	1	1335	1	1-1335	10	0
+group_295		hypothetical protein	97	1.00	4350	32	0	4350	1	32	0	1-32	4350	1	4350	1	4350	1	1-4350	2	0
+group_231		hypothetical protein	97	1.00	426	30	0	426	1	30	0	397-426	33	0	426	1	33	0	394-426	10	0
+group_318		hypothetical protein	97	1.00	660	30	0	660	1	30	0	631-660	660	1	660	1	660	1	1-660	2	0
+rpoN	rpoN	RNA polymerase sigma-54 factor	97	1.00	1311	30	0	1311	1	30	0	1282-1311	1311	1	1311	1	1311	1	1-1311	9	0
+group_154		hypothetical protein	97	1.00	759	29	0	759	1	29	0	1-29	759	1	759	1	759	1	1-759	9	0
+group_234		hypothetical protein	97	1.00	414	27	0	414	1	27	0	388-414	414	1	414	1	414	1	1-414	2	0
+hemA	hemA	Glutamyl-tRNA reductase	97	1.00	1044	26	0	1044	1	26	0	1019-1044	1044	1	1044	1	1044	1	1-1044	8	0
+lpxL	lpxL	Lipid A biosynthesis lauroyltransferase	97	1.00	1368	26	0	1368	1	26	0	1343-1368	1368	1	1368	1	1368	1	1-1368	8	0
+group_307		hypothetical protein	97	1.00	348	25	0	348	1	25	0	324-348	348	1	348	1	348	1	1-348	2	0
+trpF	trpF	N-(5'-phosphoribosyl)anthranilate isomerase	97	1.00	627	25	0	627	1	25	0	603-627	627	1	627	1	627	1	1-627	3	0
+groL1	groL1	60 kDa chaperonin 1	97	1.00	1602	24	0	1602	1	24	0	1579-1602	1602	1	1602	1	1602	1	1-1602	2	0
+group_177		hypothetical protein	97	1.00	642	24	0	642	1	24	0	1-24	642	1	642	1	642	1	1-642	2	0
+group_208		hypothetical protein	97	1.00	492	23	0	492	1	23	0	470-492	315	1	492	1	315	1	1-315	3	0
+incF	incF	Inclusion membrane protein F	97	1.00	303	23	0	303	1	23	0	281-303	303	1	303	1	303	1	1-303	2	0
+artM	artM	Arginine transport ATP-binding protein ArtM	97	1.00	702	22	0	355	2	22	0	681-702	702	1	702	1	702	1	1-702	9	6
+fmt	fmt	Methionyl-tRNA formyltransferase	97	1.00	951	22	0	951	1	22	0	930-951	951	1	951	1	951	1	1-951	8	0
+group_303		hypothetical protein	97	1.00	438	22	0	438	1	22	0	417-438	438	1	438	1	438	1	1-438	4	0
+ytfF	ytfF	Inner membrane protein YtfF	97	1.00	1026	22	0	1026	1	22	0	1005-1026	1026	1	1026	1	1026	1	1-1026	9	0
+oppF	oppF	Oligopeptide transport ATP-binding protein OppF	97	1.00	831	21	0	831	1	21	0	811-831	831	1	831	1	831	1	1-831	10	0
+group_129		hypothetical protein	97	1.00	945	20	0	945	1	20	0	926-945	945	1	945	1	945	1	1-945	2	0
+group_207		hypothetical protein	97	1.00	492	20	0	492	1	20	0	473-492	22	0	492	1	22	0	471-492	9	0
+group_229		hypothetical protein	97	1.00	432	20	0	432	1	20	0	413-432	432	1	432	1	432	1	1-432	10	0
+pyrG	pyrG	CTP synthase	97	1.00	1620	20	0	462	2	20	0	1601-1620	1620	1	1620	1	1620	1	1-1620	10	14
+rnpA	rnpA	Ribonuclease P protein component	97	1.00	363	20	0	363	1	20	0	344-363	363	1	363	1	363	1	1-363	6	0
+group_308		hypothetical protein	97	1.00	306	19	0	306	1	19	0	288-306	306	1	306	1	306	1	1-306	2	0
+btuD	btuD	Vitamin B12 import ATP-binding protein BtuD	97	1.00	1941	18	0	1941	1	18	0	1924-1941	1941	1	1941	1	1941	1	1-1941	10	0
+ispD	ispD	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase	97	1.00	660	18	0	660	1	18	0	643-660	660	1	660	1	660	1	1-660	8	0
+mqnC	mqnC	Cyclic dehypoxanthine futalosine synthase	97	1.00	1053	18	0	1053	1	18	0	1036-1053	1053	1	1053	1	1053	1	1-1053	10	0
+group_52		hypothetical protein	97	1.00	1953	17	0	1953	1	17	0	1937-1953	1953	1	1953	1	1953	1	1-1953	10	0
+lipA	lipA	Lipoyl synthase	97	1.00	936	17	0	936	1	17	0	920-936	936	1	936	1	936	1	1-936	10	0
+ndk	ndk	Nucleoside diphosphate kinase	97	1.00	471	17	0	150	1	17	0	1-17	17	0	471	1	17	0	1-17	10	4
+dusB	dusB	tRNA-dihydrouridine synthase B	97	1.00	1005	16	0	1005	1	16	0	990-1005	1005	1	1005	1	1005	1	1-1005	10	0
+group_159		hypothetical protein	97	1.00	732	16	0	732	1	16	0	717-732	732	1	732	1	732	1	1-732	2	0
+group_174		hypothetical protein	97	1.00	654	16	0	654	1	16	0	639-654	654	1	654	1	654	1	1-654	7	0
+hemC	hemC	Porphobilinogen deaminase	97	1.00	726	16	0	726	1	16	0	711-726	597	1	726	1	597	1	1-597	4	0
+nqrA	nqrA	Na(+)-translocating NADH-quinone reductase subunit A	97	1.00	1398	16	0	1398	1	16	0	1383-1398	1398	1	1398	1	1398	1	1-1398	10	0
+gltP	gltP	Proton/glutamate-aspartate symporter	97	1.00	1248	15	0	1248	1	15	0	1234-1248	1248	1	1248	1	1248	1	1-1248	10	0
+group_128		hypothetical protein	97	1.00	948	15	0	948	1	15	0	934-948	948	1	948	1	948	1	1-948	10	0
+group_150		hypothetical protein	97	1.00	786	15	0	786	1	15	0	772-786	786	1	786	1	786	1	1-786	7	0
+group_253		hypothetical protein	97	1.00	333	15	0	333	1	15	0	319-333	333	1	333	1	333	1	1-333	2	0
+nth	nth	Endonuclease III	97	1.00	636	15	0	636	1	15	0	1-15	636	1	636	1	636	1	1-636	9	0
+plsX	plsX	Phosphate acyltransferase	97	1.00	966	15	0	966	1	15	0	952-966	966	1	966	1	966	1	1-966	10	0
+rluB	;rluB	hypothetical protein;Ribosomal large subunit pseudouridine synthase B	97	1.00	813	15	0	813	1	15	0	1-15	813	1	813	1	813	1	1-813	10	0
+rsmB	;rsmB	hypothetical protein;Ribosomal RNA small subunit methyltransferase B	97	1.33	1107	15	0	1107	1	15	0	1093-1107	606	2	1107	1	606	2	1-606	10	0
+uvrC	uvrC	UvrABC system protein C	97	1.00	1797	15	0	1797	1	15	0	1783-1797	1797	1	1797	1	1797	1	1-1797	10	0
+gndA	gndA	6-phosphogluconate dehydrogenase NADP(+)-dependent decarboxylating	97	1.00	1443	13	0	424	3	13	0	1431-1443	1443	1	1443	1	1443	1	1-1443	10	6
+group_130		hypothetical protein	97	1.00	930	13	0	930	1	13	0	918-930	930	1	930	1	930	1	1-930	7	0
+odhB	odhB	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex	97	1.00	1101	13	0	845	1	13	0	1089-1101	1101	1	1101	1	1101	1	1-1101	10	3
+amn	amn	AMP nucleosidase	97	1.00	870	12	0	870	1	12	0	1-12	870	1	870	1	870	1	1-870	10	0
+group_109		hypothetical protein	97	1.00	1092	12	0	1092	1	12	0	1081-1092	1092	1	1092	1	1092	1	1-1092	9	0
+group_20		hypothetical protein	97	1.00	642	12	0	642	1	12	0	631-642	642	1	642	1	642	1	1-642	7	0
+group_247		hypothetical protein	97	1.00	348	12	0	348	1	12	0	1-12	348	1	348	1	348	1	1-348	8	0
+group_327		hypothetical protein	97	1.00	2163	12	0	2163	1	12	0	2152-2163	2163	1	2163	1	2163	1	1-2163	10	0
+ispF	ispF	2-C-methyl-D-erythritol 24-cyclodiphosphate synthase	97	1.00	537	12	0	537	1	12	0	1-12	537	1	537	1	537	1	1-537	9	0
+ligA	ligA	DNA ligase	97	1.00	1992	12	0	1992	1	12	0	1981-1992	1992	1	1992	1	1992	1	1-1992	10	0
+mnmC	mnmC	tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein MnmC	97	1.00	1059	12	0	1059	1	12	0	1048-1059	1059	1	1059	1	1059	1	1-1059	10	0
+dppE	dppE	Dipeptide-binding protein DppE	97	1.00	1590	11	0	1590	1	11	0	1580-1590	1590	1	1590	1	1590	1	1-1590	8	0
+kdsB	kdsB	8-amino-38-dideoxy-manno-octulosonate cytidylyltransferase	97	1.00	792	11	0	792	1	11	0	1-11	792	1	792	1	792	1	1-792	10	0
+malP	malP	Maltodextrin phosphorylase	97	1.00	2445	11	0	1621	2	11	0	2435-2445	2445	1	2445	1	2445	1	1-2445	10	5
+ogt	ogt	Methylated-DNA--protein-cysteine methyltransferase	97	1.00	513	11	0	513	1	11	0	503-513	513	1	513	1	513	1	1-513	2	0
+spo0J	spo0J	Stage 0 sporulation protein J	97	1.00	846	11	0	846	1	11	0	836-846	846	1	846	1	846	1	1-846	10	0
+birA	birA	Bifunctional ligase/repressor BirA	97	1.00	555	10	0	555	1	10	0	546-555	555	1	555	1	555	1	1-555	5	0
+fbpC2	fbpC2	Fe(3+) ions import ATP-binding protein FbpC 2	97	1.00	693	10	0	693	1	10	0	684-693	693	1	693	1	693	1	1-693	9	0
+group_201		hypothetical protein	97	1.00	507	10	0	507	1	10	0	1-10	507	1	507	1	507	1	1-507	10	0
+group_314		hypothetical protein	97	1.00	714	10	0	714	1	10	0	1-10	10	0	714	1	10	0	1-10	8	0
+group_338		hypothetical protein	97	1.00	279	10	0	279	1	10	0	1-10	279	1	279	1	279	1	1-279	4	0
+group_46		hypothetical protein	97	1.00	2433	10	0	2433	1	10	0	1-10	2433	1	2433	1	2433	1	1-2433	6	0
+recB	recB	RecBCD enzyme subunit RecB	97	1.00	3081	10	0	3081	1	10	0	3072-3081	3081	1	3081	1	3081	1	1-3081	10	0
+group_15		hypothetical protein	97	1.00	537	9	0	537	1	9	0	1-9	537	1	537	1	537	1	1-537	4	0
+group_325		hypothetical protein	97	1.00	1695	9	0	1695	1	9	0	1687-1695	1695	1	1695	1	1695	1	1-1695	2	0
+group_45		hypothetical protein	97	1.00	2499	9	0	2499	1	9	0	2491-2499	2499	1	2499	1	2499	1	1-2499	8	0
+lpxB	lpxB	Lipid-A-disaccharide synthase	97	1.00	1824	9	0	1824	1	9	0	1816-1824	1824	1	1824	1	1824	1	1-1824	10	0
+pgcA	pgcA	Phosphoglucomutase	97	1.00	1782	9	0	1782	1	9	0	1774-1782	1782	1	1782	1	1782	1	1-1782	10	0
+recJ	recJ	Single-stranded-DNA-specific exonuclease RecJ	97	1.00	1755	9	0	1755	1	9	0	1747-1755	1755	1	1755	1	1755	1	1-1755	8	0
+uvrB	uvrB	UvrABC system protein B	97	1.00	2007	9	0	371	2	9	0	1999-2007	2007	1	2007	1	2007	1	1-2007	10	23
+aviRb	aviRb	23S rRNA (uridine(2479)-2'-O)-methyltransferase	97	1.00	810	8	0	810	1	8	0	803-810	810	1	810	1	810	1	1-810	10	0
+group_18		hypothetical protein	97	1.00	372	8	0	372	1	8	0	365-372	372	1	372	1	372	1	1-372	3	0
+secA	secA	Protein translocase subunit SecA	97	1.00	2910	8	0	659	4	8	0	2903-2910	2910	1	2910	1	2910	1	1-2910	10	14
+COQ3	COQ3	Ubiquinone biosynthesis O-methyltransferase mitochondrial	97	1.00	804	7	0	804	1	7	0	798-804	804	1	804	1	804	1	1-804	9	0
+accC	accC	Biotin carboxylase	97	1.00	1374	7	0	178	1	7	0	1368-1374	1374	1	1374	1	1374	1	1-1374	10	7
+folD	folD	Bifunctional protein FolD protein	97	1.00	864	7	0	864	1	7	0	858-864	864	1	864	1	864	1	1-864	10	0
+group_293		hypothetical protein	97	1.00	1389	7	0	1389	1	7	0	1383-1389	1389	1	1389	1	1389	1	1-1389	9	0
+group_30		hypothetical protein	97	1.00	2787	7	0	2787	1	7	0	1-7	2787	1	2787	1	2787	1	1-2787	10	0
+group_70		hypothetical protein	97	1.00	1479	7	0	1479	1	7	0	1473-1479	1479	1	1479	1	1479	1	1-1479	10	0
+lplT	lplT	Lysophospholipid transporter LplT	97	1.00	1680	7	0	1680	1	7	0	1674-1680	1680	1	1680	1	1680	1	1-1680	10	0
+lysC	lysC	Lysine-sensitive aspartokinase 3	97	1.00	1296	7	0	1296	1	7	0	1290-1296	1296	1	1296	1	1296	1	1-1296	10	0
+pgi	pgi	Glucose-6-phosphate isomerase	97	1.00	1578	7	0	1007	2	7	0	1572-1578	1257	2	1578	1	1257	2	322-1578	10	1
+recD2	recD2	ATP-dependent RecD-like DNA helicase	97	1.00	2241	7	0	2241	1	7	0	2235-2241	2241	1	2241	1	2241	1	1-2241	10	0
+rnhC	rnhC	Ribonuclease HIII	97	1.00	903	7	0	903	1	7	0	897-903	903	1	903	1	903	1	1-903	10	0
+sigD	sigD	RNA polymerase sigma-D factor	97	1.00	762	7	0	762	1	7	0	756-762	762	1	762	1	762	1	1-762	10	0
+tadA	tadA	tRNA-specific adenosine deaminase	97	1.00	531	7	0	531	1	7	0	1-7	7	0	531	1	7	0	1-7	10	0
+trpR	trpR	Trp operon repressor	97	1.00	285	7	0	285	1	7	0	279-285	285	1	285	1	285	1	1-285	3	0
+group_246		hypothetical protein	97	1.00	351	6	0	351	1	6	0	346-351	6	0	351	1	6	0	346-351	10	0
+group_363		hypothetical protein	97	1.12	456	6	0	456	1	6	0	451-456	456	1	456	1	456	1	1-456	4	0
+mrdA	mrdA	Peptidoglycan DD-transpeptidase MrdA	97	1.00	3243	6	0	3243	1	6	0	3238-3243	3243	1	3243	1	3243	1	1-3243	10	0
+alaS	alaS	Alanine--tRNA ligase	97	1.00	3009	5	0	2291	2	5	0	1-5	2970	1	3009	1	2970	1	40-3009	10	16
+csd	csd	putative cysteine desulfurase	97	1.00	1206	5	0	630	2	5	0	1202-1206	1206	1	1206	1	1206	1	1-1206	10	4
+ftsW	ftsW	putative peptidoglycan glycosyltransferase FtsW	97	1.00	1158	5	0	1158	1	5	0	1154-1158	1158	1	1158	1	1158	1	1-1158	10	0
+group_140		hypothetical protein	97	1.00	852	5	0	852	1	5	0	1-5	852	1	852	1	852	1	1-852	6	0
+group_160		hypothetical protein	97	1.00	732	5	0	732	1	5	0	728-732	732	1	732	1	732	1	1-732	9	0
+group_185		hypothetical protein	97	1.00	582	5	0	582	1	5	0	578-582	582	1	582	1	582	1	1-582	8	0
+group_240		hypothetical protein	97	1.00	375	5	0	375	1	5	0	1-5	375	1	375	1	375	1	1-375	10	0
+group_72		Magnesium transporter MgtE	97	1.00	1473	5	0	1473	1	5	0	1-5	1473	1	1473	1	1473	1	1-1473	10	0
+hemH	hemH	Ferrochelatase	97	1.00	945	5	0	945	1	5	0	1-5	945	1	945	1	945	1	1-945	8	0
+pknD_1	pknD_1	Serine/threonine-protein kinase PknD	97	1.00	2805	5	0	2805	1	5	0	2801-2805	2805	1	2805	1	2805	1	1-2805	10	0
+pnp	pnp	Polyribonucleotide nucleotidyltransferase	97	1.00	2088	5	0	1134	2	5	0	2084-2088	2088	1	2088	1	2088	1	1-2088	10	14
+ribD	ribD	Riboflavin biosynthesis protein RibD	97	1.00	1128	5	0	1128	1	5	0	1124-1128	1128	1	1128	1	1128	1	1-1128	10	0
+trxB	trxB	Thioredoxin reductase	97	1.00	1074	5	0	940	1	5	0	1070-1074	1074	1	1074	1	1074	1	1-1074	10	2
+yqgF	yqgF	Putative pre-16S rRNA nuclease	97	1.00	447	5	0	447	1	5	0	1-5	447	1	447	1	447	1	1-447	9	0
+dsbH	dsbH	Disulfide bond reductase DsbH	97	1.00	495	4	0	495	1	4	0	492-495	495	1	495	1	495	1	1-495	8	0
+group_144		hypothetical protein	97	1.00	807	4	0	807	1	4	0	804-807	807	1	807	1	807	1	1-807	3	0
+group_167		putative oxidoreductase CT_610	97	1.00	681	4	0	681	1	4	0	678-681	681	1	681	1	681	1	1-681	7	0
+group_337		hypothetical protein	97	1.00	294	4	0	294	1	4	0	291-294	294	1	294	1	294	1	1-294	9	0
+group_351		hypothetical protein	97	1.00	453	4	0	453	1	4	0	450-453	453	1	453	1	453	1	1-453	2	0
+group_353		hypothetical protein	97	1.10	1083	4	0	1083	1	4	0	1080-1083	1083	1	1083	1	1083	1	1-1083	2	0
+group_373		hypothetical protein	97	1.06	1104	4	0	1104	1	4	0	1101-1104	1104	1	1104	1	1104	1	1-1104	2	0
+ptrA	ptrA	Protease 3	97	1.00	2871	4	0	2871	1	4	0	1-4	2871	1	2871	1	2871	1	1-2871	10	0
+ribF	ribF	Bifunctional riboflavin kinase/FMN adenylyltransferase	97	1.00	924	4	0	924	1	4	0	921-924	807	1	924	1	807	1	118-924	10	0
+rluD	rluD	Ribosomal large subunit pseudouridine synthase D	97	1.00	1008	4	0	535	2	4	0	1-4	1008	1	535	2	535	2	474-1008	10	3
+group_324		hypothetical protein	97	1.00	390	3	0	390	1	3	0	388-390	3	0	390	1	3	0	388-390	10	0
+rbn	rbn	Ribonuclease BN	97	1.00	828	3	0	828	1	3	0	826-828	828	1	828	1	828	1	1-828	10	0
+rplQ	rplQ	50S ribosomal protein L17	97	1.00	426	3	0	243	1	3	0	424-426	3	0	243	1	3	0	424-426	10	1
+dnaA_2~~~dnaA_3	dnaA_2;dnaA_3	Chromosomal replication initiator protein DnaA	97	1.01	1413	2	0	630	3	2	0	1-2	2	0	1182	2	2	0	1-2	10	2
+dnaG	dnaG	DNA primase	97	1.00	1788	2	0	1566	1	2	0	1787-1788	1788	1	1788	1	1788	1	1-1788	10	1
+fabH	fabH	3-oxoacyl-[acyl-carrier-protein] synthase 3	97	1.00	1026	2	0	867	1	2	0	1-2	1026	1	1026	1	1026	1	1-1026	10	1
+fbiB	fbiB	Bifunctional F420 biosynthesis protein FbiB	97	1.00	732	2	0	732	1	2	0	731-732	732	1	732	1	732	1	1-732	9	0
+ftsY	ftsY	Signal recognition particle receptor FtsY	97	1.00	855	2	0	855	1	2	0	854-855	855	1	855	1	855	1	1-855	10	0
+group_119		hypothetical protein	97	1.00	996	2	0	996	1	2	0	995-996	996	1	996	1	996	1	1-996	8	0
+group_138		hypothetical protein	97	1.00	870	2	0	870	1	2	0	869-870	870	1	870	1	870	1	1-870	10	0
+group_175		hypothetical protein	97	1.00	648	2	0	648	1	2	0	647-648	2	0	648	1	2	0	647-648	10	0
+group_211		hypothetical protein	97	1.00	483	2	0	483	1	2	0	482-483	483	1	483	1	483	1	1-483	10	0
+group_22		hypothetical protein	97	1.07	570	2	0	570	1	2	0	1-2	570	1	570	1	570	1	1-570	9	0
+group_225		hypothetical protein	97	1.00	447	2	0	447	1	2	0	446-447	447	1	447	1	447	1	1-447	7	0
+group_302		hypothetical protein	97	1.00	150	2	0	150	1	2	0	1-2	2	0	150	1	2	0	1-2	3	0
+group_309		hypothetical protein	97	1.00	384	2	0	384	1	2	0	1-2	384	1	384	1	384	1	1-384	2	0
+group_315		hypothetical protein	97	1.00	2481	2	0	2481	1	2	0	1-2	2481	1	2481	1	2481	1	1-2481	2	0
+group_323		GTP cyclohydrolase 1 type 2	97	1.00	756	2	0	756	1	2	0	755-756	756	1	756	1	756	1	1-756	10	0
+group_53		hypothetical protein	97	1.00	1950	2	0	1950	1	2	0	1949-1950	1950	1	1950	1	1950	1	1-1950	10	0
+group_81		hypothetical protein	97	1.00	1353	2	0	1353	1	2	0	1352-1353	1353	1	1353	1	1353	1	1-1353	10	0
+gyrA_2	gyrA_2	DNA gyrase subunit A	97	1.00	1473	2	0	1473	1	2	0	1472-1473	1473	1	1473	1	1473	1	1-1473	10	0
+hflX	hflX	GTPase HflX	97	1.00	1344	2	0	690	2	2	0	1343-1344	1344	1	1344	1	1344	1	1-1344	10	2
+ispE	ispE	Putative 4-diphosphocytidyl-2-C-methyl-D-erythritol kinase	97	1.00	870	2	0	870	1	2	0	869-870	870	1	870	1	870	1	1-870	5	0
+lgt	lgt	Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase	97	1.00	819	2	0	819	1	2	0	818-819	670	1	819	1	670	1	1-670	8	0
+rpsI	rpsI	30S ribosomal protein S9	97	1.00	390	2	0	300	1	2	0	1-2	2	0	390	1	2	0	1-2	10	2
+rsmH	rsmH	Ribosomal RNA small subunit methyltransferase H	97	1.00	903	2	0	903	1	2	0	902-903	903	1	903	1	903	1	1-903	10	0
+rsmI	rsmI	Ribosomal RNA small subunit methyltransferase I	97	1.00	714	2	0	714	1	2	0	713-714	714	1	714	1	714	1	1-714	8	0
+truB	;truB	hypothetical protein;tRNA pseudouridine synthase B	97	1.01	726	2	0	573	1	2	0	725-726	2	0	726	1	2	0	725-726	10	1
+tsaD	tsaD	tRNA N6-adenosine threonylcarbamoyltransferase	97	1.00	1017	2	0	484	2	2	0	1016-1017	1017	1	1017	1	1017	1	1-1017	10	2
+aaxC_1~~~aaxC_2~~~aaxC_3~~~aaxC	;aaxC_1;aaxC_2;aaxC_3;aaxC	hypothetical protein;Arginine/agmatine antiporter	97	1.25	1452	1	0	360	4	1	0	1452-1452	1452	1	1452	1	1452	1	1-1452	10	2
+aroA	aroA	3-phosphoshikimate 1-carboxyvinyltransferase	97	1.00	1323	1	0	1323	1	1	0	1-1	1323	1	1323	1	1323	1	1-1323	9	0
+asd2	asd2	Aspartate-semialdehyde dehydrogenase 2	97	1.00	1005	1	0	1005	1	1	0	1005-1005	1005	1	1005	1	1005	1	1-1005	10	0
+bioY2	bioY2	Biotin transporter BioY2	97	1.00	591	1	0	591	1	1	0	591-591	591	1	591	1	591	1	1-591	3	0
+cysS	cysS	Cysteine--tRNA ligase	97	1.00	1494	1	0	638	2	1	0	1494-1494	1494	1	1494	1	1494	1	1-1494	10	4
+dapL	dapL	LL-diaminopimelate aminotransferase	97	1.00	1185	1	0	1185	1	1	0	1185-1185	1185	1	1185	1	1185	1	1-1185	9	0
+dnaA_1	dnaA_1	Chromosomal replication initiator protein DnaA	97	1.00	1371	1	0	1371	1	1	0	1371-1371	1371	1	1371	1	1371	1	1-1371	10	0
+dxs_1	dxs_1	1-deoxy-D-xylulose-5-phosphate synthase	97	1.00	1923	1	0	1923	1	1	0	1923-1923	1923	1	1923	1	1923	1	1-1923	10	0
+glmU	glmU	Bifunctional protein GlmU	97	1.00	618	1	0	618	1	1	0	618-618	618	1	618	1	618	1	1-618	10	0
+gltX	gltX	Glutamate--tRNA ligase	97	1.00	1521	1	0	806	3	1	0	1521-1521	1	0	1521	1	1	0	1521-1521	10	2
+group_102		hypothetical protein	97	1.00	1173	1	0	1173	1	1	0	1173-1173	1173	1	1173	1	1173	1	1-1173	10	0
+group_103		hypothetical protein	97	1.00	1134	1	0	1134	1	1	0	1134-1134	1134	1	1134	1	1134	1	1-1134	2	0
+group_117		hypothetical protein	97	1.00	999	1	0	999	1	1	0	999-999	999	1	999	1	999	1	1-999	10	0
+group_135		hypothetical protein	97	1.00	873	1	0	873	1	1	0	873-873	873	1	873	1	873	1	1-873	3	0
+group_148		hypothetical protein	97	1.00	789	1	0	789	1	1	0	789-789	789	1	789	1	789	1	1-789	9	0
+group_169		hypothetical protein	97	1.00	672	1	0	672	1	1	0	672-672	672	1	672	1	672	1	1-672	3	0
+group_176		hypothetical protein	97	1.00	648	1	0	648	1	1	0	648-648	648	1	648	1	648	1	1-648	10	0
+group_178		hypothetical protein	97	1.00	633	1	0	633	1	1	0	633-633	633	1	633	1	633	1	1-633	10	0
+group_180		hypothetical protein	97	1.00	603	1	0	603	1	1	0	603-603	603	1	603	1	603	1	1-603	8	0
+group_184		hypothetical protein	97	1.00	582	1	0	582	1	1	0	582-582	582	1	582	1	582	1	1-582	10	0
+group_189		hypothetical protein	97	1.00	555	1	0	555	1	1	0	1-1	1	0	555	1	1	0	1-1	9	0
+group_216		hypothetical protein	97	1.00	477	1	0	477	1	1	0	477-477	477	1	477	1	477	1	1-477	8	0
+group_218		hypothetical protein	97	1.00	468	1	0	468	1	1	0	468-468	468	1	468	1	468	1	1-468	2	0
+group_259		hypothetical protein	97	1.00	300	1	0	300	1	1	0	300-300	300	1	300	1	300	1	1-300	7	0
+group_261		hypothetical protein	97	1.00	294	1	0	294	1	1	0	294-294	294	1	294	1	294	1	1-294	3	0
+group_300		hypothetical protein	97	1.00	1260	1	0	1260	1	1	0	1260-1260	1260	1	1260	1	1260	1	1-1260	10	0
+group_335		hypothetical protein	97	1.00	192	1	0	192	1	1	0	192-192	1	0	192	1	1	0	192-192	2	0
+group_354		hypothetical protein	97	1.03	1212	1	0	1212	1	1	0	1212-1212	1212	1	1212	1	1212	1	1-1212	2	0
+group_358		hypothetical protein	97	1.00	330	1	0	330	1	1	0	1-1	330	1	330	1	330	1	1-330	2	0
+group_365		hypothetical protein	97	1.00	858	1	0	858	1	1	0	858-858	520	2	858	1	520	2	339-858	3	0
+group_4		hypothetical protein	97	1.00	276	1	0	276	1	1	0	276-276	276	1	276	1	276	1	1-276	9	0
+group_42		hypothetical protein	97	1.13	1647	1	0	1647	1	1	0	1647-1647	1647	1	1647	1	1647	1	1-1647	2	0
+group_67		hypothetical protein	97	1.00	2865	1	0	2865	1	1	0	2865-2865	2865	1	2865	1	2865	1	1-2865	10	0
+group_7		hypothetical protein	97	1.00	3600	1	0	3600	1	1	0	3600-3600	3600	1	3600	1	3600	1	1-3600	10	0
+group_73		hypothetical protein	97	1.00	1473	1	0	1473	1	1	0	1473-1473	1473	1	1473	1	1473	1	1-1473	10	0
+group_8		hypothetical protein	97	1.00	2073	1	0	2073	1	1	0	2073-2073	2073	1	2073	1	2073	1	1-2073	10	0
+group_80		hypothetical protein	97	1.00	1353	1	0	1353	1	1	0	1-1	1353	1	1353	1	1353	1	1-1353	9	0
+group_93		hypothetical protein	97	1.00	1230	1	0	1230	1	1	0	1230-1230	1230	1	1230	1	1230	1	1-1230	9	0
+group_97		hypothetical protein	97	1.00	1215	1	0	1215	1	1	0	1215-1215	1215	1	1215	1	1215	1	1-1215	8	0
+group_99		hypothetical protein	97	1.00	1200	1	0	1200	1	1	0	1200-1200	1200	1	1200	1	1200	1	1-1200	2	0
+kdsD	kdsD	Arabinose 5-phosphate isomerase KdsD	97	1.00	987	1	0	987	1	1	0	987-987	987	1	987	1	987	1	1-987	10	0
+maf	maf	dTTP/UTP pyrophosphatase	97	1.00	591	1	0	591	1	1	0	1-1	1	0	591	1	1	0	1-1	8	0
+malQ	malQ;	4-alpha-glucanotransferase;hypothetical protein	97	1.07	1584	1	0	1584	1	1	0	1584-1584	1584	1	1584	1	1584	1	1-1584	10	0
+miaA	miaA	tRNA dimethylallyltransferase	97	1.00	1020	1	0	792	2	1	0	1020-1020	1020	1	792	2	792	2	229-1020	10	1
+mqnE	mqnE	Aminodeoxyfutalosine synthase	97	1.00	1110	1	0	1110	1	1	0	1110-1110	1110	1	1110	1	1110	1	1-1110	10	0
+murB	murB	UDP-N-acetylenolpyruvoylglucosamine reductase	97	1.00	876	1	0	480	2	1	0	876-876	876	1	876	1	876	1	1-876	10	4
+murF	murF	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase	97	1.00	1353	1	0	1353	1	1	0	1353-1353	1353	1	1353	1	1353	1	1-1353	10	0
+obg	obg	GTPase Obg	97	1.00	1008	1	0	483	2	1	0	1008-1008	1008	1	483	2	483	2	1-483	10	1
+pal	pal	Peptidoglycan-associated lipoprotein	97	1.00	609	1	0	609	1	1	0	1-1	1	0	609	1	1	0	1-1	10	0
+pmpD_2~~~pmpD_1~~~pmpD	pmpD_2;pmpD_1;pmpD	putative outer membrane protein PmpD	97	1.01	4596	1	0	4596	1	1	0	4596-4596	4596	1	4596	1	4596	1	1-4596	6	0
+pmpE~~~pmpE_1~~~pmpE_2	pmpE;pmpE_1;pmpE_2	putative outer membrane protein PmpE	97	1.01	2898	1	0	2898	1	1	0	2898-2898	2898	1	2898	1	2898	1	1-2898	2	0
+pth	pth	Peptidyl-tRNA hydrolase	97	1.00	540	1	0	540	1	1	0	540-540	464	1	540	1	464	1	77-540	6	0
+rapA	rapA	RNA polymerase-associated protein RapA	97	1.00	3492	1	0	3188	2	1	0	3492-3492	1	0	3492	1	1	0	3492-3492	10	3
+recA	recA	Protein RecA	97	1.00	1059	1	0	144	0	1	0	1059-1059	1	0	1059	1	1	0	1059-1059	10	17
+rnz	rnz	Ribonuclease Z	97	1.00	915	1	0	915	1	1	0	915-915	915	1	915	1	915	1	1-915	10	0
+rplI	rplI	50S ribosomal protein L9	97	1.00	504	1	0	504	1	1	0	504-504	1	0	504	1	1	0	504-504	10	0
+rpsC	rpsC	30S ribosomal protein S3	97	1.00	675	1	0	306	1	1	0	675-675	1	0	675	1	1	0	675-675	10	15
+rsbW	rsbW	Serine-protein kinase RsbW	97	1.00	441	1	0	441	1	1	0	441-441	441	1	441	1	441	1	1-441	6	0
+sigA	sigA	RNA polymerase sigma factor SigA	97	1.00	1710	1	0	939	1	1	0	1710-1710	1	0	1710	1	1	0	1710-1710	10	25
+surE	surE	5'-nucleotidase SurE	97	1.00	852	1	0	852	1	1	0	852-852	852	1	852	1	852	1	1-852	7	0
+thrZ	thrZ	Threonine--tRNA ligase 2	97	1.00	1908	1	0	474	4	1	0	1908-1908	1908	1	1908	1	1908	1	1-1908	10	3
+topA	topA	DNA topoisomerase 1	97	1.00	2574	1	0	1468	3	1	0	2574-2574	2574	1	2574	1	2574	1	1-2574	10	5
+trxA	trxA	Thioredoxin	97	1.00	309	1	0	309	1	1	0	309-309	1	0	309	1	1	0	309-309	10	0
+ttcA	ttcA	tRNA-cytidine(32) 2-sulfurtransferase	97	1.00	765	1	0	765	1	1	0	765-765	765	1	765	1	765	1	1-765	10	0
+zwf	zwf	Glucose-6-phosphate 1-dehydrogenase	97	1.00	1524	1	0	744	2	1	0	1-1	1524	1	1524	1	1524	1	1-1524	10	5
+GATC	GATC	Glutamyl-tRNA(Gln) amidotransferase subunit C chloroplastic/mitochondrial	97	1.00	303	0	0	303	1	0	0		0	0	303	1	0	0		3	0
+PSD2	PSD2	Phosphatidylserine decarboxylase proenzyme 2	97	1.00	906	0	0	906	1	0	0		906	1	906	1	906	1	1-906	7	0
+aas	aas	Bifunctional protein Aas	97	1.00	1614	0	0	1614	1	0	0		1614	1	1614	1	1614	1	1-1614	10	0
+aaxA	aaxA	Porin AaxA	97	1.00	1386	0	0	1386	1	0	0		1386	1	1386	1	1386	1	1-1386	10	0
+aaxB	aaxB	Pyruvoyl-dependent arginine decarboxylase AaxB	97	1.00	588	0	0	588	1	0	0		0	0	588	1	0	0		10	0
+accA	accA	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha	97	1.00	975	0	0	328	2	0	0		0	0	975	1	0	0		10	6
+accD	accD	Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta	97	1.00	927	0	0	399	2	0	0		927	1	927	1	927	1	1-927	10	4
+acoA	acoA	Acetoin:26-dichlorophenolindophenol oxidoreductase subunit alpha	97	1.00	1023	0	0	1023	1	0	0		1023	1	1023	1	1023	1	1-1023	10	0
+acpP	acpP	Acyl carrier protein	97	1.00	234	0	0	18	0	0	0		0	0	234	1	0	0		10	1
+acpS	acpS	Holo-[acyl-carrier-protein] synthase	97	1.00	360	0	0	360	1	0	0		360	1	360	1	360	1	1-360	9	0
+ahpC	ahpC	Alkyl hydroperoxide reductase C	97	1.00	588	0	0	588	1	0	0		588	1	588	1	588	1	1-588	10	0
+alsT_1	;alsT_1	hypothetical protein;Amino-acid carrier protein AlsT	97	1.03	1362	0	0	1362	1	0	0		1362	1	1362	1	1362	1	1-1362	10	0
+alsT_2	alsT_2	Amino-acid carrier protein AlsT	97	1.00	1368	0	0	1368	1	0	0		1368	1	1368	1	1368	1	1-1368	10	0
+apbE	apbE	FAD:protein FMN transferase	97	1.00	951	0	0	951	1	0	0		951	1	951	1	951	1	1-951	9	0
+appB	appB	Cytochrome bd-II ubiquinol oxidase subunit 2	97	1.00	1062	0	0	1062	1	0	0		1062	1	1062	1	1062	1	1-1062	9	0
+argS	argS	Arginine--tRNA ligase	97	1.00	1692	0	0	1180	2	0	0		1692	1	1692	1	1692	1	1-1692	10	4
+aroB	aroB	3-dehydroquinate synthase	97	1.00	1122	0	0	1122	1	0	0		1122	1	1122	1	1122	1	1-1122	9	0
+aroC	aroC	Chorismate synthase	97	1.00	1074	0	0	1074	1	0	0		1074	1	1074	1	1074	1	1-1074	10	0
+aroE	aroE	Shikimate dehydrogenase (NADP(+))	97	1.00	1443	0	0	1443	1	0	0		1443	1	1443	1	1443	1	1-1443	3	0
+aroF	aroF	Phospho-2-dehydro-3-deoxyheptonate aldolase	97	1.00	837	0	0	320	1	0	0		837	1	837	1	837	1	1-837	10	1
+aroK	aroK	Shikimate kinase	97	1.00	555	0	0	555	1	0	0		555	1	555	1	555	1	1-555	2	0
+artJ	artJ	putative ABC transporter arginine-binding protein ArtJ	97	1.00	774	0	0	774	1	0	0		774	1	774	1	774	1	1-774	10	0
+aspS	aspS	Aspartate--tRNA(Asp/Asn) ligase	97	1.00	1845	0	0	742	2	0	0		1360	1	1845	1	1360	1	1-1360	10	22
+atoC	atoC	Regulatory protein AtoC	97	1.00	1161	0	0	589	2	0	0		1161	1	1161	1	1161	1	1-1161	10	1
+atoS	atoS	Signal transduction histidine-protein kinase AtoS	97	1.00	1059	0	0	1059	1	0	0		1059	1	1059	1	1059	1	1-1059	10	0
+atpD	atpD	V-type ATP synthase subunit D	97	1.00	615	0	0	615	1	0	0		615	1	615	1	615	1	1-615	10	0
+atpE	atpE	V-type proton ATPase subunit E	97	1.00	627	0	0	627	1	0	0		627	1	627	1	627	1	1-627	10	0
+bamA	bamA	Outer membrane protein assembly factor BamA	97	1.00	2379	0	0	2379	1	0	0		2379	1	2379	1	2379	1	1-2379	10	0
+bdbC	bdbC	disulfide formation protein	97	1.00	408	0	0	408	1	0	0		408	1	408	1	408	1	1-408	10	0
+bepA	bepA	Beta-barrel assembly-enhancing protease	97	1.00	1008	0	0	1008	1	0	0		1008	1	1008	1	1008	1	1-1008	10	0
+bfmBAB	bfmBAB	2-oxoisovalerate dehydrogenase subunit beta	97	1.00	987	0	0	987	1	0	0		0	0	987	1	0	0		10	0
+brnQ	brnQ	Branched-chain amino acid transport system 2 carrier protein	97	1.00	1236	0	0	1236	1	0	0		1236	1	1236	1	1236	1	1-1236	9	0
+cadA	cadA	putative cadmium-transporting ATPase	97	1.00	1980	0	0	1980	1	0	0		1980	1	1980	1	1980	1	1-1980	10	0
+cca	cca	CCA-adding enzyme	97	1.00	1233	0	0	1233	1	0	0		1233	1	1233	1	1233	1	1-1233	10	0
+cdaA_1~~~cdaA_2~~~cdaA	cdaA_1;cdaA_2;cdaA	Cyclic di-AMP synthase CdaA	97	1.01	693	0	0	693	1	0	0		693	1	693	1	693	1	1-693	10	0
+chxR	chxR	Atypical response regulator protein ChxR	97	1.00	702	0	0	702	1	0	0		702	1	702	1	702	1	1-702	10	0
+clpB1	clpB1	Chaperone protein ClpB 1	97	1.00	2604	0	0	477	3	0	0		2604	1	2604	1	2604	1	1-2604	10	25
+clpC	clpC	ATP-dependent Clp protease ATP-binding subunit ClpC	97	1.00	2565	0	0	612	2	0	0		0	0	1164	3	0	0		10	24
+clpP	clpP	ATP-dependent Clp protease proteolytic subunit	97	1.00	612	0	0	171	1	0	0		0	0	612	1	0	0		10	8
+clpP1	clpP1	ATP-dependent Clp protease proteolytic subunit 1	97	1.00	579	0	0	579	1	0	0		0	0	579	1	0	0		10	0
+clpX	clpX	ATP-dependent Clp protease ATP-binding subunit ClpX	97	1.00	1260	0	0	474	2	0	0		0	0	1260	1	0	0		10	16
+clsA_1	clsA_1	Cardiolipin synthase A	97	1.00	1161	0	0	1161	1	0	0		1161	1	1161	1	1161	1	1-1161	8	0
+cmk	cmk	Cytidylate kinase	97	1.00	651	0	0	651	1	0	0		651	1	651	1	651	1	1-651	10	0
+coaE	coaE	Dephospho-CoA kinase	97	1.00	609	0	0	609	1	0	0		0	0	609	1	0	0		10	0
+cpdA	cpdA	3'5'-cyclic adenosine monophosphate phosphodiesterase CpdA	97	1.00	873	0	0	873	1	0	0		873	1	873	1	873	1	1-873	8	0
+cpoB	cpoB	Cell division coordinator CpoB	97	1.00	957	0	0	957	1	0	0		957	1	957	1	957	1	1-957	9	0
+crp	crp	CRP-like cAMP-activated global transcriptional regulator	97	1.00	414	0	0	414	1	0	0		414	1	414	1	414	1	1-414	6	0
+cydA	cydA	Cytochrome bd ubiquinol oxidase subunit 1	97	1.00	1341	0	0	661	2	0	0		1341	1	1341	1	1341	1	1-1341	10	1
+cysJ	cysJ	Sulfite reductase [NADPH] flavoprotein alpha-component	97	1.00	1056	0	0	1056	1	0	0		1056	1	1056	1	1056	1	1-1056	9	0
+cysQ	cysQ	3'(2')5'-bisphosphate nucleotidase CysQ	97	1.00	1029	0	0	1029	1	0	0		1029	1	1029	1	1029	1	1-1029	7	0
+dapA	dapA	4-hydroxy-tetrahydrodipicolinate synthase	97	1.00	861	0	0	861	1	0	0		861	1	861	1	861	1	1-861	2	0
+dapB	dapB	4-hydroxy-tetrahydrodipicolinate reductase	97	1.00	762	0	0	762	1	0	0		762	1	762	1	762	1	1-762	8	0
+dapF	dapF	Diaminopimelate epimerase	97	1.00	828	0	0	828	1	0	0		769	1	828	1	769	1	60-828	8	0
+dauA	dauA	C4-dicarboxylic acid transporter DauA	97	1.00	1701	0	0	1701	1	0	0		1701	1	1701	1	1701	1	1-1701	10	0
+dcd	dcd	dCTP deaminase	97	1.00	573	0	0	243	1	0	0		573	1	573	1	573	1	1-573	10	1
+ddpF	ddpF	putative DD-dipeptide transport ATP-binding protein DdpF	97	1.00	744	0	0	744	1	0	0		744	1	744	1	744	1	1-744	10	0
+def	def	Peptide deformylase	97	1.00	546	0	0	546	1	0	0		546	1	546	1	546	1	1-546	7	0
+der	der	GTPase Der	97	1.00	1473	0	0	1473	1	0	0		1473	1	1473	1	1473	1	1-1473	10	0
+dinG_1	dinG_1	3'-5' exonuclease DinG	97	1.00	699	0	0	699	1	0	0		699	1	699	1	699	1	1-699	10	0
+dinG_2	dinG_2	3'-5' exonuclease DinG	97	1.00	753	0	0	753	1	0	0		1	0	753	1	1	0	753-753	10	0
+dnaC	dnaC	Replicative DNA helicase	97	1.00	1419	0	0	681	2	0	0		1419	1	1419	1	1419	1	1-1419	10	1
+dnaE	dnaE	DNA polymerase III subunit alpha	97	1.00	3714	0	0	1411	3	0	0		3714	1	3714	1	3714	1	1-3714	10	6
+dnaJ	dnaJ	Chaperone protein DnaJ	97	1.00	1179	0	0	915	1	0	0		0	0	1179	1	0	0		10	5
+dnaK	dnaK	Chaperone protein DnaK	97	1.00	1983	0	0	334	1	0	0		0	0	1983	1	0	0		10	25
+dnaN	dnaN	Beta sliding clamp	97	1.00	1101	0	0	1101	1	0	0		1101	1	1101	1	1101	1	1-1101	10	0
+dsbD	dsbD	Thiol:disulfide interchange protein DsbD	97	1.00	2079	0	0	2079	1	0	0		2079	1	2079	1	2079	1	1-2079	10	0
+dtd3	dtd3	D-aminoacyl-tRNA deacylase	97	1.00	792	0	0	792	1	0	0		792	1	792	1	792	1	1-792	10	0
+dut	dut	Deoxyuridine 5'-triphosphate nucleotidohydrolase	97	1.00	438	0	0	438	1	0	0		438	1	438	1	438	1	1-438	7	0
+dxr	dxr	1-deoxy-D-xylulose 5-phosphate reductoisomerase	97	1.00	1140	0	0	594	2	0	0		1140	1	1140	1	1140	1	1-1140	10	1
+dxs_2	dxs_2	1-deoxy-D-xylulose-5-phosphate synthase	97	1.00	2037	0	0	1109	2	0	0		2037	1	2037	1	2037	1	1-2037	10	2
+efp_1	efp_1	Elongation factor P	97	1.00	558	0	0	558	1	0	0		0	0	558	1	0	0		10	0
+efp_2	efp_2	Elongation factor P	97	1.00	573	0	0	573	1	0	0		0	0	573	1	0	0		10	0
+eno	eno	Enolase	97	1.00	1275	0	0	284	1	0	0		1275	1	1275	1	1275	1	1-1275	10	14
+exbB	exbB	Biopolymer transport protein ExbB	97	1.00	699	0	0	699	1	0	0		0	0	699	1	0	0		10	0
+fabD	fabD	Malonyl CoA-acyl carrier protein transacylase	97	1.00	927	0	0	927	1	0	0		927	1	927	1	927	1	1-927	10	0
+fabF	fabF	3-oxoacyl-[acyl-carrier-protein] synthase 2	97	1.00	1257	0	0	1257	1	0	0		0	0	1257	1	0	0		10	0
+fabG	fabG	3-oxoacyl-[acyl-carrier-protein] reductase FabG	97	1.00	747	0	0	374	2	0	0		747	1	747	1	747	1	1-747	9	1
+fabI	fabI	Enoyl-[acyl-carrier-protein] reductase [NADH] FabI	97	1.00	897	0	0	897	1	0	0		897	1	897	1	897	1	1-897	10	0
+fabZ	fabZ	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ	97	1.00	462	0	0	232	1	0	0		0	0	462	1	0	0		10	4
+fbaB	fbaB	Fructose-bisphosphate aldolase class 1	97	1.00	1047	0	0	173	1	0	0		0	0	1047	1	0	0		10	2
+ffh	ffh	Signal recognition particle protein	97	1.00	1347	0	0	717	2	0	0		1347	1	1347	1	1347	1	1-1347	10	1
+flhA	flhA	Flagellar biosynthesis protein FlhA	97	1.00	1818	0	0	1281	2	0	0		1818	1	1818	1	1818	1	1-1818	10	1
+fliY	fliY	L-cystine-binding protein FliY	97	1.00	786	0	0	786	1	0	0		786	1	786	1	786	1	1-786	10	0
+frdA_2~~~frdA_1~~~frdA	frdA_2;frdA_1;frdA	Fumarate reductase flavoprotein subunit	97	1.40	1881	0	0	651	2	0	0		1881	1	1881	1	1881	1	1-1881	10	2
+frdB	;frdB	hypothetical protein;Fumarate reductase iron-sulfur subunit	97	1.00	717	0	0	717	1	0	0		717	1	717	1	717	1	1-717	10	0
+frr	frr	Ribosome-recycling factor	97	1.00	540	0	0	540	1	0	0		0	0	540	1	0	0		10	0
+ftsH	ftsH	ATP-dependent zinc metalloprotease FtsH	97	1.00	2742	0	0	1218	2	0	0		0	0	2742	1	0	0		10	24
+ftsI	ftsI	Peptidoglycan DD-transpeptidase FtsI	97	1.00	1944	0	0	1944	1	0	0		1944	1	1944	1	1944	1	1-1944	10	0
+ftsK	ftsK	DNA translocase FtsK	97	1.00	2439	0	0	1864	2	0	0		2439	1	2439	1	2439	1	1-2439	10	3
+fumC_3~~~fumC_2~~~fumC_1~~~fumC	fumC_3;fumC_2;fumC_1;fumC	Fumarate hydratase class II	97	1.55	1392	0	0	391	3	0	0		1392	1	1392	1	1392	1	1-1392	10	6
+fusA	fusA	Elongation factor G	97	1.00	2085	0	0	427	1	0	0		0	0	2085	1	0	0		10	25
+gadC	gadC	Glutamate/gamma-aminobutyrate antiporter	97	1.00	1401	0	0	1401	1	0	0		1401	1	1401	1	1401	1	1-1401	10	0
+gap	gap	Glyceraldehyde-3-phosphate dehydrogenase	97	1.00	1005	0	0	378	1	0	0		0	0	1005	1	0	0		10	6
+gatA	gatA	Glutamyl-tRNA(Gln) amidotransferase subunit A	97	1.00	1476	0	0	433	3	0	0		1476	1	1476	1	1476	1	1-1476	10	10
+gatB	gatB	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B	97	1.00	1467	0	0	801	2	0	0		6	0	1467	1	6	0	1462-1467	10	4
+gcvH	gcvH	Glycine cleavage system H protein	97	1.00	354	0	0	354	1	0	0		354	1	354	1	354	1	1-354	7	0
+glgA	glgA	Glycogen synthase	97	1.00	1425	0	0	1425	1	0	0		1425	1	1425	1	1425	1	1-1425	10	0
+glgB	glgB	14-alpha-glucan branching enzyme GlgB	97	1.00	2217	0	0	814	2	0	0		2217	1	2217	1	2217	1	1-2217	10	3
+glgC	glgC	Glucose-1-phosphate adenylyltransferase	97	1.00	1326	0	0	1326	1	0	0		1326	1	1326	1	1326	1	1-1326	10	0
+glmM	glmM	Phosphoglucosamine mutase	97	1.00	1377	0	0	1021	2	0	0		1377	1	1377	1	1377	1	1-1377	10	4
+glmS	glmS	Glutamine--fructose-6-phosphate aminotransferase [isomerizing]	97	1.00	1821	0	0	1065	3	0	0		1821	1	1821	1	1821	1	1-1821	10	2
+gltT	gltT	Proton/sodium-glutamate symport protein	97	1.00	1239	0	0	1239	1	0	0		1239	1	1239	1	1239	1	1-1239	10	0
+glyA	glyA	Serine hydroxymethyltransferase	97	1.00	1494	0	0	733	2	0	0		1494	1	1494	1	1494	1	1-1494	10	1
+gmk	gmk	Guanylate kinase	97	1.00	618	0	0	618	1	0	0		618	1	618	1	618	1	1-618	10	0
+gph	gph	Phosphoglycolate phosphatase	97	1.00	675	0	0	675	1	0	0		675	1	675	1	675	1	1-675	5	0
+gpmA	gpmA	23-bisphosphoglycerate-dependent phosphoglycerate mutase	97	1.00	681	0	0	681	1	0	0		681	1	681	1	681	1	1-681	10	0
+gpsA	gpsA	Glycerol-3-phosphate dehydrogenase [NAD(P)+]	97	1.00	1005	0	0	1005	1	0	0		1005	1	1005	1	1005	1	1-1005	10	0
+greA	greA	Transcription elongation factor GreA	97	1.00	2148	0	0	2148	1	0	0		2148	1	2148	1	2148	1	1-2148	10	0
+groL_1	groL_1	60 kDa chaperonin	97	1.00	1635	0	0	7	0	0	0		0	0	1635	1	0	0		10	22
+groL_2	groL_2	60 kDa chaperonin	97	1.00	1539	0	0	1539	1	0	0		1539	1	1539	1	1539	1	1-1539	2	0
+groS	groS	10 kDa chaperonin	97	1.00	309	0	0	309	1	0	0		0	0	309	1	0	0		10	0
+group_0		hypothetical protein	97	1.00	2508	0	0	2508	1	0	0		2508	1	2508	1	2508	1	1-2508	10	0
+group_1		hypothetical protein	97	1.00	1962	0	0	1962	1	0	0		1962	1	1962	1	1962	1	1-1962	5	0
+group_100		hypothetical protein	97	1.00	1182	0	0	1182	1	0	0		1182	1	1182	1	1182	1	1-1182	10	0
+group_101		hypothetical protein	97	1.00	2634	0	0	2634	1	0	0		2634	1	2634	1	2634	1	1-2634	10	0
+group_104		8-amino-7-oxononanoate synthase/2-amino-3-ketobutyrate coenzyme A ligase	97	1.00	1134	0	0	1134	1	0	0		1134	1	1134	1	1134	1	1-1134	5	0
+group_105		hypothetical protein	97	1.00	1122	0	0	1122	1	0	0		1122	1	1122	1	1122	1	1-1122	10	0
+group_106		hypothetical protein	97	1.00	1110	0	0	1110	1	0	0		1110	1	1110	1	1110	1	1-1110	10	0
+group_107		hypothetical protein	97	1.00	1101	0	0	1101	1	0	0		1101	1	1101	1	1101	1	1-1101	10	0
+group_11		hypothetical protein	97	1.01	1179	0	0	1179	1	0	0		1179	1	1179	1	1179	1	1-1179	5	0
+group_110		putative peptidase	97	1.00	1071	0	0	1071	1	0	0		1071	1	1071	1	1071	1	1-1071	10	0
+group_111		hypothetical protein	97	1.00	1065	0	0	1065	1	0	0		1065	1	1065	1	1065	1	1-1065	10	0
+group_112		hypothetical protein	97	1.00	1053	0	0	1053	1	0	0		1053	1	1053	1	1053	1	1-1053	10	0
+group_113		hypothetical protein	97	1.00	1053	0	0	1053	1	0	0		1053	1	1053	1	1053	1	1-1053	10	0
+group_114		hypothetical protein	97	1.00	1023	0	0	1023	1	0	0		1023	1	1023	1	1023	1	1-1023	10	0
+group_115		hypothetical protein	97	1.00	1008	0	0	1008	1	0	0		1008	1	1008	1	1008	1	1-1008	8	0
+group_116		hypothetical protein	97	1.00	1002	0	0	1002	1	0	0		1002	1	1002	1	1002	1	1-1002	10	0
+group_118		hypothetical protein	97	1.00	999	0	0	999	1	0	0		999	1	999	1	999	1	1-999	9	0
+group_120		hypothetical protein	97	1.00	993	0	0	993	1	0	0		993	1	993	1	993	1	1-993	5	0
+group_121		hypothetical protein	97	1.00	990	0	0	990	1	0	0		990	1	990	1	990	1	1-990	10	0
+group_122		hypothetical protein	97	1.00	990	0	0	990	1	0	0		936	1	990	1	936	1	1-936	9	0
+group_123		hypothetical protein	97	1.00	981	0	0	981	1	0	0		981	1	981	1	981	1	1-981	10	0
+group_124		hypothetical protein	97	1.00	978	0	0	978	1	0	0		1	0	978	1	1	0	978-978	10	0
+group_125		hypothetical protein	97	1.00	966	0	0	966	1	0	0		966	1	966	1	966	1	1-966	10	0
+group_127		hypothetical protein	97	1.00	951	0	0	951	1	0	0		951	1	951	1	951	1	1-951	10	0
+group_131		hypothetical protein	97	1.00	921	0	0	921	1	0	0		921	1	921	1	921	1	1-921	10	0
+group_132		hypothetical protein	97	1.00	918	0	0	918	1	0	0		918	1	918	1	918	1	1-918	9	0
+group_134		hypothetical protein	97	1.00	897	0	0	897	1	0	0		897	1	897	1	897	1	1-897	10	0
+group_136		hypothetical protein	97	1.00	870	0	0	870	1	0	0		870	1	870	1	870	1	1-870	10	0
+group_137		hypothetical protein	97	1.00	870	0	0	870	1	0	0		0	0	870	1	0	0		10	0
+group_139		hypothetical protein	97	1.00	867	0	0	867	1	0	0		867	1	867	1	867	1	1-867	10	0
+group_141		putative protein CT_671	97	1.00	852	0	0	852	1	0	0		852	1	852	1	852	1	1-852	9	0
+group_142		hypothetical protein	97	1.00	837	0	0	837	1	0	0		837	1	837	1	837	1	1-837	10	0
+group_143		hypothetical protein	97	1.00	831	0	0	831	1	0	0		831	1	831	1	831	1	1-831	10	0
+group_145		hypothetical protein	97	1.00	795	0	0	795	1	0	0		795	1	795	1	795	1	1-795	10	0
+group_146		hypothetical protein	97	1.00	792	0	0	792	1	0	0		792	1	792	1	792	1	1-792	10	0
+group_147		hypothetical protein	97	1.00	792	0	0	792	1	0	0		792	1	792	1	792	1	1-792	10	0
+group_151		hypothetical protein	97	1.00	783	0	0	783	1	0	0		783	1	783	1	783	1	1-783	10	0
+group_152		hypothetical protein	97	1.00	774	0	0	774	1	0	0		774	1	774	1	774	1	1-774	10	0
+group_153		hypothetical protein	97	1.00	765	0	0	765	1	0	0		0	0	765	1	0	0		10	0
+group_155		hypothetical protein	97	1.00	750	0	0	750	1	0	0		0	0	750	1	0	0		10	0
+group_156		hypothetical protein	97	1.00	747	0	0	747	1	0	0		747	1	747	1	747	1	1-747	8	0
+group_157		hypothetical protein	97	1.00	744	0	0	744	1	0	0		744	1	744	1	744	1	1-744	7	0
+group_158		hypothetical protein	97	1.00	735	0	0	735	1	0	0		735	1	735	1	735	1	1-735	10	0
+group_16		hypothetical protein	97	1.00	1827	0	0	1827	1	0	0		1827	1	1827	1	1827	1	1-1827	2	0
+group_161		hypothetical protein	97	1.00	729	0	0	729	1	0	0		729	1	729	1	729	1	1-729	10	0
+group_162		hypothetical protein	97	1.00	720	0	0	720	1	0	0		720	1	720	1	720	1	1-720	10	0
+group_163		hypothetical protein	97	1.00	717	0	0	717	1	0	0		717	1	717	1	717	1	1-717	10	0
+group_164		hypothetical protein	97	1.00	717	0	0	717	1	0	0		0	0	717	1	0	0		10	0
+group_165		hypothetical protein	97	1.00	699	0	0	699	1	0	0		699	1	699	1	699	1	1-699	10	0
+group_166		queuosine precursor transporter	97	1.00	687	0	0	687	1	0	0		687	1	687	1	687	1	1-687	8	0
+group_168		hypothetical protein	97	1.00	678	0	0	678	1	0	0		678	1	678	1	678	1	1-678	9	0
+group_170		hypothetical protein	97	1.00	672	0	0	672	1	0	0		672	1	672	1	672	1	1-672	10	0
+group_171		hypothetical protein	97	1.00	666	0	0	666	1	0	0		0	0	666	1	0	0		10	0
+group_172		hypothetical protein	97	1.00	660	0	0	660	1	0	0		660	1	660	1	660	1	1-660	4	0
+group_173		hypothetical protein	97	1.00	660	0	0	660	1	0	0		660	1	660	1	660	1	1-660	10	0
+group_179		dITP/XTP pyrophosphatase	97	1.00	630	0	0	429	1	0	0		630	1	630	1	630	1	1-630	10	1
+group_182		hypothetical protein	97	1.00	585	0	0	585	1	0	0		585	1	585	1	585	1	1-585	10	0
+group_183		hypothetical protein	97	1.00	585	0	0	585	1	0	0		585	1	585	1	585	1	1-585	10	0
+group_186		hypothetical protein	97	1.00	579	0	0	579	1	0	0		579	1	579	1	579	1	1-579	2	0
+group_188		hypothetical protein	97	1.00	567	0	0	567	1	0	0		567	1	567	1	567	1	1-567	10	0
+group_19		hypothetical protein	97	1.00	897	0	0	897	1	0	0		897	1	897	1	897	1	1-897	2	0
+group_190		Early upstream open reading frame	97	1.00	552	0	0	552	1	0	0		552	1	552	1	552	1	1-552	10	0
+group_191		Protein/CP_1068/CPj0803/CpB0832	97	1.00	552	0	0	552	1	0	0		0	0	552	1	0	0		10	0
+group_192		hypothetical protein	97	1.00	537	0	0	537	1	0	0		537	1	537	1	537	1	1-537	3	0
+group_193		hypothetical protein	97	1.00	528	0	0	528	1	0	0		528	1	528	1	528	1	1-528	8	0
+group_194		hypothetical protein	97	1.00	525	0	0	525	1	0	0		525	1	525	1	525	1	1-525	2	0
+group_195		hypothetical protein	97	1.00	525	0	0	525	1	0	0		525	1	525	1	525	1	1-525	2	0
+group_196		hypothetical protein	97	1.00	522	0	0	522	1	0	0		522	1	522	1	522	1	1-522	10	0
+group_197		hypothetical protein	97	1.00	522	0	0	522	1	0	0		522	1	522	1	522	1	1-522	9	0
+group_198		hypothetical protein	97	1.00	519	0	0	519	1	0	0		519	1	519	1	519	1	1-519	9	0
+group_199		hypothetical protein	97	1.00	513	0	0	513	1	0	0		513	1	513	1	513	1	1-513	9	0
+group_200		hypothetical protein	97	1.00	507	0	0	507	1	0	0		0	0	507	1	0	0		10	0
+group_202		hypothetical protein	97	1.00	504	0	0	504	1	0	0		0	0	504	1	0	0		10	0
+group_203		hypothetical protein	97	1.00	504	0	0	504	1	0	0		504	1	504	1	504	1	1-504	10	0
+group_204		hypothetical protein	97	1.00	501	0	0	501	1	0	0		501	1	501	1	501	1	1-501	9	0
+group_205		hypothetical protein	97	1.00	495	0	0	495	1	0	0		495	1	495	1	495	1	1-495	10	0
+group_206		hypothetical protein	97	1.00	495	0	0	495	1	0	0		1	0	495	1	1	0	495-495	10	0
+group_209		hypothetical protein	97	1.00	489	0	0	489	1	0	0		489	1	489	1	489	1	1-489	8	0
+group_21		hypothetical protein	97	1.00	3012	0	0	2491	1	0	0		3012	1	3012	1	3012	1	1-3012	10	13
+group_210		hypothetical protein	97	1.00	483	0	0	483	1	0	0		483	1	483	1	483	1	1-483	7	0
+group_212		hypothetical protein	97	1.00	480	0	0	480	1	0	0		480	1	480	1	480	1	1-480	10	0
+group_213		hypothetical protein	97	1.00	480	0	0	480	1	0	0		480	1	480	1	480	1	1-480	3	0
+group_214		hypothetical protein	97	1.00	480	0	0	480	1	0	0		0	0	480	1	0	0		10	0
+group_215		hypothetical protein	97	1.00	477	0	0	477	1	0	0		0	0	477	1	0	0		10	0
+group_217		hypothetical protein	97	1.00	474	0	0	474	1	0	0		474	1	474	1	474	1	1-474	5	0
+group_219		hypothetical protein	97	1.00	462	0	0	462	1	0	0		462	1	462	1	462	1	1-462	3	0
+group_220		hypothetical protein	97	1.00	453	0	0	453	1	0	0		453	1	453	1	453	1	1-453	10	0
+group_221		hypothetical protein	97	1.00	453	0	0	453	1	0	0		0	0	453	1	0	0		10	0
+group_222		hypothetical protein	97	1.00	450	0	0	450	1	0	0		450	1	450	1	450	1	1-450	10	0
+group_223		hypothetical protein	97	1.00	447	0	0	447	1	0	0		0	0	447	1	0	0		10	0
+group_226		hypothetical protein	97	1.00	444	0	0	444	1	0	0		444	1	444	1	444	1	1-444	9	0
+group_227		hypothetical protein	97	1.00	441	0	0	441	1	0	0		441	1	441	1	441	1	1-441	10	0
+group_228		hypothetical protein	97	1.00	435	0	0	435	1	0	0		0	0	435	1	0	0		10	0
+group_23		hypothetical protein	97	1.00	2925	0	0	2925	1	0	0		2925	1	2925	1	2925	1	1-2925	10	0
+group_230		hypothetical protein	97	1.00	429	0	0	429	1	0	0		429	1	429	1	429	1	1-429	2	0
+group_232		hypothetical protein	97	1.00	420	0	0	420	1	0	0		20	0	420	1	20	0	401-420	10	0
+group_233		hypothetical protein	97	1.00	420	0	0	420	1	0	0		420	1	420	1	420	1	1-420	6	0
+group_236		hypothetical protein	97	1.00	408	0	0	408	1	0	0		408	1	408	1	408	1	1-408	7	0
+group_237		hypothetical protein	97	1.00	402	0	0	402	1	0	0		0	0	402	1	0	0		9	0
+group_239		hypothetical protein	97	1.00	393	0	0	393	1	0	0		393	1	393	1	393	1	1-393	7	0
+group_24		hypothetical protein	97	1.00	1380	0	0	1380	1	0	0		1380	1	1380	1	1380	1	1-1380	9	0
+group_241		hypothetical protein	97	1.00	369	0	0	369	1	0	0		369	1	369	1	369	1	1-369	7	0
+group_243		hypothetical protein	97	1.00	366	0	0	366	1	0	0		366	1	366	1	366	1	1-366	2	0
+group_244		hypothetical protein	97	1.00	360	0	0	360	1	0	0		360	1	360	1	360	1	1-360	7	0
+group_245		hypothetical protein	97	1.00	351	0	0	351	1	0	0		0	0	351	1	0	0		7	0
+group_248		hypothetical protein	97	1.00	345	0	0	345	1	0	0		345	1	345	1	345	1	1-345	2	0
+group_249		hypothetical protein	97	1.00	345	0	0	345	1	0	0		0	0	345	1	0	0		10	0
+group_250		hypothetical protein	97	1.00	339	0	0	339	1	0	0		339	1	339	1	339	1	1-339	2	0
+group_251		Purine nucleoside phosphoramidase	97	1.00	336	0	0	336	1	0	0		0	0	336	1	0	0		10	0
+group_254		hypothetical protein	97	1.00	330	0	0	330	1	0	0		330	1	330	1	330	1	1-330	9	0
+group_255		hypothetical protein	97	1.00	330	0	0	330	1	0	0		0	0	330	1	0	0		9	0
+group_257		hypothetical protein	97	1.00	309	0	0	309	1	0	0		0	0	309	1	0	0		8	0
+group_258		hypothetical protein	97	1.00	303	0	0	303	1	0	0		0	0	303	1	0	0		10	0
+group_26		hypothetical protein	97	1.01	1683	0	0	1683	1	0	0		1683	1	1683	1	1683	1	1-1683	10	0
+group_260		hypothetical protein	97	1.00	297	0	0	297	1	0	0		0	0	297	1	0	0		10	0
+group_262		hypothetical protein	97	1.00	288	0	0	288	1	0	0		0	0	288	1	0	0		7	0
+group_263		hypothetical protein	97	1.00	285	0	0	285	1	0	0		0	0	285	1	0	0		10	0
+group_264		hypothetical protein	97	1.00	279	0	0	279	1	0	0		279	1	279	1	279	1	1-279	2	0
+group_265		hypothetical protein	97	1.00	255	0	0	255	1	0	0		0	0	255	1	0	0		5	0
+group_267		hypothetical protein	97	1.00	252	0	0	252	1	0	0		252	1	252	1	252	1	1-252	2	0
+group_268		putative protein CT_666	97	1.00	252	0	0	252	1	0	0		0	0	252	1	0	0		10	0
+group_270		hypothetical protein	97	1.00	237	0	0	237	1	0	0		0	0	237	1	0	0		10	0
+group_271		hypothetical protein	97	1.00	228	0	0	228	1	0	0		228	1	228	1	228	1	1-228	2	0
+group_272		hypothetical protein	97	1.00	225	0	0	225	1	0	0		225	1	225	1	225	1	1-225	2	0
+group_273		hypothetical protein	97	1.00	219	0	0	219	1	0	0		0	0	219	1	0	0		9	0
+group_274		hypothetical protein	97	1.00	204	0	0	204	1	0	0		204	1	204	1	204	1	1-204	2	0
+group_275		hypothetical protein	97	1.00	189	0	0	189	1	0	0		0	0	189	1	0	0		8	0
+group_278		hypothetical protein	97	1.00	180	0	0	180	1	0	0		6	0	180	1	6	0	175-180	8	0
+group_279		hypothetical protein	97	1.00	177	0	0	177	1	0	0		0	0	177	1	0	0		10	0
+group_28		hypothetical protein	97	1.01	1164	0	0	1164	1	0	0		1002	1	1164	1	1002	1	163-1164	10	0
+group_281		hypothetical protein	97	1.00	162	0	0	162	1	0	0		1	0	162	1	1	0	162-162	10	0
+group_282		hypothetical protein	97	1.00	162	0	0	162	1	0	0		162	1	162	1	162	1	1-162	2	0
+group_283		hypothetical protein	97	1.00	138	0	0	138	0	0	0		0	0	138	0	0	0		10	0
+group_285		putative transcriptional regulatory protein/MSMEI_2866;putative transcriptional regulatory protein	97	1.00	717	0	0	368	1	0	0		717	1	674	1	674	1	44-717	10	2
+group_288		hypothetical protein	97	1.00	888	0	0	888	1	0	0		888	1	888	1	888	1	1-888	10	0
+group_289		hypothetical protein	97	1.00	252	0	0	252	1	0	0		0	0	252	1	0	0		10	0
+group_290		hypothetical protein	97	1.00	690	0	0	690	1	0	0		690	1	690	1	690	1	1-690	3	0
+group_294		hypothetical protein	97	1.00	861	0	0	861	1	0	0		861	1	861	1	861	1	1-861	10	0
+group_296		hypothetical protein	97	1.00	273	0	0	273	1	0	0		273	1	273	1	273	1	1-273	2	0
+group_298		hypothetical protein	97	1.00	801	0	0	801	1	0	0		0	0	801	1	0	0		10	0
+group_3		hypothetical protein	97	1.00	867	0	0	867	1	0	0		867	1	867	1	867	1	1-867	2	0
+group_301		hypothetical protein	97	1.00	255	0	0	255	1	0	0		0	0	255	1	0	0		10	0
+group_304		hypothetical protein	97	1.00	948	0	0	948	1	0	0		948	1	948	1	948	1	1-948	6	0
+group_306		hypothetical protein	97	1.00	1521	0	0	1521	1	0	0		1521	1	1521	1	1521	1	1-1521	8	0
+group_310		hypothetical protein	97	1.00	1257	0	0	1257	1	0	0		1257	1	1257	1	1257	1	1-1257	10	0
+group_311		hypothetical protein	97	1.00	351	0	0	351	1	0	0		1	0	351	1	1	0	351-351	10	0
+group_312		hypothetical protein	97	1.00	1728	0	0	1728	1	0	0		1728	1	1728	1	1728	1	1-1728	5	0
+group_316		hypothetical protein	97	1.00	570	0	0	570	1	0	0		570	1	570	1	570	1	1-570	10	0
+group_317		hypothetical protein	97	1.00	738	0	0	738	1	0	0		738	1	738	1	738	1	1-738	8	0
+group_321		hypothetical protein	97	1.00	1188	0	0	1188	1	0	0		1188	1	1188	1	1188	1	1-1188	9	0
+group_322		hypothetical protein	97	1.01	1011	0	0	1011	1	0	0		1011	1	1011	1	1011	1	1-1011	10	0
+group_328		hypothetical protein	97	1.00	1647	0	0	1647	1	0	0		1647	1	1647	1	1647	1	1-1647	2	0
+group_329		hypothetical protein	97	1.00	846	0	0	846	1	0	0		0	0	846	1	0	0		8	0
+group_331		hypothetical protein	97	1.00	357	0	0	357	1	0	0		357	1	357	1	357	1	1-357	2	0
+group_332		hypothetical protein	97	1.00	261	0	0	261	1	0	0		0	0	261	1	0	0		10	0
+group_334		hypothetical protein	97	1.00	627	0	0	627	1	0	0		627	1	627	1	627	1	1-627	2	0
+group_339		hypothetical protein	97	1.00	519	0	0	519	1	0	0		519	1	519	1	519	1	1-519	10	0
+group_340		hypothetical protein	97	1.00	801	0	0	801	1	0	0		801	1	801	1	801	1	1-801	10	0
+group_341		hypothetical protein	97	1.02	465	0	0	465	1	0	0		465	1	465	1	465	1	1-465	6	0
+group_342		hypothetical protein	97	1.02	984	0	0	984	1	0	0		984	1	984	1	984	1	1-984	10	0
+group_343		hypothetical protein	97	1.00	711	0	0	711	1	0	0		711	1	711	1	711	1	1-711	9	0
+group_346		hypothetical protein	97	1.00	897	0	0	897	1	0	0		897	1	897	1	897	1	1-897	10	0
+group_347		hypothetical protein	97	1.00	336	0	0	336	1	0	0		0	0	336	1	0	0		10	0
+group_350		hypothetical protein	97	1.00	162	0	0	162	1	0	0		0	0	162	1	0	0		10	0
+group_352		hypothetical protein	97	1.00	1314	0	0	1314	1	0	0		1314	1	1314	1	1314	1	1-1314	10	0
+group_355		hypothetical protein	97	1.00	522	0	0	522	1	0	0		281	2	522	1	281	2	1-281	4	0
+group_356		hypothetical protein	97	1.01	2103	0	0	2103	1	0	0		2103	1	2103	1	2103	1	1-2103	10	0
+group_357		hypothetical protein	97	1.00	273	0	0	273	1	0	0		273	1	273	1	273	1	1-273	6	0
+group_359		hypothetical protein	97	1.00	297	0	0	297	1	0	0		0	0	297	1	0	0		10	0
+group_360		hypothetical protein	97	1.00	843	0	0	843	1	0	0		843	1	843	1	843	1	1-843	2	0
+group_361		hypothetical protein	97	1.01	1281	0	0	1281	1	0	0		1281	1	1281	1	1281	1	1-1281	10	0
+group_364		hypothetical protein	97	1.00	705	0	0	705	1	0	0		705	1	705	1	705	1	1-705	9	0
+group_44		hypothetical protein	97	1.00	2490	0	0	2490	1	0	0		1756	2	2490	1	1756	2	735-2490	10	0
+group_47		hypothetical protein	97	1.00	2304	0	0	2304	1	0	0		2304	1	2304	1	2304	1	1-2304	10	0
+group_48		hypothetical protein	97	1.00	2091	0	0	2091	1	0	0		2091	1	2091	1	2091	1	1-2091	10	0
+group_49		hypothetical protein	97	1.00	2076	0	0	2076	1	0	0		2076	1	2076	1	2076	1	1-2076	10	0
+group_5		hypothetical protein	97	1.00	771	0	0	771	1	0	0		771	1	771	1	771	1	1-771	9	0
+group_51		hypothetical protein	97	1.00	1977	0	0	1977	1	0	0		1907	1	1977	1	1907	1	71-1977	10	0
+group_54		hypothetical protein	97	1.00	1950	0	0	1950	1	0	0		1950	1	1950	1	1950	1	1-1950	10	0
+group_55		hypothetical protein	97	1.00	1872	0	0	1872	1	0	0		1872	1	1872	1	1872	1	1-1872	10	0
+group_56		hypothetical protein	97	1.00	1866	0	0	1866	1	0	0		1866	1	1866	1	1866	1	1-1866	10	0
+group_57		hypothetical protein	97	1.00	1860	0	0	1860	1	0	0		1860	1	1860	1	1860	1	1-1860	10	0
+group_58		hypothetical protein	97	1.00	1809	0	0	1809	1	0	0		1809	1	1809	1	1809	1	1-1809	10	0
+group_59		Protein CT_858	97	1.00	1806	0	0	1806	1	0	0		1806	1	1806	1	1806	1	1-1806	10	0
+group_6		hypothetical protein	97	1.00	3417	0	0	3417	1	0	0		3417	1	3417	1	3417	1	1-3417	10	0
+group_61		4-hydroxybenzoate decarboxylase subunit C	97	1.00	1740	0	0	1740	1	0	0		1740	1	1740	1	1740	1	1-1740	10	0
+group_62		hypothetical protein	97	1.00	1737	0	0	1737	1	0	0		1737	1	1737	1	1737	1	1-1737	10	0
+group_63		hypothetical protein	97	1.00	1701	0	0	1701	1	0	0		1701	1	1701	1	1701	1	1-1701	10	0
+group_64		hypothetical protein	97	1.00	1689	0	0	1689	1	0	0		1689	1	1689	1	1689	1	1-1689	10	0
+group_65		hypothetical protein	97	1.00	1620	0	0	1620	1	0	0		1620	1	1620	1	1620	1	1-1620	6	0
+group_66		hypothetical protein	97	1.00	1512	0	0	1512	1	0	0		1512	1	1512	1	1512	1	1-1512	10	0
+group_68		hypothetical protein	97	1.00	1491	0	0	699	3	0	0		1491	1	1491	1	1491	1	1-1491	10	9
+group_71		hypothetical protein	97	1.00	1479	0	0	1479	1	0	0		1479	1	1479	1	1479	1	1-1479	10	0
+group_74		hypothetical protein	97	1.00	1464	0	0	1464	1	0	0		1464	1	1464	1	1464	1	1-1464	10	0
+group_75		hypothetical protein	97	1.00	1449	0	0	1449	1	0	0		1449	1	1449	1	1449	1	1-1449	10	0
+group_76		Cardiolipin synthase	97	1.00	1425	0	0	1425	1	0	0		1425	1	1425	1	1425	1	1-1425	10	0
+group_77		hypothetical protein	97	1.00	1401	0	0	883	1	0	0		1401	1	1401	1	1401	1	1-1401	10	9
+group_78		putative uridylyltransferase	97	1.00	1368	0	0	1368	1	0	0		1368	1	1368	1	1368	1	1-1368	10	0
+group_82		hypothetical protein	97	1.00	1347	0	0	1347	1	0	0		1347	1	1347	1	1347	1	1-1347	10	0
+group_83		hypothetical protein	97	1.00	1326	0	0	1326	1	0	0		1326	1	1326	1	1326	1	1-1326	10	0
+group_84		hypothetical protein	97	1.00	1323	0	0	1323	1	0	0		1323	1	1323	1	1323	1	1-1323	10	0
+group_85		hypothetical protein	97	1.00	1320	0	0	1320	1	0	0		1320	1	1320	1	1320	1	1-1320	10	0
+group_86		hypothetical protein	97	1.00	1305	0	0	1305	1	0	0		1305	1	1305	1	1305	1	1-1305	10	0
+group_87		hypothetical protein	97	1.00	1302	0	0	1302	1	0	0		1302	1	1302	1	1302	1	1-1302	10	0
+group_89		hypothetical protein	97	1.00	1278	0	0	1278	1	0	0		1278	1	1278	1	1278	1	1-1278	10	0
+group_9		hypothetical protein	97	1.00	3144	0	0	3144	1	0	0		3144	1	3144	1	3144	1	1-3144	10	0
+group_90		hypothetical protein	97	1.00	1275	0	0	1275	1	0	0		1275	1	1275	1	1275	1	1-1275	10	0
+group_91		hypothetical protein	97	1.00	1245	0	0	1245	1	0	0		1245	1	1245	1	1245	1	1-1245	10	0
+group_94		hypothetical protein	97	1.00	1230	0	0	1230	1	0	0		1230	1	1230	1	1230	1	1-1230	10	0
+group_95		hypothetical protein	97	1.00	1224	0	0	1224	1	0	0		1224	1	1224	1	1224	1	1-1224	10	0
+group_96		hypothetical protein	97	1.00	1218	0	0	1218	1	0	0		1218	1	1218	1	1218	1	1-1218	8	0
+group_98		hypothetical protein	97	1.00	1215	0	0	1215	1	0	0		1215	1	1215	1	1215	1	1-1215	10	0
+grpE	grpE	Protein GrpE	97	1.00	573	0	0	573	1	0	0		0	0	573	1	0	0		10	0
+gspD2~~~sctC_2	gspD2;;sctC_2	Secretin GspD 2;hypothetical protein;Type 3 secretion system secretin	97	1.01	2766	0	0	2766	1	0	0		2766	1	2766	1	2766	1	1-2766	10	0
+gspF	gspF	Putative type II secretion system protein F	97	1.00	1176	0	0	1176	1	0	0		1176	1	1176	1	1176	1	1-1176	9	0
+gyrB_1	gyrB_1	Type 2 topoisomerase subunit B	97	1.00	2415	0	0	545	2	0	0		2415	1	2202	2	2202	2	1-2202	10	23
+gyrB_2	gyrB_2	DNA gyrase subunit B	97	1.00	1818	0	0	1386	2	0	0		1818	1	1818	1	1818	1	1-1818	10	1
+hctA	hctA	Histone H1-like protein Hc1	97	1.00	378	0	0	378	1	0	0		378	1	378	1	378	1	1-378	10	0
+hctB_1~~~hctB~~~hctB_2	hctB_1;hctB;hctB_2	Histone H1-like protein HC2;Histone-like protein HC2	97	1.02	714	0	0	714	1	0	0		0	0	714	1	0	0		8	0
+hemB	hemB	Delta-aminolevulinic acid dehydratase	97	1.00	1017	0	0	570	2	0	0		1017	1	1017	1	1017	1	1-1017	10	1
+hemE	hemE	Uroporphyrinogen decarboxylase	97	1.00	1005	0	0	1005	1	0	0		1005	1	1005	1	1005	1	1-1005	9	0
+hemL	hemL	Glutamate-1-semialdehyde 21-aminomutase	97	1.00	1269	0	0	743	2	0	0		1143	1	1269	1	1143	1	1-1143	10	2
+hemN	hemN	Oxygen-independent coproporphyrinogen III oxidase	97	1.00	1374	0	0	1374	1	0	0		1374	1	1374	1	1374	1	1-1374	10	0
+hemW	hemW	Heme chaperone HemW	97	1.00	1137	0	0	1137	1	0	0		1137	1	1137	1	1137	1	1-1137	10	0
+hemY	hemY	Protoporphyrinogen oxidase	97	1.00	1275	0	0	1275	1	0	0		1275	1	1275	1	1275	1	1-1275	9	0
+hisS	hisS	Histidine--tRNA ligase	97	1.00	1287	0	0	626	2	0	0		1287	1	1287	1	1287	1	1-1287	10	1
+hrcA	hrcA	Heat-inducible transcription repressor HrcA	97	1.00	1218	0	0	1218	1	0	0		1218	1	1218	1	1218	1	1-1218	10	0
+hupA	hupA	DNA-binding protein HU 1	97	1.00	303	0	0	303	1	0	0		0	0	303	1	0	0		10	0
+hxcR	hxcR	putative type II secretion system protein HxcR	97	1.00	1506	0	0	1506	1	0	0		1506	1	1506	1	1506	1	1-1506	10	0
+infA	infA	Translation initiation factor IF-1	97	1.00	222	0	0	222	1	0	0		1	0	222	1	1	0	222-222	10	0
+infB	infB	Translation initiation factor IF-2	97	1.00	2691	0	0	1207	3	0	0		2555	1	2088	2	1952	2	137-2088	10	13
+infC	infC	Translation initiation factor IF-3	97	1.00	561	0	0	561	1	0	0		0	0	561	1	0	0		10	0
+iscS	iscS	Cysteine desulfurase IscS	97	1.00	1155	0	0	1155	1	0	0		1155	1	1155	1	1155	1	1-1155	9	0
+ispG	ispG	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (ferredoxin)	97	1.00	1809	0	0	1602	1	0	0		1809	1	1809	1	1809	1	1-1809	10	1
+ispH2	ispH2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase 2	97	1.00	924	0	0	612	1	0	0		924	1	924	1	924	1	1-924	10	3
+kdsA	kdsA	2-dehydro-3-deoxyphosphooctonate aldolase	97	1.00	810	0	0	810	1	0	0		810	1	810	1	810	1	1-810	10	0
+kgd	kgd	Multifunctional 2-oxoglutarate metabolism enzyme	97	1.00	2718	0	0	1885	2	0	0		2718	1	2718	1	2718	1	1-2718	10	4
+ldh	ldh	Leucine dehydrogenase	97	1.00	1041	0	0	1041	1	0	0		1041	1	1041	1	1041	1	1-1041	10	0
+lepA	lepA	Elongation factor 4	97	1.00	1809	0	0	402	2	0	0		1	0	1809	1	1	0	1809-1809	10	22
+leuS	leuS	Leucine--tRNA ligase	97	1.00	2460	0	0	770	3	0	0		2460	1	2460	1	2460	1	1-2460	10	15
+lipM	lipM	Octanoyltransferase LipM	97	1.00	720	0	0	720	1	0	0		720	1	720	1	720	1	1-720	8	0
+lolD	lolD	Lipoprotein-releasing system ATP-binding protein LolD	97	1.00	678	0	0	678	1	0	0		678	1	678	1	678	1	1-678	10	0
+lon	lon	Lon protease	97	1.00	2460	0	0	1063	2	0	0		2460	1	2460	1	2460	1	1-2460	10	5
+lplA	lplA	Lipoate-protein ligase A	97	1.00	702	0	0	702	1	0	0		702	1	702	1	702	1	1-702	9	0
+lptB	lptB	Lipopolysaccharide export system ATP-binding protein LptB	97	1.00	720	0	0	411	1	0	0		720	1	720	1	720	1	1-720	10	1
+lpxA	lpxA	Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase	97	1.00	843	0	0	843	1	0	0		0	0	843	1	0	0		10	0
+lpxC	lpxC	UDP-3-O-acyl-N-acetylglucosamine deacetylase	97	1.00	861	0	0	861	1	0	0		0	0	861	1	0	0		10	0
+lpxD	lpxD	UDP-3-O-acylglucosamine N-acyltransferase	97	1.00	1065	0	0	711	2	0	0		1065	1	1065	1	1065	1	1-1065	10	1
+lpxG	lpxG	UDP-23-diacylglucosamine pyrophosphatase LpxG	97	1.00	978	0	0	978	1	0	0		978	1	978	1	978	1	1-978	10	0
+lpxK_2~~~lpxK_1~~~lpxK	lpxK_2;lpxK_1;lpxK	Tetraacyldisaccharide 4'-kinase	97	1.01	1110	0	0	1110	1	0	0		1110	1	1110	1	1110	1	1-1110	10	0
+lspA	lspA	Lipoprotein signal peptidase	97	1.00	504	0	0	504	1	0	0		504	1	504	1	504	1	1-504	3	0
+lysS	lysS	Lysine--tRNA ligase	97	1.00	1581	0	0	729	2	0	0		1581	1	1581	1	1581	1	1-1581	10	7
+manP	manP	PTS system mannose-specific EIIBCA component	97	1.00	477	0	0	477	1	0	0		0	0	477	1	0	0		9	0
+map	map	Methionine aminopeptidase	97	1.00	876	0	0	876	1	0	0		876	1	876	1	876	1	1-876	10	0
+mazG	mazG	Nucleoside triphosphate pyrophosphohydrolase/pyrophosphatase MazG	97	1.00	384	0	0	384	1	0	0		384	1	384	1	384	1	1-384	2	0
+mcsB	mcsB	Protein-arginine kinase	97	1.00	1071	0	0	1071	1	0	0		1071	1	1071	1	1071	1	1-1071	9	0
+mdh	mdh	Malate dehydrogenase	97	1.00	981	0	0	981	1	0	0		981	1	981	1	981	1	1-981	10	0
+menG	menG	Demethylmenaquinone methyltransferase	97	1.00	654	0	0	654	1	0	0		654	1	654	1	654	1	1-654	3	0
+menH	;menH	hypothetical protein;2-succinyl-6-hydroxy-24-cyclohexadiene-1-carboxylate synthase	97	1.01	909	0	0	909	1	0	0		909	1	909	1	909	1	1-909	2	0
+metG	metG	Methionine--tRNA ligase	97	1.00	1653	0	0	1653	1	0	0		1653	1	1653	1	1653	1	1-1653	10	0
+mfd	mfd	Transcription-repair-coupling factor	97	1.00	3240	0	0	1656	3	0	0		3240	1	2481	2	2481	2	1-2481	10	4
+mhpA	mhpA	3-(3-hydroxy-phenyl)propionate/3-hydroxycinnamic acid hydroxylase	97	1.00	1524	0	0	1524	1	0	0		1524	1	1524	1	1524	1	1-1524	10	0
+mip	mip	Outer membrane protein MIP	97	1.00	705	0	0	705	1	0	0		705	1	705	1	705	1	1-705	10	0
+mnmA	mnmA	tRNA-specific 2-thiouridylase MnmA	97	1.00	1077	0	0	483	1	0	0		1077	1	1077	1	1077	1	1-1077	10	7
+mnmE	mnmE	tRNA modification GTPase MnmE	97	1.00	1335	0	0	654	2	0	0		1335	1	1335	1	1335	1	1-1335	10	1
+mnmG	mnmG	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG	97	1.00	1833	0	0	492	2	0	0		1833	1	1833	1	1833	1	1-1833	10	18
+mntA	mntA	Manganese-binding lipoprotein MntA	97	1.00	981	0	0	981	1	0	0		981	1	981	1	981	1	1-981	10	0
+mntB_1	mntB_1	Manganese transport system ATP-binding protein MntB	97	1.00	819	0	0	819	1	0	0		819	1	819	1	819	1	1-819	10	0
+mntB_2	mntB_2	Manganese transport system membrane protein MntB	97	1.00	876	0	0	876	1	0	0		876	1	876	1	876	1	1-876	10	0
+mntC	mntC;	Manganese transport system membrane protein MntC;hypothetical protein	97	1.01	1356	0	0	1356	1	0	0		1356	1	1356	1	1356	1	1-1356	10	0
+mqnA	mqnA	Chorismate dehydratase	97	1.00	822	0	0	822	1	0	0		822	1	822	1	822	1	1-822	4	0
+mqnD	mqnD	14-dihydroxy-6-naphtoate synthase	97	1.00	771	0	0	771	1	0	0		771	1	771	1	771	1	1-771	6	0
+mraY	mraY	Phospho-N-acetylmuramoyl-pentapeptide-transferase	97	1.00	1011	0	0	1011	1	0	0		1011	1	1011	1	1011	1	1-1011	9	0
+mrdB	mrdB	Peptidoglycan glycosyltransferase MrdB	97	1.00	1140	0	0	1140	1	0	0		1140	1	1140	1	1140	1	1-1140	10	0
+mreB	mreB	Cell shape-determining protein MreB	97	1.00	1101	0	0	328	1	0	0		0	0	1101	1	0	0		10	6
+murC	murC	UDP-N-acetylmuramate--L-alanine ligase	97	1.00	2409	0	0	2409	1	0	0		2409	1	2409	1	2409	1	1-2409	10	0
+murD	murD	UDP-N-acetylmuramoylalanine--D-glutamate ligase	97	1.00	1251	0	0	1251	1	0	0		1251	1	1251	1	1251	1	1-1251	10	0
+murE	murE	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--26-diaminopimelate ligase	97	1.00	1452	0	0	798	2	0	0		1452	1	798	2	798	2	655-1452	10	1
+murG	murG	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase	97	1.00	1029	0	0	1029	1	0	0		1029	1	1029	1	1029	1	1-1029	10	0
+murJ	murJ	lipid II flippase MurJ	97	1.00	1611	0	0	1611	1	0	0		1611	1	1611	1	1611	1	1-1611	10	0
+mutL	mutL	DNA mismatch repair protein MutL	97	1.00	1731	0	0	1731	1	0	0		1731	1	1731	1	1731	1	1-1731	10	0
+mutS	mutS	DNA mismatch repair protein MutS	97	1.00	2463	0	0	1827	2	0	0		2463	1	2013	2	2013	2	1-2013	10	8
+mutY	mutY	Adenine DNA glycosylase	97	1.00	1110	0	0	641	1	0	0		1110	1	1110	1	1110	1	1-1110	10	3
+mxiA	mxiA	Protein MxiA	97	1.00	2130	0	0	1430	1	0	0		0	0	2130	1	0	0		10	2
+nfo	nfo	Endonuclease 4	97	1.00	867	0	0	867	1	0	0		867	1	867	1	867	1	1-867	10	0
+nhaD	nhaD	Na(+)/H(+) antiporter NhaD	97	1.00	1266	0	0	1266	1	0	0		1266	1	1266	1	1266	1	1-1266	10	0
+nifS	nifS	Cysteine desulfurase NifS	97	1.00	1125	0	0	1125	1	0	0		1125	1	1125	1	1125	1	1-1125	10	0
+nqrB	nqrB	Na(+)-translocating NADH-quinone reductase subunit B	97	1.00	1512	0	0	1512	1	0	0		1512	1	1512	1	1512	1	1-1512	10	0
+nqrC	nqrC	Na(+)-translocating NADH-quinone reductase subunit C	97	1.00	951	0	0	951	1	0	0		951	1	951	1	951	1	1-951	10	0
+nqrD	nqrD	Na(+)-translocating NADH-quinone reductase subunit D	97	1.00	642	0	0	291	2	0	0		642	1	642	1	642	1	1-642	10	1
+nqrF	nqrF	Na(+)-translocating NADH-quinone reductase subunit F	97	1.00	1296	0	0	1296	1	0	0		1296	1	1296	1	1296	1	1-1296	10	0
+nrdB	nrdB	Ribonucleoside-diphosphate reductase subunit beta	97	1.00	1041	0	0	1041	1	0	0		1	0	1041	1	1	0	1041-1041	10	0
+nrdR	nrdR	Transcriptional repressor NrdR	97	1.00	465	0	0	465	1	0	0		0	0	465	1	0	0		10	0
+ntpA	ntpA	V-type sodium ATPase catalytic subunit A	97	1.00	1776	0	0	699	2	0	0		0	0	1776	1	0	0		10	2
+ntpB	ntpB	V-type sodium ATPase subunit B	97	1.00	1317	0	0	598	2	0	0		0	0	1317	1	0	0		10	1
+ntpK	ntpK	V-type sodium ATPase subunit K	97	1.00	426	0	0	426	1	0	0		0	0	426	1	0	0		10	0
+nusA	nusA	Transcription termination/antitermination protein NusA	97	1.00	1323	0	0	607	2	0	0		0	0	1323	1	0	0		10	1
+nusB	nusB	Transcription antitermination protein NusB	97	1.00	789	0	0	789	1	0	0		789	1	789	1	789	1	1-789	3	0
+nusG	nusG	Transcription termination/antitermination protein NusG	97	1.00	549	0	0	549	1	0	0		2	0	549	1	2	0	548-549	10	0
+omcA	omcA	Small cysteine-rich outer membrane protein OmcA	97	1.00	267	0	0	267	1	0	0		0	0	267	1	0	0		3	0
+omcB	omcB	Large cysteine-rich periplasmic protein OmcB	97	1.00	1644	0	0	1644	1	0	0		0	0	1644	1	0	0		10	0
+ompA_2~~~ompA~~~ompA_1	ompA_2;ompA;ompA_1	Major outer membrane porin serovar L1;Major outer membrane porin serovar D;Major outer membrane porin serovar L3;Major outer membrane porin serovar C;Major outer membrane porin serovar B;Major outer membrane porin serovar F;Major outer membrane porin serovar A;Major outer membrane porin serovar E;Major outer membrane porin;Major outer membrane porin serovar H	97	1.01	1257	0	0	1257	1	0	0		1105	1	1257	1	1105	1	153-1257	10	0
+oppA_2	oppA_2	Oligopeptide-binding protein OppA	97	1.00	1557	0	0	1557	1	0	0		1557	1	1557	1	1557	1	1-1557	6	0
+oppB	oppB	Oligopeptide transport system permease protein OppB	97	1.00	942	0	0	942	1	0	0		942	1	942	1	942	1	1-942	10	0
+oppC	oppC	Oligopeptide transport system permease protein OppC	97	1.00	846	0	0	846	1	0	0		846	1	846	1	846	1	1-846	10	0
+oppD_2	oppD_2	Oligopeptide transport ATP-binding protein OppD	97	1.00	966	0	0	436	2	0	0		966	1	966	1	966	1	1-966	10	5
+pckG	pckG	Phosphoenolpyruvate carboxykinase [GTP]	97	1.00	1800	0	0	913	2	0	0		1800	1	1800	1	1800	1	1-1800	10	1
+pcnB	pcnB	Poly(A) polymerase I	97	1.00	1278	0	0	1011	1	0	0		1278	1	1278	1	1278	1	1-1278	10	1
+pcrA	pcrA	ATP-dependent DNA helicase PcrA	97	1.00	1968	0	0	743	3	0	0		1968	1	1968	1	1968	1	1-1968	10	6
+pdhC_1	pdhC_1	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	97	1.00	1290	0	0	1290	1	0	0		1290	1	1290	1	1290	1	1-1290	10	0
+pdhC_2	pdhC_2	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	97	1.00	1167	0	0	1167	1	0	0		1167	1	1167	1	1167	1	1-1167	10	0
+pdhD	pdhD	Dihydrolipoyl dehydrogenase	97	1.00	1398	0	0	1398	1	0	0		1398	1	1398	1	1398	1	1-1398	10	0
+pepA	pepA	putative cytosol aminopeptidase	97	1.00	1500	0	0	1028	2	0	0		1500	1	1500	1	1500	1	1-1500	10	1
+pepF1	pepF1	Oligoendopeptidase F plasmid	97	1.00	1827	0	0	1552	1	0	0		1827	1	1553	2	1553	2	1-1553	10	6
+pfp_1	pfp_1	Pyrophosphate--fructose 6-phosphate 1-phosphotransferase	97	1.00	1662	0	0	1662	1	0	0		1662	1	1662	1	1662	1	1-1662	10	0
+pfp_2	pfp_2	Pyrophosphate--fructose 6-phosphate 1-phosphotransferase	97	1.00	1647	0	0	837	2	0	0		1647	1	1647	1	1647	1	1-1647	10	1
+pgktpi	pgk/tpi	Bifunctional PGK/TIM	97	1.00	1212	0	0	1126	1	0	0		1212	1	1212	1	1212	1	1-1212	10	2
+pgl	pgl	6-phosphogluconolactonase	97	1.00	771	0	0	771	1	0	0		771	1	771	1	771	1	1-771	10	0
+pgsA_1	pgsA_1	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	97	1.00	555	0	0	555	1	0	0		555	1	555	1	555	1	1-555	9	0
+pgsA_2	pgsA_2	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	97	1.00	549	0	0	549	1	0	0		549	1	549	1	549	1	1-549	9	0
+pheS	pheS	Phenylalanine--tRNA ligase alpha subunit	97	1.00	1029	0	0	750	1	0	0		0	0	1029	1	0	0		10	4
+pheT	pheT	Phenylalanine--tRNA ligase beta subunit	97	1.00	2373	0	0	2373	1	0	0		2373	1	2373	1	2373	1	1-2373	10	0
+pkn1	pkn1	Serine/threonine-protein kinase Pkn1	97	1.00	1845	0	0	1845	1	0	0		1845	1	1845	1	1845	1	1-1845	10	0
+pknD_2	pknD_2	Serine/threonine-protein kinase PknD	97	1.00	1473	0	0	1473	1	0	0		1147	2	1473	1	1147	2	1-1147	9	0
+plqA	plqA	4-hydroxybenzoate solanesyltransferase	97	1.00	909	0	0	909	1	0	0		909	1	909	1	909	1	1-909	7	0
+plsC	plsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	97	1.00	651	0	0	651	1	0	0		651	1	651	1	651	1	1-651	4	0
+pmpA	pmpA	putative outer membrane protein PmpA	97	1.00	2928	0	0	2928	1	0	0		2928	1	2928	1	2928	1	1-2928	4	0
+pmpF	pmpF	putative outer membrane protein PmpF	97	1.00	3171	0	0	3171	1	0	0		3171	1	3171	1	3171	1	1-3171	3	0
+pmpG	pmpG	putative outer membrane protein PmpG	97	1.00	3042	0	0	3042	1	0	0		1761	2	3042	1	1761	2	1282-3042	7	0
+pmpH	pmpH	putative outer membrane protein PmpH	97	1.00	3057	0	0	3057	1	0	0		3057	1	3057	1	3057	1	1-3057	2	0
+pmpI	pmpI	putative outer membrane protein PmpI	97	1.00	2637	0	0	2637	1	0	0		1824	2	2637	1	1824	2	814-2637	4	0
+polA	polA	DNA polymerase I	97	1.00	2601	0	0	1245	3	0	0		2601	1	2601	1	2601	1	1-2601	10	2
+ppa	ppa	Inorganic pyrophosphatase	97	1.00	630	0	0	630	1	0	0		630	1	630	1	630	1	1-630	10	0
+prfA	prfA	Peptide chain release factor RF1	97	1.00	1080	0	0	342	1	0	0		1080	1	1080	1	1080	1	1-1080	10	14
+prfB	prfB	Peptide chain release factor 2	97	1.00	990	0	0	429	1	0	0		0	0	703	2	0	0		10	13
+priA	priA	Primosomal protein N'	97	1.00	2262	0	0	1651	2	0	0		2262	1	1666	2	1666	2	1-1666	10	3
+prmC	prmC	Release factor glutamine methyltransferase	97	1.00	873	0	0	873	1	0	0		873	1	873	1	873	1	1-873	10	0
+proS_1~~~proS_2~~~proS	proS_1;proS_2;proS	Proline--tRNA ligase	97	1.01	1746	0	0	1217	2	0	0		1746	1	1746	1	1746	1	1-1746	10	3
+ptsI	ptsI	Phosphoenolpyruvate-protein phosphotransferase	97	1.00	1716	0	0	1716	1	0	0		1716	1	1716	1	1716	1	1-1716	10	0
+pyk	pyk	Pyruvate kinase	97	1.00	1458	0	0	645	2	0	0		1458	1	711	2	711	2	748-1458	10	6
+pyrH	pyrH	Uridylate kinase	97	1.00	738	0	0	738	1	0	0		21	0	738	1	21	0	718-738	9	0
+radA	radA	DNA repair protein RadA	97	1.00	1365	0	0	469	2	0	0		1365	1	1365	1	1365	1	1-1365	10	10
+rbfA	rbfA	Ribosome-binding factor A	97	1.00	372	0	0	372	1	0	0		0	0	372	1	0	0		10	0
+recC	recC	RecBCD enzyme subunit RecC	97	1.00	3021	0	0	3021	1	0	0		3021	1	3021	1	3021	1	1-3021	10	0
+recD_2~~~recD_1~~~recD	recD_2;recD_1;recD	RecBCD enzyme subunit RecD	97	1.01	1491	0	0	1491	1	0	0		988	2	1491	1	988	2	504-1491	10	0
+recF	recF	DNA replication and repair protein RecF	97	1.00	1098	0	0	1098	1	0	0		1098	1	1098	1	1098	1	1-1098	6	0
+recR	recR	Recombination protein RecR	97	1.00	603	0	0	603	1	0	0		603	1	603	1	603	1	1-603	10	0
+rho	rho	Transcription termination factor Rho	97	1.00	1395	0	0	297	1	0	0		0	0	1395	1	0	0		10	15
+ribBA	ribBA	Riboflavin biosynthesis protein RibBA	97	1.00	1275	0	0	764	2	0	0		1275	1	1275	1	1275	1	1-1275	10	1
+ribC	ribC	Riboflavin synthase	97	1.00	600	0	0	600	1	0	0		600	1	600	1	600	1	1-600	4	0
+ribH	ribH	67-dimethyl-8-ribityllumazine synthase	97	1.00	474	0	0	474	1	0	0		474	1	474	1	474	1	1-474	9	0
+rlmCD	rlmCD	23S rRNA (uracil-C(5))-methyltransferase RlmCD	97	1.00	1191	0	0	1191	1	0	0		1191	1	1191	1	1191	1	1-1191	10	0
+rlmL	rlmL	Ribosomal RNA large subunit methyltransferase K/L	97	1.00	828	0	0	828	1	0	0		828	1	828	1	828	1	1-828	10	0
+rnc	rnc	Ribonuclease 3	97	1.00	696	0	0	696	1	0	0		696	1	696	1	696	1	1-696	10	0
+rng	rng	Ribonuclease G	97	1.00	1539	0	0	1010	2	0	0		0	0	1539	1	0	0		10	1
+rnhB	rnhB	Ribonuclease HII	97	1.00	654	0	0	654	1	0	0		654	1	654	1	654	1	1-654	10	0
+rpe	rpe	Ribulose-phosphate 3-epimerase	97	1.00	687	0	0	687	1	0	0		0	0	687	1	0	0		10	0
+rpiA	rpiA	Ribose-5-phosphate isomerase A	97	1.00	1164	0	0	1164	1	0	0		1024	1	1164	1	1024	1	141-1164	10	0
+rplA	rplA	50S ribosomal protein L1	97	1.00	699	0	0	192	1	0	0		0	0	699	1	0	0		10	6
+rplB	rplB	50S ribosomal protein L2	97	1.00	855	0	0	153	1	0	0		0	0	704	1	0	0		10	19
+rplC	rplC	50S ribosomal protein L3	97	1.00	666	0	0	666	1	0	0		0	0	666	1	0	0		10	0
+rplD	rplD	50S ribosomal protein L4	97	1.00	669	0	0	395	2	0	0		0	0	669	1	0	0		10	1
+rplE	rplE	50S ribosomal protein L5	97	1.00	543	0	0	247	2	0	0		0	0	543	1	0	0		10	1
+rplF	rplF	50S ribosomal protein L6	97	1.00	552	0	0	370	1	0	0		0	0	552	1	0	0		10	9
+rplJ	rplJ	50S ribosomal protein L10	97	1.00	519	0	0	519	1	0	0		0	0	519	1	0	0		10	0
+rplK	rplK	50S ribosomal protein L11	97	1.00	426	0	0	8	0	0	0		0	0	426	1	0	0		10	10
+rplL	rplL	50S ribosomal protein L7/L12	97	1.00	393	0	0	81	0	0	0		0	0	232	1	0	0		10	6
+rplM	rplM	50S ribosomal protein L13	97	1.00	453	0	0	194	1	0	0		0	0	453	1	0	0		10	1
+rplN	rplN	50S ribosomal protein L14	97	1.00	369	0	0	96	0	0	0		0	0	369	1	0	0		10	2
+rplO	rplO	50S ribosomal protein L15	97	1.00	435	0	0	435	1	0	0		0	0	435	1	0	0		10	0
+rplP	rplP	50S ribosomal protein L16	97	1.00	417	0	0	93	0	0	0		0	0	417	1	0	0		10	4
+rplR	rplR	50S ribosomal protein L18	97	1.00	372	0	0	372	1	0	0		0	0	372	1	0	0		10	0
+rplS	rplS	50S ribosomal protein L19	97	1.00	366	0	0	366	1	0	0		0	0	366	1	0	0		10	0
+rplT	rplT	50S ribosomal protein L20	97	1.00	372	0	0	372	1	0	0		0	0	372	1	0	0		10	0
+rplU	rplU	50S ribosomal protein L21	97	1.00	324	0	0	324	1	0	0		0	0	324	1	0	0		9	0
+rplV	rplV	50S ribosomal protein L22	97	1.00	336	0	0	336	1	0	0		0	0	336	1	0	0		10	0
+rplW	rplW	50S ribosomal protein L23	97	1.00	336	0	0	336	1	0	0		0	0	336	1	0	0		10	0
+rplY	rplY;	50S ribosomal protein L25;hypothetical protein	97	1.01	558	0	0	558	1	0	0		0	0	558	1	0	0		10	0
+rpmA	rpmA	50S ribosomal protein L27	97	1.00	252	0	0	50	0	0	0		0	0	252	1	0	0		10	2
+rpmB	rpmB	50S ribosomal protein L28	97	1.00	270	0	0	270	1	0	0		0	0	270	1	0	0		10	0
+rpmF	rpmF	50S ribosomal protein L32	97	1.00	180	0	0	180	1	0	0		0	0	180	1	0	0		9	0
+rpmG	;rpmG	hypothetical protein;50S ribosomal protein L33	97	1.00	159	0	0	159	1	0	0		0	0	159	1	0	0		10	0
+rpmI	rpmI	50S ribosomal protein L35	97	1.00	195	0	0	195	1	0	0		0	0	195	1	0	0		10	0
+rpoA	rpoA	DNA-directed RNA polymerase subunit alpha	97	1.00	1134	0	0	1134	1	0	0		0	0	1134	1	0	0		10	0
+rpoB	rpoB	DNA-directed RNA polymerase subunit beta	97	1.00	3759	0	0	565	3	0	0		0	0	3759	1	0	0		10	25
+rpoC	rpoC	DNA-directed RNA polymerase subunit beta'	97	1.00	4191	0	0	619	4	0	0		0	0	4191	1	0	0		10	25
+rpsA	rpsA	30S ribosomal protein S1	97	1.00	1710	0	0	668	3	0	0		0	0	1710	1	0	0		10	5
+rpsB	rpsB;	30S ribosomal protein S2;hypothetical protein	97	1.00	855	0	0	718	1	0	0		855	1	855	1	855	1	1-855	10	2
+rpsD	rpsD	30S ribosomal protein S4	97	1.00	630	0	0	630	1	0	0		0	0	630	1	0	0		10	0
+rpsE	rpsE	30S ribosomal protein S5	97	1.00	498	0	0	298	1	0	0		0	0	498	1	0	0		10	1
+rpsF	rpsF	30S ribosomal protein S6	97	1.00	339	0	0	339	1	0	0		0	0	339	1	0	0		10	0
+rpsG	rpsG	30S ribosomal protein S7	97	1.00	474	0	0	123	0	0	0		0	0	406	1	0	0		10	12
+rpsH_2~~~rpsH_1~~~rpsH	rpsH_2;rpsH_1;rpsH	30S ribosomal protein S8	97	1.01	402	0	0	402	1	0	0		0	0	402	1	0	0		10	0
+rpsJ	rpsJ	30S ribosomal protein S10	97	1.00	327	0	0	19	0	0	0		0	0	327	1	0	0		10	14
+rpsK	rpsK	30S ribosomal protein S11	97	1.00	399	0	0	239	1	0	0		0	0	399	1	0	0		10	1
+rpsL	rpsL	30S ribosomal protein S12	97	1.00	372	0	0	57	0	0	0		0	0	372	1	0	0		10	23
+rpsM	rpsM	30S ribosomal protein S13	97	1.00	369	0	0	257	1	0	0		0	0	369	1	0	0		10	4
+rpsN2	rpsN2	Alternate 30S ribosomal protein S14	97	1.00	306	0	0	306	1	0	0		0	0	306	1	0	0		10	0
+rpsO	rpsO	30S ribosomal protein S15	97	1.00	270	0	0	270	1	0	0		1	0	270	1	1	0	270-270	10	0
+rpsQ	rpsQ	30S ribosomal protein S17	97	1.00	252	0	0	252	1	0	0		0	0	252	1	0	0		10	0
+rpsR	rpsR	30S ribosomal protein S18	97	1.00	246	0	0	246	1	0	0		0	0	246	1	0	0		10	0
+rpsS	rpsS	30S ribosomal protein S19	97	1.00	267	0	0	25	0	0	0		0	0	267	1	0	0		10	4
+rsbV	rsbV	Anti-sigma-B factor antagonist	97	1.00	333	0	0	333	1	0	0		0	0	333	1	0	0		6	0
+rsfS	rsfS	Ribosomal silencing factor RsfS	97	1.00	360	0	0	360	1	0	0		0	0	360	1	0	0		10	0
+rsmA	rsmA	Ribosomal RNA small subunit methyltransferase A	97	1.00	834	0	0	834	1	0	0		834	1	834	1	834	1	1-834	10	0
+ruvA	ruvA	Holliday junction ATP-dependent DNA helicase RuvA	97	1.00	603	0	0	603	1	0	0		603	1	603	1	603	1	1-603	10	0
+ruvB	ruvB	Holliday junction ATP-dependent DNA helicase RuvB	97	1.00	1005	0	0	363	2	0	0		0	0	1005	1	0	0		10	4
+ruvC	ruvC	Crossover junction endodeoxyribonuclease RuvC	97	1.00	513	0	0	513	1	0	0		513	1	513	1	513	1	1-513	8	0
+sctC_1	sctC_1	Type 3 secretion system secretin	97	1.00	2283	0	0	2283	1	0	0		2283	1	2283	1	2283	1	1-2283	10	0
+secD~~~secDF	secD;secDF	Protein translocase subunit SecD;Protein translocase subunit SecDF	97	1.01	4203	0	0	4203	1	0	0		4203	1	4203	1	4203	1	1-4203	10	0
+secE	secE	Protein translocase subunit SecE	97	1.00	249	0	0	249	1	0	0		0	0	249	1	0	0		9	0
+secY	secY	Protein translocase subunit SecY	97	1.00	1374	0	0	1374	1	0	0		0	0	1374	1	0	0		10	0
+serS	serS	Serine--tRNA ligase	97	1.00	1287	0	0	1070	1	0	0		1287	1	1287	1	1287	1	1-1287	10	1
+smpB	smpB	SsrA-binding protein	97	1.00	456	0	0	456	1	0	0		456	1	456	1	456	1	1-456	10	0
+sodA	sodA	Superoxide dismutase [Mn]	97	1.00	621	0	0	621	1	0	0		0	0	621	1	0	0		10	0
+soj	soj	Sporulation initiation inhibitor protein Soj	97	1.00	768	0	0	768	1	0	0		0	0	768	1	0	0		10	0
+ssaN	ssaN	putative secretion system apparatus ATP synthase SsaN	97	1.00	1305	0	0	1305	1	0	0		1305	1	1305	1	1305	1	1-1305	10	0
+stp	stp	Serine/threonine phosphatase stp	97	1.00	747	0	0	747	1	0	0		747	1	747	1	747	1	1-747	10	0
+sucC	sucC	Succinate--CoA ligase [ADP-forming] subunit beta	97	1.00	1161	0	0	750	2	0	0		1161	1	1161	1	1161	1	1-1161	10	2
+sucD	;sucD	hypothetical protein;Succinate--CoA ligase [ADP-forming] subunit alpha	97	1.01	876	0	0	115	0	0	0		876	1	876	1	876	1	1-876	10	6
+sufB	sufB	FeS cluster assembly protein SufB	97	1.00	1452	0	0	396	2	0	0		1452	1	1452	1	1452	1	1-1452	10	4
+sufC	sufC	putative ATP-dependent transporter SufC	97	1.00	768	0	0	290	2	0	0		768	1	628	1	628	1	141-768	10	2
+tal	tal	Transaldolase	97	1.00	984	0	0	984	1	0	0		0	0	984	1	0	0		10	0
+tgt	tgt	Queuine tRNA-ribosyltransferase	97	1.00	1119	0	0	1119	1	0	0		1119	1	1119	1	1119	1	1-1119	10	0
+thyX	thyX	Flavin-dependent thymidylate synthase	97	1.00	1590	0	0	1590	1	0	0		1590	1	1590	1	1590	1	1-1590	10	0
+tig	tig	Trigger factor	97	1.00	1329	0	0	1329	1	0	0		1329	1	1329	1	1329	1	1-1329	10	0
+tilS	tilS	tRNA(Ile)-lysidine synthase	97	1.00	966	0	0	966	1	0	0		966	1	966	1	966	1	1-966	10	0
+tkt	tkt	Transketolase	97	1.00	2001	0	0	822	3	0	0		2001	1	1226	2	1226	2	1-1226	10	9
+tlcA_1	tlcA_1	ADPATP carrier protein 1	97	1.00	1587	0	0	1587	1	0	0		0	0	1587	1	0	0		10	0
+tmk	tmk	Thymidylate kinase	97	1.00	612	0	0	612	1	0	0		612	1	612	1	612	1	1-612	7	0
+tolB	tolB	Tol-Pal system protein TolB	97	1.00	1296	0	0	1296	1	0	0		1296	1	1296	1	1296	1	1-1296	10	0
+tpiA	tpiA	Triosephosphate isomerase	97	1.00	825	0	0	825	1	0	0		825	1	825	1	825	1	1-825	9	0
+trmD	trmD	tRNA (guanine-N(1)-)-methyltransferase	97	1.00	1059	0	0	456	2	0	0		1059	1	1059	1	1059	1	1-1059	10	2
+trmL	trmL	tRNA (cytidine(34)-2'-O)-methyltransferase	97	1.00	456	0	0	456	1	0	0		456	1	456	1	456	1	1-456	10	0
+trpS	trpS	Tryptophan--tRNA ligase	97	1.00	1041	0	0	392	2	0	0		1041	1	1041	1	1041	1	1-1041	10	2
+truA	truA	tRNA pseudouridine synthase A	97	1.00	804	0	0	804	1	0	0		804	1	804	1	804	1	1-804	10	0
+tsaC	tsaC	Threonylcarbamoyl-AMP synthase	97	1.00	846	0	0	846	1	0	0		762	1	846	1	762	1	85-846	8	0
+tsf	tsf	Elongation factor Ts	97	1.00	927	0	0	569	2	0	0		858	1	927	1	858	1	70-927	10	2
+tuf	tuf	Elongation factor Tu	97	1.00	1185	0	0	0	0	0	0		0	0	1101	1	0	0		10	25
+tyrB	tyrB	Tyrosine aminotransferase	97	1.00	1203	0	0	1203	1	0	0		1203	1	1203	1	1203	1	1-1203	10	0
+tyrP_1	tyrP_1	Tyrosine-specific transport protein	97	1.00	1224	0	0	1224	1	0	0		1224	1	1224	1	1224	1	1-1224	9	0
+tyrP_2~~~tyrP_3	tyrP_2;;tyrP_3	Tyrosine-specific transport protein;hypothetical protein	97	1.03	1194	0	0	1194	1	0	0		955	1	1194	1	955	1	1-955	9	0
+tyrS	tyrS	Tyrosine--tRNA ligase	97	1.00	1239	0	0	1239	1	0	0		1239	1	1239	1	1239	1	1-1239	10	0
+ubiX	ubiX	Flavin prenyltransferase UbiX	97	1.00	579	0	0	579	1	0	0		579	1	579	1	579	1	1-579	9	0
+uhpC	uhpC	Membrane sensor protein UhpC	97	1.00	1371	0	0	646	3	0	0		0	0	1371	1	0	0		10	1
+ung	ung	Uracil-DNA glycosylase	97	1.00	690	0	0	253	2	0	0		690	1	447	2	447	2	244-690	10	4
+uppS	uppS	Isoprenyl transferase	97	1.00	762	0	0	576	1	0	0		762	1	762	1	762	1	1-762	10	6
+valS	valS	Valine--tRNA ligase	97	1.00	2820	0	0	1084	4	0	0		2820	1	2820	1	2820	1	1-2820	10	10
+waaA	waaA	3-deoxy-D-manno-octulosonic acid transferase	97	1.00	1296	0	0	1296	1	0	0		1296	1	1296	1	1296	1	1-1296	10	0
+xerC	xerC	Tyrosine recombinase XerC	97	1.00	948	0	0	948	1	0	0		948	1	948	1	948	1	1-948	10	0
+xseA	xseA	Exodeoxyribonuclease 7 large subunit	97	1.00	1551	0	0	771	2	0	0		1551	1	1551	1	1551	1	1-1551	10	2
+xseB	xseB	Exodeoxyribonuclease 7 small subunit	97	1.00	219	0	0	219	1	0	0		0	0	219	1	0	0		10	0
+ybaB	ybaB	Nucleoid-associated protein YbaB	97	1.00	291	0	0	291	1	0	0		0	0	291	1	0	0		10	0
+ybeY	ybeY	Endoribonuclease YbeY	97	1.00	486	0	0	486	1	0	0		486	1	486	1	486	1	1-486	9	0
+ybhL	ybhL	Inner membrane protein YbhL	97	1.00	717	0	0	717	1	0	0		717	1	717	1	717	1	1-717	10	0
+ybiT	ybiT	putative ABC transporter ATP-binding protein YbiT	97	1.00	1590	0	0	881	2	0	0		1590	1	1441	1	1441	1	150-1590	10	7
+ychF	ychF	Ribosome-binding ATPase YchF	97	1.00	1095	0	0	463	1	0	0		1095	1	1095	1	1095	1	1-1095	10	9
+yecS	yecS	L-cystine transport system permease protein YecS	97	1.00	645	0	0	645	1	0	0		645	1	645	1	645	1	1-645	10	0
+yflS	yflS	Putative malate transporter YflS	97	1.00	1416	0	0	1416	1	0	0		1416	1	1416	1	1416	1	1-1416	10	0
+yidC	yidC	Membrane protein insertase YidC	97	1.00	2358	0	0	2358	1	0	0		2358	1	2358	1	2358	1	1-2358	10	0
+yocK	yocK	General stress protein 16O	97	1.00	375	0	0	375	1	0	0		0	0	375	1	0	0		10	0
+yscL	yscL	Yop proteins translocation protein L	97	1.00	672	0	0	672	1	0	0		672	1	672	1	672	1	1-672	10	0
+yscN_2~~~yscN_1~~~yscN	yscN_2;yscN_1;yscN	putative ATP synthase YscN	97	1.01	1329	0	0	729	2	0	0		0	0	1329	1	0	0		10	1
+yscU	yscU	Yop proteins translocation protein U	97	1.00	1083	0	0	1083	1	0	0		0	0	1083	1	0	0		10	0
+yycJ	yycJ	Putative metallo-hydrolase YycJ	97	1.00	789	0	0	789	1	0	0		789	1	789	1	789	1	1-789	10	0
+znuC	znuC	High-affinity zinc uptake system ATP-binding protein ZnuC	97	1.00	711	0	0	711	1	0	0		711	1	711	1	711	1	1-711	10	0
