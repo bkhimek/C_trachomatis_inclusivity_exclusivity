@@ -35,14 +35,13 @@ then primer/probe design. Owner: Krzysztof Gizynski.
 |---|---|---|
 | Primer3 smoke test / probe sweep | bin/00, 00b | done, results in docs/ |
 | RefSeq inventory + download (125) | bin/01 | done |
-| Provenance audit, tiers | bin/02 (+ config/provenance_*.tsv) | done: 97 primary / 10 quality-review / 18 excluded |
+| Provenance audit, tiers | bin/02 (+ config/provenance_*.tsv) | done: 100 primary / 7 quality-review / 18 excluded |
 | Species check (fastANI) + redundancy | bin/03 | done: all >= 98.90% ANI; 58 clusters at >= 99.99 |
 | ompA serovar typing | bin/04 | done: 14 serovar groups |
 | Prokka annotation | bin/05 | done: 107 genomes (primary + quality-review), CDS median 897 |
 | Excel/Word reports | bin/90 | done for inventory; oligo table to be added |
-| Panaroo pangenome | bin/06 | done: 874 core / 6 soft-core / 21 shell / 3 cloud (904 families, 97 primary genomes) |
-| Exclusivity screening | bin/07 | **NEXT** (input: results/pangenome/core_genes.fasta) |
-| Candidate regions, ranking, consensus, Primer3 design + post-filter, validation, plasmid, final report | bin/08+ | not started |
+| Panaroo pangenome | bin/06 | **NEXT** (inputs: `results/annotation/<acc>/<acc>.gff`) |
+| Exclusivity screening, candidate regions, ranking, consensus, Primer3 design + post-filter, validation, plasmid, final report | bin/07+ | not started |
 
 Genome tiers: primary = consensus + inclusivity claim; quality-review = natural isolates with suspicious metrics
 (oligos are tested against them, reported separately); excluded = experimental/engineered/lab-selected or non-C. trachomatis.

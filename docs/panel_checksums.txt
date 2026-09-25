@@ -1,0 +1,3 @@
+da3d621a641bb07ecc258442e0589e2b21405b869f55c00b5cb0e41f41634ce6  data/panel/blastdb/genus.fna
+70950d2432bd9cc572d7af356687b8c3dcb0ba4fb25de2db15e85469a24215c4  data/panel/blastdb/clinical.fna
+46d30e932d73c01573bfac9ee97ad0c2555e6331e3ab9c19cfbbae2af02f41cd  data/panel/panel_accessions.txt

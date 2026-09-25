@@ -1,0 +1,36 @@
+# tier|species|max_genomes|rationale
+genus|Chlamydia muridarum|4|Nearest relative of C. trachomatis (ANI ~82%); murine pathogen
+genus|Chlamydia suis|4|Second-nearest relative (ANI ~81%); porcine, occasional zoonotic exposure
+genus|Chlamydia pneumoniae|5|Human respiratory pathogen in the same genus
+genus|Chlamydia psittaci|4|Zoonotic agent of psittacosis; causes human infection
+genus|Chlamydia abortus|4|Zoonotic; associated with pregnancy loss in exposed women
+genus|Chlamydia felis|3|Feline pathogen; same genus
+genus|Chlamydia caviae|3|Guinea pig pathogen; same genus
+genus|Chlamydia pecorum|4|Ruminant pathogen; same genus
+genus|Chlamydia avium|3|Avian Chlamydiaceae; same genus
+genus|Chlamydia gallinacea|3|Poultry-associated; same genus
+clinical|Neisseria gonorrhoeae|5|Most common urogenital co-pathogen and STI differential
+clinical|Neisseria meningitidis|4|Close relative of N. gonorrhoeae; urogenital carriage reported
+clinical|Neisseria lactamica|3|Commensal Neisseria
+clinical|Mycoplasmoides genitalium|4|STI co-pathogen in urogenital specimens
+clinical|Mycoplasma hominis|4|Urogenital flora and opportunist
+clinical|Ureaplasma urealyticum|3|Urogenital flora
+clinical|Ureaplasma parvum|3|Urogenital flora
+clinical|Treponema pallidum|4|Syphilis; STI differential
+clinical|Haemophilus ducreyi|3|Chancroid; STI differential
+clinical|Gardnerella vaginalis|5|Bacterial vaginosis; abundant in swabs
+clinical|Lactobacillus crispatus|4|Dominant vaginal flora
+clinical|Lactobacillus iners|4|Dominant vaginal flora
+clinical|Lactobacillus jensenii|3|Vaginal flora
+clinical|Lactobacillus gasseri|3|Vaginal flora
+clinical|Fannyhessea vaginae|3|Bacterial vaginosis associated
+clinical|Prevotella bivia|3|Bacterial vaginosis associated
+clinical|Escherichia coli|5|Urinary and rectal flora; frequent specimen contaminant
+clinical|Klebsiella pneumoniae|4|Urinary and rectal flora
+clinical|Proteus mirabilis|3|Urinary flora
+clinical|Pseudomonas aeruginosa|3|Common opportunist in urine specimens
+clinical|Enterococcus faecalis|4|Urinary and rectal flora
+clinical|Staphylococcus aureus|4|Skin flora; specimen contaminant
+clinical|Staphylococcus epidermidis|4|Skin flora; specimen contaminant
+clinical|Streptococcus agalactiae|4|Urogenital colonisation (group B streptococcus)
+clinical|Streptococcus pyogenes|3|Skin and throat pathogen; also covered by your Strep A project

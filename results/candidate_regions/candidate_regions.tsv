@@ -1,0 +1,589 @@
+gene	gene_name	annotation	avg_copies	gene_length	excl_window	excl_gap_len	n_species_genus	n_species_clinical	n_genomes_aligned	ref_match	region_start	region_end	region_length
+lpxL	lpxL	Lipid A biosynthesis lauroyltransferase	1.00	1368	1-1368	1368	8	0	97	exact	164	1098	935
+lplA	lplA	Lipoate-protein ligase A	1.00	702	1-702	702	9	0	97	exact	1	702	702
+aroB	aroB	3-dehydroquinate synthase	1.00	1122	1-1122	1122	9	0	97	exact	257	953	697
+recD2	recD2	ATP-dependent RecD-like DNA helicase	1.00	2241	1-2241	2241	10	0	97	exact	326	986	661
+lon	lon	Lon protease	1.00	2460	1-2460	2460	10	5	97	exact	166	794	629
+tilS	tilS	tRNA(Ile)-lysidine synthase	1.00	966	1-966	966	10	0	97	exact	115	715	601
+pyrG	pyrG	CTP synthase	1.00	1620	1-1620	1620	10	14	97	exact	319	912	594
+PSD2	PSD2	Phosphatidylserine decarboxylase proenzyme 2	1.00	906	1-906	906	7	0	97	exact	300	889	590
+lpxB	lpxB	Lipid-A-disaccharide synthase	1.00	1824	1-1824	1824	10	0	97	exact	1252	1824	573
+mutL	mutL	DNA mismatch repair protein MutL	1.00	1731	1-1731	1731	10	0	97	exact	1	560	560
+pmpA	pmpA	putative outer membrane protein PmpA	1.00	2928	1-2928	2928	4	0	97	exact	1083	1628	546
+group_63		hypothetical protein	1.00	1701	1-1701	1701	10	0	97	exact	924	1468	545
+group_65		hypothetical protein	1.00	1620	1-1620	1620	6	0	97	exact	349	878	530
+pdhD	pdhD	Dihydrolipoyl dehydrogenase	1.00	1398	1-1398	1398	10	0	97	exact	334	855	522
+group_23		hypothetical protein	1.00	2925	1-2925	2925	10	0	97	exact	295	812	518
+group_187		hypothetical protein	1.00	570	1-570	570	2	0	97	exact	1	517	517
+gatA	gatA	Glutamyl-tRNA(Gln) amidotransferase subunit A	1.00	1476	1-1476	1476	10	10	97	exact	520	1028	509
+ptsI	ptsI	Phosphoenolpyruvate-protein phosphotransferase	1.00	1716	1-1716	1716	10	0	97	exact	916	1424	509
+bamA	bamA	Outer membrane protein assembly factor BamA	1.00	2379	1-2379	2379	10	0	97	exact	387	893	507
+murC	murC	UDP-N-acetylmuramate--L-alanine ligase	1.00	2409	1-2409	2409	10	0	97	exact	478	971	494
+group_114		hypothetical protein	1.00	1023	1-1023	1023	10	0	97	exact	375	858	484
+group_99		hypothetical protein	1.00	1200	1-1200	1200	2	0	97	exact	314	796	483
+glgB	glgB	14-alpha-glucan branching enzyme GlgB	1.00	2217	1-2217	2217	10	3	97	exact	1385	1862	478
+uvrC	uvrC	UvrABC system protein C	1.00	1797	1-1797	1797	10	0	97	exact	1256	1733	478
+gltT	gltT	Proton/sodium-glutamate symport protein	1.00	1239	1-1239	1239	10	0	97	exact	412	887	476
+dsbD	dsbD	Thiol:disulfide interchange protein DsbD	1.00	2079	1-2079	2079	10	0	97	exact	1276	1747	472
+def	def	Peptide deformylase	1.00	546	1-546	546	7	0	97	exact	42	512	471
+ssaN	ssaN	putative secretion system apparatus ATP synthase SsaN	1.00	1305	1-1305	1305	10	0	97	exact	744	1209	466
+zwf	zwf	Glucose-6-phosphate 1-dehydrogenase	1.00	1524	1-1524	1524	10	5	97	exact	364	829	466
+group_71		hypothetical protein	1.00	1479	1-1479	1479	10	0	97	exact	155	614	460
+murB	murB	UDP-N-acetylenolpyruvoylglucosamine reductase	1.00	876	1-876	876	10	4	97	exact	417	876	460
+group_89		hypothetical protein	1.00	1278	1-1278	1278	10	0	97	exact	105	563	459
+group_76		Cardiolipin synthase	1.00	1425	1-1425	1425	10	0	97	exact	385	842	458
+amn	amn	AMP nucleosidase	1.00	870	1-870	870	10	0	97	exact	310	759	450
+atoC	atoC	Regulatory protein AtoC	1.00	1161	1-1161	1161	10	1	97	exact	356	805	450
+nqrC	nqrC	Na(+)-translocating NADH-quinone reductase subunit C	1.00	951	1-951	951	10	0	97	exact	502	951	450
+group_96		hypothetical protein	1.00	1218	1-1218	1218	8	0	97	exact	557	1001	445
+znuC	znuC	High-affinity zinc uptake system ATP-binding protein ZnuC	1.00	711	1-711	711	10	0	97	exact	161	601	441
+aroF	aroF	Phospho-2-dehydro-3-deoxyheptonate aldolase	1.00	837	1-837	837	10	1	97	exact	364	801	438
+thrZ	thrZ	Threonine--tRNA ligase 2	1.00	1908	1-1908	1908	10	3	97	exact	625	1061	437
+cpdA	cpdA	3'5'-cyclic adenosine monophosphate phosphodiesterase CpdA	1.00	873	1-873	873	8	0	97	exact	134	563	430
+group_59		Protein CT_858	1.00	1806	1-1806	1806	10	0	97	exact	1378	1806	429
+dnaE	dnaE	DNA polymerase III subunit alpha	1.00	3714	1-3714	3714	10	6	97	exact	1832	2258	427
+ribD	ribD	Riboflavin biosynthesis protein RibD	1.00	1128	1-1128	1128	10	0	97	exact	667	1093	427
+group_6		hypothetical protein	1.00	3417	1-3417	3417	10	0	97	exact	1689	2114	426
+hemN	hemN	Oxygen-independent coproporphyrinogen III oxidase	1.00	1374	1-1374	1374	10	0	97	exact	349	773	425
+dxs_1	dxs_1	1-deoxy-D-xylulose-5-phosphate synthase	1.00	1923	1-1923	1923	10	0	97	exact	1464	1885	422
+dxs_2	dxs_2	1-deoxy-D-xylulose-5-phosphate synthase	1.00	2037	1-2037	2037	10	2	97	exact	79	499	421
+group_61		4-hydroxybenzoate decarboxylase subunit C	1.00	1740	1-1740	1740	10	0	97	exact	586	1005	420
+uppS	uppS	Isoprenyl transferase	1.00	762	1-762	762	10	6	97	exact	325	744	420
+waaA	waaA	3-deoxy-D-manno-octulosonic acid transferase	1.00	1296	1-1296	1296	10	0	97	exact	160	575	416
+group_327		hypothetical protein	1.00	2163	1-2163	2163	10	0	97	exact	1292	1701	410
+murF	murF	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase	1.00	1353	1-1353	1353	10	0	97	exact	717	1123	407
+pmpG	pmpG	putative outer membrane protein PmpG	1.00	3042	1282-3042	1761	7	0	97	exact	1952	2354	403
+recJ	recJ	Single-stranded-DNA-specific exonuclease RecJ	1.00	1755	1-1755	1755	8	0	97	exact	554	956	403
+mqnE	mqnE	Aminodeoxyfutalosine synthase	1.00	1110	1-1110	1110	10	0	97	exact	538	939	402
+mqnC	mqnC	Cyclic dehypoxanthine futalosine synthase	1.00	1053	1-1053	1053	10	0	97	exact	619	1019	401
+group_160		hypothetical protein	1.00	732	1-732	732	9	0	97	exact	51	450	400
+group_120		hypothetical protein	1.00	993	1-993	993	5	0	97	exact	92	487	396
+group_293		hypothetical protein	1.00	1389	1-1389	1389	9	0	97	exact	300	694	395
+group_47		hypothetical protein	1.00	2304	1-2304	2304	10	0	97	exact	254	648	395
+radA	radA	DNA repair protein RadA	1.00	1365	1-1365	1365	10	10	97	exact	133	527	395
+gspF	gspF	Putative type II secretion system protein F	1.00	1176	1-1176	1176	9	0	97	exact	791	1176	386
+group_49		hypothetical protein	1.00	2076	1-2076	2076	10	0	97	exact	181	560	380
+group_9		hypothetical protein	1.00	3144	1-3144	3144	10	0	97	exact	1919	2298	380
+trmD	trmD	tRNA (guanine-N(1)-)-methyltransferase	1.00	1059	1-1059	1059	10	2	97	exact	67	446	380
+acoA	acoA	Acetoin:26-dichlorophenolindophenol oxidoreductase subunit alpha	1.00	1023	1-1023	1023	10	0	97	exact	83	461	379
+group_48		hypothetical protein	1.00	2091	1-2091	2091	10	0	97	exact	212	589	378
+ftsK	ftsK	DNA translocase FtsK	1.00	2439	1-2439	2439	10	3	97	exact	1407	1782	376
+malP	malP	Maltodextrin phosphorylase	1.00	2445	1-2445	2445	10	5	97	exact	683	1058	376
+lysS	lysS	Lysine--tRNA ligase	1.00	1581	1-1581	1581	10	7	97	exact	1144	1517	374
+uvrB	uvrB	UvrABC system protein B	1.00	2007	1-2007	2007	10	23	97	exact	295	668	374
+mntB_1	mntB_1	Manganese transport system ATP-binding protein MntB	1.00	819	1-819	819	10	0	97	exact	447	819	373
+group_68		hypothetical protein	1.00	1491	1-1491	1491	10	9	97	exact	1121	1491	371
+aspS	aspS	Aspartate--tRNA(Asp/Asn) ligase	1.00	1845	1-1360	1360	10	22	97	exact	245	614	370
+group_56		hypothetical protein	1.00	1866	1-1866	1866	10	0	97	exact	238	607	370
+oppB	oppB	Oligopeptide transport system permease protein OppB	1.00	942	1-942	942	10	0	97	exact	134	503	370
+group_128		hypothetical protein	1.00	948	1-948	948	10	0	97	exact	315	683	369
+group_74		hypothetical protein	1.00	1464	1-1464	1464	10	0	97	exact	493	861	369
+dauA	dauA	C4-dicarboxylic acid transporter DauA	1.00	1701	1-1701	1701	10	0	97	exact	496	863	368
+mdh	mdh	Malate dehydrogenase	1.00	981	1-981	981	10	0	97	exact	329	695	367
+group_142		hypothetical protein	1.00	837	1-837	837	10	0	97	exact	160	525	366
+lnt	lnt	Apolipoprotein N-acyltransferase	1.00	1629	1-1629	1629	10	0	97	exact	12	377	366
+mraY	mraY	Phospho-N-acetylmuramoyl-pentapeptide-transferase	1.00	1011	1-1011	1011	9	0	97	exact	10	375	366
+atoS	atoS	Signal transduction histidine-protein kinase AtoS	1.00	1059	1-1059	1059	10	0	97	exact	517	881	365
+group_21		hypothetical protein	1.00	3012	1-3012	3012	10	13	97	exact	676	1038	363
+lysC	lysC	Lysine-sensitive aspartokinase 3	1.00	1296	1-1296	1296	10	0	97	exact	701	1062	362
+der	der	GTPase Der	1.00	1473	1-1473	1473	10	0	97	exact	724	1083	360
+dnaG	dnaG	DNA primase	1.00	1788	1-1788	1788	10	1	97	exact	640	994	355
+alaS	alaS	Alanine--tRNA ligase	1.00	3009	40-3009	2970	10	16	97	exact	1955	2308	354
+cydA	cydA	Cytochrome bd ubiquinol oxidase subunit 1	1.00	1341	1-1341	1341	10	1	97	exact	252	605	354
+mntB_2	mntB_2	Manganese transport system membrane protein MntB	1.00	876	1-876	876	10	0	97	exact	464	815	352
+group_119		hypothetical protein	1.00	996	1-996	996	8	0	97	exact	531	879	349
+pepF1	pepF1	Oligoendopeptidase F plasmid	1.00	1827	1-1553	1553	10	6	97	exact	1136	1484	349
+tyrP_1	tyrP_1	Tyrosine-specific transport protein	1.00	1224	1-1224	1224	9	0	97	exact	1	348	348
+greA	greA	Transcription elongation factor GreA	1.00	2148	1-2148	2148	10	0	97	exact	50	396	347
+group_107		hypothetical protein	1.00	1101	1-1101	1101	10	0	97	exact	616	962	347
+fmt	fmt	Methionyl-tRNA formyltransferase	1.00	951	1-951	951	8	0	97	exact	92	437	346
+pcnB	pcnB	Poly(A) polymerase I	1.00	1278	1-1278	1278	10	1	97	exact	139	484	346
+group_352		hypothetical protein	1.00	1314	1-1314	1314	10	0	97	exact	223	566	344
+lipA	lipA	Lipoyl synthase	1.00	936	1-936	936	10	0	97	exact	571	912	342
+group_196		hypothetical protein	1.00	522	1-522	522	10	0	97	exact	86	425	340
+group_146		hypothetical protein	1.00	792	1-792	792	10	0	97	exact	327	662	336
+group_66		hypothetical protein	1.00	1512	1-1512	1512	10	0	97	exact	916	1250	335
+cadA	cadA	putative cadmium-transporting ATPase	1.00	1980	1-1980	1980	10	0	97	exact	896	1228	333
+group_44		hypothetical protein	1.00	2490	735-2490	1756	10	0	97	exact	1957	2286	330
+ppa	ppa	Inorganic pyrophosphatase	1.00	630	1-630	630	10	0	97	exact	1	329	329
+secA	secA	Protein translocase subunit SecA	1.00	2910	1-2910	2910	10	14	97	exact	1480	1808	329
+group_300		hypothetical protein	1.00	1260	1-1260	1260	10	0	97	exact	515	842	328
+nifS	nifS	Cysteine desulfurase NifS	1.00	1125	1-1125	1125	10	0	97	exact	483	810	328
+group_185		hypothetical protein	1.00	582	1-582	582	8	0	97	exact	159	483	325
+group_57		hypothetical protein	1.00	1860	1-1860	1860	10	0	97	exact	1016	1339	324
+nqrB	nqrB	Na(+)-translocating NADH-quinone reductase subunit B	1.00	1512	1-1512	1512	10	0	97	exact	430	753	324
+ptrA	ptrA	Protease 3	1.00	2871	1-2871	2871	10	0	97	exact	529	851	323
+lpxD	lpxD	UDP-3-O-acylglucosamine N-acyltransferase	1.00	1065	1-1065	1065	10	1	97	exact	470	791	322
+pknD_2	pknD_2	Serine/threonine-protein kinase PknD	1.00	1473	1-1147	1147	9	0	97	exact	249	570	322
+group_140		hypothetical protein	1.00	852	1-852	852	6	0	97	exact	417	735	319
+mutS	mutS	DNA mismatch repair protein MutS	1.00	2463	1-2013	2013	10	8	97	exact	218	535	318
+group_192		hypothetical protein	1.00	537	1-537	537	3	0	97	exact	183	499	317
+murA1	murA1	UDP-N-acetylglucosamine 1-carboxyvinyltransferase 1	1.00	1335	1-1335	1335	10	0	97	exact	886	1202	317
+pgktpi	pgk/tpi	Bifunctional PGK/TIM	1.00	1212	1-1212	1212	10	2	97	exact	380	696	317
+group_52		hypothetical protein	1.00	1953	1-1953	1953	10	0	97	exact	234	548	315
+ybhL	ybhL	Inner membrane protein YbhL	1.00	717	1-717	717	10	0	97	exact	121	435	315
+gmk	gmk	Guanylate kinase	1.00	618	1-618	618	10	0	97	exact	22	335	314
+pgi	pgi	Glucose-6-phosphate isomerase	1.00	1578	322-1578	1257	10	1	97	exact	998	1311	314
+surE	surE	5'-nucleotidase SurE	1.00	852	1-852	852	7	0	97	exact	539	852	314
+group_294		hypothetical protein	1.00	861	1-861	861	10	0	97	exact	442	754	313
+group_138		hypothetical protein	1.00	870	1-870	870	10	0	97	exact	1	311	311
+dsbH	dsbH	Disulfide bond reductase DsbH	1.00	495	1-495	495	8	0	97	exact	74	383	310
+eno	eno	Enolase	1.00	1275	1-1275	1275	10	14	97	exact	589	898	310
+hemB	hemB	Delta-aminolevulinic acid dehydratase	1.00	1017	1-1017	1017	10	1	97	exact	292	601	310
+hemY	hemY	Protoporphyrinogen oxidase	1.00	1275	1-1275	1275	9	0	97	exact	885	1194	310
+fabH	fabH	3-oxoacyl-[acyl-carrier-protein] synthase 3	1.00	1026	1-1026	1026	10	1	97	exact	622	929	308
+group_85		hypothetical protein	1.00	1320	1-1320	1320	10	0	97	exact	1013	1320	308
+group_69		hypothetical protein	1.00	1482	1-1482	1482	7	0	97	exact	594	899	306
+group_174		hypothetical protein	1.00	654	1-654	654	7	0	97	exact	348	652	305
+tkt	tkt	Transketolase	1.00	2001	1-1226	1226	10	9	97	exact	673	977	305
+dxr	dxr	1-deoxy-D-xylulose 5-phosphate reductoisomerase	1.00	1140	1-1140	1140	10	1	97	exact	280	583	304
+group_98		hypothetical protein	1.00	1215	1-1215	1215	10	0	97	exact	167	470	304
+mnmG	mnmG	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG	1.00	1833	1-1833	1833	10	18	97	exact	355	658	304
+group_315		hypothetical protein	1.00	2481	1-2481	2481	2	0	97	exact	593	895	303
+group_77		hypothetical protein	1.00	1401	1-1401	1401	10	9	97	exact	450	752	303
+chxR	chxR	Atypical response regulator protein ChxR	1.00	702	1-702	702	10	0	97	exact	383	683	301
+clpB1	clpB1	Chaperone protein ClpB 1	1.00	2604	1-2604	2604	10	25	97	exact	2244	2543	300
+group_259		hypothetical protein	1.00	300	1-300	300	7	0	97	exact	1	300	300
+pcrA	pcrA	ATP-dependent DNA helicase PcrA	1.00	1968	1-1968	1968	10	6	97	exact	1602	1901	300
+dapL	dapL	LL-diaminopimelate aminotransferase	1.00	1185	1-1185	1185	9	0	97	exact	554	852	299
+mfd	mfd	Transcription-repair-coupling factor	1.00	3240	1-2481	2481	10	4	97	exact	357	655	299
+rnz	rnz	Ribonuclease Z	1.00	915	1-915	915	10	0	97	exact	559	857	299
+group_129		hypothetical protein	1.00	945	1-945	945	2	0	97	exact	1	298	298
+group_131		hypothetical protein	1.00	921	1-921	921	10	0	97	exact	14	311	298
+aas	aas	Bifunctional protein Aas	1.00	1614	1-1614	1614	10	0	97	exact	562	858	297
+group_312		hypothetical protein	1.00	1728	1-1728	1728	5	0	97	exact	108	404	297
+ispF	ispF	2-C-methyl-D-erythritol 24-cyclodiphosphate synthase	1.00	537	1-537	537	9	0	97	exact	1	297	297
+aroE	aroE	Shikimate dehydrogenase (NADP(+))	1.00	1443	1-1443	1443	3	0	97	exact	25	320	296
+mnmE	mnmE	tRNA modification GTPase MnmE	1.00	1335	1-1335	1335	10	1	97	exact	298	593	296
+group_170		hypothetical protein	1.00	672	1-672	672	10	0	97	exact	332	626	295
+group_54		hypothetical protein	1.00	1950	1-1950	1950	10	0	97	exact	1330	1623	294
+pdhC_2	pdhC_2	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	1.00	1167	1-1167	1167	10	0	97	exact	432	725	294
+fabI	fabI	Enoyl-[acyl-carrier-protein] reductase [NADH] FabI	1.00	897	1-897	897	10	0	97	exact	478	770	293
+group_144		hypothetical protein	1.00	807	1-807	807	3	0	97	exact	403	695	293
+gyrA_1	gyrA_1	DNA gyrase subunit A	1.00	2511	1-2511	2511	10	16	97	exact	2219	2511	293
+yflS	yflS	Putative malate transporter YflS	1.00	1416	1-1416	1416	10	0	97	exact	1095	1387	293
+group_121		hypothetical protein	1.00	990	1-990	990	10	0	97	exact	370	661	292
+mqnA	mqnA	Chorismate dehydratase	1.00	822	1-822	822	4	0	97	exact	309	600	292
+cca	cca	CCA-adding enzyme	1.00	1233	1-1233	1233	10	0	97	exact	943	1233	291
+group_167		putative oxidoreductase CT_610	1.00	681	1-681	681	7	0	97	exact	61	351	291
+leuS	leuS	Leucine--tRNA ligase	1.00	2460	1-2460	2460	10	15	97	exact	192	482	291
+rnhC	rnhC	Ribonuclease HIII	1.00	903	1-903	903	10	0	97	exact	226	515	290
+rnr	rnr	Ribonuclease R	1.00	2085	1-2085	2085	10	1	97	exact	1117	1406	290
+serS	serS	Serine--tRNA ligase	1.00	1287	1-1287	1287	10	1	97	exact	838	1127	290
+group_145		hypothetical protein	1.00	795	1-795	795	10	0	97	exact	215	503	289
+ldh	ldh	Leucine dehydrogenase	1.00	1041	1-1041	1041	10	0	97	exact	680	968	289
+group_72		Magnesium transporter MgtE	1.00	1473	1-1473	1473	10	0	97	exact	592	879	288
+priA	priA	Primosomal protein N'	1.00	2262	1-1666	1666	10	3	97	exact	1249	1535	287
+group_229		hypothetical protein	1.00	432	1-432	432	10	0	97	exact	148	432	285
+recB	recB	RecBCD enzyme subunit RecB	1.00	3081	1-3081	3081	10	0	97	exact	1567	1851	285
+aroC	aroC	Chorismate synthase	1.00	1074	1-1074	1074	10	0	97	exact	1	284	284
+dnaC	dnaC	Replicative DNA helicase	1.00	1419	1-1419	1419	10	1	97	exact	955	1238	284
+group_163		hypothetical protein	1.00	717	1-717	717	10	0	97	exact	71	354	284
+pknD_1	pknD_1	Serine/threonine-protein kinase PknD	1.00	2805	1-2805	2805	10	0	97	exact	1339	1622	284
+oppC	oppC	Oligopeptide transport system permease protein OppC	1.00	846	1-846	846	10	0	97	exact	370	651	282
+group_186		hypothetical protein	1.00	579	1-579	579	2	0	97	exact	111	390	280
+lpxG	lpxG	UDP-23-diacylglucosamine pyrophosphatase LpxG	1.00	978	1-978	978	10	0	97	exact	249	527	279
+group_250		hypothetical protein	1.00	339	1-339	339	2	0	97	exact	62	339	278
+pmpI	pmpI	putative outer membrane protein PmpI	1.00	2637	814-2637	1824	4	0	97	exact	1180	1457	278
+prfA	prfA	Peptide chain release factor RF1	1.00	1080	1-1080	1080	10	14	97	exact	727	1004	278
+yycJ	yycJ	Putative metallo-hydrolase YycJ	1.00	789	1-789	789	10	0	97	exact	1	278	278
+mnmA	mnmA	tRNA-specific 2-thiouridylase MnmA	1.00	1077	1-1077	1077	10	7	97	exact	503	779	277
+topA	topA	DNA topoisomerase 1	1.00	2574	1-2574	2574	10	5	97	exact	2017	2293	277
+oppA_1	oppA_1	Oligopeptide-binding protein OppA	1.00	1281	1-1035	1035	3	0	97	exact	400	674	275
+group_291		hypothetical protein	1.00	1266	1-1266	1266	9	0	97	exact	984	1257	274
+hemE	hemE	Uroporphyrinogen decarboxylase	1.00	1005	1-1005	1005	9	0	97	exact	172	445	274
+group_182		hypothetical protein	1.00	585	1-585	585	10	0	97	exact	313	585	273
+hemC	hemC	Porphobilinogen deaminase	1.00	726	1-597	597	4	0	97	exact	326	597	272
+group_122		hypothetical protein	1.00	990	1-936	936	9	0	97	exact	480	750	271
+group_194		hypothetical protein	1.00	525	1-525	525	2	0	97	exact	224	494	271
+tolB	tolB	Tol-Pal system protein TolB	1.00	1296	1-1296	1296	10	0	97	exact	688	958	271
+accC	accC	Biotin carboxylase	1.00	1374	1-1374	1374	10	7	97	exact	1105	1374	270
+ruvC	ruvC	Crossover junction endodeoxyribonuclease RuvC	1.00	513	1-513	513	8	0	97	exact	213	481	269
+tlcA_2	tlcA_2	ADPATP carrier protein 1	1.00	1623	1-1623	1623	10	0	97	exact	1	269	269
+group_193		hypothetical protein	1.00	528	1-528	528	8	0	97	exact	261	528	268
+group_45		hypothetical protein	1.00	2499	1-2499	2499	8	0	97	exact	1182	1449	268
+glgA	glgA	Glycogen synthase	1.00	1425	1-1425	1425	10	0	97	exact	175	440	266
+group_7		hypothetical protein	1.00	3600	1-3600	3600	10	0	97	exact	1	266	266
+rsmH	rsmH	Ribosomal RNA small subunit methyltransferase H	1.00	903	1-903	903	10	0	97	exact	209	474	266
+group_58		hypothetical protein	1.00	1809	1-1809	1809	10	0	97	exact	1212	1476	265
+pckG	pckG	Phosphoenolpyruvate carboxykinase [GTP]	1.00	1800	1-1800	1800	10	1	97	exact	339	603	265
+hemW	hemW	Heme chaperone HemW	1.00	1137	1-1137	1137	10	0	97	exact	730	993	264
+cpoB	cpoB	Cell division coordinator CpoB	1.00	957	1-957	957	9	0	97	exact	634	896	263
+group_201		hypothetical protein	1.00	507	1-507	507	10	0	97	exact	145	407	263
+group_310		hypothetical protein	1.00	1257	1-1257	1257	10	0	97	exact	517	779	263
+group_51		hypothetical protein	1.00	1977	71-1977	1907	10	0	97	exact	1120	1381	262
+group_67		hypothetical protein	1.00	2865	1-2865	2865	10	0	97	exact	2360	2621	262
+group_88		hypothetical protein	1.00	1284	1-1284	1284	10	0	97	exact	712	973	262
+group_30		hypothetical protein	1.00	2787	1-2787	2787	10	0	97	exact	2020	2280	261
+group_97		hypothetical protein	1.00	1215	1-1215	1215	8	0	97	exact	517	777	261
+map	map	Methionine aminopeptidase	1.00	876	1-876	876	10	0	97	exact	582	842	261
+group_136		hypothetical protein	1.00	870	1-870	870	10	0	97	exact	79	338	260
+group_157		hypothetical protein	1.00	744	1-744	744	7	0	97	exact	400	659	260
+group_135		hypothetical protein	1.00	873	1-873	873	3	0	97	exact	190	448	259
+hflX	hflX	GTPase HflX	1.00	1344	1-1344	1344	10	2	97	exact	222	480	259
+dapF	dapF	Diaminopimelate epimerase	1.00	828	60-828	769	8	0	97	exact	571	828	258
+group_143		hypothetical protein	1.00	831	1-831	831	10	0	97	exact	574	831	258
+group_346		hypothetical protein	1.00	897	1-897	897	10	0	97	exact	258	515	258
+group_177		hypothetical protein	1.00	642	1-642	642	2	0	97	exact	149	405	257
+group_73		hypothetical protein	1.00	1473	1-1473	1473	10	0	97	exact	1006	1262	257
+oppD_2	oppD_2	Oligopeptide transport ATP-binding protein OppD	1.00	966	1-966	966	10	5	97	exact	437	692	256
+glgC	glgC	Glucose-1-phosphate adenylyltransferase	1.00	1326	1-1326	1326	10	0	97	exact	934	1188	255
+pgcA	pgcA	Phosphoglucomutase	1.00	1782	1-1782	1782	10	0	97	exact	1284	1538	255
+tmk	tmk	Thymidylate kinase	1.00	612	1-612	612	7	0	97	exact	134	388	255
+bepA	bepA	Beta-barrel assembly-enhancing protease	1.00	1008	1-1008	1008	10	0	97	exact	1	254	254
+group_151		hypothetical protein	1.00	783	1-783	783	10	0	97	exact	1	254	254
+group_190		Early upstream open reading frame	1.00	552	1-552	552	10	0	97	exact	1	254	254
+rlmL	rlmL	Ribosomal RNA large subunit methyltransferase K/L	1.00	828	1-828	828	10	0	97	exact	1	254	254
+group_235		hypothetical protein	1.00	408	1-408	408	2	0	97	exact	110	362	253
+group_91		hypothetical protein	1.00	1245	1-1245	1245	10	0	97	exact	674	926	253
+menG	menG	Demethylmenaquinone methyltransferase	1.00	654	1-654	654	3	0	97	exact	1	253	253
+plqA	plqA	4-hydroxybenzoate solanesyltransferase	1.00	909	1-909	909	7	0	97	exact	9	261	253
+adk	adk	Adenylate kinase	1.00	738	1-738	738	4	0	97	exact	204	455	252
+group_53		hypothetical protein	1.00	1950	1-1950	1950	10	0	97	exact	690	941	252
+gadC	gadC	Glutamate/gamma-aminobutyrate antiporter	1.00	1401	1-1401	1401	10	0	97	exact	541	791	251
+group_125		hypothetical protein	1.00	966	1-966	966	10	0	97	exact	619	869	251
+rbn	rbn	Ribonuclease BN	1.00	828	1-828	828	10	0	97	exact	118	367	250
+hxcR	hxcR	putative type II secretion system protein HxcR	1.00	1506	1-1506	1506	10	0	97	exact	310	558	249
+flhA	flhA	Flagellar biosynthesis protein FlhA	1.00	1818	1-1818	1818	10	1	97	exact	1571	1818	248
+group_81		hypothetical protein	1.00	1353	1-1353	1353	10	0	97	exact	892	1139	248
+group_132		hypothetical protein	1.00	918	1-918	918	9	0	97	exact	34	280	247
+hemH	hemH	Ferrochelatase	1.00	945	1-945	945	8	0	97	exact	164	410	247
+pgsA_1	pgsA_1	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	1.00	555	1-555	555	9	0	97	exact	151	396	246
+group_95		hypothetical protein	1.00	1224	1-1224	1224	10	0	97	exact	605	849	245
+stp	stp	Serine/threonine phosphatase stp	1.00	747	1-747	747	10	0	97	exact	442	686	245
+group_241		hypothetical protein	1.00	369	1-369	369	7	0	97	exact	1	244	244
+oppA_2	oppA_2	Oligopeptide-binding protein OppA	1.00	1557	1-1557	1557	6	0	97	exact	303	546	244
+pfp_1	pfp_1	Pyrophosphate--fructose 6-phosphate 1-phosphotransferase	1.00	1662	1-1662	1662	10	0	97	exact	1002	1245	244
+rpoN	rpoN	RNA polymerase sigma-54 factor	1.00	1311	1-1311	1311	9	0	97	exact	749	992	244
+ribC	ribC	Riboflavin synthase	1.00	600	1-600	600	4	0	97	exact	358	600	243
+glmM	glmM	Phosphoglucosamine mutase	1.00	1377	1-1377	1377	10	4	97	exact	1122	1363	242
+pkn1	pkn1	Serine/threonine-protein kinase Pkn1	1.00	1845	1-1845	1845	10	0	97	exact	1041	1282	242
+ttcA	ttcA	tRNA-cytidine(32) 2-sulfurtransferase	1.00	765	1-765	765	10	0	97	exact	1	242	242
+group_82		hypothetical protein	1.00	1347	1-1347	1347	10	0	97	exact	128	368	241
+group_106		hypothetical protein	1.00	1110	1-1110	1110	10	0	97	exact	556	795	240
+group_216		hypothetical protein	1.00	477	1-477	477	8	0	97	exact	1	240	240
+group_230		hypothetical protein	1.00	429	1-429	429	2	0	97	exact	7	246	240
+hemA	hemA	Glutamyl-tRNA reductase	1.00	1044	1-1044	1044	8	0	97	exact	284	523	240
+polA	polA	DNA polymerase I	1.00	2601	1-2601	2601	10	2	97	exact	533	772	240
+sctC_1	sctC_1	Type 3 secretion system secretin	1.00	2283	1-2283	2283	10	0	97	exact	1414	1653	240
+trxB	trxB	Thioredoxin reductase	1.00	1074	1-1074	1074	10	2	97	exact	117	356	240
+dppE	dppE	Dipeptide-binding protein DppE	1.00	1590	1-1590	1590	8	0	97	exact	232	470	239
+group_165		hypothetical protein	1.00	699	1-699	699	10	0	97	exact	1	239	239
+kgd	kgd	Multifunctional 2-oxoglutarate metabolism enzyme	1.00	2718	1-2718	2718	10	4	97	exact	173	411	239
+pyk	pyk	Pyruvate kinase	1.00	1458	748-1458	711	10	6	97	exact	1036	1274	239
+group_102		hypothetical protein	1.00	1173	1-1173	1173	10	0	97	exact	492	729	238
+murG	murG	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase	1.00	1029	1-1029	1029	10	0	97	exact	200	437	238
+pdhC_1	pdhC_1	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	1.00	1290	1-1290	1290	10	0	97	exact	583	819	237
+groL_2	groL_2	60 kDa chaperonin	1.00	1539	1-1539	1539	2	0	97	exact	121	356	236
+group_360		hypothetical protein	1.00	843	1-843	843	2	0	97	exact	118	353	236
+pheT	pheT	Phenylalanine--tRNA ligase beta subunit	1.00	2373	1-2373	2373	10	0	97	exact	1801	2036	236
+recC	recC	RecBCD enzyme subunit RecC	1.00	3021	1-3021	3021	10	0	97	exact	1678	1913	236
+group_173		hypothetical protein	1.00	660	1-660	660	10	0	97	exact	1	235	235
+group_127		hypothetical protein	1.00	951	1-951	951	10	0	97	exact	521	754	234
+group_80		hypothetical protein	1.00	1353	1-1353	1353	9	0	97	exact	783	1016	234
+oppD_1	oppD_1	Oligopeptide transport ATP-binding protein OppD	1.00	834	1-834	834	9	0	97	exact	542	775	234
+group_64		hypothetical protein	1.00	1689	1-1689	1689	10	0	97	exact	965	1197	233
+prmC	prmC	Release factor glutamine methyltransferase	1.00	873	1-873	873	10	0	97	exact	94	326	233
+thyX	thyX	Flavin-dependent thymidylate synthase	1.00	1590	1-1590	1590	10	0	97	exact	980	1212	233
+group_83		hypothetical protein	1.00	1326	1-1326	1326	10	0	97	exact	302	533	232
+nqrF	nqrF	Na(+)-translocating NADH-quinone reductase subunit F	1.00	1296	1-1296	1296	10	0	97	exact	922	1152	231
+group_203		hypothetical protein	1.00	504	1-504	504	10	0	97	exact	275	504	230
+btuD	btuD	Vitamin B12 import ATP-binding protein BtuD	1.00	1941	1-1941	1941	10	0	97	exact	530	758	229
+group_0		hypothetical protein	1.00	2508	1-2508	2508	10	0	97	exact	1651	1879	229
+group_159		hypothetical protein	1.00	732	1-732	732	2	0	97	exact	19	247	229
+group_8		hypothetical protein	1.00	2073	1-2073	2073	10	0	97	exact	492	720	229
+mnmC	mnmC	tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein MnmC	1.00	1059	1-1059	1059	10	0	97	exact	1	229	229
+aroK	aroK	Shikimate kinase	1.00	555	1-555	555	2	0	97	exact	7	234	228
+gpmA	gpmA	23-bisphosphoglycerate-dependent phosphoglycerate mutase	1.00	681	1-681	681	10	0	97	exact	375	602	228
+group_93		hypothetical protein	1.00	1230	1-1230	1230	9	0	97	exact	442	669	228
+ispH2	ispH2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase 2	1.00	924	1-924	924	10	3	97	exact	258	485	228
+group_90		hypothetical protein	1.00	1275	1-1275	1275	10	0	97	exact	1	227	227
+group_225		hypothetical protein	1.00	447	1-447	447	7	0	97	exact	1	226	226
+group_272		hypothetical protein	1.00	225	1-225	225	2	0	97	exact	1	225	225
+group_317		hypothetical protein	1.00	738	1-738	738	8	0	97	exact	362	586	225
+group_84		hypothetical protein	1.00	1323	1-1323	1323	10	0	97	exact	278	502	225
+ileS	ileS	Isoleucine--tRNA ligase	1.00	3126	1-3126	3126	10	1	97	exact	1503	1727	225
+group_149		hypothetical protein	1.00	786	1-786	786	7	0	97	exact	312	535	224
+group_154		hypothetical protein	1.00	759	1-759	759	9	0	97	exact	178	401	224
+group_188		hypothetical protein	1.00	567	1-567	567	10	0	97	exact	22	245	224
+group_334		hypothetical protein	1.00	627	1-627	627	2	0	97	exact	337	560	224
+group_60		hypothetical protein	1.00	1770	1-1770	1770	10	0	97	exact	918	1141	224
+hemL	hemL	Glutamate-1-semialdehyde 21-aminomutase	1.00	1269	1-1143	1143	10	2	97	exact	922	1143	222
+hisS	hisS	Histidine--tRNA ligase	1.00	1287	1-1287	1287	10	1	97	exact	407	628	222
+pfp_2	pfp_2	Pyrophosphate--fructose 6-phosphate 1-phosphotransferase	1.00	1647	1-1647	1647	10	1	97	exact	619	840	222
+ispG	ispG	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (ferredoxin)	1.00	1809	1-1809	1809	10	1	97	exact	1589	1809	221
+dapB	dapB	4-hydroxy-tetrahydrodipicolinate reductase	1.00	762	1-762	762	8	0	97	exact	179	398	220
+group_306		hypothetical protein	1.00	1521	1-1521	1521	8	0	97	exact	462	681	220
+ispE	ispE	Putative 4-diphosphocytidyl-2-C-methyl-D-erythritol kinase	1.00	870	1-870	870	5	0	97	exact	165	384	220
+aroA	aroA	3-phosphoshikimate 1-carboxyvinyltransferase	1.00	1323	1-1323	1323	9	0	97	exact	360	578	219
+group_112		hypothetical protein	1.00	1053	1-1053	1053	10	0	97	exact	163	381	219
+trpF	trpF	N-(5'-phosphoribosyl)anthranilate isomerase	1.00	627	1-627	627	3	0	97	exact	1	219	219
+group_139		hypothetical protein	1.00	867	1-867	867	10	0	97	exact	538	755	218
+group_226		hypothetical protein	1.00	444	1-444	444	9	0	97	exact	193	410	218
+group_5		hypothetical protein	1.00	771	1-771	771	9	0	97	exact	291	508	218
+group_108		hypothetical protein	1.00	1092	1-1092	1092	2	0	97	exact	824	1040	217
+plsX	plsX	Phosphate acyltransferase	1.00	966	1-966	966	10	0	97	exact	750	966	217
+valS	valS	Valine--tRNA ligase	1.00	2820	1-2820	2820	10	10	97	exact	2346	2562	217
+brnQ	brnQ	Branched-chain amino acid transport system 2 carrier protein	1.00	1236	1-1236	1236	9	0	97	exact	740	955	216
+glyA	glyA	Serine hydroxymethyltransferase	1.00	1494	1-1494	1494	10	1	97	exact	1261	1476	216
+group_133		hypothetical protein	1.00	912	1-912	912	6	0	97	exact	463	678	216
+group_220		hypothetical protein	1.00	453	1-453	453	10	0	97	exact	213	428	216
+mutY	mutY	Adenine DNA glycosylase	1.00	1110	1-1110	1110	10	3	97	exact	45	260	216
+xerD	xerD	Tyrosine recombinase XerD	1.00	963	1-963	963	8	0	97	exact	333	548	216
+cysJ	cysJ	Sulfite reductase [NADPH] flavoprotein alpha-component	1.00	1056	1-1056	1056	9	0	97	exact	415	629	215
+group_134		hypothetical protein	1.00	897	1-897	897	10	0	97	exact	1	215	215
+group_94		hypothetical protein	1.00	1230	1-1230	1230	10	0	97	exact	136	350	215
+pnp	pnp	Polyribonucleotide nucleotidyltransferase	1.00	2088	1-2088	2088	10	14	97	exact	691	905	215
+sucC	sucC	Succinate--CoA ligase [ADP-forming] subunit beta	1.00	1161	1-1161	1161	10	2	97	exact	392	605	214
+group_180		hypothetical protein	1.00	603	1-603	603	8	0	97	exact	222	434	213
+rluD	rluD	Ribosomal large subunit pseudouridine synthase D	1.00	1008	474-1008	535	10	3	97	exact	796	1008	213
+tsaD	tsaD	tRNA N6-adenosine threonylcarbamoyltransferase	1.00	1017	1-1017	1017	10	2	97	exact	571	783	213
+gyrA_2	gyrA_2	DNA gyrase subunit A	1.00	1473	1-1473	1473	10	0	97	exact	136	347	212
+COQ3	COQ3	Ubiquinone biosynthesis O-methyltransferase mitochondrial	1.00	804	1-804	804	9	0	97	exact	230	440	211
+recF	recF	DNA replication and repair protein RecF	1.00	1098	1-1098	1098	6	0	97	exact	443	653	211
+ruvA	ruvA	Holliday junction ATP-dependent DNA helicase RuvA	1.00	603	1-603	603	10	0	97	exact	341	551	211
+tig	tig	Trigger factor	1.00	1329	1-1329	1329	10	0	97	exact	957	1167	211
+ftsI	ftsI	Peptidoglycan DD-transpeptidase FtsI	1.00	1944	1-1944	1944	10	0	97	exact	398	607	210
+truA	truA	tRNA pseudouridine synthase A	1.00	804	1-804	804	10	0	97	exact	427	636	210
+cysS	cysS	Cysteine--tRNA ligase	1.00	1494	1-1494	1494	10	4	97	exact	1236	1443	208
+lolD	lolD	Lipoprotein-releasing system ATP-binding protein LolD	1.00	678	1-678	678	10	0	97	exact	75	282	208
+hrcA	hrcA	Heat-inducible transcription repressor HrcA	1.00	1218	1-1218	1218	10	0	97	exact	276	482	207
+lipM	lipM	Octanoyltransferase LipM	1.00	720	1-720	720	8	0	97	exact	397	603	207
+rlmCD	rlmCD	23S rRNA (uracil-C(5))-methyltransferase RlmCD	1.00	1191	1-1191	1191	10	0	97	exact	794	1000	207
+group_105		hypothetical protein	1.00	1122	1-1122	1122	10	0	97	exact	1	206	206
+group_169		hypothetical protein	1.00	672	1-672	672	3	0	97	exact	454	659	206
+group_297		S-adenosylmethionine/S-adenosylhomocysteine transporter	1.00	984	1-984	984	10	0	97	exact	412	617	206
+group_86		hypothetical protein	1.00	1305	1-1305	1305	10	0	97	exact	916	1121	206
+sigD	sigD	RNA polymerase sigma-D factor	1.00	762	1-762	762	10	0	97	exact	112	317	206
+dapA	dapA	4-hydroxy-tetrahydrodipicolinate synthase	1.00	861	1-861	861	2	0	97	exact	639	842	204
+group_115		hypothetical protein	1.00	1008	1-1008	1008	8	0	97	exact	215	418	204
+group_158		hypothetical protein	1.00	735	1-735	735	10	0	97	exact	393	596	204
+group_274		hypothetical protein	1.00	204	1-204	204	2	0	97	exact	1	204	204
+nth	nth	Endonuclease III	1.00	636	1-636	636	9	0	97	exact	82	285	204
+fliY	fliY	L-cystine-binding protein FliY	1.00	786	1-786	786	10	0	97	exact	585	786	202
+gyrB_2	gyrB_2	DNA gyrase subunit B	1.00	1818	1-1818	1818	10	1	97	exact	1349	1550	202
+artM	artM	Arginine transport ATP-binding protein ArtM	1.00	702	1-702	702	9	6	97	exact	83	283	201
+group_152		hypothetical protein	1.00	774	1-774	774	10	0	97	exact	30	230	201
+group_285		putative transcriptional regulatory protein/MSMEI_2866;putative transcriptional regulatory protein	1.00	717	44-717	674	10	2	97	exact	464	664	201
+metG	metG	Methionine--tRNA ligase	1.00	1653	1-1653	1653	10	0	97	exact	1017	1217	201
+ybeY	ybeY	Endoribonuclease YbeY	1.00	486	1-486	486	9	0	97	exact	286	486	201
+folD	folD	Bifunctional protein FolD protein	1.00	864	1-864	864	10	0	97	exact	52	251	200
+gndA	gndA	6-phosphogluconate dehydrogenase NADP(+)-dependent decarboxylating	1.00	1443	1-1443	1443	10	6	97	exact	60	258	199
+group_227		hypothetical protein	1.00	441	1-441	441	10	0	97	exact	1	199	199
+group_70		hypothetical protein	1.00	1479	1-1479	1479	10	0	97	exact	1	199	199
+tpiA	tpiA	Triosephosphate isomerase	1.00	825	1-825	825	9	0	97	exact	516	714	199
+argS	argS	Arginine--tRNA ligase	1.00	1692	1-1692	1692	10	4	97	exact	212	409	198
+group_204		hypothetical protein	1.00	501	1-501	501	9	0	97	exact	1	198	198
+group_243		hypothetical protein	1.00	366	1-366	366	2	0	97	exact	1	198	198
+miaA	miaA	tRNA dimethylallyltransferase	1.00	1020	229-1020	792	10	1	97	exact	734	931	198
+tyrS	tyrS	Tyrosine--tRNA ligase	1.00	1239	1-1239	1239	10	0	97	exact	403	600	198
+dnaN	dnaN	Beta sliding clamp	1.00	1101	1-1101	1101	10	0	97	exact	469	665	197
+fabD	fabD	Malonyl CoA-acyl carrier protein transacylase	1.00	927	1-927	927	10	0	97	exact	555	751	197
+murD	murD	UDP-N-acetylmuramoylalanine--D-glutamate ligase	1.00	1251	1-1251	1251	10	0	97	exact	955	1151	197
+tyrB	tyrB	Tyrosine aminotransferase	1.00	1203	1-1203	1203	10	0	97	exact	809	1005	197
+group_111		hypothetical protein	1.00	1065	1-1065	1065	10	0	97	exact	198	391	194
+group_147		hypothetical protein	1.00	792	1-792	792	10	0	97	exact	70	263	194
+appB	appB	Cytochrome bd-II ubiquinol oxidase subunit 2	1.00	1062	1-1062	1062	9	0	97	exact	527	719	193
+cysQ	cysQ	3'(2')5'-bisphosphate nucleotidase CysQ	1.00	1029	1-1029	1029	7	0	97	exact	201	393	193
+group_218		hypothetical protein	1.00	468	1-468	468	2	0	97	exact	1	193	193
+group_323		GTP cyclohydrolase 1 type 2	1.00	756	1-756	756	10	0	97	exact	302	494	193
+group_78		putative uridylyltransferase	1.00	1368	1-1368	1368	10	0	97	exact	506	698	193
+xerC	xerC	Tyrosine recombinase XerC	1.00	948	1-948	948	10	0	97	exact	145	337	193
+fbiB	fbiB	Bifunctional F420 biosynthesis protein FbiB	1.00	732	1-732	732	9	0	97	exact	173	363	191
+group_161		hypothetical protein	1.00	729	1-729	729	10	0	97	exact	376	566	191
+group_222		hypothetical protein	1.00	450	1-450	450	10	0	97	exact	241	431	191
+group_117		hypothetical protein	1.00	999	1-999	999	10	0	97	exact	799	988	190
+smpB	smpB	SsrA-binding protein	1.00	456	1-456	456	10	0	97	exact	1	190	190
+tsaC	tsaC	Threonylcarbamoyl-AMP synthase	1.00	846	85-846	762	8	0	97	exact	302	491	190
+group_162		hypothetical protein	1.00	720	1-720	720	10	0	97	exact	30	218	189
+group_179		dITP/XTP pyrophosphatase	1.00	630	1-630	630	10	1	97	exact	430	618	189
+asd2	asd2	Aspartate-semialdehyde dehydrogenase 2	1.00	1005	1-1005	1005	10	0	97	exact	679	866	188
+group_113		hypothetical protein	1.00	1053	1-1053	1053	10	0	97	exact	178	365	188
+infB	infB	Translation initiation factor IF-2	1.00	2691	137-2088	1952	10	13	97	exact	1414	1601	188
+group_172		hypothetical protein	1.00	660	1-660	660	4	0	97	exact	124	310	187
+recO	recO	DNA repair protein RecO	1.00	747	1-747	747	10	0	97	exact	473	659	187
+rluB	;rluB	hypothetical protein;Ribosomal large subunit pseudouridine synthase B	1.00	813	1-813	813	10	0	97	exact	200	386	187
+glmU	glmU	Bifunctional protein GlmU	1.00	618	1-618	618	10	0	97	exact	302	487	186
+group_195		hypothetical protein	1.00	525	1-525	525	2	0	97	exact	216	401	186
+atpD	atpD	V-type ATP synthase subunit D	1.00	615	1-615	615	10	0	97	exact	377	561	185
+ddpF	ddpF	putative DD-dipeptide transport ATP-binding protein DdpF	1.00	744	1-744	744	10	0	97	exact	1	185	185
+odhB	odhB	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex	1.00	1101	1-1101	1101	10	3	97	exact	688	872	185
+ubiX	ubiX	Flavin prenyltransferase UbiX	1.00	579	1-579	579	9	0	97	exact	268	452	185
+group_110		putative peptidase	1.00	1071	1-1071	1071	10	0	97	exact	698	881	184
+group_116		hypothetical protein	1.00	1002	1-1002	1002	10	0	97	exact	435	618	184
+group_365		hypothetical protein	1.00	858	339-858	520	3	0	97	exact	535	718	184
+xseA	xseA	Exodeoxyribonuclease 7 large subunit	1.00	1551	1-1551	1551	10	2	97	exact	959	1142	184
+alsT_2	alsT_2	Amino-acid carrier protein AlsT	1.00	1368	1-1368	1368	10	0	97	exact	991	1173	183
+dusB	dusB	tRNA-dihydrouridine synthase B	1.00	1005	1-1005	1005	10	0	97	exact	596	778	183
+group_181		hypothetical protein	1.00	591	1-591	591	3	0	97	exact	1	183	183
+mazG	mazG	Nucleoside triphosphate pyrophosphohydrolase/pyrophosphatase MazG	1.00	384	1-384	384	2	0	97	exact	24	206	183
+group_338		hypothetical protein	1.00	279	1-279	279	4	0	97	exact	90	271	182
+mntA	mntA	Manganese-binding lipoprotein MntA	1.00	981	1-981	981	10	0	97	exact	118	299	182
+ribBA	ribBA	Riboflavin biosynthesis protein RibBA	1.00	1275	1-1275	1275	10	1	97	exact	937	1118	182
+yqgF	yqgF	Putative pre-16S rRNA nuclease	1.00	447	1-447	447	9	0	97	exact	1	181	181
+ftsW	ftsW	putative peptidoglycan glycosyltransferase FtsW	1.00	1158	1-1158	1158	10	0	97	exact	49	228	180
+group_104		8-amino-7-oxononanoate synthase/2-amino-3-ketobutyrate coenzyme A ligase	1.00	1134	1-1134	1134	5	0	97	exact	677	856	180
+group_318		hypothetical protein	1.00	660	1-660	660	2	0	97	exact	397	576	180
+ychF	ychF	Ribosome-binding ATPase YchF	1.00	1095	1-1095	1095	10	9	97	exact	678	857	180
+dinG_1	dinG_1	3'-5' exonuclease DinG	1.00	699	1-699	699	10	0	97	exact	1	179	179
+dnaA_1	dnaA_1	Chromosomal replication initiator protein DnaA	1.00	1371	1-1371	1371	10	0	97	exact	76	254	179
+glgX	glgX	Glycogen operon protein GlgX	1.00	2073	1-2073	2073	10	0	97	exact	1477	1655	179
+group_184		hypothetical protein	1.00	582	1-582	582	10	0	97	exact	211	389	179
+ligA	ligA	DNA ligase	1.00	1992	1-1992	1992	10	0	97	exact	1598	1776	179
+ftsY	ftsY	Signal recognition particle receptor FtsY	1.00	855	1-855	855	10	0	97	exact	595	772	178
+group_126		hypothetical protein	1.00	957	1-957	957	10	0	97	exact	654	831	178
+group_320		hypothetical protein	1.00	972	1-972	972	2	0	97	exact	261	438	178
+group_62		hypothetical protein	1.00	1737	1-1737	1737	10	0	97	exact	1528	1705	178
+mip	mip	Outer membrane protein MIP	1.00	705	1-705	705	10	0	97	exact	323	500	178
+yecS	yecS	L-cystine transport system permease protein YecS	1.00	645	1-645	645	10	0	97	exact	38	215	178
+dtd3	dtd3	D-aminoacyl-tRNA deacylase	1.00	792	1-792	792	10	0	97	exact	605	781	177
+group_205		hypothetical protein	1.00	495	1-495	495	10	0	97	exact	319	495	177
+group_337		hypothetical protein	1.00	294	1-294	294	9	0	97	exact	84	260	177
+gpsA	gpsA	Glycerol-3-phosphate dehydrogenase [NAD(P)+]	1.00	1005	1-1005	1005	10	0	97	exact	805	980	176
+group_141		putative protein CT_671	1.00	852	1-852	852	9	0	97	exact	1	176	176
+group_27		hypothetical protein	1.00	795	1-795	795	1	0	97	exact	25	200	176
+recR	recR	Recombination protein RecR	1.00	603	1-603	603	10	0	97	exact	349	524	176
+group_240		hypothetical protein	1.00	375	1-375	375	10	0	97	exact	152	326	175
+gyrB_1	gyrB_1	Type 2 topoisomerase subunit B	1.00	2415	1-2202	2202	10	23	97	exact	922	1095	174
+nusB	nusB	Transcription antitermination protein NusB	1.00	789	1-789	789	3	0	97	exact	469	642	174
+fabG	fabG	3-oxoacyl-[acyl-carrier-protein] reductase FabG	1.00	747	1-747	747	9	1	97	exact	479	650	172
+group_286		hypothetical protein	1.00	375	1-375	375	0	0	97	exact	153	324	172
+pgl	pgl	6-phosphogluconolactonase	1.00	771	1-771	771	10	0	97	exact	563	734	172
+gph	gph	Phosphoglycolate phosphatase	1.00	675	1-675	675	5	0	97	exact	211	381	171
+group_3		hypothetical protein	1.00	867	1-867	867	2	0	97	exact	697	867	171
+apbE	apbE	FAD:protein FMN transferase	1.00	951	1-951	951	9	0	97	exact	766	935	170
+sufB	sufB	FeS cluster assembly protein SufB	1.00	1452	1-1452	1452	10	4	97	exact	676	845	170
+nqrA	nqrA	Na(+)-translocating NADH-quinone reductase subunit A	1.00	1398	1-1398	1398	10	0	97	exact	621	789	169
+group_118		hypothetical protein	1.00	999	1-999	999	9	0	97	exact	113	280	168
+group_178		hypothetical protein	1.00	633	1-633	633	10	0	97	exact	338	505	168
+group_87		hypothetical protein	1.00	1302	1-1302	1302	10	0	97	exact	737	904	168
+group_46		hypothetical protein	1.00	2433	1-2433	2433	6	0	97	exact	1456	1622	167
+mrdB	mrdB	Peptidoglycan glycosyltransferase MrdB	1.00	1140	1-1140	1140	10	0	97	exact	974	1140	167
+rsmA	rsmA	Ribosomal RNA small subunit methyltransferase A	1.00	834	1-834	834	10	0	97	exact	553	719	167
+rsmD	rsmD	Ribosomal RNA small subunit methyltransferase D	1.00	576	1-576	576	10	0	97	exact	1	167	167
+glmS	glmS	Glutamine--fructose-6-phosphate aminotransferase [isomerizing]	1.00	1821	1-1821	1821	10	2	97	exact	606	771	166
+group_213		hypothetical protein	1.00	480	1-480	480	3	0	97	exact	124	288	165
+murE	murE	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--26-diaminopimelate ligase	1.00	1452	655-1452	798	10	1	97	exact	1100	1264	165
+ybiT	ybiT	putative ABC transporter ATP-binding protein YbiT	1.00	1590	150-1590	1441	10	7	97	exact	1236	1400	165
+ytfF	ytfF	Inner membrane protein YtfF	1.00	1026	1-1026	1026	9	0	97	exact	616	780	165
+iscS	iscS	Cysteine desulfurase IscS	1.00	1155	1-1155	1155	9	0	97	exact	85	248	164
+group_199		hypothetical protein	1.00	513	1-513	513	9	0	97	exact	104	266	163
+aaxA	aaxA	Porin AaxA	1.00	1386	1-1386	1386	10	0	97	exact	371	532	162
+group_100		hypothetical protein	1.00	1182	1-1182	1182	10	0	97	exact	1021	1182	162
+group_233		hypothetical protein	1.00	420	1-420	420	6	0	97	exact	259	420	162
+clsA_1	clsA_1	Cardiolipin synthase A	1.00	1161	1-1161	1161	8	0	97	exact	499	659	161
+group_103		hypothetical protein	1.00	1134	1-1134	1134	2	0	97	exact	116	276	161
+group_211		hypothetical protein	1.00	483	1-483	483	10	0	97	exact	235	395	161
+group_261		hypothetical protein	1.00	294	1-294	294	3	0	97	exact	134	294	161
+nqrD	nqrD	Na(+)-translocating NADH-quinone reductase subunit D	1.00	642	1-642	642	10	1	97	exact	1	161	161
+group_217		hypothetical protein	1.00	474	1-474	474	5	0	97	exact	279	438	160
+kdsD	kdsD	Arabinose 5-phosphate isomerase KdsD	1.00	987	1-987	987	10	0	97	exact	455	614	160
+fbpC2	fbpC2	Fe(3+) ions import ATP-binding protein FbpC 2	1.00	693	1-693	693	9	0	97	exact	146	304	159
+group_168		hypothetical protein	1.00	678	1-678	678	9	0	97	exact	520	678	159
+group_183		hypothetical protein	1.00	585	1-585	585	10	0	97	exact	41	199	159
+birA	birA	Bifunctional ligase/repressor BirA	1.00	555	1-555	555	5	0	97	exact	181	338	158
+ffh	ffh	Signal recognition particle protein	1.00	1347	1-1347	1347	10	1	97	exact	1067	1224	158
+lgt	lgt	Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase	1.00	819	1-670	670	8	0	97	exact	359	516	158
+group_123		hypothetical protein	1.00	981	1-981	981	10	0	97	exact	67	222	156
+group_309		hypothetical protein	1.00	384	1-384	384	2	0	97	exact	229	384	156
+pgsA_2	pgsA_2	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	1.00	549	1-549	549	9	0	97	exact	58	212	155
+group_325		hypothetical protein	1.00	1695	1-1695	1695	2	0	97	exact	1163	1316	154
+group_328		hypothetical protein	1.00	1647	1-1647	1647	2	0	97	exact	448	601	154
+group_55		hypothetical protein	1.00	1872	1-1872	1872	10	0	97	exact	72	225	154
+cmk	cmk	Cytidylate kinase	1.00	651	1-651	651	10	0	97	exact	301	453	153
+group_316		hypothetical protein	1.00	570	1-570	570	10	0	97	exact	277	429	153
+murJ	murJ	lipid II flippase MurJ	1.00	1611	1-1611	1611	10	0	97	exact	36	188	153
+nfo	nfo	Endonuclease 4	1.00	867	1-867	867	10	0	97	exact	537	689	153
+group_295		hypothetical protein	1.00	4350	1-4350	4350	2	0	97	exact	2303	2454	152
+group_364		hypothetical protein	1.00	705	1-705	705	9	0	97	exact	488	639	152
+group_75		hypothetical protein	1.00	1449	1-1449	1449	10	0	97	exact	414	565	152
+frdB	;frdB	hypothetical protein;Fumarate reductase iron-sulfur subunit	1.00	717	1-717	717	10	0	97	exact	275	425	151
+group_210		hypothetical protein	1.00	483	1-483	483	7	0	97	exact	333	483	151
+rsbW	rsbW	Serine-protein kinase RsbW	1.00	441	1-441	441	6	0	97	exact	277	427	151
+tgt	tgt	Queuine tRNA-ribosyltransferase	1.00	1119	1-1119	1119	10	0	97	exact	587	737	151
+crp	crp	CRP-like cAMP-activated global transcriptional regulator	1.00	414	1-414	414	6	0	97	exact	203	352	150
+group_109		hypothetical protein	1.00	1092	1-1092	1092	9	0	97	exact	750	899	150
+nhaD	nhaD	Na(+)/H(+) antiporter NhaD	1.00	1266	1-1266	1266	10	0	97	exact	315	464	150
+trpS	trpS	Tryptophan--tRNA ligase	1.00	1041	1-1041	1041	10	2	97	exact	528	677	150
+yscL	yscL	Yop proteins translocation protein L	1.00	672	1-672	672	10	0	97	exact	486	635	150
+group_148		hypothetical protein	1.00	789	1-789	789	9	0	97	exact	79	227	149
+group_166		queuosine precursor transporter	1.00	687	1-687	687	8	0	97	exact	246	394	149
+group_198		hypothetical protein	1.00	519	1-519	519	9	0	97	exact	146	294	149
+ispD	ispD	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase	1.00	660	1-660	660	8	0	97	exact	1	149	149
+kdsB	kdsB	8-amino-38-dideoxy-manno-octulosonate cytidylyltransferase	1.00	792	1-792	792	10	0	97	exact	277	423	147
+obg	obg	GTPase Obg	1.00	1008	1-483	483	10	1	97	exact	337	483	147
+dcd	dcd	dCTP deaminase	1.00	573	1-573	573	10	1	97	exact	289	434	146
+group_303		hypothetical protein	1.00	438	1-438	438	4	0	97	exact	127	272	146
+plsC	plsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	1.00	651	1-651	651	4	0	97	exact	222	367	146
+ung	ung	Uracil-DNA glycosylase	1.00	690	244-690	447	10	4	97	exact	244	389	146
+group_244		hypothetical protein	1.00	360	1-360	360	7	0	97	exact	65	209	145
+group_313		hypothetical protein	1.00	708	80-622	543	9	0	97	exact	398	542	145
+yidC	yidC	Membrane protein insertase YidC	1.00	2358	1-2358	2358	10	0	97	exact	925	1069	145
+aviRb	aviRb	23S rRNA (uridine(2479)-2'-O)-methyltransferase	1.00	810	1-810	810	10	0	97	exact	293	436	144
+group_156		hypothetical protein	1.00	747	1-747	747	8	0	97	exact	217	359	143
+group_176		hypothetical protein	1.00	648	1-648	648	10	0	97	exact	1	143	143
+ribH	ribH	67-dimethyl-8-ribityllumazine synthase	1.00	474	1-474	474	9	0	97	exact	229	371	143
+spo0J	spo0J	Stage 0 sporulation protein J	1.00	846	1-846	846	10	0	97	exact	457	599	143
+artJ	artJ	putative ABC transporter arginine-binding protein ArtJ	1.00	774	1-774	774	10	0	97	exact	83	224	142
+rnc	rnc	Ribonuclease 3	1.00	696	1-696	696	10	0	97	exact	92	233	142
+pepA	pepA	putative cytosol aminopeptidase	1.00	1500	1-1500	1500	10	1	97	exact	612	752	141
+pth	pth	Peptidyl-tRNA hydrolase	1.00	540	77-540	464	6	0	97	exact	368	508	141
+group_340		hypothetical protein	1.00	801	1-801	801	10	0	97	exact	589	728	140
+gltP	gltP	Proton/glutamate-aspartate symporter	1.00	1248	1-1248	1248	10	0	97	exact	593	730	138
+group_101		hypothetical protein	1.00	2634	1-2634	2634	10	0	97	exact	2145	2282	138
+group_304		hypothetical protein	1.00	948	1-948	948	6	0	97	exact	125	262	138
+group_24		hypothetical protein	1.00	1380	1-1380	1380	9	0	97	exact	748	884	137
+mrdA	mrdA	Peptidoglycan DD-transpeptidase MrdA	1.00	3243	1-3243	3243	10	0	97	exact	3065	3200	136
+group_331		hypothetical protein	1.00	357	1-357	357	2	0	97	exact	73	207	135
+bioY2	bioY2	Biotin transporter BioY2	1.00	591	1-591	591	3	0	97	exact	442	575	134
+group_150		hypothetical protein	1.00	786	1-786	786	7	0	97	exact	478	611	134
+group_288		hypothetical protein	1.00	888	1-888	888	10	0	97	exact	664	797	134
+hctA	hctA	Histone H1-like protein Hc1	1.00	378	1-378	378	10	0	97	exact	1	133	133
+group_247		hypothetical protein	1.00	348	1-348	348	8	0	97	exact	1	131	131
+group_253		hypothetical protein	1.00	333	1-333	333	2	0	97	exact	98	228	131
+mhpA	mhpA	3-(3-hydroxy-phenyl)propionate/3-hydroxycinnamic acid hydroxylase	1.00	1524	1-1524	1524	10	0	97	exact	373	503	131
+csd	csd	putative cysteine desulfurase	1.00	1206	1-1206	1206	10	4	97	exact	923	1052	130
+group_234		hypothetical protein	1.00	414	1-414	414	2	0	97	exact	126	255	130
+bdbC	bdbC	disulfide formation protein	1.00	408	1-408	408	10	0	97	exact	280	408	129
+rluC	rluC	Ribosomal large subunit pseudouridine synthase C	1.00	912	1-600	600	9	0	97	exact	101	227	127
+group_284		hypothetical protein	1.00	504	1-504	504	2	0	97	exact	61	186	126
+group_366		hypothetical protein	1.00	498	1-345	345	2	0	97	exact	182	307	126
+group_248		hypothetical protein	1.00	345	1-345	345	2	0	97	exact	1	125	125
+group_299		hypothetical protein	1.00	687	1-687	687	2	0	97	exact	346	470	125
+group_34		hypothetical protein	1.00	873	1-873	873	1	0	97	exact	614	738	125
+group_219		hypothetical protein	1.00	462	1-462	462	3	0	97	exact	1	124	124
+group_305		hypothetical protein	1.00	225	1-225	225	2	0	97	exact	1	124	124
+group_1		hypothetical protein	1.00	1962	1-1962	1962	5	0	97	exact	1459	1581	123
+group_130		hypothetical protein	1.00	930	1-930	930	7	0	97	exact	254	376	123
+group_242		hypothetical protein	1.00	366	1-366	366	2	0	97	exact	6	128	123
+rpiA	rpiA	Ribose-5-phosphate isomerase A	1.00	1164	141-1164	1024	10	0	97	exact	246	368	123
+ribF	ribF	Bifunctional riboflavin kinase/FMN adenylyltransferase	1.00	924	118-924	807	10	0	97	exact	700	820	121
+mqnD	mqnD	14-dihydroxy-6-naphtoate synthase	1.00	771	1-771	771	6	0	97	exact	449	568	120
+dut	dut	Deoxyuridine 5'-triphosphate nucleotidohydrolase	1.00	438	1-438	438	7	0	97	exact	221	339	119
+group_357		hypothetical protein	1.00	273	1-273	273	6	0	97	exact	44	161	118
+gcvH	gcvH	Glycine cleavage system H protein	1.00	354	1-354	354	7	0	97	exact	238	354	117
+group_236		hypothetical protein	1.00	408	1-408	408	7	0	97	exact	48	164	117
+atpE	atpE	V-type proton ATPase subunit E	1.00	627	1-627	627	10	0	97	exact	512	627	116
+trmL	trmL	tRNA (cytidine(34)-2'-O)-methyltransferase	1.00	456	1-456	456	10	0	97	exact	341	456	116
+cdu1	cdu1	Deubiquitinase and deneddylase Dub1	1.00	1257	1-1257	1257	2	0	97	exact	588	702	115
+ahpC	ahpC	Alkyl hydroperoxide reductase C	1.00	588	1-588	588	10	0	97	exact	404	513	110
+group_321		hypothetical protein	1.00	1188	1-1188	1188	9	0	97	exact	45	154	110
+group_339		hypothetical protein	1.00	519	1-519	519	10	0	97	exact	119	228	110
+kdsA	kdsA	2-dehydro-3-deoxyphosphooctonate aldolase	1.00	810	1-810	810	10	0	97	exact	695	804	110
+pmpH	pmpH	putative outer membrane protein PmpH	1.00	3057	1-3057	3057	2	0	97	exact	2467	2576	110
+group_348		hypothetical protein	1.00	369	1-369	369	0	0	97	exact	154	262	109
+lplT	lplT	Lysophospholipid transporter LplT	1.00	1680	1-1680	1680	10	0	97	exact	11	119	109
+group_16		hypothetical protein	1.00	1827	1-1827	1827	2	0	97	exact	1177	1284	108
+group_287		hypothetical protein	1.00	537	1-537	537	2	0	97	exact	248	355	108
+incF	incF	Inclusion membrane protein F	1.00	303	1-303	303	2	0	97	exact	131	238	108
+group_271		hypothetical protein	1.00	228	1-228	228	2	0	97	exact	43	149	107
+lptB	lptB	Lipopolysaccharide export system ATP-binding protein LptB	1.00	720	1-720	720	10	1	97	exact	271	377	107
+group_212		hypothetical protein	1.00	480	1-480	480	10	0	97	exact	207	312	106
+oppF	oppF	Oligopeptide transport ATP-binding protein OppF	1.00	831	1-831	831	10	0	97	exact	368	473	106
+group_19		hypothetical protein	1.00	897	1-897	897	2	0	97	exact	130	234	105
+lspA	lspA	Lipoprotein signal peptidase	1.00	504	1-504	504	3	0	97	exact	94	198	105
+acpS	acpS	Holo-[acyl-carrier-protein] synthase	1.00	360	1-360	360	9	0	97	exact	1	103	103
+group_209		hypothetical protein	1.00	489	1-489	489	8	0	97	exact	79	179	101
+rnhB	rnhB	Ribonuclease HII	1.00	654	1-654	654	10	0	97	exact	494	594	101
+groL1	groL1	60 kDa chaperonin 1	1.00	1602	1-1602	1602	2	0	97	exact	749	848	100
+rsmI	rsmI	Ribosomal RNA small subunit methyltransferase I	1.00	714	1-714	714	8	0	97	exact	60	159	100

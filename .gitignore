@@ -65,3 +65,7 @@ results/pangenome/*
 !results/pangenome/core_gene_summary.tsv
 !results/pangenome/core_genes.fasta
 !results/pangenome/pangenome_summary.txt
+results/exclusivity/blast_genus.tsv
+results/exclusivity/blast_clinical.tsv
+data/panel/genomes/
+results/exclusivity/blast_*.tsv

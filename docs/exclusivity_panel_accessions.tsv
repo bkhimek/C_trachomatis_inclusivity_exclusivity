@@ -1,0 +1,124 @@
+tier	species	accession	organism_name	strain	refseq_category	length
+genus	Chlamydia muridarum	GCF_000006685.1	Chlamydia muridarum str. Nigg	Nigg	reference genome	1080451
+genus	Chlamydia muridarum	GCF_000709455.1	Chlamydia muridarum str. Nigg 2 MCR	Nigg 2 MCR		1072952
+genus	Chlamydia muridarum	GCF_002997975.1	Chlamydia muridarum str. Nigg	Nigg		1072952
+genus	Chlamydia muridarum	GCF_057657695.1	Chlamydia muridarum	Cmtc0305::Tn		1074948
+genus	Chlamydia suis	GCF_900149385.2	Chlamydia suis		reference genome	1094002
+genus	Chlamydia suis	GCF_009931335.1	Chlamydia suis	R19		1102215
+genus	Chlamydia suis	GCF_019405085.1	Chlamydia suis	S45 RIF		1080505
+genus	Chlamydia suis	GCF_900149505.2	Chlamydia suis			1082175
+genus	Chlamydia pneumoniae	GCF_000007205.1	Chlamydia pneumoniae TW-183	TW-183	reference genome	1225935
+genus	Chlamydia pneumoniae	GCF_000008745.1	Chlamydia pneumoniae CWL029	CWL029		1230230
+genus	Chlamydia pneumoniae	GCF_000091085.2	Chlamydia pneumoniae AR39	AR39		1229853
+genus	Chlamydia pneumoniae	GCF_001007065.1	Chlamydia pneumoniae			1228579
+genus	Chlamydia pneumoniae	GCF_001007125.1	Chlamydia pneumoniae			1229887
+genus	Chlamydia psittaci	GCF_000204255.1	Chlamydia psittaci 6BC	6BC	reference genome	1179220
+genus	Chlamydia psittaci	GCF_000191925.1	Chlamydia psittaci 6BC	6BC		1179213
+genus	Chlamydia psittaci	GCF_000298495.2	Chlamydia psittaci M56	M56		1168938
+genus	Chlamydia psittaci	GCF_009857155.1	Chlamydia psittaci	AMK		1160049
+genus	Chlamydia abortus	GCF_040235295.1	Chlamydia abortus	NL2354-2D	reference genome	1174186
+genus	Chlamydia abortus	GCF_000026025.1	Chlamydia abortus S26/3	S26/3		1144377
+genus	Chlamydia abortus	GCF_008329805.1	Chlamydia abortus	84/2334		1173245
+genus	Chlamydia abortus	GCF_900002505.1	Chlamydia abortus	1H		1144467
+genus	Chlamydia felis	GCF_000009945.1	Chlamydia felis Fe/C-56	Fe/C-56	reference genome	1173791
+genus	Chlamydia caviae	GCF_000007605.1	Chlamydia caviae GPIC		reference genome	1181356
+genus	Chlamydia pecorum	GCF_020549965.1	Chlamydia pecorum	MC/MarsBar_2018	reference genome	1113950
+genus	Chlamydia pecorum	GCF_000204135.1	Chlamydia pecorum E58	E58		1106197
+genus	Chlamydia pecorum	GCF_000470805.1	Chlamydia pecorum W73	W73		1106534
+genus	Chlamydia pecorum	GCF_001466415.2	Chlamydia pecorum	NSW/Bov/SBE		1106147
+genus	Chlamydia avium	GCF_000583875.1	Chlamydia avium 10DC88	10DC88		1048269
+genus	Chlamydia gallinacea	GCF_000471025.2	Chlamydia gallinacea 08-1274/3	08-1274/3	reference genome	1067202
+genus	Chlamydia gallinacea	GCF_002007725.1	Chlamydia gallinacea	JX-1		1067014
+genus	Chlamydia gallinacea	GCF_946861635.1	Chlamydia gallinacea			1068772
+clinical	Neisseria gonorrhoeae	GCF_013030075.1	Neisseria gonorrhoeae	TUM19854	reference genome	2171755
+clinical	Neisseria gonorrhoeae	GCF_000006845.1	Neisseria gonorrhoeae FA 1090	FA 1090		2153922
+clinical	Neisseria gonorrhoeae	GCF_021193625.2	Neisseria gonorrhoeae	10574		2218166
+clinical	Neisseria gonorrhoeae	GCF_038420605.1	Neisseria gonorrhoeae	2020S05-258		2287581
+clinical	Neisseria gonorrhoeae	GCF_978047105.1	Neisseria gonorrhoeae	12CFX_C_028		2229457
+clinical	Neisseria meningitidis	GCF_022869645.1	Neisseria meningitidis	PartJ-Nmeningitidis-RM8376	reference genome	2181327
+clinical	Neisseria meningitidis	GCF_000008805.1	Neisseria meningitidis MC58	MC58		2272360
+clinical	Neisseria meningitidis	GCF_001697725.1	Neisseria meningitidis	M09261		2154341
+clinical	Neisseria meningitidis	GCF_008330865.1	Neisseria meningitidis	98-182		2167995
+clinical	Neisseria lactamica	GCF_003351565.1	Neisseria lactamica	M17106	reference genome	2200224
+clinical	Neisseria lactamica	GCF_000196295.1	Neisseria lactamica 020-06	020-06		2220606
+clinical	Neisseria lactamica	GCF_002022745.1	Neisseria lactamica	Y92-1009		2146723
+clinical	Mycoplasmoides genitalium	GCF_040556925.1	Mycoplasmoides genitalium	G37	reference genome	580076
+clinical	Mycoplasmoides genitalium	GCF_000027325.1	Mycoplasmoides genitalium G37	G-37		580076
+clinical	Mycoplasmoides genitalium	GCF_054926335.1	Mycoplasmoides genitalium	MGA735		581712
+clinical	Mycoplasmoides genitalium	GCF_054926535.1	Mycoplasmoides genitalium	MGA512		579920
+clinical	Mycoplasma hominis	GCF_000767725.1	Metamycoplasma hominis ATCC 27545	LBD-4	reference genome	715165
+clinical	Mycoplasma hominis	GCF_000085865.1	Metamycoplasma hominis ATCC 23114	ATCC 23114		665445
+clinical	Mycoplasma hominis	GCF_046543865.2	Metamycoplasma hominis	ZY_MH01		684912
+clinical	Mycoplasma hominis	GCF_054875715.1	Metamycoplasma hominis	CC58-5		750867
+clinical	Ureaplasma urealyticum	GCF_000021265.1	Ureaplasma urealyticum serovar 10 str. ATCC 33699	ATCC 33699		874478
+clinical	Ureaplasma urealyticum	GCF_006716625.1	Ureaplasma urealyticum	132		825366
+clinical	Ureaplasma urealyticum	GCF_021460055.1	Ureaplasma urealyticum	MIN-201		816741
+clinical	Ureaplasma parvum	GCF_000019345.1	Ureaplasma parvum serovar 3 str. ATCC 27815	ATCC 27815	reference genome	751679
+clinical	Ureaplasma parvum	GCF_000006625.1	Ureaplasma parvum serovar 3 str. ATCC 700970	ATCC 700970		751719
+clinical	Ureaplasma parvum	GCF_002205595.1	Ureaplasma parvum	hebnu1229		737737
+clinical	Treponema pallidum	GCF_000008605.1	Treponema pallidum subsp. pallidum str. Nichols	Nichols		1138011
+clinical	Treponema pallidum	GCF_023016365.1	Treponema pallidum subsp. pallidum	TpN-CL5		1139582
+clinical	Treponema pallidum	GCF_029866565.1	Treponema pallidum subsp. pertenue	19LMF8280815		1139879
+clinical	Treponema pallidum	GCF_050920495.1	Treponema pallidum subsp. pallidum	SK1		1139696
+clinical	Haemophilus ducreyi	GCF_001647695.1	[Haemophilus] ducreyi	VAN2	reference genome	1589620
+clinical	Haemophilus ducreyi	GCF_000007945.1	[Haemophilus] ducreyi 35000HP	35000HP		1698955
+clinical	Haemophilus ducreyi	GCF_001647875.1	[Haemophilus] ducreyi	GHA5		1738559
+clinical	Gardnerella vaginalis	GCF_001042655.1	Gardnerella vaginalis ATCC 14018 = JCM 11026	JCM 11026	reference genome	1667406
+clinical	Gardnerella vaginalis	GCF_000159155.2	Gardnerella vaginalis ATCC 14019	ATCC 14019		1667350
+clinical	Gardnerella vaginalis	GCF_023277645.1	Gardnerella vaginalis	JNFY11		1743456
+clinical	Gardnerella vaginalis	GCF_049262665.1	Gardnerella vaginalis subsp. transversa	DNF00622A		1650360
+clinical	Gardnerella vaginalis	GCF_057626415.1	Gardnerella vaginalis	175		1675541
+clinical	Lactobacillus crispatus	GCF_009769205.1	Lactobacillus crispatus	DC21.1	reference genome	2039404
+clinical	Lactobacillus crispatus	GCF_000466885.3	Lactobacillus crispatus 2029	2029		2516803
+clinical	Lactobacillus crispatus	GCF_026740115.1	Lactobacillus crispatus	M247		2336109
+clinical	Lactobacillus crispatus	GCF_055449755.1	Lactobacillus crispatus	C0428A2		2433233
+clinical	Lactobacillus iners	GCF_011058775.1	Lactobacillus iners	C0322A1	reference genome	1318700
+clinical	Lactobacillus iners	GCF_011058695.1	Lactobacillus iners	C0094A1		1474256
+clinical	Lactobacillus iners	GCF_043005555.1	Lactobacillus iners	0809_588_1_1_MRS1		1313128
+clinical	Lactobacillus iners	GCF_057626135.1	Lactobacillus iners	CCUG 44108		1358229
+clinical	Lactobacillus jensenii	GCF_001936235.1	Lactobacillus jensenii	SNUV360	reference genome	1672949
+clinical	Lactobacillus jensenii	GCF_042997765.1	Lactobacillus jensenii	0422_293_1_1_MRS1		1595191
+clinical	Lactobacillus jensenii	GCF_043001555.1	Lactobacillus jensenii	0795_578_1_1_MRS2		1681935
+clinical	Lactobacillus gasseri	GCF_000014425.1	Lactobacillus gasseri ATCC 33323 = JCM 1131	ATCC 33323	reference genome	1894360
+clinical	Lactobacillus gasseri	GCF_000439915.2	Lactobacillus gasseri 2016	2016		1892784
+clinical	Lactobacillus gasseri	GCF_037100225.1	Lactobacillus gasseri	DS2831		2098469
+clinical	Fannyhessea vaginae	GCF_016026575.1	Fannyhessea vaginae	FDAARGOS_934	reference genome	1447017
+clinical	Fannyhessea vaginae	GCF_048585775.1	Fannyhessea vaginae	Q9002		1459745
+clinical	Fannyhessea vaginae	GCF_057626515.1	Fannyhessea vaginae	CCUG 44116		1517554
+clinical	Prevotella bivia	GCF_030219305.1	Prevotella bivia	PLW0727		2427673
+clinical	Prevotella bivia	GCF_055387895.1	Prevotella bivia	GTC18476		2530288
+clinical	Prevotella bivia	GCF_055390655.1	Prevotella bivia	TOH-2715		2576422
+clinical	Escherichia coli	GCF_000005845.2	Escherichia coli str. K-12 substr. MG1655	K-12 substr. MG1655	reference genome	4641652
+clinical	Escherichia coli	GCF_000007445.1	Escherichia coli CFT073	CFT073		5231428
+clinical	Escherichia coli	GCF_016803855.1	Escherichia coli	RUT3575		4986271
+clinical	Escherichia coli	GCF_030996545.1	Escherichia coli	CUVET17-972		5030721
+clinical	Escherichia coli	GCF_053103415.1	Escherichia coli	MB06101		5125599
+clinical	Klebsiella pneumoniae	GCF_000240185.1	Klebsiella pneumoniae subsp. pneumoniae HS11286	HS11286	reference genome	5682322
+clinical	Klebsiella pneumoniae	GCF_000009885.1	Klebsiella pneumoniae subsp. pneumoniae NTUH-K2044	NTUH-K2044		5472672
+clinical	Klebsiella pneumoniae	GCF_025884195.1	Klebsiella pneumoniae	HSKP33		5728814
+clinical	Klebsiella pneumoniae	GCF_048985845.1	Klebsiella pneumoniae	AMC64-4A		5517017
+clinical	Proteus mirabilis	GCF_000069965.1	Proteus mirabilis HI4320	HI4320	reference genome	4099895
+clinical	Proteus mirabilis	GCF_000444425.1	Proteus mirabilis BB2000	BB2000		3846754
+clinical	Proteus mirabilis	GCF_033215415.1	Proteus mirabilis	PM16		3982257
+clinical	Pseudomonas aeruginosa	GCF_000006765.1	Pseudomonas aeruginosa PAO1	PAO1	reference genome	6264404
+clinical	Pseudomonas aeruginosa	GCF_000014625.1	Pseudomonas aeruginosa UCBPP-PA14	UCBPP-PA14		6537648
+clinical	Pseudomonas aeruginosa	GCF_038396885.1	Pseudomonas aeruginosa	HN232		6917229
+clinical	Enterococcus faecalis	GCF_000007785.1	Enterococcus faecalis V583	V583		3359974
+clinical	Enterococcus faecalis	GCF_023300025.1	Enterococcus faecalis	AT41		2889730
+clinical	Enterococcus faecalis	GCF_032680945.1	Enterococcus faecalis	ES-397		3272531
+clinical	Enterococcus faecalis	GCF_050505635.1	Enterococcus faecalis	H797		2873527
+clinical	Staphylococcus aureus	GCF_000013425.1	Staphylococcus aureus subsp. aureus NCTC 8325	NCTC 8325	reference genome	2821361
+clinical	Staphylococcus aureus	GCF_000009005.1	Staphylococcus aureus RF122	RF122		2742531
+clinical	Staphylococcus aureus	GCF_022405875.1	Staphylococcus aureus	NAS_NP_181		2810033
+clinical	Staphylococcus aureus	GCF_046741855.1	Staphylococcus aureus	IT-MRSA45		2782224
+clinical	Staphylococcus epidermidis	GCF_006094375.1	Staphylococcus epidermidis	ATCC 14990	reference genome	2491058
+clinical	Staphylococcus epidermidis	GCF_000007645.1	Staphylococcus epidermidis ATCC 12228	ATCC 12228		2564615
+clinical	Staphylococcus epidermidis	GCF_024204925.1	Staphylococcus epidermidis	TSM-36		2602631
+clinical	Staphylococcus epidermidis	GCF_045938875.1	Staphylococcus epidermidis	UMCG354		2540169
+clinical	Streptococcus agalactiae	GCF_949788565.1	Streptococcus agalactiae		reference genome	2015582
+clinical	Streptococcus agalactiae	GCF_000007265.1	Streptococcus agalactiae 2603V/R	2603V/R		2160267
+clinical	Streptococcus agalactiae	GCF_021496945.1	Streptococcus agalactiae	SS111		2136182
+clinical	Streptococcus agalactiae	GCF_054401275.1	Streptococcus agalactiae	A_SAG45		2328115
+clinical	Streptococcus pyogenes	GCF_900475035.1	Streptococcus pyogenes	NCTC12064	reference genome	1746380
+clinical	Streptococcus pyogenes	GCF_000006785.2	Streptococcus pyogenes M1 GAS	SF370		1852433
+clinical	Streptococcus pyogenes	GCF_041430895.1	Streptococcus pyogenes	Isolate 22		1929508
