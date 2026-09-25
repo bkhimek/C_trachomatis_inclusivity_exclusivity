@@ -57,3 +57,20 @@ Prokka and Panaroo are in their own conda envs (not on the base PATH).
 - D/13-96 (GCF_000590675.1): ompA nearest Da at 99.75; subtype variant, no action.
 - LGV II 434 (GCF_036285905.1): already quality-review; ompA nearest L1 (100%) adds a second inconsistency.
 - D/Ep6/S19-121 (GCF_059083935.1): ompA only 95.61% to any set member; normal size/CheckM/BioProject. Kept primary pending web BLAST of its ompA (user). If hits are poor -> quality-review.
+
+## Update 2026-09-25: Panaroo pangenome, and two corrections
+
+**D15.** Panaroo (bin/06) is run directly (subprocess call to the panaroo binary in panaroo_env), not through
+Nextflow, even though Nextflow is installed. At this scale (single machine, ~100 genomes, one tool) a direct
+call is simpler to run, debug and resume than a Nextflow pipeline, and matches bin/01-05.
+
+**Correction.** HANDOVER.md previously said "100 primary / 7 quality-review / 18 excluded". The correct,
+unchanged split (confirmed again by bin/06 reading provenance_audit.tsv directly) is 97 primary / 10
+quality-review / 18 excluded, matching the original bin/02 findings log entry. bin/05's "107 genomes"
+figure was always correct (97 + 10).
+
+**Findings.**
+- bin/06 Panaroo pangenome on the 97 primary genomes: 904 gene clusters total -> 874 core (>=99%), 6
+  soft-core (95-99%), 21 shell (15-95%), 3 cloud (<15%). Very small accessory genome, as expected for
+  C. trachomatis. core_genes.fasta (874 representative sequences) is the input for bin/07 exclusivity
+  screening.

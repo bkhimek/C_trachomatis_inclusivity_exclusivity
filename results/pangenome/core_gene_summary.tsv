@@ -1,0 +1,905 @@
+gene	gene_name	annotation	n_genomes	n_total	pct	classification	seq_length
+COQ3	COQ3	Ubiquinone biosynthesis O-methyltransferase mitochondrial	97	97	100.0	core	804
+GATC	GATC	Glutamyl-tRNA(Gln) amidotransferase subunit C chloroplastic/mitochondrial	97	97	100.0	core	303
+PSD2	PSD2	Phosphatidylserine decarboxylase proenzyme 2	97	97	100.0	core	906
+aas	aas	Bifunctional protein Aas	97	97	100.0	core	1614
+aaxA	aaxA	Porin AaxA	97	97	100.0	core	1386
+aaxB	aaxB	Pyruvoyl-dependent arginine decarboxylase AaxB	97	97	100.0	core	588
+aaxC_1~~~aaxC_2~~~aaxC_3~~~aaxC	;aaxC_1;aaxC_2;aaxC_3;aaxC	hypothetical protein;Arginine/agmatine antiporter	97	97	100.0	core	1452
+accA	accA	Acetyl-coenzyme A carboxylase carboxyl transferase subunit alpha	97	97	100.0	core	975
+accC	accC	Biotin carboxylase	97	97	100.0	core	1374
+accD	accD	Acetyl-coenzyme A carboxylase carboxyl transferase subunit beta	97	97	100.0	core	927
+acoA	acoA	Acetoin:26-dichlorophenolindophenol oxidoreductase subunit alpha	97	97	100.0	core	1023
+acpP	acpP	Acyl carrier protein	97	97	100.0	core	234
+acpS	acpS	Holo-[acyl-carrier-protein] synthase	97	97	100.0	core	360
+adk	adk	Adenylate kinase	97	97	100.0	core	738
+ahpC	ahpC	Alkyl hydroperoxide reductase C	97	97	100.0	core	588
+alaS	alaS	Alanine--tRNA ligase	97	97	100.0	core	3009
+alsT_1	;alsT_1	hypothetical protein;Amino-acid carrier protein AlsT	97	97	100.0	core	1362
+alsT_2	alsT_2	Amino-acid carrier protein AlsT	97	97	100.0	core	1368
+amn	amn	AMP nucleosidase	97	97	100.0	core	870
+apbE	apbE	FAD:protein FMN transferase	97	97	100.0	core	951
+appB	appB	Cytochrome bd-II ubiquinol oxidase subunit 2	97	97	100.0	core	1062
+argS	argS	Arginine--tRNA ligase	97	97	100.0	core	1692
+aroA	aroA	3-phosphoshikimate 1-carboxyvinyltransferase	97	97	100.0	core	1323
+aroB	aroB	3-dehydroquinate synthase	97	97	100.0	core	1122
+aroC	aroC	Chorismate synthase	97	97	100.0	core	1074
+aroE	aroE	Shikimate dehydrogenase (NADP(+))	97	97	100.0	core	1443
+aroF	aroF	Phospho-2-dehydro-3-deoxyheptonate aldolase	97	97	100.0	core	837
+aroK	aroK	Shikimate kinase	97	97	100.0	core	555
+artJ	artJ	putative ABC transporter arginine-binding protein ArtJ	97	97	100.0	core	774
+artM	artM	Arginine transport ATP-binding protein ArtM	97	97	100.0	core	702
+asd2	asd2	Aspartate-semialdehyde dehydrogenase 2	97	97	100.0	core	1005
+aspS	aspS	Aspartate--tRNA(Asp/Asn) ligase	97	97	100.0	core	1845
+atoC	atoC	Regulatory protein AtoC	97	97	100.0	core	1161
+atoS	atoS	Signal transduction histidine-protein kinase AtoS	97	97	100.0	core	1059
+atpD	atpD	V-type ATP synthase subunit D	97	97	100.0	core	615
+atpE	atpE	V-type proton ATPase subunit E	97	97	100.0	core	627
+aviRb	aviRb	23S rRNA (uridine(2479)-2'-O)-methyltransferase	97	97	100.0	core	810
+bamA	bamA	Outer membrane protein assembly factor BamA	97	97	100.0	core	2379
+bdbC	bdbC	disulfide formation protein	97	97	100.0	core	408
+bepA	bepA	Beta-barrel assembly-enhancing protease	97	97	100.0	core	1008
+bfmBAB	bfmBAB	2-oxoisovalerate dehydrogenase subunit beta	97	97	100.0	core	987
+bioY2	bioY2	Biotin transporter BioY2	97	97	100.0	core	591
+birA	birA	Bifunctional ligase/repressor BirA	97	97	100.0	core	555
+brnQ	brnQ	Branched-chain amino acid transport system 2 carrier protein	97	97	100.0	core	1236
+btuD	btuD	Vitamin B12 import ATP-binding protein BtuD	97	97	100.0	core	1941
+cadA	cadA	putative cadmium-transporting ATPase	97	97	100.0	core	1980
+cca	cca	CCA-adding enzyme	97	97	100.0	core	1233
+cdaA_1~~~cdaA_2~~~cdaA	cdaA_1;cdaA_2;cdaA	Cyclic di-AMP synthase CdaA	97	97	100.0	core	693
+cdu1	cdu1	Deubiquitinase and deneddylase Dub1	97	97	100.0	core	1257
+cdu2_2~~~cdu2_1~~~cdu2	cdu2_2;cdu2_1;cdu2	Deubiquitinase and deneddylase Dub2	97	97	100.0	core	1020
+chxR	chxR	Atypical response regulator protein ChxR	97	97	100.0	core	702
+clpB1	clpB1	Chaperone protein ClpB 1	97	97	100.0	core	2604
+clpC	clpC	ATP-dependent Clp protease ATP-binding subunit ClpC	97	97	100.0	core	2565
+clpP	clpP	ATP-dependent Clp protease proteolytic subunit	97	97	100.0	core	612
+clpP1	clpP1	ATP-dependent Clp protease proteolytic subunit 1	97	97	100.0	core	579
+clpX	clpX	ATP-dependent Clp protease ATP-binding subunit ClpX	97	97	100.0	core	1260
+clsA_1	clsA_1	Cardiolipin synthase A	97	97	100.0	core	1161
+clsA_2	;clsA_2	hypothetical protein;Cardiolipin synthase A	97	97	100.0	core	1467
+clsA_3	;clsA_3	hypothetical protein;Cardiolipin synthase A	97	97	100.0	core	942
+clsA_4~~~clsA_3	;clsA_4;clsA_3	hypothetical protein;Cardiolipin synthase A;Cardiolipin synthase	97	97	100.0	core	1215
+clsA_5~~~clsA_3~~~clsA_4	clsA_5;clsA_3;;clsA_4	Cardiolipin synthase A;hypothetical protein	97	97	100.0	core	1347
+cmk	cmk	Cytidylate kinase	97	97	100.0	core	651
+coaE	coaE	Dephospho-CoA kinase	97	97	100.0	core	609
+cpdA	cpdA	3'5'-cyclic adenosine monophosphate phosphodiesterase CpdA	97	97	100.0	core	873
+cpoB	cpoB	Cell division coordinator CpoB	97	97	100.0	core	957
+crp	crp	CRP-like cAMP-activated global transcriptional regulator	97	97	100.0	core	414
+csd	csd	putative cysteine desulfurase	97	97	100.0	core	1206
+cydA	cydA	Cytochrome bd ubiquinol oxidase subunit 1	97	97	100.0	core	1341
+cysJ	cysJ	Sulfite reductase [NADPH] flavoprotein alpha-component	97	97	100.0	core	1056
+cysQ	cysQ	3'(2')5'-bisphosphate nucleotidase CysQ	97	97	100.0	core	1029
+cysS	cysS	Cysteine--tRNA ligase	97	97	100.0	core	1494
+dapA	dapA	4-hydroxy-tetrahydrodipicolinate synthase	97	97	100.0	core	861
+dapB	dapB	4-hydroxy-tetrahydrodipicolinate reductase	97	97	100.0	core	762
+dapF	dapF	Diaminopimelate epimerase	97	97	100.0	core	828
+dapL	dapL	LL-diaminopimelate aminotransferase	97	97	100.0	core	1185
+dauA	dauA	C4-dicarboxylic acid transporter DauA	97	97	100.0	core	1701
+dcd	dcd	dCTP deaminase	97	97	100.0	core	573
+ddpF	ddpF	putative DD-dipeptide transport ATP-binding protein DdpF	97	97	100.0	core	744
+def	def	Peptide deformylase	97	97	100.0	core	546
+der	der	GTPase Der	97	97	100.0	core	1473
+dinG_1	dinG_1	3'-5' exonuclease DinG	97	97	100.0	core	699
+dinG_2	dinG_2	3'-5' exonuclease DinG	97	97	100.0	core	753
+dnaA_1	dnaA_1	Chromosomal replication initiator protein DnaA	97	97	100.0	core	1371
+dnaA_2~~~dnaA_3	dnaA_2;dnaA_3	Chromosomal replication initiator protein DnaA	97	97	100.0	core	1413
+dnaC	dnaC	Replicative DNA helicase	97	97	100.0	core	1419
+dnaE	dnaE	DNA polymerase III subunit alpha	97	97	100.0	core	3714
+dnaG	dnaG	DNA primase	97	97	100.0	core	1788
+dnaJ	dnaJ	Chaperone protein DnaJ	97	97	100.0	core	1179
+dnaK	dnaK	Chaperone protein DnaK	97	97	100.0	core	1983
+dnaN	dnaN	Beta sliding clamp	97	97	100.0	core	1101
+dppE	dppE	Dipeptide-binding protein DppE	97	97	100.0	core	1590
+dsbD	dsbD	Thiol:disulfide interchange protein DsbD	97	97	100.0	core	2079
+dsbH	dsbH	Disulfide bond reductase DsbH	97	97	100.0	core	495
+dtd3	dtd3	D-aminoacyl-tRNA deacylase	97	97	100.0	core	792
+dusB	dusB	tRNA-dihydrouridine synthase B	97	97	100.0	core	1005
+dut	dut	Deoxyuridine 5'-triphosphate nucleotidohydrolase	97	97	100.0	core	438
+dxr	dxr	1-deoxy-D-xylulose 5-phosphate reductoisomerase	97	97	100.0	core	1140
+dxs_1	dxs_1	1-deoxy-D-xylulose-5-phosphate synthase	97	97	100.0	core	1923
+dxs_2	dxs_2	1-deoxy-D-xylulose-5-phosphate synthase	97	97	100.0	core	2037
+efp_1	efp_1	Elongation factor P	97	97	100.0	core	558
+efp_2	efp_2	Elongation factor P	97	97	100.0	core	573
+eno	eno	Enolase	97	97	100.0	core	1275
+exbB	exbB	Biopolymer transport protein ExbB	97	97	100.0	core	699
+fabD	fabD	Malonyl CoA-acyl carrier protein transacylase	97	97	100.0	core	927
+fabF	fabF	3-oxoacyl-[acyl-carrier-protein] synthase 2	97	97	100.0	core	1257
+fabG	fabG	3-oxoacyl-[acyl-carrier-protein] reductase FabG	97	97	100.0	core	747
+fabH	fabH	3-oxoacyl-[acyl-carrier-protein] synthase 3	97	97	100.0	core	1026
+fabI	fabI	Enoyl-[acyl-carrier-protein] reductase [NADH] FabI	97	97	100.0	core	897
+fabZ	fabZ	3-hydroxyacyl-[acyl-carrier-protein] dehydratase FabZ	97	97	100.0	core	462
+fbaB	fbaB	Fructose-bisphosphate aldolase class 1	97	97	100.0	core	1047
+fbiB	fbiB	Bifunctional F420 biosynthesis protein FbiB	97	97	100.0	core	732
+fbpC2	fbpC2	Fe(3+) ions import ATP-binding protein FbpC 2	97	97	100.0	core	693
+ffh	ffh	Signal recognition particle protein	97	97	100.0	core	1347
+flhA	flhA	Flagellar biosynthesis protein FlhA	97	97	100.0	core	1818
+fliY	fliY	L-cystine-binding protein FliY	97	97	100.0	core	786
+fmt	fmt	Methionyl-tRNA formyltransferase	97	97	100.0	core	951
+folD	folD	Bifunctional protein FolD protein	97	97	100.0	core	864
+frdA_2~~~frdA_1~~~frdA	frdA_2;frdA_1;frdA	Fumarate reductase flavoprotein subunit	97	97	100.0	core	1881
+frdB	;frdB	hypothetical protein;Fumarate reductase iron-sulfur subunit	97	97	100.0	core	717
+frr	frr	Ribosome-recycling factor	97	97	100.0	core	540
+ftsH	ftsH	ATP-dependent zinc metalloprotease FtsH	97	97	100.0	core	2742
+ftsI	ftsI	Peptidoglycan DD-transpeptidase FtsI	97	97	100.0	core	1944
+ftsK	ftsK	DNA translocase FtsK	97	97	100.0	core	2439
+ftsW	ftsW	putative peptidoglycan glycosyltransferase FtsW	97	97	100.0	core	1158
+ftsY	ftsY	Signal recognition particle receptor FtsY	97	97	100.0	core	855
+fumC_3~~~fumC_2~~~fumC_1~~~fumC	fumC_3;fumC_2;fumC_1;fumC	Fumarate hydratase class II	97	97	100.0	core	1392
+fusA	fusA	Elongation factor G	97	97	100.0	core	2085
+gadC	gadC	Glutamate/gamma-aminobutyrate antiporter	97	97	100.0	core	1401
+gap	gap	Glyceraldehyde-3-phosphate dehydrogenase	97	97	100.0	core	1005
+gatA	gatA	Glutamyl-tRNA(Gln) amidotransferase subunit A	97	97	100.0	core	1476
+gatB	gatB	Aspartyl/glutamyl-tRNA(Asn/Gln) amidotransferase subunit B	97	97	100.0	core	1467
+gcvH	gcvH	Glycine cleavage system H protein	97	97	100.0	core	354
+glgA	glgA	Glycogen synthase	97	97	100.0	core	1425
+glgB	glgB	14-alpha-glucan branching enzyme GlgB	97	97	100.0	core	2217
+glgC	glgC	Glucose-1-phosphate adenylyltransferase	97	97	100.0	core	1326
+glgX	glgX	Glycogen operon protein GlgX	97	97	100.0	core	2073
+glmM	glmM	Phosphoglucosamine mutase	97	97	100.0	core	1377
+glmS	glmS	Glutamine--fructose-6-phosphate aminotransferase [isomerizing]	97	97	100.0	core	1821
+glmU	glmU	Bifunctional protein GlmU	97	97	100.0	core	618
+gltP	gltP	Proton/glutamate-aspartate symporter	97	97	100.0	core	1248
+gltT	gltT	Proton/sodium-glutamate symport protein	97	97	100.0	core	1239
+gltX	gltX	Glutamate--tRNA ligase	97	97	100.0	core	1521
+glyA	glyA	Serine hydroxymethyltransferase	97	97	100.0	core	1494
+gmk	gmk	Guanylate kinase	97	97	100.0	core	618
+gndA	gndA	6-phosphogluconate dehydrogenase NADP(+)-dependent decarboxylating	97	97	100.0	core	1443
+gph	gph	Phosphoglycolate phosphatase	97	97	100.0	core	675
+gpmA	gpmA	23-bisphosphoglycerate-dependent phosphoglycerate mutase	97	97	100.0	core	681
+gpsA	gpsA	Glycerol-3-phosphate dehydrogenase [NAD(P)+]	97	97	100.0	core	1005
+greA	greA	Transcription elongation factor GreA	97	97	100.0	core	2148
+groL1	groL1	60 kDa chaperonin 1	97	97	100.0	core	1602
+groL_1	groL_1	60 kDa chaperonin	97	97	100.0	core	1635
+groL_2	groL_2	60 kDa chaperonin	97	97	100.0	core	1539
+groS	groS	10 kDa chaperonin	97	97	100.0	core	309
+group_0		hypothetical protein	97	97	100.0	core	2508
+group_1		hypothetical protein	97	97	100.0	core	1962
+group_10		hypothetical protein	97	97	100.0	core	156
+group_100		hypothetical protein	97	97	100.0	core	1182
+group_101		hypothetical protein	97	97	100.0	core	2634
+group_102		hypothetical protein	97	97	100.0	core	1173
+group_103		hypothetical protein	97	97	100.0	core	1134
+group_104		8-amino-7-oxononanoate synthase/2-amino-3-ketobutyrate coenzyme A ligase	97	97	100.0	core	1134
+group_105		hypothetical protein	97	97	100.0	core	1122
+group_106		hypothetical protein	97	97	100.0	core	1110
+group_107		hypothetical protein	97	97	100.0	core	1101
+group_108		hypothetical protein	97	97	100.0	core	1092
+group_109		hypothetical protein	97	97	100.0	core	1092
+group_11		hypothetical protein	97	97	100.0	core	1179
+group_110		putative peptidase	97	97	100.0	core	1071
+group_111		hypothetical protein	97	97	100.0	core	1065
+group_112		hypothetical protein	97	97	100.0	core	1053
+group_113		hypothetical protein	97	97	100.0	core	1053
+group_114		hypothetical protein	97	97	100.0	core	1023
+group_115		hypothetical protein	97	97	100.0	core	1008
+group_116		hypothetical protein	97	97	100.0	core	1002
+group_117		hypothetical protein	97	97	100.0	core	999
+group_118		hypothetical protein	97	97	100.0	core	999
+group_119		hypothetical protein	97	97	100.0	core	996
+group_12		hypothetical protein	97	97	100.0	core	1698
+group_120		hypothetical protein	97	97	100.0	core	993
+group_121		hypothetical protein	97	97	100.0	core	990
+group_122		hypothetical protein	97	97	100.0	core	990
+group_123		hypothetical protein	97	97	100.0	core	981
+group_124		hypothetical protein	97	97	100.0	core	978
+group_125		hypothetical protein	97	97	100.0	core	966
+group_126		hypothetical protein	97	97	100.0	core	957
+group_127		hypothetical protein	97	97	100.0	core	951
+group_128		hypothetical protein	97	97	100.0	core	948
+group_129		hypothetical protein	97	97	100.0	core	945
+group_13		hypothetical protein	97	97	100.0	core	648
+group_130		hypothetical protein	97	97	100.0	core	930
+group_131		hypothetical protein	97	97	100.0	core	921
+group_132		hypothetical protein	97	97	100.0	core	918
+group_133		hypothetical protein	97	97	100.0	core	912
+group_134		hypothetical protein	97	97	100.0	core	897
+group_135		hypothetical protein	97	97	100.0	core	873
+group_136		hypothetical protein	97	97	100.0	core	870
+group_137		hypothetical protein	97	97	100.0	core	870
+group_138		hypothetical protein	97	97	100.0	core	870
+group_139		hypothetical protein	97	97	100.0	core	867
+group_14		hypothetical protein	97	97	100.0	core	696
+group_140		hypothetical protein	97	97	100.0	core	852
+group_141		putative protein CT_671	97	97	100.0	core	852
+group_142		hypothetical protein	97	97	100.0	core	837
+group_143		hypothetical protein	97	97	100.0	core	831
+group_144		hypothetical protein	97	97	100.0	core	807
+group_145		hypothetical protein	97	97	100.0	core	795
+group_146		hypothetical protein	97	97	100.0	core	792
+group_147		hypothetical protein	97	97	100.0	core	792
+group_148		hypothetical protein	97	97	100.0	core	789
+group_149		hypothetical protein	97	97	100.0	core	786
+group_15		hypothetical protein	97	97	100.0	core	537
+group_150		hypothetical protein	97	97	100.0	core	786
+group_151		hypothetical protein	97	97	100.0	core	783
+group_152		hypothetical protein	97	97	100.0	core	774
+group_153		hypothetical protein	97	97	100.0	core	765
+group_154		hypothetical protein	97	97	100.0	core	759
+group_155		hypothetical protein	97	97	100.0	core	750
+group_156		hypothetical protein	97	97	100.0	core	747
+group_157		hypothetical protein	97	97	100.0	core	744
+group_158		hypothetical protein	97	97	100.0	core	735
+group_159		hypothetical protein	97	97	100.0	core	732
+group_16		hypothetical protein	97	97	100.0	core	1827
+group_160		hypothetical protein	97	97	100.0	core	732
+group_161		hypothetical protein	97	97	100.0	core	729
+group_162		hypothetical protein	97	97	100.0	core	720
+group_163		hypothetical protein	97	97	100.0	core	717
+group_164		hypothetical protein	97	97	100.0	core	717
+group_165		hypothetical protein	97	97	100.0	core	699
+group_166		queuosine precursor transporter	97	97	100.0	core	687
+group_167		putative oxidoreductase CT_610	97	97	100.0	core	681
+group_168		hypothetical protein	97	97	100.0	core	678
+group_169		hypothetical protein	97	97	100.0	core	672
+group_17		hypothetical protein	97	97	100.0	core	318
+group_170		hypothetical protein	97	97	100.0	core	672
+group_171		hypothetical protein	97	97	100.0	core	666
+group_172		hypothetical protein	97	97	100.0	core	660
+group_173		hypothetical protein	97	97	100.0	core	660
+group_174		hypothetical protein	97	97	100.0	core	654
+group_175		hypothetical protein	97	97	100.0	core	648
+group_176		hypothetical protein	97	97	100.0	core	648
+group_177		hypothetical protein	97	97	100.0	core	642
+group_178		hypothetical protein	97	97	100.0	core	633
+group_179		dITP/XTP pyrophosphatase	97	97	100.0	core	630
+group_18		hypothetical protein	97	97	100.0	core	372
+group_180		hypothetical protein	97	97	100.0	core	603
+group_181		hypothetical protein	97	97	100.0	core	591
+group_182		hypothetical protein	97	97	100.0	core	585
+group_183		hypothetical protein	97	97	100.0	core	585
+group_184		hypothetical protein	97	97	100.0	core	582
+group_185		hypothetical protein	97	97	100.0	core	582
+group_186		hypothetical protein	97	97	100.0	core	579
+group_187		hypothetical protein	97	97	100.0	core	570
+group_188		hypothetical protein	97	97	100.0	core	567
+group_189		hypothetical protein	97	97	100.0	core	555
+group_19		hypothetical protein	97	97	100.0	core	897
+group_190		Early upstream open reading frame	97	97	100.0	core	552
+group_191		Protein/CP_1068/CPj0803/CpB0832	97	97	100.0	core	552
+group_192		hypothetical protein	97	97	100.0	core	537
+group_193		hypothetical protein	97	97	100.0	core	528
+group_194		hypothetical protein	97	97	100.0	core	525
+group_195		hypothetical protein	97	97	100.0	core	525
+group_196		hypothetical protein	97	97	100.0	core	522
+group_197		hypothetical protein	97	97	100.0	core	522
+group_198		hypothetical protein	97	97	100.0	core	519
+group_199		hypothetical protein	97	97	100.0	core	513
+group_2		hypothetical protein	97	97	100.0	core	351
+group_20		hypothetical protein	97	97	100.0	core	642
+group_200		hypothetical protein	97	97	100.0	core	507
+group_201		hypothetical protein	97	97	100.0	core	507
+group_202		hypothetical protein	97	97	100.0	core	504
+group_203		hypothetical protein	97	97	100.0	core	504
+group_204		hypothetical protein	97	97	100.0	core	501
+group_205		hypothetical protein	97	97	100.0	core	495
+group_206		hypothetical protein	97	97	100.0	core	495
+group_207		hypothetical protein	97	97	100.0	core	492
+group_208		hypothetical protein	97	97	100.0	core	492
+group_209		hypothetical protein	97	97	100.0	core	489
+group_21		hypothetical protein	97	97	100.0	core	3012
+group_210		hypothetical protein	97	97	100.0	core	483
+group_211		hypothetical protein	97	97	100.0	core	483
+group_212		hypothetical protein	97	97	100.0	core	480
+group_213		hypothetical protein	97	97	100.0	core	480
+group_214		hypothetical protein	97	97	100.0	core	480
+group_215		hypothetical protein	97	97	100.0	core	477
+group_216		hypothetical protein	97	97	100.0	core	477
+group_217		hypothetical protein	97	97	100.0	core	474
+group_218		hypothetical protein	97	97	100.0	core	468
+group_219		hypothetical protein	97	97	100.0	core	462
+group_22		hypothetical protein	97	97	100.0	core	570
+group_220		hypothetical protein	97	97	100.0	core	453
+group_221		hypothetical protein	97	97	100.0	core	453
+group_222		hypothetical protein	97	97	100.0	core	450
+group_223		hypothetical protein	97	97	100.0	core	447
+group_225		hypothetical protein	97	97	100.0	core	447
+group_226		hypothetical protein	97	97	100.0	core	444
+group_227		hypothetical protein	97	97	100.0	core	441
+group_228		hypothetical protein	97	97	100.0	core	435
+group_229		hypothetical protein	97	97	100.0	core	432
+group_23		hypothetical protein	97	97	100.0	core	2925
+group_230		hypothetical protein	97	97	100.0	core	429
+group_231		hypothetical protein	97	97	100.0	core	426
+group_232		hypothetical protein	97	97	100.0	core	420
+group_233		hypothetical protein	97	97	100.0	core	420
+group_234		hypothetical protein	97	97	100.0	core	414
+group_235		hypothetical protein	97	97	100.0	core	408
+group_236		hypothetical protein	97	97	100.0	core	408
+group_237		hypothetical protein	97	97	100.0	core	402
+group_239		hypothetical protein	97	97	100.0	core	393
+group_24		hypothetical protein	97	97	100.0	core	1380
+group_240		hypothetical protein	97	97	100.0	core	375
+group_241		hypothetical protein	97	97	100.0	core	369
+group_242		hypothetical protein	97	97	100.0	core	366
+group_243		hypothetical protein	97	97	100.0	core	366
+group_244		hypothetical protein	97	97	100.0	core	360
+group_245		hypothetical protein	97	97	100.0	core	351
+group_246		hypothetical protein	97	97	100.0	core	351
+group_247		hypothetical protein	97	97	100.0	core	348
+group_248		hypothetical protein	97	97	100.0	core	345
+group_249		hypothetical protein	97	97	100.0	core	345
+group_25		Single-stranded DNA-binding protein	97	97	100.0	core	534
+group_250		hypothetical protein	97	97	100.0	core	339
+group_251		Purine nucleoside phosphoramidase	97	97	100.0	core	336
+group_252		hypothetical protein	97	97	100.0	core	333
+group_253		hypothetical protein	97	97	100.0	core	333
+group_254		hypothetical protein	97	97	100.0	core	330
+group_255		hypothetical protein	97	97	100.0	core	330
+group_256		hypothetical protein	97	97	100.0	core	321
+group_257		hypothetical protein	97	97	100.0	core	309
+group_258		hypothetical protein	97	97	100.0	core	303
+group_259		hypothetical protein	97	97	100.0	core	300
+group_26		hypothetical protein	97	97	100.0	core	1683
+group_260		hypothetical protein	97	97	100.0	core	297
+group_261		hypothetical protein	97	97	100.0	core	294
+group_262		hypothetical protein	97	97	100.0	core	288
+group_263		hypothetical protein	97	97	100.0	core	285
+group_264		hypothetical protein	97	97	100.0	core	279
+group_265		hypothetical protein	97	97	100.0	core	255
+group_267		hypothetical protein	97	97	100.0	core	252
+group_268		putative protein CT_666	97	97	100.0	core	252
+group_27		hypothetical protein	97	97	100.0	core	795
+group_270		hypothetical protein	97	97	100.0	core	237
+group_271		hypothetical protein	97	97	100.0	core	228
+group_272		hypothetical protein	97	97	100.0	core	225
+group_273		hypothetical protein	97	97	100.0	core	219
+group_274		hypothetical protein	97	97	100.0	core	204
+group_275		hypothetical protein	97	97	100.0	core	189
+group_277		hypothetical protein	97	97	100.0	core	183
+group_278		hypothetical protein	97	97	100.0	core	180
+group_279		hypothetical protein	97	97	100.0	core	177
+group_28		hypothetical protein	97	97	100.0	core	1164
+group_281		hypothetical protein	97	97	100.0	core	162
+group_282		hypothetical protein	97	97	100.0	core	162
+group_283		hypothetical protein	97	97	100.0	core	138
+group_284		hypothetical protein	97	97	100.0	core	504
+group_285		putative transcriptional regulatory protein/MSMEI_2866;putative transcriptional regulatory protein	97	97	100.0	core	717
+group_286		hypothetical protein	97	97	100.0	core	375
+group_287		hypothetical protein	97	97	100.0	core	537
+group_288		hypothetical protein	97	97	100.0	core	888
+group_289		hypothetical protein	97	97	100.0	core	252
+group_290		hypothetical protein	97	97	100.0	core	690
+group_291		hypothetical protein	97	97	100.0	core	1266
+group_292		hypothetical protein	97	97	100.0	core	165
+group_293		hypothetical protein	97	97	100.0	core	1389
+group_294		hypothetical protein	97	97	100.0	core	861
+group_295		hypothetical protein	97	97	100.0	core	4350
+group_296		hypothetical protein	97	97	100.0	core	273
+group_297		S-adenosylmethionine/S-adenosylhomocysteine transporter	97	97	100.0	core	984
+group_298		hypothetical protein	97	97	100.0	core	801
+group_299		hypothetical protein	97	97	100.0	core	687
+group_3		hypothetical protein	97	97	100.0	core	867
+group_30		hypothetical protein	97	97	100.0	core	2787
+group_300		hypothetical protein	97	97	100.0	core	1260
+group_301		hypothetical protein	97	97	100.0	core	255
+group_302		hypothetical protein	97	97	100.0	core	150
+group_303		hypothetical protein	97	97	100.0	core	438
+group_304		hypothetical protein	97	97	100.0	core	948
+group_305		hypothetical protein	97	97	100.0	core	225
+group_306		hypothetical protein	97	97	100.0	core	1521
+group_307		hypothetical protein	97	97	100.0	core	348
+group_308		hypothetical protein	97	97	100.0	core	306
+group_309		hypothetical protein	97	97	100.0	core	384
+group_31		hypothetical protein	97	97	100.0	core	1488
+group_310		hypothetical protein	97	97	100.0	core	1257
+group_311		hypothetical protein	97	97	100.0	core	351
+group_312		hypothetical protein	97	97	100.0	core	1728
+group_313		hypothetical protein	97	97	100.0	core	708
+group_314		hypothetical protein	97	97	100.0	core	714
+group_315		hypothetical protein	97	97	100.0	core	2481
+group_316		hypothetical protein	97	97	100.0	core	570
+group_317		hypothetical protein	97	97	100.0	core	738
+group_318		hypothetical protein	97	97	100.0	core	660
+group_32		hypothetical protein	97	97	100.0	core	813
+group_320		hypothetical protein	97	97	100.0	core	972
+group_321		hypothetical protein	97	97	100.0	core	1188
+group_322		hypothetical protein	97	97	100.0	core	1011
+group_323		GTP cyclohydrolase 1 type 2	97	97	100.0	core	756
+group_324		hypothetical protein	97	97	100.0	core	390
+group_325		hypothetical protein	97	97	100.0	core	1695
+group_327		hypothetical protein	97	97	100.0	core	2163
+group_328		hypothetical protein	97	97	100.0	core	1647
+group_329		hypothetical protein	97	97	100.0	core	846
+group_33		hypothetical protein;Farnesyl diphosphate synthase	97	97	100.0	core	876
+group_330		hypothetical protein	97	97	100.0	core	1071
+group_331		hypothetical protein	97	97	100.0	core	357
+group_332		hypothetical protein	97	97	100.0	core	261
+group_333		hypothetical protein	97	97	100.0	core	558
+group_334		hypothetical protein	97	97	100.0	core	627
+group_335		hypothetical protein	97	97	100.0	core	192
+group_336		hypothetical protein	97	97	100.0	core	276
+group_337		hypothetical protein	97	97	100.0	core	294
+group_338		hypothetical protein	97	97	100.0	core	279
+group_339		hypothetical protein	97	97	100.0	core	519
+group_34		hypothetical protein	97	97	100.0	core	873
+group_340		hypothetical protein	97	97	100.0	core	801
+group_341		hypothetical protein	97	97	100.0	core	465
+group_342		hypothetical protein	97	97	100.0	core	984
+group_343		hypothetical protein	97	97	100.0	core	711
+group_344		hypothetical protein	97	97	100.0	core	537
+group_345		hypothetical protein	97	97	100.0	core	255
+group_346		hypothetical protein	97	97	100.0	core	897
+group_347		hypothetical protein	97	97	100.0	core	336
+group_348		hypothetical protein	97	97	100.0	core	369
+group_349		hypothetical protein	97	97	100.0	core	402
+group_35		hypothetical protein	97	97	100.0	core	597
+group_350		hypothetical protein	97	97	100.0	core	162
+group_351		hypothetical protein	97	97	100.0	core	453
+group_352		hypothetical protein	97	97	100.0	core	1314
+group_353		hypothetical protein	97	97	100.0	core	1083
+group_354		hypothetical protein	97	97	100.0	core	1212
+group_355		hypothetical protein	97	97	100.0	core	522
+group_356		hypothetical protein	97	97	100.0	core	2103
+group_357		hypothetical protein	97	97	100.0	core	273
+group_358		hypothetical protein	97	97	100.0	core	330
+group_359		hypothetical protein	97	97	100.0	core	297
+group_360		hypothetical protein	97	97	100.0	core	843
+group_361		hypothetical protein	97	97	100.0	core	1281
+group_363		hypothetical protein	97	97	100.0	core	456
+group_364		hypothetical protein	97	97	100.0	core	705
+group_365		hypothetical protein	97	97	100.0	core	858
+group_366		hypothetical protein	97	97	100.0	core	498
+group_367		hypothetical protein	97	97	100.0	core	444
+group_369		hypothetical protein	97	97	100.0	core	1776
+group_370		hypothetical protein	97	97	100.0	core	1971
+group_373		hypothetical protein	97	97	100.0	core	1104
+group_4		hypothetical protein	97	97	100.0	core	276
+group_40		hypothetical protein	97	97	100.0	core	1749
+group_42		hypothetical protein	97	97	100.0	core	1647
+group_43		hypothetical protein	97	97	100.0	core	312
+group_44		hypothetical protein	97	97	100.0	core	2490
+group_45		hypothetical protein	97	97	100.0	core	2499
+group_46		hypothetical protein	97	97	100.0	core	2433
+group_47		hypothetical protein	97	97	100.0	core	2304
+group_48		hypothetical protein	97	97	100.0	core	2091
+group_49		hypothetical protein	97	97	100.0	core	2076
+group_5		hypothetical protein	97	97	100.0	core	771
+group_50		hypothetical protein	97	97	100.0	core	459
+group_51		hypothetical protein	97	97	100.0	core	1977
+group_52		hypothetical protein	97	97	100.0	core	1953
+group_53		hypothetical protein	97	97	100.0	core	1950
+group_54		hypothetical protein	97	97	100.0	core	1950
+group_55		hypothetical protein	97	97	100.0	core	1872
+group_56		hypothetical protein	97	97	100.0	core	1866
+group_57		hypothetical protein	97	97	100.0	core	1860
+group_58		hypothetical protein	97	97	100.0	core	1809
+group_59		Protein CT_858	97	97	100.0	core	1806
+group_6		hypothetical protein	97	97	100.0	core	3417
+group_60		hypothetical protein	97	97	100.0	core	1770
+group_61		4-hydroxybenzoate decarboxylase subunit C	97	97	100.0	core	1740
+group_62		hypothetical protein	97	97	100.0	core	1737
+group_63		hypothetical protein	97	97	100.0	core	1701
+group_64		hypothetical protein	97	97	100.0	core	1689
+group_65		hypothetical protein	97	97	100.0	core	1620
+group_66		hypothetical protein	97	97	100.0	core	1512
+group_67		hypothetical protein	97	97	100.0	core	2865
+group_68		hypothetical protein	97	97	100.0	core	1491
+group_69		hypothetical protein	97	97	100.0	core	1482
+group_7		hypothetical protein	97	97	100.0	core	3600
+group_70		hypothetical protein	97	97	100.0	core	1479
+group_71		hypothetical protein	97	97	100.0	core	1479
+group_72		Magnesium transporter MgtE	97	97	100.0	core	1473
+group_73		hypothetical protein	97	97	100.0	core	1473
+group_74		hypothetical protein	97	97	100.0	core	1464
+group_75		hypothetical protein	97	97	100.0	core	1449
+group_76		Cardiolipin synthase	97	97	100.0	core	1425
+group_77		hypothetical protein	97	97	100.0	core	1401
+group_78		putative uridylyltransferase	97	97	100.0	core	1368
+group_79		hypothetical protein	97	97	100.0	core	1953
+group_8		hypothetical protein	97	97	100.0	core	2073
+group_80		hypothetical protein	97	97	100.0	core	1353
+group_81		hypothetical protein	97	97	100.0	core	1353
+group_82		hypothetical protein	97	97	100.0	core	1347
+group_83		hypothetical protein	97	97	100.0	core	1326
+group_84		hypothetical protein	97	97	100.0	core	1323
+group_85		hypothetical protein	97	97	100.0	core	1320
+group_86		hypothetical protein	97	97	100.0	core	1305
+group_87		hypothetical protein	97	97	100.0	core	1302
+group_88		hypothetical protein	97	97	100.0	core	1284
+group_89		hypothetical protein	97	97	100.0	core	1278
+group_9		hypothetical protein	97	97	100.0	core	3144
+group_90		hypothetical protein	97	97	100.0	core	1275
+group_91		hypothetical protein	97	97	100.0	core	1245
+group_92		hypothetical protein	97	97	100.0	core	801
+group_93		hypothetical protein	97	97	100.0	core	1230
+group_94		hypothetical protein	97	97	100.0	core	1230
+group_95		hypothetical protein	97	97	100.0	core	1224
+group_96		hypothetical protein	97	97	100.0	core	1218
+group_97		hypothetical protein	97	97	100.0	core	1215
+group_98		hypothetical protein	97	97	100.0	core	1215
+group_99		hypothetical protein	97	97	100.0	core	1200
+grpE	grpE	Protein GrpE	97	97	100.0	core	573
+gspD2~~~sctC_2	gspD2;;sctC_2	Secretin GspD 2;hypothetical protein;Type 3 secretion system secretin	97	97	100.0	core	2766
+gspF	gspF	Putative type II secretion system protein F	97	97	100.0	core	1176
+gyrA_1	gyrA_1	DNA gyrase subunit A	97	97	100.0	core	2511
+gyrA_2	gyrA_2	DNA gyrase subunit A	97	97	100.0	core	1473
+gyrB_1	gyrB_1	Type 2 topoisomerase subunit B	97	97	100.0	core	2415
+gyrB_2	gyrB_2	DNA gyrase subunit B	97	97	100.0	core	1818
+hctA	hctA	Histone H1-like protein Hc1	97	97	100.0	core	378
+hctB_1~~~hctB~~~hctB_2	hctB_1;hctB;hctB_2	Histone H1-like protein HC2;Histone-like protein HC2	97	97	100.0	core	714
+hemA	hemA	Glutamyl-tRNA reductase	97	97	100.0	core	1044
+hemB	hemB	Delta-aminolevulinic acid dehydratase	97	97	100.0	core	1017
+hemC	hemC	Porphobilinogen deaminase	97	97	100.0	core	726
+hemE	hemE	Uroporphyrinogen decarboxylase	97	97	100.0	core	1005
+hemH	hemH	Ferrochelatase	97	97	100.0	core	945
+hemL	hemL	Glutamate-1-semialdehyde 21-aminomutase	97	97	100.0	core	1269
+hemN	hemN	Oxygen-independent coproporphyrinogen III oxidase	97	97	100.0	core	1374
+hemW	hemW	Heme chaperone HemW	97	97	100.0	core	1137
+hemY	hemY	Protoporphyrinogen oxidase	97	97	100.0	core	1275
+hflX	hflX	GTPase HflX	97	97	100.0	core	1344
+hisS	hisS	Histidine--tRNA ligase	97	97	100.0	core	1287
+hrcA	hrcA	Heat-inducible transcription repressor HrcA	97	97	100.0	core	1218
+hupA	hupA	DNA-binding protein HU 1	97	97	100.0	core	303
+hxcR	hxcR	putative type II secretion system protein HxcR	97	97	100.0	core	1506
+ileS	ileS	Isoleucine--tRNA ligase	97	97	100.0	core	3126
+incA	;incA	hypothetical protein;Inclusion membrane protein A	97	97	100.0	core	822
+incD	incD	Inclusion membrane protein D	97	97	100.0	core	441
+incE	incE	Inclusion membrane protein E	97	97	100.0	core	399
+incF	incF	Inclusion membrane protein F	97	97	100.0	core	303
+incG	incG	Inclusion membrane protein G	97	97	100.0	core	504
+infA	infA	Translation initiation factor IF-1	97	97	100.0	core	222
+infB	infB	Translation initiation factor IF-2	97	97	100.0	core	2691
+infC	infC	Translation initiation factor IF-3	97	97	100.0	core	561
+iscS	iscS	Cysteine desulfurase IscS	97	97	100.0	core	1155
+ispD	ispD	2-C-methyl-D-erythritol 4-phosphate cytidylyltransferase	97	97	100.0	core	660
+ispE	ispE	Putative 4-diphosphocytidyl-2-C-methyl-D-erythritol kinase	97	97	100.0	core	870
+ispF	ispF	2-C-methyl-D-erythritol 24-cyclodiphosphate synthase	97	97	100.0	core	537
+ispG	ispG	4-hydroxy-3-methylbut-2-en-1-yl diphosphate synthase (ferredoxin)	97	97	100.0	core	1809
+ispH2	ispH2	4-hydroxy-3-methylbut-2-enyl diphosphate reductase 2	97	97	100.0	core	924
+kdsA	kdsA	2-dehydro-3-deoxyphosphooctonate aldolase	97	97	100.0	core	810
+kdsB	kdsB	8-amino-38-dideoxy-manno-octulosonate cytidylyltransferase	97	97	100.0	core	792
+kdsD	kdsD	Arabinose 5-phosphate isomerase KdsD	97	97	100.0	core	987
+kgd	kgd	Multifunctional 2-oxoglutarate metabolism enzyme	97	97	100.0	core	2718
+ldh	ldh	Leucine dehydrogenase	97	97	100.0	core	1041
+lepA	lepA	Elongation factor 4	97	97	100.0	core	1809
+leuS	leuS	Leucine--tRNA ligase	97	97	100.0	core	2460
+lgt	lgt	Phosphatidylglycerol--prolipoprotein diacylglyceryl transferase	97	97	100.0	core	819
+ligA	ligA	DNA ligase	97	97	100.0	core	1992
+lipA	lipA	Lipoyl synthase	97	97	100.0	core	936
+lipM	lipM	Octanoyltransferase LipM	97	97	100.0	core	720
+lnt	lnt	Apolipoprotein N-acyltransferase	97	97	100.0	core	1629
+lolD	lolD	Lipoprotein-releasing system ATP-binding protein LolD	97	97	100.0	core	678
+lon	lon	Lon protease	97	97	100.0	core	2460
+lplA	lplA	Lipoate-protein ligase A	97	97	100.0	core	702
+lplT	lplT	Lysophospholipid transporter LplT	97	97	100.0	core	1680
+lptB	lptB	Lipopolysaccharide export system ATP-binding protein LptB	97	97	100.0	core	720
+lpxA	lpxA	Acyl-[acyl-carrier-protein]--UDP-N-acetylglucosamine O-acyltransferase	97	97	100.0	core	843
+lpxB	lpxB	Lipid-A-disaccharide synthase	97	97	100.0	core	1824
+lpxC	lpxC	UDP-3-O-acyl-N-acetylglucosamine deacetylase	97	97	100.0	core	861
+lpxD	lpxD	UDP-3-O-acylglucosamine N-acyltransferase	97	97	100.0	core	1065
+lpxG	lpxG	UDP-23-diacylglucosamine pyrophosphatase LpxG	97	97	100.0	core	978
+lpxK_2~~~lpxK_1~~~lpxK	lpxK_2;lpxK_1;lpxK	Tetraacyldisaccharide 4'-kinase	97	97	100.0	core	1110
+lpxL	lpxL	Lipid A biosynthesis lauroyltransferase	97	97	100.0	core	1368
+lspA	lspA	Lipoprotein signal peptidase	97	97	100.0	core	504
+lysC	lysC	Lysine-sensitive aspartokinase 3	97	97	100.0	core	1296
+lysS	lysS	Lysine--tRNA ligase	97	97	100.0	core	1581
+maf	maf	dTTP/UTP pyrophosphatase	97	97	100.0	core	591
+malP	malP	Maltodextrin phosphorylase	97	97	100.0	core	2445
+malQ	malQ;	4-alpha-glucanotransferase;hypothetical protein	97	97	100.0	core	1584
+manP	manP	PTS system mannose-specific EIIBCA component	97	97	100.0	core	477
+map	map	Methionine aminopeptidase	97	97	100.0	core	876
+mazG	mazG	Nucleoside triphosphate pyrophosphohydrolase/pyrophosphatase MazG	97	97	100.0	core	384
+mcsB	mcsB	Protein-arginine kinase	97	97	100.0	core	1071
+mdh	mdh	Malate dehydrogenase	97	97	100.0	core	981
+menG	menG	Demethylmenaquinone methyltransferase	97	97	100.0	core	654
+menH	;menH	hypothetical protein;2-succinyl-6-hydroxy-24-cyclohexadiene-1-carboxylate synthase	97	97	100.0	core	909
+metG	metG	Methionine--tRNA ligase	97	97	100.0	core	1653
+mfd	mfd	Transcription-repair-coupling factor	97	97	100.0	core	3240
+mhpA	mhpA	3-(3-hydroxy-phenyl)propionate/3-hydroxycinnamic acid hydroxylase	97	97	100.0	core	1524
+miaA	miaA	tRNA dimethylallyltransferase	97	97	100.0	core	1020
+mip	mip	Outer membrane protein MIP	97	97	100.0	core	705
+mnmA	mnmA	tRNA-specific 2-thiouridylase MnmA	97	97	100.0	core	1077
+mnmC	mnmC	tRNA 5-methylaminomethyl-2-thiouridine biosynthesis bifunctional protein MnmC	97	97	100.0	core	1059
+mnmE	mnmE	tRNA modification GTPase MnmE	97	97	100.0	core	1335
+mnmG	mnmG	tRNA uridine 5-carboxymethylaminomethyl modification enzyme MnmG	97	97	100.0	core	1833
+mntA	mntA	Manganese-binding lipoprotein MntA	97	97	100.0	core	981
+mntB_1	mntB_1	Manganese transport system ATP-binding protein MntB	97	97	100.0	core	819
+mntB_2	mntB_2	Manganese transport system membrane protein MntB	97	97	100.0	core	876
+mntC	mntC;	Manganese transport system membrane protein MntC;hypothetical protein	97	97	100.0	core	1356
+mqnA	mqnA	Chorismate dehydratase	97	97	100.0	core	822
+mqnC	mqnC	Cyclic dehypoxanthine futalosine synthase	97	97	100.0	core	1053
+mqnD	mqnD	14-dihydroxy-6-naphtoate synthase	97	97	100.0	core	771
+mqnE	mqnE	Aminodeoxyfutalosine synthase	97	97	100.0	core	1110
+mraY	mraY	Phospho-N-acetylmuramoyl-pentapeptide-transferase	97	97	100.0	core	1011
+mrdA	mrdA	Peptidoglycan DD-transpeptidase MrdA	97	97	100.0	core	3243
+mrdB	mrdB	Peptidoglycan glycosyltransferase MrdB	97	97	100.0	core	1140
+mreB	mreB	Cell shape-determining protein MreB	97	97	100.0	core	1101
+murA1	murA1	UDP-N-acetylglucosamine 1-carboxyvinyltransferase 1	97	97	100.0	core	1335
+murB	murB	UDP-N-acetylenolpyruvoylglucosamine reductase	97	97	100.0	core	876
+murC	murC	UDP-N-acetylmuramate--L-alanine ligase	97	97	100.0	core	2409
+murD	murD	UDP-N-acetylmuramoylalanine--D-glutamate ligase	97	97	100.0	core	1251
+murE	murE	UDP-N-acetylmuramoyl-L-alanyl-D-glutamate--26-diaminopimelate ligase	97	97	100.0	core	1452
+murF	murF	UDP-N-acetylmuramoyl-tripeptide--D-alanyl-D-alanine ligase	97	97	100.0	core	1353
+murG	murG	UDP-N-acetylglucosamine--N-acetylmuramyl-(pentapeptide) pyrophosphoryl-undecaprenol N-acetylglucosamine transferase	97	97	100.0	core	1029
+murJ	murJ	lipid II flippase MurJ	97	97	100.0	core	1611
+mutL	mutL	DNA mismatch repair protein MutL	97	97	100.0	core	1731
+mutS	mutS	DNA mismatch repair protein MutS	97	97	100.0	core	2463
+mutY	mutY	Adenine DNA glycosylase	97	97	100.0	core	1110
+mxiA	mxiA	Protein MxiA	97	97	100.0	core	2130
+ndk	ndk	Nucleoside diphosphate kinase	97	97	100.0	core	471
+nfo	nfo	Endonuclease 4	97	97	100.0	core	867
+nhaD	nhaD	Na(+)/H(+) antiporter NhaD	97	97	100.0	core	1266
+nifS	nifS	Cysteine desulfurase NifS	97	97	100.0	core	1125
+nqrA	nqrA	Na(+)-translocating NADH-quinone reductase subunit A	97	97	100.0	core	1398
+nqrB	nqrB	Na(+)-translocating NADH-quinone reductase subunit B	97	97	100.0	core	1512
+nqrC	nqrC	Na(+)-translocating NADH-quinone reductase subunit C	97	97	100.0	core	951
+nqrD	nqrD	Na(+)-translocating NADH-quinone reductase subunit D	97	97	100.0	core	642
+nqrE	nqrE	Na(+)-translocating NADH-quinone reductase subunit E	97	97	100.0	core	735
+nqrF	nqrF	Na(+)-translocating NADH-quinone reductase subunit F	97	97	100.0	core	1296
+nrdB	nrdB	Ribonucleoside-diphosphate reductase subunit beta	97	97	100.0	core	1041
+nrdR	nrdR	Transcriptional repressor NrdR	97	97	100.0	core	465
+nth	nth	Endonuclease III	97	97	100.0	core	636
+ntpA	ntpA	V-type sodium ATPase catalytic subunit A	97	97	100.0	core	1776
+ntpB	ntpB	V-type sodium ATPase subunit B	97	97	100.0	core	1317
+ntpK	ntpK	V-type sodium ATPase subunit K	97	97	100.0	core	426
+nusA	nusA	Transcription termination/antitermination protein NusA	97	97	100.0	core	1323
+nusB	nusB	Transcription antitermination protein NusB	97	97	100.0	core	789
+nusG	nusG	Transcription termination/antitermination protein NusG	97	97	100.0	core	549
+obg	obg	GTPase Obg	97	97	100.0	core	1008
+odhB	odhB	Dihydrolipoyllysine-residue succinyltransferase component of 2-oxoglutarate dehydrogenase complex	97	97	100.0	core	1101
+ogt	ogt	Methylated-DNA--protein-cysteine methyltransferase	97	97	100.0	core	513
+omcA	omcA	Small cysteine-rich outer membrane protein OmcA	97	97	100.0	core	267
+omcB	omcB	Large cysteine-rich periplasmic protein OmcB	97	97	100.0	core	1644
+ompA_2~~~ompA~~~ompA_1	ompA_2;ompA;ompA_1	Major outer membrane porin serovar L1;Major outer membrane porin serovar D;Major outer membrane porin serovar L3;Major outer membrane porin serovar C;Major outer membrane porin serovar B;Major outer membrane porin serovar F;Major outer membrane porin serovar A;Major outer membrane porin serovar E;Major outer membrane porin;Major outer membrane porin serovar H	97	97	100.0	core	1257
+oppA_1	oppA_1	Oligopeptide-binding protein OppA	97	97	100.0	core	1281
+oppA_2	oppA_2	Oligopeptide-binding protein OppA	97	97	100.0	core	1557
+oppB	oppB	Oligopeptide transport system permease protein OppB	97	97	100.0	core	942
+oppC	oppC	Oligopeptide transport system permease protein OppC	97	97	100.0	core	846
+oppD_1	oppD_1	Oligopeptide transport ATP-binding protein OppD	97	97	100.0	core	834
+oppD_2	oppD_2	Oligopeptide transport ATP-binding protein OppD	97	97	100.0	core	966
+oppF	oppF	Oligopeptide transport ATP-binding protein OppF	97	97	100.0	core	831
+pal	pal	Peptidoglycan-associated lipoprotein	97	97	100.0	core	609
+pckG	pckG	Phosphoenolpyruvate carboxykinase [GTP]	97	97	100.0	core	1800
+pcnB	pcnB	Poly(A) polymerase I	97	97	100.0	core	1278
+pcrA	pcrA	ATP-dependent DNA helicase PcrA	97	97	100.0	core	1968
+pdhC_1	pdhC_1	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	97	97	100.0	core	1290
+pdhC_2	pdhC_2	Dihydrolipoyllysine-residue acetyltransferase component of pyruvate dehydrogenase complex	97	97	100.0	core	1167
+pdhD	pdhD	Dihydrolipoyl dehydrogenase	97	97	100.0	core	1398
+pepA	pepA	putative cytosol aminopeptidase	97	97	100.0	core	1500
+pepF1	pepF1	Oligoendopeptidase F plasmid	97	97	100.0	core	1827
+pfp_1	pfp_1	Pyrophosphate--fructose 6-phosphate 1-phosphotransferase	97	97	100.0	core	1662
+pfp_2	pfp_2	Pyrophosphate--fructose 6-phosphate 1-phosphotransferase	97	97	100.0	core	1647
+pgcA	pgcA	Phosphoglucomutase	97	97	100.0	core	1782
+pgi	pgi	Glucose-6-phosphate isomerase	97	97	100.0	core	1578
+pgktpi	pgk/tpi	Bifunctional PGK/TIM	97	97	100.0	core	1212
+pgl	pgl	6-phosphogluconolactonase	97	97	100.0	core	771
+pgsA_1	pgsA_1	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	97	97	100.0	core	555
+pgsA_2	pgsA_2	CDP-diacylglycerol--glycerol-3-phosphate 3-phosphatidyltransferase	97	97	100.0	core	549
+pheS	pheS	Phenylalanine--tRNA ligase alpha subunit	97	97	100.0	core	1029
+pheT	pheT	Phenylalanine--tRNA ligase beta subunit	97	97	100.0	core	2373
+pkn1	pkn1	Serine/threonine-protein kinase Pkn1	97	97	100.0	core	1845
+pknD_1	pknD_1	Serine/threonine-protein kinase PknD	97	97	100.0	core	2805
+pknD_2	pknD_2	Serine/threonine-protein kinase PknD	97	97	100.0	core	1473
+plqA	plqA	4-hydroxybenzoate solanesyltransferase	97	97	100.0	core	909
+plsC	plsC	1-acyl-sn-glycerol-3-phosphate acyltransferase	97	97	100.0	core	651
+plsX	plsX	Phosphate acyltransferase	97	97	100.0	core	966
+pmpA	pmpA	putative outer membrane protein PmpA	97	97	100.0	core	2928
+pmpB_1~~~pmpB~~~pmpB_2	pmpB_1;pmpB;pmpB_2	putative outer membrane protein PmpB	97	97	100.0	core	5259
+pmpC~~~pmpC_1~~~pmpC_2	pmpC;pmpC_1;pmpC_2	putative outer membrane protein PmpC	97	97	100.0	core	5355
+pmpD_2~~~pmpD_1~~~pmpD	pmpD_2;pmpD_1;pmpD	putative outer membrane protein PmpD	97	97	100.0	core	4596
+pmpE~~~pmpE_1~~~pmpE_2	pmpE;pmpE_1;pmpE_2	putative outer membrane protein PmpE	97	97	100.0	core	2898
+pmpF	pmpF	putative outer membrane protein PmpF	97	97	100.0	core	3171
+pmpG	pmpG	putative outer membrane protein PmpG	97	97	100.0	core	3042
+pmpH	pmpH	putative outer membrane protein PmpH	97	97	100.0	core	3057
+pmpI	pmpI	putative outer membrane protein PmpI	97	97	100.0	core	2637
+pnp	pnp	Polyribonucleotide nucleotidyltransferase	97	97	100.0	core	2088
+polA	polA	DNA polymerase I	97	97	100.0	core	2601
+ppa	ppa	Inorganic pyrophosphatase	97	97	100.0	core	630
+prfA	prfA	Peptide chain release factor RF1	97	97	100.0	core	1080
+prfB	prfB	Peptide chain release factor 2	97	97	100.0	core	990
+priA	priA	Primosomal protein N'	97	97	100.0	core	2262
+prmC	prmC	Release factor glutamine methyltransferase	97	97	100.0	core	873
+proS_1~~~proS_2~~~proS	proS_1;proS_2;proS	Proline--tRNA ligase	97	97	100.0	core	1746
+pth	pth	Peptidyl-tRNA hydrolase	97	97	100.0	core	540
+ptrA	ptrA	Protease 3	97	97	100.0	core	2871
+ptsI	ptsI	Phosphoenolpyruvate-protein phosphotransferase	97	97	100.0	core	1716
+pyk	pyk	Pyruvate kinase	97	97	100.0	core	1458
+pyrG	pyrG	CTP synthase	97	97	100.0	core	1620
+pyrH	pyrH	Uridylate kinase	97	97	100.0	core	738
+radA	radA	DNA repair protein RadA	97	97	100.0	core	1365
+rapA	rapA	RNA polymerase-associated protein RapA	97	97	100.0	core	3492
+rbfA	rbfA	Ribosome-binding factor A	97	97	100.0	core	372
+rbn	rbn	Ribonuclease BN	97	97	100.0	core	828
+recA	recA	Protein RecA	97	97	100.0	core	1059
+recB	recB	RecBCD enzyme subunit RecB	97	97	100.0	core	3081
+recC	recC	RecBCD enzyme subunit RecC	97	97	100.0	core	3021
+recD2	recD2	ATP-dependent RecD-like DNA helicase	97	97	100.0	core	2241
+recD_2~~~recD_1~~~recD	recD_2;recD_1;recD	RecBCD enzyme subunit RecD	97	97	100.0	core	1491
+recF	recF	DNA replication and repair protein RecF	97	97	100.0	core	1098
+recJ	recJ	Single-stranded-DNA-specific exonuclease RecJ	97	97	100.0	core	1755
+recO	recO	DNA repair protein RecO	97	97	100.0	core	747
+recR	recR	Recombination protein RecR	97	97	100.0	core	603
+rho	rho	Transcription termination factor Rho	97	97	100.0	core	1395
+ribBA	ribBA	Riboflavin biosynthesis protein RibBA	97	97	100.0	core	1275
+ribC	ribC	Riboflavin synthase	97	97	100.0	core	600
+ribD	ribD	Riboflavin biosynthesis protein RibD	97	97	100.0	core	1128
+ribF	ribF	Bifunctional riboflavin kinase/FMN adenylyltransferase	97	97	100.0	core	924
+ribH	ribH	67-dimethyl-8-ribityllumazine synthase	97	97	100.0	core	474
+rlmCD	rlmCD	23S rRNA (uracil-C(5))-methyltransferase RlmCD	97	97	100.0	core	1191
+rlmL	rlmL	Ribosomal RNA large subunit methyltransferase K/L	97	97	100.0	core	828
+rluB	;rluB	hypothetical protein;Ribosomal large subunit pseudouridine synthase B	97	97	100.0	core	813
+rluC	rluC	Ribosomal large subunit pseudouridine synthase C	97	97	100.0	core	912
+rluD	rluD	Ribosomal large subunit pseudouridine synthase D	97	97	100.0	core	1008
+rnc	rnc	Ribonuclease 3	97	97	100.0	core	696
+rng	rng	Ribonuclease G	97	97	100.0	core	1539
+rnhB	rnhB	Ribonuclease HII	97	97	100.0	core	654
+rnhC	rnhC	Ribonuclease HIII	97	97	100.0	core	903
+rnpA	rnpA	Ribonuclease P protein component	97	97	100.0	core	363
+rnr	rnr	Ribonuclease R	97	97	100.0	core	2085
+rnz	rnz	Ribonuclease Z	97	97	100.0	core	915
+rpe	rpe	Ribulose-phosphate 3-epimerase	97	97	100.0	core	687
+rpiA	rpiA	Ribose-5-phosphate isomerase A	97	97	100.0	core	1164
+rplA	rplA	50S ribosomal protein L1	97	97	100.0	core	699
+rplB	rplB	50S ribosomal protein L2	97	97	100.0	core	855
+rplC	rplC	50S ribosomal protein L3	97	97	100.0	core	666
+rplD	rplD	50S ribosomal protein L4	97	97	100.0	core	669
+rplE	rplE	50S ribosomal protein L5	97	97	100.0	core	543
+rplF	rplF	50S ribosomal protein L6	97	97	100.0	core	552
+rplI	rplI	50S ribosomal protein L9	97	97	100.0	core	504
+rplJ	rplJ	50S ribosomal protein L10	97	97	100.0	core	519
+rplK	rplK	50S ribosomal protein L11	97	97	100.0	core	426
+rplL	rplL	50S ribosomal protein L7/L12	97	97	100.0	core	393
+rplM	rplM	50S ribosomal protein L13	97	97	100.0	core	453
+rplN	rplN	50S ribosomal protein L14	97	97	100.0	core	369
+rplO	rplO	50S ribosomal protein L15	97	97	100.0	core	435
+rplP	rplP	50S ribosomal protein L16	97	97	100.0	core	417
+rplQ	rplQ	50S ribosomal protein L17	97	97	100.0	core	426
+rplR	rplR	50S ribosomal protein L18	97	97	100.0	core	372
+rplS	rplS	50S ribosomal protein L19	97	97	100.0	core	366
+rplT	rplT	50S ribosomal protein L20	97	97	100.0	core	372
+rplU	rplU	50S ribosomal protein L21	97	97	100.0	core	324
+rplV	rplV	50S ribosomal protein L22	97	97	100.0	core	336
+rplW	rplW	50S ribosomal protein L23	97	97	100.0	core	336
+rplY	rplY;	50S ribosomal protein L25;hypothetical protein	97	97	100.0	core	558
+rpmA	rpmA	50S ribosomal protein L27	97	97	100.0	core	252
+rpmB	rpmB	50S ribosomal protein L28	97	97	100.0	core	270
+rpmF	rpmF	50S ribosomal protein L32	97	97	100.0	core	180
+rpmG	;rpmG	hypothetical protein;50S ribosomal protein L33	97	97	100.0	core	159
+rpmI	rpmI	50S ribosomal protein L35	97	97	100.0	core	195
+rpoA	rpoA	DNA-directed RNA polymerase subunit alpha	97	97	100.0	core	1134
+rpoB	rpoB	DNA-directed RNA polymerase subunit beta	97	97	100.0	core	3759
+rpoC	rpoC	DNA-directed RNA polymerase subunit beta'	97	97	100.0	core	4191
+rpoN	rpoN	RNA polymerase sigma-54 factor	97	97	100.0	core	1311
+rpsA	rpsA	30S ribosomal protein S1	97	97	100.0	core	1710
+rpsB	rpsB;	30S ribosomal protein S2;hypothetical protein	97	97	100.0	core	855
+rpsC	rpsC	30S ribosomal protein S3	97	97	100.0	core	675
+rpsD	rpsD	30S ribosomal protein S4	97	97	100.0	core	630
+rpsE	rpsE	30S ribosomal protein S5	97	97	100.0	core	498
+rpsF	rpsF	30S ribosomal protein S6	97	97	100.0	core	339
+rpsG	rpsG	30S ribosomal protein S7	97	97	100.0	core	474
+rpsH_2~~~rpsH_1~~~rpsH	rpsH_2;rpsH_1;rpsH	30S ribosomal protein S8	97	97	100.0	core	402
+rpsI	rpsI	30S ribosomal protein S9	97	97	100.0	core	390
+rpsJ	rpsJ	30S ribosomal protein S10	97	97	100.0	core	327
+rpsK	rpsK	30S ribosomal protein S11	97	97	100.0	core	399
+rpsL	rpsL	30S ribosomal protein S12	97	97	100.0	core	372
+rpsM	rpsM	30S ribosomal protein S13	97	97	100.0	core	369
+rpsN2	rpsN2	Alternate 30S ribosomal protein S14	97	97	100.0	core	306
+rpsO	rpsO	30S ribosomal protein S15	97	97	100.0	core	270
+rpsQ	rpsQ	30S ribosomal protein S17	97	97	100.0	core	252
+rpsR	rpsR	30S ribosomal protein S18	97	97	100.0	core	246
+rpsS	rpsS	30S ribosomal protein S19	97	97	100.0	core	267
+rsbV	rsbV	Anti-sigma-B factor antagonist	97	97	100.0	core	333
+rsbW	rsbW	Serine-protein kinase RsbW	97	97	100.0	core	441
+rsfS	rsfS	Ribosomal silencing factor RsfS	97	97	100.0	core	360
+rsmA	rsmA	Ribosomal RNA small subunit methyltransferase A	97	97	100.0	core	834
+rsmB	;rsmB	hypothetical protein;Ribosomal RNA small subunit methyltransferase B	97	97	100.0	core	1107
+rsmD	rsmD	Ribosomal RNA small subunit methyltransferase D	97	97	100.0	core	576
+rsmH	rsmH	Ribosomal RNA small subunit methyltransferase H	97	97	100.0	core	903
+rsmI	rsmI	Ribosomal RNA small subunit methyltransferase I	97	97	100.0	core	714
+ruvA	ruvA	Holliday junction ATP-dependent DNA helicase RuvA	97	97	100.0	core	603
+ruvB	ruvB	Holliday junction ATP-dependent DNA helicase RuvB	97	97	100.0	core	1005
+ruvC	ruvC	Crossover junction endodeoxyribonuclease RuvC	97	97	100.0	core	513
+sctC_1	sctC_1	Type 3 secretion system secretin	97	97	100.0	core	2283
+secA	secA	Protein translocase subunit SecA	97	97	100.0	core	2910
+secD~~~secDF	secD;secDF	Protein translocase subunit SecD;Protein translocase subunit SecDF	97	97	100.0	core	4203
+secE	secE	Protein translocase subunit SecE	97	97	100.0	core	249
+secY	secY	Protein translocase subunit SecY	97	97	100.0	core	1374
+serS	serS	Serine--tRNA ligase	97	97	100.0	core	1287
+sigA	sigA	RNA polymerase sigma factor SigA	97	97	100.0	core	1710
+sigD	sigD	RNA polymerase sigma-D factor	97	97	100.0	core	762
+smpB	smpB	SsrA-binding protein	97	97	100.0	core	456
+sodA	sodA	Superoxide dismutase [Mn]	97	97	100.0	core	621
+soj	soj	Sporulation initiation inhibitor protein Soj	97	97	100.0	core	768
+spo0J	spo0J	Stage 0 sporulation protein J	97	97	100.0	core	846
+ssaN	ssaN	putative secretion system apparatus ATP synthase SsaN	97	97	100.0	core	1305
+stp	stp	Serine/threonine phosphatase stp	97	97	100.0	core	747
+sucC	sucC	Succinate--CoA ligase [ADP-forming] subunit beta	97	97	100.0	core	1161
+sucD	;sucD	hypothetical protein;Succinate--CoA ligase [ADP-forming] subunit alpha	97	97	100.0	core	876
+sufB	sufB	FeS cluster assembly protein SufB	97	97	100.0	core	1452
+sufC	sufC	putative ATP-dependent transporter SufC	97	97	100.0	core	768
+surE	surE	5'-nucleotidase SurE	97	97	100.0	core	852
+tadA	tadA	tRNA-specific adenosine deaminase	97	97	100.0	core	531
+tal	tal	Transaldolase	97	97	100.0	core	984
+tarP	tarP;	Translocated actin-recruiting phosphoprotein;hypothetical protein	97	97	100.0	core	3486
+tgt	tgt	Queuine tRNA-ribosyltransferase	97	97	100.0	core	1119
+thrZ	thrZ	Threonine--tRNA ligase 2	97	97	100.0	core	1908
+thyX	thyX	Flavin-dependent thymidylate synthase	97	97	100.0	core	1590
+tig	tig	Trigger factor	97	97	100.0	core	1329
+tilS	tilS	tRNA(Ile)-lysidine synthase	97	97	100.0	core	966
+tkt	tkt	Transketolase	97	97	100.0	core	2001
+tlcA_1	tlcA_1	ADPATP carrier protein 1	97	97	100.0	core	1587
+tlcA_2	tlcA_2	ADPATP carrier protein 1	97	97	100.0	core	1623
+tmk	tmk	Thymidylate kinase	97	97	100.0	core	612
+tolB	tolB	Tol-Pal system protein TolB	97	97	100.0	core	1296
+topA	topA	DNA topoisomerase 1	97	97	100.0	core	2574
+tpiA	tpiA	Triosephosphate isomerase	97	97	100.0	core	825
+trmD	trmD	tRNA (guanine-N(1)-)-methyltransferase	97	97	100.0	core	1059
+trmL	trmL	tRNA (cytidine(34)-2'-O)-methyltransferase	97	97	100.0	core	456
+trpA	trpA;	Tryptophan synthase alpha chain;hypothetical protein	97	97	100.0	core	762
+trpB_2~~~trpB_1~~~trpB	trpB_2;trpB_1;trpB	Tryptophan synthase beta chain	97	97	100.0	core	1263
+trpF	trpF	N-(5'-phosphoribosyl)anthranilate isomerase	97	97	100.0	core	627
+trpR	trpR	Trp operon repressor	97	97	100.0	core	285
+trpS	trpS	Tryptophan--tRNA ligase	97	97	100.0	core	1041
+truA	truA	tRNA pseudouridine synthase A	97	97	100.0	core	804
+truB	;truB	hypothetical protein;tRNA pseudouridine synthase B	97	97	100.0	core	726
+trxA	trxA	Thioredoxin	97	97	100.0	core	309
+trxB	trxB	Thioredoxin reductase	97	97	100.0	core	1074
+tsaC	tsaC	Threonylcarbamoyl-AMP synthase	97	97	100.0	core	846
+tsaD	tsaD	tRNA N6-adenosine threonylcarbamoyltransferase	97	97	100.0	core	1017
+tsf	tsf	Elongation factor Ts	97	97	100.0	core	927
+ttcA	ttcA	tRNA-cytidine(32) 2-sulfurtransferase	97	97	100.0	core	765
+tuf	tuf	Elongation factor Tu	97	97	100.0	core	1185
+tyrB	tyrB	Tyrosine aminotransferase	97	97	100.0	core	1203
+tyrP_1	tyrP_1	Tyrosine-specific transport protein	97	97	100.0	core	1224
+tyrP_2~~~tyrP_3	tyrP_2;;tyrP_3	Tyrosine-specific transport protein;hypothetical protein	97	97	100.0	core	1194
+tyrS	tyrS	Tyrosine--tRNA ligase	97	97	100.0	core	1239
+ubiX	ubiX	Flavin prenyltransferase UbiX	97	97	100.0	core	579
+uhpC	uhpC	Membrane sensor protein UhpC	97	97	100.0	core	1371
+ung	ung	Uracil-DNA glycosylase	97	97	100.0	core	690
+uppS	uppS	Isoprenyl transferase	97	97	100.0	core	762
+uvrA	;uvrA	hypothetical protein;UvrABC system protein A	97	97	100.0	core	5361
+uvrB	uvrB	UvrABC system protein B	97	97	100.0	core	2007
+uvrC	uvrC	UvrABC system protein C	97	97	100.0	core	1797
+valS	valS	Valine--tRNA ligase	97	97	100.0	core	2820
+waaA	waaA	3-deoxy-D-manno-octulosonic acid transferase	97	97	100.0	core	1296
+xerC	xerC	Tyrosine recombinase XerC	97	97	100.0	core	948
+xerD	xerD	Tyrosine recombinase XerD	97	97	100.0	core	963
+xseA	xseA	Exodeoxyribonuclease 7 large subunit	97	97	100.0	core	1551
+xseB	xseB	Exodeoxyribonuclease 7 small subunit	97	97	100.0	core	219
+ybaB	ybaB	Nucleoid-associated protein YbaB	97	97	100.0	core	291
+ybeY	ybeY	Endoribonuclease YbeY	97	97	100.0	core	486
+ybhL	ybhL	Inner membrane protein YbhL	97	97	100.0	core	717
+ybiT	ybiT	putative ABC transporter ATP-binding protein YbiT	97	97	100.0	core	1590
+ychF	ychF	Ribosome-binding ATPase YchF	97	97	100.0	core	1095
+yecS	yecS	L-cystine transport system permease protein YecS	97	97	100.0	core	645
+yflS	yflS	Putative malate transporter YflS	97	97	100.0	core	1416
+yidC	yidC	Membrane protein insertase YidC	97	97	100.0	core	2358
+yocK	yocK	General stress protein 16O	97	97	100.0	core	375
+yqgF	yqgF	Putative pre-16S rRNA nuclease	97	97	100.0	core	447
+yscL	yscL	Yop proteins translocation protein L	97	97	100.0	core	672
+yscN_2~~~yscN_1~~~yscN	yscN_2;yscN_1;yscN	putative ATP synthase YscN	97	97	100.0	core	1329
+yscU	yscU	Yop proteins translocation protein U	97	97	100.0	core	1083
+ytfF	ytfF	Inner membrane protein YtfF	97	97	100.0	core	1026
+yycJ	yycJ	Putative metallo-hydrolase YycJ	97	97	100.0	core	789
+znuC	znuC	High-affinity zinc uptake system ATP-binding protein ZnuC	97	97	100.0	core	711
+zwf	zwf	Glucose-6-phosphate 1-dehydrogenase	97	97	100.0	core	1524
+group_368		hypothetical protein	96	97	99.0	soft-core	600
+group_224		hypothetical protein	95	97	97.9	soft-core	447
+group_276		hypothetical protein	94	97	96.9	soft-core	186
+group_372		hypothetical protein	94	97	96.9	soft-core	585
+group_37		hypothetical protein	93	97	95.9	soft-core	1098
+group_371		hypothetical protein	93	97	95.9	soft-core	933
+group_29		hypothetical protein	71	97	73.2	shell	744
+group_36		hypothetical protein	71	97	73.2	shell	1167
+group_38		hypothetical protein	71	97	73.2	shell	1332
+toxB	;toxB	hypothetical protein;Toxin B	71	97	73.2	shell	2169
+yidD	yidD	Putative membrane protein insertion efficiency factor	68	97	70.1	shell	315
+group_362		hypothetical protein	64	97	66.0	shell	192
+group_319		hypothetical protein	56	97	57.7	shell	189
+dnaB	dnaB	Replicative DNA helicase	29	97	29.9	shell	1356
+group_375		hypothetical protein	29	97	29.9	shell	1065
+group_376		hypothetical protein	29	97	29.9	shell	744
+group_377		hypothetical protein	29	97	29.9	shell	909
+group_378		Virulence plasmid protein pGP3-D	29	97	29.9	shell	795
+group_379		hypothetical protein	29	97	29.9	shell	309
+soj_2	;soj_2	hypothetical protein;Sporulation initiation inhibitor protein Soj	29	97	29.9	shell	795
+xerC_2	xerC_2	Tyrosine recombinase XerC	29	97	29.9	shell	993
+group_39		hypothetical protein	28	97	28.9	shell	1923
+group_269		hypothetical protein	26	97	26.8	shell	249
+group_266		hypothetical protein	22	97	22.7	shell	255
+group_374		hypothetical protein	17	97	17.5	shell	1131
+group_41		hypothetical protein	17	97	17.5	shell	1725
+group_280		hypothetical protein	15	97	15.5	shell	165
+group_326		hypothetical protein	12	97	12.4	cloud	960
+group_238		hypothetical protein	1	97	1.0	cloud	399
+pmpF_2	pmpF_2	putative outer membrane protein PmpF	1	97	1.0	cloud	588
