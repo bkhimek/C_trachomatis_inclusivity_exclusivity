@@ -32,7 +32,9 @@ documents in `docs/archive/`, this file wins. Where this file disagrees with any
 - Exact Tm calculation conditions (Mg2+, dNTP, oligo concentrations) to match the intended wet-lab master mix — still a placeholder in `config/primer3_settings.txt`; every Tm/gap number in this project (Phase 1 and Phase 2 alike) will shift slightly once real values are supplied.
 - RESOLVED (2026-09-27): BLAST validation of the 12 redesigned Phase 1 oligos (mutL/aroB/PSD2/group_306) —
   clean; see the addendum at the end of the 2026-09-27 update below.
-- **New (2026-09-27):** D13's quality-review-tier genome check (10 genomes, tested separately, not used for consensus) has not been run against any Phase 1 or Phase 2 oligo yet. This is now the largest remaining gap before the chromosomal oligo work can be called fully validated.
+- RESOLVED (2026-09-27, D22): which sets make up the final panel vs. which are backups — 4 genes / 7 sets
+  locked in (mutL, aroB x3, PSD2 x2, group_306); group_159/140/181 and PSD2 Alt2 parked.
+- **New (2026-09-27):** D13's quality-review-tier genome check (10 genomes, tested separately, not used for consensus) has not been run against any of the 13 designed sets (7 final-panel + 6 parked) yet. This is now the largest remaining gap before the panel can be called fully validated end to end.
 - RESOLVED (2026-09-27): `docs/HANDOVER.md`, this file, and `docs/lessons_learned.md` were committed and pushed to `main` (commit `860c638`), via a git-enabled session run by the user in WSL after this cloud session found it had no push access of its own (see addendum). The oligo design deliverables themselves (Phase 1/2 design docs, FASTAs, combined ranking, BLAST validation writeups) are still OneDrive-only by choice — see Open Items in HANDOVER.md.
 - **New (2026-09-27):** the plasmid target (nvCT-aware, multicopy) has not been started at all — every gene designed so far (11 sets) is chromosomal. Scope reminder from the top of this project: chromosomal + plasmid.
 
@@ -245,9 +247,29 @@ determination, are superseded by the redesign above pending D18 BLAST confirmati
 region *coordinates*, zero-non-target-Chlamydia finding, and the general absence-of-plausible-off-target-
 amplicon conclusion all still hold.
 
-**Current full candidate-set inventory (11 gene-level designs, 2026-09-27, updated same day once the
-redesign's BLAST came back):** see `PHASE1_PHASE2_COMBINED_RANKING.md` for the complete ranked table. Ten
-of the eleven sets (all four redesigned Phase 1 sets, group_159, group_140, group_181, aroB Alt1, aroB
-Alt2, PSD2 Alt1) are now fully D6/D18/D19/D20/D21-compliant end to end: Tm gap ≥5°C (most ≥7°C), LOW
-structure, and clean BLAST. PSD2 Alt2 is compliant on Tm/BLAST but needs a forward-primer re-pick for its
-hairpin before it can join that list.
+**Current full candidate-set inventory (13 gene-level designs — 11 above plus group_140/group_181's second
+loci, counted separately since they're genomically independent amplicons — 2026-09-27, updated same day
+once the redesign's BLAST came back):** see `PHASE1_PHASE2_COMBINED_RANKING.md` for the complete ranked
+table. Ten of the thirteen sets are fully D6/D18/D19/D20/D21-compliant end to end: Tm gap ≥5°C (most ≥7°C),
+LOW structure, and clean BLAST. Three (group_140 locus 2, group_181 locus 2, PSD2 Alt 2) are compliant on
+Tm/BLAST but each has one flagged structural component needing a re-pick.
+
+**D22 (2026-09-27). Final chromosomal panel locked in: 4 genes, 7 sets — mutL; aroB (redesign, primary +
+Alt1 + Alt2, three independent loci); PSD2 (redesign, primary + Alt1, two independent loci); group_306.**
+*Rationale:* the user asked for "5-10 good oligo sets against 2-4 targets" and to stop optimizing once
+that's met — a composite score (Tm-gap margin + structure severity + BLAST cleanliness) across all 13
+candidate sets put the four original Phase 1 genes at the top once their redesign was BLAST-validated
+(scores 87-94 of 100, vs. 61-87 for the nine Phase 2 sets), and between them they already supply 7 clean,
+unflagged sets — squarely inside the requested range, with no further design work needed. `group_159`,
+`group_140` (both loci), `group_181` (both loci), and `PSD2 Alt 2` are **parked, not deleted**: fully
+designed and validated (aside from the two long-standing structural flags on group_140 locus 2 and PSD2
+Alt 2, and one flagged-but-unexplained MEDIUM call on group_181 locus 2), kept in reserve in case a
+final-panel gene underperforms at the bench, but no further design work is planned on them. Full per-oligo
+detail for all 13 sets (39 oligos: sequence, length, Tm, GC%, structure, three-way dimer check, human and
+whole-database BLAST divergence) is in `Oligo_QC_Reference.xlsx` (OneDrive `Claude outputs/`).
+
+**Addendum: closing the D21 gap for the Phase 1 redesign.** `PHASE1_REDESIGNED_PROBES.md` had only
+explicitly reported each redesigned oligo's own hairpin/homodimer plus F-R heterodimer, not the full D21
+three-way check. Ran it directly with `primer3-py` on all 4 redesigned sets: F-Probe and R-Probe
+heterodimers are NONE or LOW everywhere (aroB's R-Probe is the single highest at 8.2°C, still far below
+reaction temperature) — no MEDIUM/HIGH anywhere. D21 is now fully closed for all 13 candidate sets project-wide.

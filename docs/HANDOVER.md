@@ -1,9 +1,9 @@
 # HANDOVER: read this first at the start of every session
 
 Short, current-state file. Rewritten at the end of each session. Long-term decisions and findings live in
-`docs/PROJECT_STATE.md` (decision log D1-D21 + findings). If this file and PROJECT_STATE disagree, ask the user.
+`docs/PROJECT_STATE.md` (decision log D1-D22 + findings). If this file and PROJECT_STATE disagree, ask the user.
 
-Last updated: 2026-09-27 (Phase 2 design + Phase 1 correction/redesign/BLAST session; docs committed to git this session)
+Last updated: 2026-09-27 (Phase 2 design + Phase 1 correction/redesign/BLAST session; final chromosomal panel locked in; docs committed to git this session)
 
 ## Project
 In-silico design of a multiplex PCR/TaqMan assay for *Chlamydia trachomatis*: chromosomal targets + multicopy-plasmid
@@ -61,33 +61,45 @@ treated as superseded, not as ground truth**, for the four genes it covers.
 | Primer3 design + post-filter (bin/10+) | *not run as bin/10* | done manually (not through the numbered pipeline) for 8 genes total — see below |
 | Web BLAST validation, plasmid, final report | bin/11+ | oligo BLAST done manually for all 11 current sets (see below); plasmid not started |
 
-**Oligo design status (2026-09-27), the actual current state — see PROJECT_STATE.md's 2026-09-27 update for
-how these numbers were obtained and what they supersede:**
+**Oligo design status (2026-09-27) — FINAL PANEL LOCKED IN (D22).** 4 targets, 7 sets, matching the
+user's "5-10 sets against 2-4 targets, then stop" instruction. See PROJECT_STATE.md's 2026-09-27 update
+for the scoring behind this and what it supersedes. Full per-oligo QC (sequence, Tm, GC%, structure,
+three-way dimer check, human/whole-database BLAST divergence) for all 13 candidate sets (39 oligos): the
+`Oligo_QC_Reference.xlsx` spreadsheet (OneDrive `Claude outputs/`).
 
-| Gene | Role | Tm gap | Structure | BLAST | Status |
+### Final panel (4 genes, 7 sets)
+
+| Gene | Set | Tm gap | Structure | BLAST | Status |
 |---|---|---|---|---|---|
-| group_159 | Phase 2 backup | 7.06°C | LOW | clean (pair-level) | ready |
-| group_140 | Phase 2 backup | 6.84°C (+2nd locus 6.81°C) | LOW | clean | ready |
-| group_181 | Phase 2 backup | 6.47°C (+2nd locus 8.61°C) | LOW | clean | ready |
-| aroB Alt 1 | Phase 2 alternative | 6.44°C | LOW | clean | ready |
-| aroB Alt 2 | Phase 2 alternative | 7.00°C | LOW | clean | ready |
-| PSD2 Alt 1 | Phase 2 alternative | 6.81°C | LOW | clean | ready |
-| PSD2 Alt 2 | Phase 2 alternative | 8.71°C | MEDIUM (fwd hairpin) | clean | needs a primer re-pick |
-| mutL | Phase 1 primary, **redesigned** | 8.07°C | LOW | clean (pair-level) | ready |
-| aroB | Phase 1 primary, **redesigned** | 7.75°C | LOW | clean (pair-level)* | ready |
-| PSD2 | Phase 1 primary, **redesigned** | 7.54°C | LOW | clean (pair-level) | ready |
-| group_306 | Phase 1 primary, **redesigned** | 7.82°C | LOW | clean (pair-level) | ready |
+| mutL | primary (only locus in this window) | 8.07°C | LOW | clean (pair-level) | **final panel** |
+| aroB | redesign (primary) | 7.75°C | LOW | clean (pair-level)* | **final panel** |
+| aroB | Alt 1 (backup locus) | 6.44°C | LOW | clean | **final panel** |
+| aroB | Alt 2 (backup locus) | 7.00°C | LOW | clean | **final panel** |
+| PSD2 | redesign (primary) | 7.54°C | LOW | clean (pair-level) | **final panel** |
+| PSD2 | Alt 1 (backup locus) | 6.81°C | LOW | clean | **final panel** |
+| group_306 | primary (only locus in this window) | 7.82°C | LOW | clean (pair-level) | **final panel** |
 
 \* aroB's forward primer and probe both have a full-length hit to *C. suis* (a genus-conserved region at
 that exact locus), but the reverse primer has zero hits anywhere in the *C. suis* genome — no completing
 pair, so no plausible off-target amplicon. See `PHASE1_REDESIGN_BLAST_VALIDATION.md` (OneDrive
 `Claude outputs/`) for the full writeup.
 
+### Parked backups (fully designed and validated, not part of the panel — no further work planned)
+
+| Gene | Set | Tm gap | Structure | BLAST | Why parked |
+|---|---|---|---|---|---|
+| group_159 | backup gene | 7.06°C | LOW | clean | not needed once the 4 primary genes redesigned clean |
+| group_140 | locus 1 | 6.84°C | LOW | clean | not needed; see above |
+| group_140 | locus 2 | 6.81°C | MEDIUM (R primer 3' GC rule) | clean | flagged AND not needed |
+| group_181 | locus 1 | 6.47°C | LOW | clean | not needed; see above |
+| group_181 | locus 2 | 8.61°C | MEDIUM (cause not isolated) | clean | flagged AND not needed |
+| PSD2 | Alt 2 | 8.71°C | MEDIUM (fwd hairpin) | clean | flagged; PSD2 already has 2 clean sets in the panel |
+
 Genome tiers: primary = consensus + inclusivity claim; quality-review = natural isolates with suspicious metrics
-(oligos are tested against them, reported separately — **not yet done for any of the 11 sets above**); excluded = experimental/engineered/lab-selected or non-C. trachomatis.
+(oligos are tested against them, reported separately — **not yet done for any of the 13 designed sets, panel or parked**); excluded = experimental/engineered/lab-selected or non-C. trachomatis.
 Serial/near-identical isolates are all kept (D14); report variant frequency per cluster.
 
-## Key technical rules (see PROJECT_STATE for the full list, now D1-D21)
+## Key technical rules (see PROJECT_STATE for the full list, now D1-D22)
 - Primer3 caps internal oligos at 36 nt; probes are 20-28 nt (opt 22) — shorter = lower background fluorescence.
 - Tm gap probe - primers: >= 5 C hard floor, 7+ preferred (D6). **Compute it from an actual primer3/NN
   calculation on the real sequence (D19) — do not assume it from the settings file's target Tm values.**
@@ -101,23 +113,28 @@ Serial/near-identical isolates are all kept (D14); report variant frequency per 
 ## Open items
 1. ~~Run BLAST (D18 settings) on the 12 redesigned Phase 1 oligos~~ — **done 2026-09-27**, clean. See
    `PHASE1_REDESIGN_BLAST_VALIDATION.md` (OneDrive `Claude outputs/`).
-2. **Quality-review-tier genome check (D13)** — 10 genomes, not yet tested against any of the 11 current
-   oligo sets. The largest remaining gap before calling inclusivity fully confirmed.
-3. Two flagged components need a re-pick before ordering: PSD2 Alt 2's forward primer (hairpin) and
-   group_140's second-locus reverse primer (3' GC-stability rule).
-4. Real master-mix Mg2+, dNTP, oligo nM (replace placeholders in `config/primer3_settings.txt`) — every
+2. ~~Combine Phase 1 + Phase 2 into one scored ranking and pick a final panel~~ — **done 2026-09-27 (D22)**:
+   4 targets / 7 sets locked in, see the table above. `group_159/140/181` and `PSD2 Alt 2` are parked, not
+   deleted — no further design work planned on them unless a final-panel gene fails downstream.
+3. **Quality-review-tier genome check (D13)** — 10 genomes, not yet tested against any of the 13 designed
+   sets (7 final-panel + 6 parked). Now the single largest remaining gap before the panel can be called
+   fully validated end to end.
+4. Two flagged components remain unresolved, but **no longer block anything** since they're parked, not in
+   the panel: PSD2 Alt 2's forward primer (hairpin) and group_140's second-locus reverse primer (3'
+   GC-stability rule). Only worth fixing if a final-panel gene needs replacing later.
+5. Real master-mix Mg2+, dNTP, oligo nM (replace placeholders in `config/primer3_settings.txt`) — every
    Tm/gap number in the project will shift slightly once these are real.
-5. **Commit the oligo design files to git** — `docs/HANDOVER.md`, `docs/PROJECT_STATE.md`, and
-   `docs/lessons_learned.md` were committed to `main` on 2026-09-27 (commit `860c638`); the actual oligo
-   deliverables (Phase 1/2 design docs, BLAST-input FASTAs, the combined ranking, this BLAST validation
-   writeup) are still OneDrive-only, deliberately held back until the two re-picks in item 3 are resolved,
-   into the repo's existing empty `results/oligos_chromosomal/`, `results/specificity_validation/`, etc.
+6. **Commit the oligo design files to git** — `docs/HANDOVER.md`, `docs/PROJECT_STATE.md`, and
+   `docs/lessons_learned.md` were committed to `main` on 2026-09-27 (commit `860c638`); the oligo
+   deliverables themselves (Phase 1/2 design docs, BLAST FASTAs/validation writeups, the combined ranking,
+   `Oligo_QC_Reference.xlsx`) are still OneDrive-only — worth committing now that the panel is locked, into
+   the repo's existing empty `results/oligos_chromosomal/`, `results/specificity_validation/`, etc.
    placeholders.
-6. Confirm nvCT plasmid accessions (NC_012630.1, FM865439.1) before the plasmid steps. **The plasmid target
-   itself has not been started at all** — everything designed so far (11 sets) is chromosomal.
-7. User: web BLAST of the D/Ep6/S19-121 ompA (95.6% to nearest); if poor hits -> move to quality-review.
+7. Confirm nvCT plasmid accessions (NC_012630.1, FM865439.1) before the plasmid steps. **The plasmid target
+   itself has not been started at all** — the panel above is chromosomal only.
+8. User: web BLAST of the D/Ep6/S19-121 ompA (95.6% to nearest); if poor hits -> move to quality-review.
    (Carried over, unresolved since 2026-09-24.)
-8. The two old pre-restart handover .md files still need to go into `docs/archive/` (user to supply).
+9. The two old pre-restart handover .md files still need to go into `docs/archive/` (user to supply).
    Separately, the 2026-09-24/26 side session's own handover/status/lessons docs
    (`01_LESSONS_LEARNT.md`, `02_PROJECT_STATUS.md`, `03_DETAILED_HANDOVER.md` in OneDrive
    `Claude outputs/previous/`) are now superseded by `docs/lessons_learned.md` and this file — consider
