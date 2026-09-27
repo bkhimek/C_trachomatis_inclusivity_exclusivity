@@ -30,9 +30,11 @@ documents in `docs/archive/`, this file wins. Where this file disagrees with any
 - Confirm the exact RefSeq complete genome count and the two nvCT plasmid accessions (handover lists NC_012630.1 and FM865439.1; verify).
 - Follow up the single PRJEB2035 anomaly from D3.
 - Exact Tm calculation conditions (Mg2+, dNTP, oligo concentrations) to match the intended wet-lab master mix — still a placeholder in `config/primer3_settings.txt`; every Tm/gap number in this project (Phase 1 and Phase 2 alike) will shift slightly once real values are supplied.
-- **New (2026-09-27):** BLAST validation of the 12 redesigned Phase 1 oligos (mutL/aroB/PSD2/group_306) — not yet run.
-- **New (2026-09-27):** D13's quality-review-tier genome check (10 genomes, tested separately, not used for consensus) has not been run against any Phase 1 or Phase 2 oligo yet.
-- **New (2026-09-27):** none of this session's work (Phase 2 design, Phase 1 BLAST re-validation, Phase 1 redesign, this file) has been committed to git — it exists only in the OneDrive mirror. Needs a session with WSL/git access to commit, or the user to copy the updated `docs/` and result files into the repo working tree themselves.
+- RESOLVED (2026-09-27): BLAST validation of the 12 redesigned Phase 1 oligos (mutL/aroB/PSD2/group_306) —
+  clean; see the addendum at the end of the 2026-09-27 update below.
+- **New (2026-09-27):** D13's quality-review-tier genome check (10 genomes, tested separately, not used for consensus) has not been run against any Phase 1 or Phase 2 oligo yet. This is now the largest remaining gap before the chromosomal oligo work can be called fully validated.
+- RESOLVED (2026-09-27): `docs/HANDOVER.md`, this file, and `docs/lessons_learned.md` were committed and pushed to `main` (commit `860c638`), via a git-enabled session run by the user in WSL after this cloud session found it had no push access of its own (see addendum). The oligo design deliverables themselves (Phase 1/2 design docs, FASTAs, combined ranking, BLAST validation writeups) are still OneDrive-only by choice — see Open Items in HANDOVER.md.
+- **New (2026-09-27):** the plasmid target (nvCT-aware, multicopy) has not been started at all — every gene designed so far (11 sets) is chromosomal. Scope reminder from the top of this project: chromosomal + plasmid.
 
 ## Known inconsistencies in the original handover files (all resolved by the decisions above)
 - Script numbering differed between the two documents (D8).
@@ -215,8 +217,27 @@ Re-running `primer3-py` directly on the *same* already-established, 100%-conserv
 (no new region search) returned fully compliant replacement sets for all four genes on the first pass:
 mutL gap 8.07°C, aroB 7.75°C, PSD2 7.54°C, group_306 7.82°C — all LOW structure severity, all D21-clean,
 and (for mutL/group_306 specifically) free of the self-dimer/F-F-dimer issues the untracked thread's
-sequences had. Full sequences: `PHASE1_REDESIGNED_PROBES.md` (OneDrive `Claude outputs/`). **These 12 new
-sequences have not yet been through D18 BLAST validation** — open item, see HANDOVER.md.
+sequences had. Full sequences: `PHASE1_REDESIGNED_PROBES.md` (OneDrive `Claude outputs/`).
+
+**Addendum, same day: Phase 1 redesign BLAST validation, and getting this session's work into git.**
+The 12 redesigned oligos were BLAST-validated (D18 settings, both databases) the same day. Result: clean —
+zero *C. muridarum* hits, zero plausible off-target amplicon in the human genome by the D20 pair-level
+check. One finding worth recording rather than just clearing: `aroB_redesign_F` and `aroB_redesign_probe`
+both have a full-length, 100%-identity hit to *C. suis* across essentially its whole genome collection in
+`core_nt` (32 accessions, same ~71 bp F-to-probe spacing every time) — the aroB target region is genuinely
+conserved between *C. trachomatis* and *C. suis* at those two sites. `aroB_redesign_R` has zero hits
+anywhere in the *C. suis* genome, so D20 clears this (no completing primer pair, no plausible amplicon),
+but it means this particular reverse primer is carrying all of the genus-level specificity for the aroB
+set — worth keeping in mind if aroB is ever redesigned again. Full detail and the systematic pair-level
+check for all 12 oligos: `PHASE1_REDESIGN_BLAST_VALIDATION.md` (OneDrive `Claude outputs/`).
+
+Separately: this cloud session attempted to push `docs/HANDOVER.md`/`PROJECT_STATE.md`/`lessons_learned.md`
+to GitHub directly and found it has read-only access to the repo (clone works because the repo is public;
+a direct push attempt was refused by session policy, and no in-session mechanism exists to request write
+access). The user ran the actual `git commit`/`git push` themselves in WSL instead, landing commit
+`860c638` on `main`. The oligo design deliverables (FASTAs, per-gene docs, the combined ranking, the two
+BLAST validation writeups) remain OneDrive-only for now — deliberately, since two components (item 3 in
+HANDOVER's Open Items) still need a re-pick before the file set is final.
 
 **Superseded:** the untracked thread's `OLIGO_MASTER_TABLE_COMPLETE.md` / `OLIGO_MASTER_TABLE_WITH_IDENTITY.md`
 sequences and QC numbers for mutL/aroB/PSD2/group_306, and its "ready for wet-lab validation" status
@@ -224,8 +245,9 @@ determination, are superseded by the redesign above pending D18 BLAST confirmati
 region *coordinates*, zero-non-target-Chlamydia finding, and the general absence-of-plausible-off-target-
 amplicon conclusion all still hold.
 
-**Current full candidate-set inventory (11 gene-level designs, 2026-09-27):** see
-`PHASE1_PHASE2_COMBINED_RANKING.md` for the complete ranked table. Six of the seven Phase 2 sets
-(group_159, group_140, group_181, aroB Alt1, aroB Alt2, PSD2 Alt1) plus, pending BLAST, all four
-redesigned Phase 1 sets are D6/D19-compliant (Tm gap ≥5°C, most ≥7°C) with LOW structure. PSD2 Alt2 is
-compliant on Tm but needs a forward-primer re-pick for its hairpin.
+**Current full candidate-set inventory (11 gene-level designs, 2026-09-27, updated same day once the
+redesign's BLAST came back):** see `PHASE1_PHASE2_COMBINED_RANKING.md` for the complete ranked table. Ten
+of the eleven sets (all four redesigned Phase 1 sets, group_159, group_140, group_181, aroB Alt1, aroB
+Alt2, PSD2 Alt1) are now fully D6/D18/D19/D20/D21-compliant end to end: Tm gap ≥5°C (most ≥7°C), LOW
+structure, and clean BLAST. PSD2 Alt2 is compliant on Tm/BLAST but needs a forward-primer re-pick for its
+hairpin before it can join that list.
