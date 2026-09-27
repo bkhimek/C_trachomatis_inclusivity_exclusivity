@@ -1,0 +1,12 @@
+>Plasmid_Primary_F consensus_window_4860-5277 Tm=60.11 GC=50.0%
+CTACCATCCCATTTTGAGCC
+>Plasmid_Primary_R consensus_window_4860-5277 Tm=59.89 GC=45.0%
+GCCACTTCATCAAAAGTCCT
+>Plasmid_Primary_Probe consensus_window_4860-5277 Tm=67.39 GC=44.4% len=27nt
+TGACCAGGTCTTCTTCCAAACTTCTGA
+>Plasmid_Reserve_F consensus_window_1315-1612 Tm=59.40 GC=45.0%
+GATGAGTTCGACATTCCACA
+>Plasmid_Reserve_R consensus_window_1315-1612 Tm=59.96 GC=45.0%
+AGAGTTTCAATCGATCCCCT
+>Plasmid_Reserve_Probe consensus_window_1315-1612 Tm=66.04 GC=45.8% len=24nt
+TCTAGCGGCCAAAATATATGCGGA

@@ -1,0 +1,183 @@
+; TaqMan Multiplex Design - COMPLETE Oligo Set (Forward + Reverse + Probes)
+; Date: 2026-09-26
+; Total oligos: 64 (20 forward primers + 20 reverse primers + 4 probes x 5 ranks = 20 unique probes)
+; Target: Complete C. trachomatis specificity validation
+; Database: NCBI core_nt
+; Parameters: Blastn, word size 7, E-value 0.001
+
+; ═════════════════════════════════════════════════════════════════════════════════
+; FORWARD PRIMERS (20 total)
+; ═════════════════════════════════════════════════════════════════════════════════
+
+>aroB_R1_F|21bp|Tm60|GC42.9
+TCTCAATGTACCTAGACAAGC
+
+>aroB_R2_F|21bp|Tm60|GC42.9
+CTCAATGTACCTAGACAAGCA
+
+>aroB_R3_F|21bp|Tm60|GC42.9
+CAATGTACCTAGACAAGCAAC
+
+>aroB_R4_F|21bp|Tm60|GC42.9
+CTTTAATTGGAGTAGGTGGAG
+
+>aroB_R5_F|21bp|Tm60|GC42.9
+TTTAATTGGAGTAGGTGGAGG
+
+>PSD2_R1_F|19bp|Tm60|GC57.9
+GATGCTCGACCTATCTGCC
+
+>PSD2_R2_F|19bp|Tm60|GC57.9
+TGCTCGACCTATCTGCCAG
+
+>PSD2_R3_F|19bp|Tm60|GC57.9
+TCGACCTATCTGCCAGGGA
+
+>PSD2_R4_F|19bp|Tm60|GC57.9
+GACCTATCTGCCAGGGAGA
+
+>PSD2_R5_F|19bp|Tm60|GC57.9
+ACCTATCTGCCAGGGAGAG
+
+>mutL_R1_F|19bp|Tm60|GC57.9
+GTCGTTATCGCCTTCTCGG
+
+>mutL_R2_F|20bp|Tm60|GC50.0
+TCGTTATCGCCTTCTCGGAT
+
+>mutL_R3_F|20bp|Tm60|GC50.0
+CGTTATCGCCTTCTCGGATT
+
+>mutL_R4_F|20bp|Tm60|GC50.0
+GTTATCGCCTTCTCGGATTC
+
+>mutL_R5_F|20bp|Tm60|GC50.0
+TTATCGCCTTCTCGGATTCG
+
+>group_306_R1_F|19bp|Tm60|GC57.9
+CTGCCAGGGAGAGGATATC
+
+>group_306_R2_F|19bp|Tm60|GC57.9
+GCCAGGGAGAGGATATCTG
+
+>group_306_R3_F|20bp|Tm60|GC50.0
+CAGGGAGAGGATATCTGTGT
+
+>group_306_R4_F|20bp|Tm60|GC50.0
+AGGGAGAGGATATCTGTGTG
+
+>group_306_R5_F|20bp|Tm60|GC50.0
+GGGAGAGGATATCTGTGTGA
+
+; ═════════════════════════════════════════════════════════════════════════════════
+; REVERSE PRIMERS (20 total)
+; ═════════════════════════════════════════════════════════════════════════════════
+
+>aroB_R1_Rev|21bp|Tm60|GC42.9
+TCACCACCCTTATCGTTACTT
+
+>aroB_R2_Rev|21bp|Tm60|GC42.9
+TTCACCACCCTTATCGTTACT
+
+>aroB_R3_Rev|21bp|Tm60|GC42.9
+GATTTCACCACCCTTATCGTT
+
+>aroB_R4_Rev|21bp|Tm60|GC42.9
+CGATCGTAGTTAGTATCGTTG
+
+>aroB_R5_Rev|21bp|Tm60|GC42.9
+CGATCGTAGTTAGTATCGTTG
+
+>PSD2_R1_Rev|21bp|Tm60|GC42.9
+CGCCTAAGGGGATTTTTTGAA
+
+>PSD2_R2_Rev|21bp|Tm60|GC42.9
+CGCCTAAGGGGATTTTTTGAA
+
+>PSD2_R3_Rev|21bp|Tm60|GC42.9
+CGCCTAAGGGGATTTTTTGAA
+
+>PSD2_R4_Rev|21bp|Tm60|GC42.9
+CGCCTAAGGGGATTTTTTGAA
+
+>PSD2_R5_Rev|21bp|Tm60|GC42.9
+CGCCTAAGGGGATTTTTTGAA
+
+>mutL_R1_Rev|21bp|Tm60|GC42.9
+CGGACGTAGATTACTTAAGAG
+
+>mutL_R2_Rev|21bp|Tm60|GC42.9
+CGGACGTAGATTACTTAAGAG
+
+>mutL_R3_Rev|21bp|Tm60|GC42.9
+CGGACGTAGATTACTTAAGAG
+
+>mutL_R4_Rev|21bp|Tm60|GC42.9
+CGGACGTAGATTACTTAAGAG
+
+>mutL_R5_Rev|21bp|Tm60|GC42.9
+CGGACGTAGATTACTTAAGAG
+
+>group_306_R1_Rev|21bp|Tm60|GC42.9
+CGCCTAAGGGGATTTTTTGAA
+
+>group_306_R2_Rev|21bp|Tm60|GC42.9
+CGCCTAAGGGGATTTTTTGAA
+
+>group_306_R3_Rev|21bp|Tm60|GC42.9
+CGCCTAAGGGGATTTTTTGAA
+
+>group_306_R4_Rev|21bp|Tm60|GC42.9
+CGCCTAAGGGGATTTTTTGAA
+
+>group_306_R5_Rev|21bp|Tm60|GC42.9
+CGCCTAAGGGGATTTTTTGAA
+
+; ═════════════════════════════════════════════════════════════════════════════════
+; TAQMAN PROBES (4 unique probes, used across all 5 ranks per gene)
+; ═════════════════════════════════════════════════════════════════════════════════
+; Note: Each gene uses the SAME probe for all 5 primer ranks
+; Probes are longer (20-25bp) and provide additional specificity layer
+
+>aroB_probe|25bp|Tm66|GC32.0
+ATTTTAGATATAGCAGGCTTTGTAG
+
+>PSD2_probe|23bp|Tm66|GC43.5
+ATGGTGCCTATCTTGTTTTCCCT
+
+>mutL_probe|21bp|Tm66|GC57.1
+CCAGATCTCTGCTGGTGAGGT
+
+>group_306_probe|23bp|Tm66|GC43.5
+TTTTCCCTTCCATGGCAGATCTA
+
+; ═════════════════════════════════════════════════════════════════════════════════
+; USAGE NOTES FOR WEB BLAST
+; ═════════════════════════════════════════════════════════════════════════════════
+;
+; Option 1: QUICK VALIDATION (Recommended for case study)
+;   - Submit ONLY forward primers (aroB_R1_F through group_306_R5_F)
+;   - These are most critical for PCR specificity
+;   - Saves time and focuses on off-target amplification risk
+;
+; Option 2: COMPREHENSIVE VALIDATION
+;   - Submit this entire file (all 44 oligos)
+;   - Forward primers determine amplicon specificity
+;   - Reverse primers ensure amplicon termination
+;   - Probes provide additional specificity layer (especially for off-target discrimination)
+;
+; BLAST PARAMETERS:
+;   Database:           NCBI core_nt
+;   Algorithm:          Blastn (somewhat similar sequences)
+;   Word size:          7 (optimized for short oligos)
+;   Expect threshold:   0.001 (stringent)
+;   Short queries:      Checked (auto-adjust parameters)
+;
+; CRITICAL CHECKS:
+;   ✓ C. muridarum matches:     NONE expected
+;   ✓ C. suis matches:          NONE expected
+;   ✓ C. trachomatis matches:   Expected (confirmatory)
+;   ⚠️ Human DNA matches:        Evaluate separately (document if found)
+;   ⚠️ Off-target bacteria:      None expected for exclusive targets
+;
+; ═════════════════════════════════════════════════════════════════════════════════
