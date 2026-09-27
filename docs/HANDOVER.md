@@ -1,14 +1,23 @@
 # HANDOVER: read this first at the start of every session
 
 Short, current-state file. Rewritten at the end of each session. Long-term decisions and findings live in
-`docs/PROJECT_STATE.md` (decision log D1-D14 + findings). If this file and PROJECT_STATE disagree, ask the user.
+`docs/PROJECT_STATE.md` (decision log D1-D21 + findings). If this file and PROJECT_STATE disagree, ask the user.
 
-Last updated: 2026-09-24 (end of session 1 of the restart)
+Last updated: 2026-09-27 (end of the Phase 2 design + Phase 1 correction session)
 
 ## Project
 In-silico design of a multiplex PCR/TaqMan assay for *Chlamydia trachomatis*: chromosomal targets + multicopy-plasmid
 target (nvCT-aware). Goal: inclusivity across C. trachomatis genomes, exclusivity vs. related/clinical species,
 then primer/probe design. Owner: Krzysztof Gizynski.
+
+## Read this before trusting anything dated before 2026-09-27
+Between the 2026-09-25 pipeline-status update and now, the actual primer/probe design and QC for
+mutL/aroB/PSD2/group_306 happened in a side session that never went through this file or PROJECT_STATE.md
+(deliverables in OneDrive `Claude outputs/previous/`, dated 2026-09-24 to 26). That side session's Tm
+values and several of its QC conclusions did not survive independent re-checking — see PROJECT_STATE.md's
+2026-09-27 update for the full story, and `docs/lessons_learned.md` for why this happened and how to avoid
+it again. **Anything from that side thread (OLIGO_MASTER_TABLE_COMPLETE.md, 01/02/03_*.md, etc.) should be
+treated as superseded, not as ground truth**, for the four genes it covers.
 
 ## Paths (do not guess others)
 - WSL repo: `~/projects/C_trachomatis_inclusivity_exclusivity`  (NOT `..._RESTART`, despite what the old handover said)
@@ -29,36 +38,83 @@ then primer/probe design. Owner: Krzysztof Gizynski.
   Prokka lives in env `prokka_env` (1.14.6), Panaroo in `panaroo_env` (1.5.2); scripts locate these themselves.
   Base has fastANI 1.34, blast+ 2.17, mafft 7.525, datasets 18.29.1, primer3 2.6.1, biopython, pandas, openpyxl, python-docx.
 - Nothing is committed before the user has seen the results.
+- **Note on this and the 2026-09-24/26 sessions:** neither ran in the WSL environment above. Both worked
+  directly against the OneDrive folder (this one through a desktop-app device bridge, with `primer3-py`/
+  `biopython` in its own cloud sandbox, not the WSL conda base described above). Deliverables landed in
+  OneDrive `Claude outputs/`, not `reports/`, and nothing from either session has been committed to git.
+  If a future session runs in WSL again, treat the OneDrive copies of `docs/HANDOVER.md`/`PROJECT_STATE.md`
+  as the current ones and pull them (plus the result files listed below) into the repo working tree before
+  trusting `git log`/`git status` to reflect the project's real state.
 
 ## Pipeline status
 | Step | Script | Status |
 |---|---|---|
 | Primer3 smoke test / probe sweep | bin/00, 00b | done, results in docs/ |
 | RefSeq inventory + download (125) | bin/01 | done |
-| Provenance audit, tiers | bin/02 (+ config/provenance_*.tsv) | done: 100 primary / 7 quality-review / 18 excluded |
+| Provenance audit, tiers | bin/02 (+ config/provenance_*.tsv) | done: 97 primary / 10 quality-review / 18 excluded |
 | Species check (fastANI) + redundancy | bin/03 | done: all >= 98.90% ANI; 58 clusters at >= 99.99 |
 | ompA serovar typing | bin/04 | done: 14 serovar groups |
 | Prokka annotation | bin/05 | done: 107 genomes (primary + quality-review), CDS median 897 |
-| Excel/Word reports | bin/90 | done for inventory; oligo table to be added |
-| Panaroo pangenome | bin/06 | **NEXT** (inputs: `results/annotation/<acc>/<acc>.gff`) |
-| Exclusivity screening, candidate regions, ranking, consensus, Primer3 design + post-filter, validation, plasmid, final report | bin/07+ | not started |
+| Panaroo pangenome | bin/06 | done: 904 gene clusters, 874 core |
+| Exclusivity screening | bin/07 | done: 588/692 genes id85-clean with a usable conserved block |
+| Candidate region refinement + consensus | bin/08, bin/09 | done: `results/candidate_regions/candidate_regions.tsv` |
+| Primer3 design + post-filter (bin/10+) | *not run as bin/10* | done manually (not through the numbered pipeline) for 8 genes total — see below |
+| Web BLAST validation, plasmid, final report | bin/11+ | oligo BLAST done manually for all 8 genes (see below); plasmid not started |
+
+**Oligo design status (2026-09-27), the actual current state — see PROJECT_STATE.md's 2026-09-27 update for
+how these numbers were obtained and what they supersede:**
+
+| Gene | Role | Tm gap | Structure | BLAST | Status |
+|---|---|---|---|---|---|
+| group_159 | Phase 2 backup | 7.06°C | LOW | clean (pair-level) | ready |
+| group_140 | Phase 2 backup | 6.84°C (+2nd locus 6.81°C) | LOW | clean | ready |
+| group_181 | Phase 2 backup | 6.47°C (+2nd locus 8.61°C) | LOW | clean | ready |
+| aroB Alt 1 | Phase 2 alternative | 6.44°C | LOW | clean | ready |
+| aroB Alt 2 | Phase 2 alternative | 7.00°C | LOW | clean | ready |
+| PSD2 Alt 1 | Phase 2 alternative | 6.81°C | LOW | clean | ready |
+| PSD2 Alt 2 | Phase 2 alternative | 8.71°C | MEDIUM (fwd hairpin) | clean | needs a primer re-pick |
+| mutL | Phase 1 primary, **redesigned** | 8.07°C | LOW | **not yet run** | redesign done, awaiting BLAST |
+| aroB | Phase 1 primary, **redesigned** | 7.75°C | LOW | **not yet run** | redesign done, awaiting BLAST |
+| PSD2 | Phase 1 primary, **redesigned** | 7.54°C | LOW | **not yet run** | redesign done, awaiting BLAST |
+| group_306 | Phase 1 primary, **redesigned** | 7.82°C | LOW | **not yet run** | redesign done, awaiting BLAST |
 
 Genome tiers: primary = consensus + inclusivity claim; quality-review = natural isolates with suspicious metrics
-(oligos are tested against them, reported separately); excluded = experimental/engineered/lab-selected or non-C. trachomatis.
+(oligos are tested against them, reported separately — **not yet done for any of the 11 sets above**); excluded = experimental/engineered/lab-selected or non-C. trachomatis.
 Serial/near-identical isolates are all kept (D14); report variant frequency per cluster.
 
-## Key technical rules (see PROJECT_STATE for the full list)
-- Primer3 caps internal oligos at 36 nt; the plan is 20-28 nt probes (shorter = lower background fluorescence).
-- Tm gap probe - primers: >= 5 C hard floor, 7+ preferred; Primer3 cannot enforce it, so post-filter (D12).
+## Key technical rules (see PROJECT_STATE for the full list, now D1-D21)
+- Primer3 caps internal oligos at 36 nt; probes are 20-28 nt (opt 22) — shorter = lower background fluorescence.
+- Tm gap probe - primers: >= 5 C hard floor, 7+ preferred (D6). **Compute it from an actual primer3/NN
+  calculation on the real sequence (D19) — do not assume it from the settings file's target Tm values.**
+- Web BLAST of oligos: Expect=1000, word_size=7, filter off (D18); check both a full human-genome-assembly
+  database and core_nt (excl. txid813).
+- An off-target hit only matters if a partner oligo from the same set also hits nearby on the same
+  accession (D20) — check that before rejecting or accepting a design on BLAST grounds alone.
+- Check all three oligo-pair heterodimers (F-R, F-Probe, R-Probe), not just F-R (D21).
 - Primer3 salt/oligo settings are PLACEHOLDERS until the user gives real master-mix conditions.
 
 ## Open items
-1. User: web BLAST of the D/Ep6/S19-121 ompA (95.6% to nearest); if poor hits -> move to quality-review.
-2. User: real master-mix Mg2+, dNTP, oligo nM (replace placeholders in `config/primer3_settings.txt`).
-3. Confirm nvCT plasmid accessions (NC_012630.1, FM865439.1) before the plasmid steps.
-4. Web BLAST validation package (same manual approach as the earlier project) once exclusivity fragments and oligo sets exist.
-5. The two old handover .md files still need to go into `docs/archive/` (user to supply); write docs/lessons_learned.md.
+1. **Run BLAST (D18 settings) on the 12 redesigned Phase 1 oligos** — `PHASE1_REDESIGN_FOR_BLAST.fasta`
+   in OneDrive `Claude outputs/` is ready; send the two result JSON files back for the pair-level check.
+2. **Quality-review-tier genome check (D13)** — 10 genomes, not yet tested against any of the 11 current
+   oligo sets.
+3. Two flagged components need a re-pick before ordering: PSD2 Alt 2's forward primer (hairpin) and
+   group_140's second-locus reverse primer (3' GC-stability rule).
+4. Real master-mix Mg2+, dNTP, oligo nM (replace placeholders in `config/primer3_settings.txt`) — every
+   Tm/gap number in the project will shift slightly once these are real.
+5. **Commit this session's and the 2026-09-24/26 session's work to git** — none of it is in the repo yet;
+   see "How we work" above. Candidate files: this file, `docs/PROJECT_STATE.md`, `docs/lessons_learned.md`
+   (new), and everything under OneDrive `Claude outputs/` (design docs, BLAST FASTAs, the combined ranking).
+6. Confirm nvCT plasmid accessions (NC_012630.1, FM865439.1) before the plasmid steps.
+7. User: web BLAST of the D/Ep6/S19-121 ompA (95.6% to nearest); if poor hits -> move to quality-review.
+   (Carried over, unresolved since 2026-09-24.)
+8. The two old pre-restart handover .md files still need to go into `docs/archive/` (user to supply).
+   Separately, the 2026-09-24/26 side session's own handover/status/lessons docs
+   (`01_LESSONS_LEARNT.md`, `02_PROJECT_STATUS.md`, `03_DETAILED_HANDOVER.md` in OneDrive
+   `Claude outputs/previous/`) are now superseded by `docs/lessons_learned.md` and this file — consider
+   moving them into `docs/archive/` too rather than deleting them, since some of their non-oligo-specific
+   process lessons still hold (see `docs/lessons_learned.md`).
 
 ## Starting a new session: say to the assistant
 "Continue the C. trachomatis project. Read docs/HANDOVER.md and docs/PROJECT_STATE.md in the repo (or the OneDrive copy) first."
-At the end of a session: ask the assistant to "update HANDOVER.md and PROJECT_STATE.md".
+At the end of a session: ask the assistant to "update HANDOVER.md, PROJECT_STATE.md, and lessons_learned.md."

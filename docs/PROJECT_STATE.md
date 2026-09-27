@@ -1,7 +1,9 @@
 # Project state and decision log
 
 Single source of truth for the restart. Where this file disagrees with the archived handover
-documents in `docs/archive/`, this file wins. Last updated: 2026-09-24.
+documents in `docs/archive/`, this file wins. Where this file disagrees with any document outside
+`docs/` (including OneDrive `Claude outputs/`, current or `previous/`), this file wins too — see the
+2026-09-27 update below for why that now needs saying explicitly. Last updated: 2026-09-27.
 
 ## Decisions
 | ID | Decision | Rationale |
@@ -22,10 +24,15 @@ documents in `docs/archive/`, this file wins. Last updated: 2026-09-24.
 
 ## Open questions
 - RESOLVED (D10): Primer3 2.6.1 rejects probes longer than 36 nt.
+- RESOLVED (2026-09-27, D19): Tm/Tm-gap must come from an actual calculation, not the settings file's
+  target values — see the 2026-09-27 update.
 - MGB or LNA probes remain a fallback only if real-target design fails at 30-36 nt.
 - Confirm the exact RefSeq complete genome count and the two nvCT plasmid accessions (handover lists NC_012630.1 and FM865439.1; verify).
 - Follow up the single PRJEB2035 anomaly from D3.
-- Exact Tm calculation conditions (Mg2+, dNTP, oligo concentrations) to match the intended wet-lab master mix.
+- Exact Tm calculation conditions (Mg2+, dNTP, oligo concentrations) to match the intended wet-lab master mix — still a placeholder in `config/primer3_settings.txt`; every Tm/gap number in this project (Phase 1 and Phase 2 alike) will shift slightly once real values are supplied.
+- **New (2026-09-27):** BLAST validation of the 12 redesigned Phase 1 oligos (mutL/aroB/PSD2/group_306) — not yet run.
+- **New (2026-09-27):** D13's quality-review-tier genome check (10 genomes, tested separately, not used for consensus) has not been run against any Phase 1 or Phase 2 oligo yet.
+- **New (2026-09-27):** none of this session's work (Phase 2 design, Phase 1 BLAST re-validation, Phase 1 redesign, this file) has been committed to git — it exists only in the OneDrive mirror. Needs a session with WSL/git access to commit, or the user to copy the updated `docs/` and result files into the repo working tree themselves.
 
 ## Known inconsistencies in the original handover files (all resolved by the decisions above)
 - Script numbering differed between the two documents (D8).
@@ -91,3 +98,134 @@ and verified against the trial run's own checksums rather than re-downloaded.
   and 873 of 874 genes are clean respectively. Full per-gene results: results/exclusivity/core_gene_exclusivity.tsv.
 - Top exclusivity-clean genes by gap size include tarP (a candidate from the earlier project), several
   cardiolipin-synthase-related gene clusters, incG, and a number of unannotated ("hypothetical protein") genes.
+
+## Update 2026-09-25: candidate region discovery and consensus building
+
+**bin/08 candidate_regions.py.** For each of the 692 core genes with a >=150bp exclusivity-clean gap at 
+>=85% identity (id85 threshold), the script loads Panaroo's per-gene alignment and walks the representative 
+sequence through the exclusivity window, computing the fraction of genomes with the majority base at each 
+position. A position is "conserved" if agreement is >=99%. The script finds the longest run of conserved 
+positions inside the exclusivity window and reports it as the refined candidate region.
+
+**Findings.**
+- 588 of 692 genes (85.0%) with >=150bp id85 exclusivity gap also have >=100bp of >=99% conserved sequence 
+  inside that window (--min-region 100 bp; configurable).
+- Top candidates by region length and copy-number tier: ranked by region length (descending), 
+  tie-broken by single-copy preference then gene name. See results/candidate_regions/candidate_regions.tsv 
+  for the full table and results/candidate_regions/candidate_regions.fasta for the refined region sequences.
+- The ranking is input to bin/09; the default (--top 30) takes the 30 longest conserved+exclusive regions.
+
+**bin/09 build_consensus.py.** For the top N candidate regions (default N=30), the script builds a 
+true majority-consensus sequence by computing the majority base at every alignment position across all 
+genomes that carry the gene, rather than using one representative's sequence. This corrects for positions 
+where the representative genome carries a minority base (still >=99% conserved overall by construction).
+
+**Findings.**
+- bin/09 completed successfully on the top 30 candidates. Output: results/consensus/consensus_regions.fasta 
+  (majority-consensus sequence per region) and results/consensus/consensus_variability.tsv (per-position 
+  report for positions with <100% invariance, i.e., variant alleles present in the alignment).
+- Ready for bin/10+ (Primer3 design step): design a complete PCR/TaqMan assay against these 30 consensus sequences, 
+  then post-filter and validate.
+
+**Next immediate step:** User to web BLAST the top consensus candidates against NCBI nt to validate 
+that the exclusivity analysis is sound (i.e., top candidates have few/no off-target hits to clinical 
+species). This manual validation step was done in the earlier project and is recommended before 
+committing effort to Primer3 design.
+
+## Update 2026-09-27: reconciling an untracked side thread, Phase 2 backup design, methodology corrections
+
+**Context.** Between the 2026-09-25 update above (pipeline paused after bin/09, before bin/10 Primer3
+design) and this update, the actual Primer3 design and QC of four genes — mutL, aroB, PSD2, group_306 —
+happened in a separate, untracked side session (Claude Haiku, 2026-09-24 to 26; deliverables live only in
+OneDrive `Claude outputs/previous/`, e.g. `OLIGO_MASTER_TABLE_COMPLETE.md`, `01_LESSONS_LEARNT.md`,
+`02_PROJECT_STATUS.md`), never entered into this decision log and never run through the repo's own
+`bin/` scripts. A follow-on Claude Sonnet 5 session (2026-09-27) was hand-started from that side thread's
+own handover note, treating those four genes as an already-finished "Phase 1" and adding backup/alternative
+designs for group_159, group_140, group_181 ("Phase 2") plus two extra loci each for aroB and PSD2. This
+update reconciles both threads into the single decision log and **supersedes several specific numbers**
+the untracked thread had reported as final.
+
+**D17.** The mutL/aroB/PSD2/group_306 gene choices and their bin/08 conserved-window coordinates
+(`results/candidate_regions/candidate_regions.tsv`: aroB 257-953, PSD2 300-889, mutL 1-560, group_306
+462-681, all 100% conserved across the 97 primary genomes, zero variable positions) are adopted into this
+log and are correct. The specific oligo **sequences and QC numbers** the untracked thread reported for
+them are not — see D19-D21 and the redesign below.
+
+**D18.** Web BLAST validation of any oligo (≤~30 nt) uses Expect threshold=1000, word_size=7, low-complexity
+filter OFF, against both a human-genome database (prefer the full assembly + transcripts, not only a
+curated gene-loci subset) and `core_nt` with `NOT(txid813[ORGN])`. *Rationale:* the untracked thread's
+BLAST pass used different (likely default/stricter) parameters; re-running all 44 of its oligos under
+these settings surfaced real hits its own report had characterized as uniformly weak (see findings below).
+
+**D19.** Tm and the Tm gap (D6) are computed by actually running `primer3-py`/`primer3_core` (or an
+equivalent salt-corrected nearest-neighbor calculation, cross-checked against a second independent
+implementation) on the real candidate sequence under `config/primer3_settings.txt` — never taken from the
+settings file's own opt/min/max target values as a stand-in. *Rationale:* see findings below — the
+untracked thread's master table recorded a flat, uncalculated Tm for all 44 oligos.
+
+**D20.** An off-target BLAST hit is only actionable if a **partner primer or probe from the same designed
+set** also hits within a plausible product distance (~400 bp), correctly oriented, on the same accession —
+a single probe or primer matching an off-target sequence cannot by itself generate a false TaqMan signal.
+Single-oligo "% identity to human/non-target" is retained as context in reports but is not itself a
+pass/fail criterion. *Rationale:* the untracked thread's QC report initially stated a blanket "all oligos
+pass" while its own table showed a 100%-identity, full-length hit for one probe; the pair-level check is
+what actually determines cross-reactivity risk.
+
+**D21.** Oligo-dimer QC for a TaqMan set checks all three pairwise heterodimer combinations (F-R, F-Probe,
+R-Probe) plus each oligo's own hairpin and homodimer, via `primer3-py`'s `calc_hairpin`/`calc_homodimer`/
+`calc_heterodimer`. Severity is classified by the structure's own melting Tm relative to reaction
+temperature (NONE <0°C, LOW 0-40°C, MEDIUM 40-55°C, HIGH ≥55°C), not primer3's binary `structure_found`
+flag, which fires on any ΔG<0 including thermodynamically irrelevant structures. *Rationale:* the untracked
+thread used a custom, hand-written hairpin/dimer detector not cross-checked against a validated tool, and
+never explicitly checked F-Probe/R-Probe heterodimers (only F-R).
+
+**Findings — Phase 2 backup/alternative design (2026-09-27).**
+- group_159 (window 19-247/732bp), group_140 (417-735/852bp), group_181 (1-183/591bp): each window
+  reconfirmed 100% conserved across all 97 primary genomes (zero variable positions), and each gene
+  reconfirmed **present, single-copy, in all 97** primary genomes directly from the Panaroo per-gene
+  alignments (97/97 real non-empty sequences each), not merely inferred from conservation-where-present.
+  Designed with `primer3-py` per the D7 settings. Recommended (Rank 1) sets: group_159 Tm gap 7.06°C,
+  group_140 6.84°C (plus a second, more distal probe locus, gap 6.81°C), group_181 6.47°C (plus a second
+  locus, gap 8.61°C — the best gap of the batch). All LOW structure severity; all 3' GC-stable except
+  group_140's second-locus reverse primer (flagged, needs a 1-3 nt shift) and one MEDIUM-severity
+  alternative rank each for group_159/group_181.
+- aroB and PSD2 each got two additional, genomically independent conserved sub-regions inside their
+  already-exclusivity-clean full-gene windows (aroB: 1-125 and 955-1078 of 1122bp; PSD2: two probe sites
+  within 49-253 of 906bp) as true amplicon-level backups to the primary design. Gaps 6.44-8.71°C; PSD2 Alt
+  2 has the best gap of the whole project (8.71°C) but a non-trivial forward-primer hairpin flagged for a
+  re-pick before ordering.
+- BLAST (D18) of all 7 Phase 2 sets, plus a full re-run of all 44 Phase 1 oligos, against human genome
+  (RefSeqGene, then the broader full-assembly-plus-transcripts database) and core_nt: **zero plausible
+  off-target amplicons anywhere** by the D20 pair-level check, and zero hits to *C. muridarum*/*C. suis*
+  anywhere. Two individual-oligo hits are worth watching in a human-DNA no-template control:
+  group140_R1 (19/20nt, E≈0.04, chr7) and group159_probe1 (20/23nt, E≈0.02, DNAJC5 locus) — neither has a
+  partner nearby, so neither is a design blocker.
+
+**Findings — Phase 1 Tm-gap failure and redesign (2026-09-27).** Applying D19 to the untracked thread's
+44 mutL/aroB/PSD2/group_306 oligos found **all four genes fail D6's Tm-gap floor as actually calculated**:
+PSD2 gap ≈0.2°C (probe 63.8°C vs. the 66°C floor), mutL ≈2.6-3.1°C (probe 65.2°C, borderline on the floor
+depending on calculation method), group_306 ≈2.7°C (probe 63.3°C), aroB **negative** (probe 58.6°C, 7-9°C
+below its own primers' Tm, and 7.4°C below the 66°C floor). Several primers also sit outside the 59-61°C
+window (PSD2 forward over, aroB forward under, mutL forward mostly over). Cross-checked with an
+independent nearest-neighbor calculation (Biopython `Tm_NN`); agreement within ~1°C. This does not indicate
+a new specificity problem (D20's pair-level BLAST check still finds all 44 clean) — it means the untracked
+thread's "Tm=60/66, ready for wet-lab" claim for these sequences was not correct.
+
+Re-running `primer3-py` directly on the *same* already-established, 100%-conserved D17 window coordinates
+(no new region search) returned fully compliant replacement sets for all four genes on the first pass:
+mutL gap 8.07°C, aroB 7.75°C, PSD2 7.54°C, group_306 7.82°C — all LOW structure severity, all D21-clean,
+and (for mutL/group_306 specifically) free of the self-dimer/F-F-dimer issues the untracked thread's
+sequences had. Full sequences: `PHASE1_REDESIGNED_PROBES.md` (OneDrive `Claude outputs/`). **These 12 new
+sequences have not yet been through D18 BLAST validation** — open item, see HANDOVER.md.
+
+**Superseded:** the untracked thread's `OLIGO_MASTER_TABLE_COMPLETE.md` / `OLIGO_MASTER_TABLE_WITH_IDENTITY.md`
+sequences and QC numbers for mutL/aroB/PSD2/group_306, and its "ready for wet-lab validation" status
+determination, are superseded by the redesign above pending D18 BLAST confirmation. Its gene *choice*,
+region *coordinates*, zero-non-target-Chlamydia finding, and the general absence-of-plausible-off-target-
+amplicon conclusion all still hold.
+
+**Current full candidate-set inventory (11 gene-level designs, 2026-09-27):** see
+`PHASE1_PHASE2_COMBINED_RANKING.md` for the complete ranked table. Six of the seven Phase 2 sets
+(group_159, group_140, group_181, aroB Alt1, aroB Alt2, PSD2 Alt1) plus, pending BLAST, all four
+redesigned Phase 1 sets are D6/D19-compliant (Tm gap ≥5°C, most ≥7°C) with LOW structure. PSD2 Alt2 is
+compliant on Tm but needs a forward-primer re-pick for its hairpin.
