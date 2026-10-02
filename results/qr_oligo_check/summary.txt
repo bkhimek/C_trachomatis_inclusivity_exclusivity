@@ -1,0 +1,24 @@
+Quality-review genomes vs the 7 locked chromosomal oligo sets (bin/18)
+
+Verdicts per set. quality-review = 10 genomes, control (primary tier) = 97 genomes.
+
+set            group              EXACT       OK  AT_RISK     FAIL   amplicon bp (min/median/max)
+mutL           quality-review        10        0        0        0   127/127/127
+mutL           primary               97        0        0        0   127/127/127
+aroB_primary   quality-review        10        0        0        0   144/144/144
+aroB_primary   primary               97        0        0        0   144/144/144
+aroB_alt1      quality-review        10        0        0        0   101/101/101
+aroB_alt1      primary               97        0        0        0   101/101/101
+aroB_alt2      quality-review        10        0        0        0   82/82/82
+aroB_alt2      primary               97        0        0        0   82/82/82
+PSD2_primary   quality-review        10        0        0        0   214/214/214
+PSD2_primary   primary               97        0        0        0   214/214/214
+PSD2_alt1      quality-review         9        1        0        0   82/82/82
+PSD2_alt1      primary               97        0        0        0   82/82/82
+group_306      quality-review        10        0        0        0   90/90/90
+group_306      primary               97        0        0        0   90/90/90
+
+Control check: every set binds >=95% of the primary-tier genomes cleanly, so the method finds the oligos where they belong.
+
+Every quality-review case that is not EXACT:
+  PSD2_alt1      GCF_001885175.1 QH111L         OK
