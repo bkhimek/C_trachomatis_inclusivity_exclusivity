@@ -3,10 +3,16 @@
 Single source of truth for the restart. Where this file disagrees with the archived handover
 documents in `docs/archive/`, this file wins. Where this file disagrees with any document outside
 `docs/` (including OneDrive `Claude outputs/`, current or `previous/`), this file wins too — see the
-2026-09-27 update below for why that now needs saying explicitly. Last updated: 2026-09-27 — **in-silico design phase complete.** D25: plasmid target locked in
+2026-09-27 update below for why that now needs saying explicitly. Last updated: 2026-10-02 — D28 added (quality-review genomes tested against the 7 locked chromosomal sets with `bin/18`: clean; see the 2026-10-02 evening update at the end). Previous header: 2026-10-01 — **project fully closed out** (unchanged since 2026-09-27; this update is
+documentation-only, see the 2026-10-01 update at the end of this file). D25: plasmid target locked in
 (Primary+Reserve, 2 sets, D6/D18/D19/D20/D21-clean, same standard as the chromosomal panel's D22). D26:
 remaining chromosomal housekeeping (D13 quality-review check, two flagged backup-set primers, master-mix
-placeholders) closed as won't-fix/not-applicable per user decision — project scope is in-silico only.
+placeholders) closed as won't-fix/not-applicable — project scope is in-silico only. D27: the ompA follow-up
+and any wet-lab step are confirmed out of scope for the same reason. All design deliverables (chromosomal +
+plasmid, including `Plasmid_Oligo_QC_Reference.xlsx`) are committed to `main` on GitHub (commits `90d0d05`,
+`68930f5`). A case study document and a refreshed `docs/lessons_learned.md` were produced as the project's
+closing deliverables; both the case study and a companion white paper were revised again on 2026-10-01 for
+narrative consistency — see the note at the end of this file for where to find both.
 
 ## Decisions
 | ID | Decision | Rationale |
@@ -27,7 +33,9 @@ placeholders) closed as won't-fix/not-applicable per user decision — project s
 | D23 | (2026-09-27) Plasmid design proceeds as a **standard/consensus target only**, from the 34 already-verified plasmid-carrying genomes (29 primary + 5 quality-review). nvCT-specific design is **parked**, not dropped — same status as group_159/140/181 and PSD2 Alt2 (D22) — pending a real, independently-sourced nvCT reference sequence and confirmation of its deletion coordinates. | User-approved. Rationale: (1) the nvCT-specific numbers we'd need to act on now (2365-2560 coordinates, NC_012630.1/FM865439.1) are exactly the ones this session could not independently verify — building on them risks designing against the wrong boundary or reference; the 34-genome set is real and verified. (2) nvCT differs from standard C. trachomatis only on the plasmid; the 4-gene chromosomal panel (D22) already detects nvCT-positive samples regardless, so skipping nvCT-specific plasmid design creates no diagnostic gap — it only means the plasmid target itself won't fire on that subset. (3) Matches the "good enough, stop optimizing" approach already used to lock the chromosomal panel. |
 | D24 | (2026-09-27) Plasmid design ranking: D21 structural cleanliness is checked before the Tm-gap/probe-length tiebreak, not after — see the bin/17 finding below for why | Ranking by Tm-gap/length alone (the original D12 rule) picked a flagged candidate over an equally-viable clean one in both plasmid windows on the real data; caught before any oligo was locked in |
 | D25 | (2026-09-27, user-approved) **Plasmid target formally locked in: Primary (consensus window 4,860-5,277) + Reserve (1,315-1,612), 2 sets / 6 oligos**, on the same D6/D18/D19/D20/D21 standard as the chromosomal panel (D22). nvCT-specific design stays parked per D23. | All QC gates closed on real data: Tm gap 7.28°C/6.08°C (D6), real-computed Tm (D19), 0 structural flags either set (D21), D18 BLAST clean on both human genome and core_nt with the core_nt lab-vector hits explained and cleared by D20. Matches the "good enough, stop optimizing" standard already used for D22. |
-| D26 | (2026-09-27, user-approved) **Three remaining chromosomal-panel housekeeping items are closed, not left open:** (1) the D13 quality-review-tier check (10 genomes vs. the 7 locked chromosomal sets) is won't-fix, optional documentation, not required for completion; (2) the two flagged structural components (PSD2 Alt 2 forward-primer hairpin, group_140 locus-2 reverse-primer 3'-GC rule) are won't-fix, since both are on parked backup sets never used in the locked panel; (3) real master-mix Mg2+/dNTP/oligo concentrations are **not applicable** — project scope is in-silico design only (no wet-lab phase), so the existing placeholder values (50mM Na+, 3.0mM Mg2+, 0.8mM dNTP, 250nM oligo) are the project's permanent, final basis for every Tm/gap calculation, not a pending input. | User clarified project scope (portfolio/in-silico design exercise, not a wet-lab-bound assay) and confirmed these are not blockers. Neither D13 nor the two structural flags affect the sequences actually locked into either panel (chromosomal D22 or plasmid D25); they only ever mattered for genomes/candidates not used in the final design. |
+| D26 | (2026-09-27, user-approved) **Three remaining chromosomal-panel housekeeping items are closed, not left open:** (1) the D13 quality-review-tier check (10 genomes vs. the 7 locked chromosomal sets) is won't-fix, optional documentation, not required for completion **(superseded 2026-10-02 by D28: the check was run and was clean)**; (2) the two flagged structural components (PSD2 Alt 2 forward-primer hairpin, group_140 locus-2 reverse-primer 3'-GC rule) are won't-fix, since both are on parked backup sets never used in the locked panel; (3) real master-mix Mg2+/dNTP/oligo concentrations are **not applicable** — project scope is in-silico design only (no wet-lab phase), so the existing placeholder values (50mM Na+, 3.0mM Mg2+, 0.8mM dNTP, 250nM oligo) are the project's permanent, final basis for every Tm/gap calculation, not a pending input. | User clarified project scope (portfolio/in-silico design exercise, not a wet-lab-bound assay) and confirmed these are not blockers. Neither D13 nor the two structural flags affect the sequences actually locked into either panel (chromosomal D22 or plasmid D25); they only ever mattered for genomes/candidates not used in the final design. |
+| D27 | (2026-09-27, user-stated) **The D/Ep6/S19-121 ompA web BLAST follow-up (open since 2026-09-24) and any wet-lab validation step are confirmed out of scope for this project**, not merely deferred. | Same rationale as D26: this project's deliverable is the in-silico design and its QC record, not a wet-lab-bound assay or a fully re-verified genome tier list. D/Ep6/S19-121 stays primary-tier as originally recorded (finding, 2026-09-24 update below) — the follow-up BLAST that might have moved it to quality-review will not be run. |
+| D28 | (2026-10-02, user-requested) **The D13 quality-review check for the chromosomal panel was run after all, superseding the won't-fix half of D26.** `bin/18_qr_oligo_check.py` BLASTed all 21 oligos of the 7 locked sets (blastn-short, Expect 1000, DUST off, word_size 4, reward 1/penalty -1) against the 10 quality-review genomes, with the 97 primary genomes as a control. Result: 69 of 70 set-by-genome cases EXACT, 1 OK (QH111L GCF_001885175.1, PSD2_alt1: probe has 1 internal mismatch at position 23 of 28, both primers exact, amplicon 82 bp as in every other genome), 0 AT_RISK, 0 FAIL; control 97/97 EXACT for every set; amplicon length identical across all 107 genomes in each set. | The user chose to run it as optional extra-confidence documentation (it closes the one loop the case study could not claim). The locked panel is unchanged; the other two D26 items (backup-set structural flags, master-mix placeholders) stay won't-fix/not-applicable. |
 
 ## Open questions
 - RESOLVED (D10): Primer3 2.6.1 rejects probes longer than 36 nt.
@@ -41,8 +49,8 @@ placeholders) closed as won't-fix/not-applicable per user decision — project s
   clean; see the addendum at the end of the 2026-09-27 update below.
 - RESOLVED (2026-09-27, D22): which sets make up the final panel vs. which are backups — 4 genes / 7 sets
   locked in (mutL, aroB x3, PSD2 x2, group_306); group_159/140/181 and PSD2 Alt2 parked.
-- RESOLVED as won't-fix (2026-09-27, D26): D13's quality-review-tier genome check for the chromosomal panel (10 genomes vs. the 7 locked sets) was never run. User decision: this is optional extra-confidence documentation, not required for project completion, and will not be run.
-- RESOLVED (2026-09-27): `docs/HANDOVER.md`, this file, and `docs/lessons_learned.md` were committed and pushed to `main` (commit `860c638`), via a git-enabled session run by the user in WSL after this cloud session found it had no push access of its own (see addendum). The oligo design deliverables themselves (Phase 1/2 design docs, FASTAs, combined ranking, BLAST validation writeups) are still OneDrive-only by choice — see Open Items in HANDOVER.md.
+- RESOLVED as won't-fix (2026-09-27, D26): D13's quality-review-tier genome check for the chromosomal panel (10 genomes vs. the 7 locked sets) was never run. User decision: this is optional extra-confidence documentation, not required for project completion, and will not be run. **Superseded 2026-10-02 (D28): the check was run with `bin/18` and came back clean (69/70 exact, 1 OK, 0 at risk/fail).**
+- RESOLVED (2026-09-27): `docs/HANDOVER.md`, this file, and `docs/lessons_learned.md` were committed and pushed to `main` (commit `860c638`), via a git-enabled session run by the user in WSL after this cloud session found it had no push access of its own (see addendum). The oligo design deliverables themselves (Phase 1/2 design docs, FASTAs, combined ranking, BLAST validation writeups) were OneDrive-only at the time — see Open Items in HANDOVER.md. **Fully resolved, same day:** the user committed all chromosomal + plasmid oligo deliverables (commit `90d0d05`) and then the reference/consensus FASTA files that a blanket `.gitignore` rule had silently excluded (commit `68930f5`). Nothing design-related remains OneDrive-only.
 - RESOLVED (2026-09-27): the plasmid target has a real, verified starting point (34 already-downloaded genomes carry an assembled plasmid contig), a consensus was built, Primary+Reserve oligos were designed (D6/D19/D21-clean), and D18 BLAST validation came back clean for both sets — see the plasmid-investigation update below. Only the user's formal lock-in decision remains open.
 - **New (2026-09-27):** nvCT sourcing decision needed — none of the 34 plasmid-carrying genomes on hand are an obvious nvCT isolate, so a real nvCT reference plasmid would need to come from somewhere else (or the project treats nvCT as out of scope for now, matching D22's "good enough, stop optimizing" philosophy). User input needed either way; see the plasmid-investigation update.
 
@@ -75,7 +83,7 @@ Prokka and Panaroo are in their own conda envs (not on the base PATH).
 - RC-J/971 (GCF_000441795.1): labelled J, ompA 100% L2/L2c, genome ANI to L2/434/Bu 99.71 (not identical). Kept primary; serovar label inconsistent with ompA. J is covered by 12 other genomes.
 - D/13-96 (GCF_000590675.1): ompA nearest Da at 99.75; subtype variant, no action.
 - LGV II 434 (GCF_036285905.1): already quality-review; ompA nearest L1 (100%) adds a second inconsistency.
-- D/Ep6/S19-121 (GCF_059083935.1): ompA only 95.61% to any set member; normal size/CheckM/BioProject. Kept primary pending web BLAST of its ompA (user). If hits are poor -> quality-review.
+- D/Ep6/S19-121 (GCF_059083935.1): ompA only 95.61% to any set member; normal size/CheckM/BioProject. Kept primary pending web BLAST of its ompA (user). If hits are poor -> quality-review. **Closed, won't-run (D27, 2026-09-27):** this follow-up BLAST is out of scope for the project; the genome stays primary-tier as recorded here.
 
 ## Update 2026-09-25: Panaroo pangenome, and two corrections
 
@@ -522,3 +530,159 @@ background noise for an Expect=1000 search against the whole nucleotide database
 **Plasmid target is now D6/D18/D19/D20/D21-clean end to end for both Primary and Reserve** — the same
 standard the chromosomal panel met before D22 formally locked it in. The user approved formally locking in
 Primary+Reserve as the plasmid target the same day — see **D25** above.
+
+## Update 2026-09-27 (same day): project close-out
+
+**D26/D27.** With both panels locked (D22 chromosomal, D25 plasmid), the remaining open items were
+reviewed with the user rather than left to carry forward indefinitely: the chromosomal D13 quality-review
+check, the two flagged backup-set primers, and the master-mix placeholders were closed as won't-fix/
+not-applicable (D26); the D/Ep6/S19-121 ompA follow-up BLAST and any wet-lab validation step were confirmed
+out of scope for the same reason — this project delivers an in-silico design and its QC record, not a
+wet-lab-bound assay (D27). All chromosomal and plasmid oligo deliverables, including
+`Plasmid_Oligo_QC_Reference.xlsx`, are now committed to `main` on GitHub (`90d0d05`, `68930f5`), and the
+FASTA files a blanket `.gitignore` rule had silently excluded from the first commit were added back with
+targeted exceptions rather than a force-add, so future oligo/consensus FASTA files won't hit the same issue.
+
+**Closing deliverables.** Two documents were produced to close out the project: `docs/lessons_learned.md`
+was updated with the plasmid extension's own lessons (the circular-alignment sanity check, the D24 ranking
+fix, the GC% claim, and the value of closing housekeeping explicitly), and a case study — *Case Study: C.
+trachomatis — Target Selection for Oligo Design* — was written as a Claude Docs artifact
+(https://claude.ai/code/artifact/16f0002d-0b4f-4fd2-bb40-dddde4e93536) documenting the project's real
+methodology and the verification failures it caught along the way, for portfolio use. It is not mirrored as
+a repo file; the link above is the current copy. A companion white paper — *From Genome Selection to Assay
+Candidate* (https://claude.ai/code/artifact/78ece28a-0591-4b7c-a8e3-ad58c7260a6e) — generalizes the same
+project's decision chain into a standalone methodology argument; also a Claude Docs artifact, not a repo
+file. Both were revised again on 2026-10-01 — see the update below.
+
+## Update 2026-10-01: closing-document reconciliation (case study + white paper)
+
+Documentation-only session — no pipeline script, decision, or locked panel changed. Prompted by the user
+manually adding a provenance paragraph to a downloaded copy of the case study and asking for a consistency
+check against the white paper.
+
+**Genome-provenance narrative simplified in both documents; D2/D3/D4 above are unaffected.** The case
+study's provenance paragraph, as found at the start of this session, carried the full original chain:
+317-genome inventory -> 149 GenBank-only genomes excluded (D2) -> of the 43 partial/chromosome-level
+assemblies, only 12 were ever individually investigated (because only those 12 produced "target absent"
+misses), 11 of those 12 traced to PRJEB35640 MAG artifacts, the 12th flagged for follow-up (D3) -> 125
+RefSeq genomes remain. Repeated review found the resulting "11 of 12" fraction read as an unexplained,
+dangling detail, because the denominator (12 = genomes actually investigated) was never stated and the
+12th case was never resolved on the page. Per the user's explicit instruction, this whole sub-narrative
+(the 43 partial assemblies, the 12-investigated/11-MAG-artifact detail) was dropped from both the case
+study and the white paper. The external-facing story in both documents is now: the original inventory was
+125 RefSeq + 149 GenBank-only genomes; the 149 were excluded as deliberately engineered laboratory strains
+(transposon-mutant / antibiotic-resistance-tagged constructs), not natural clinical isolates. **This is a
+simplification of the external narrative only** — D2/D3/D4 above still record the full, accurate internal
+history (317-genome inventory, the 43 partial assemblies, the 11-of-12 MAG-artifact finding) and were left
+unchanged; nothing about the actual pipeline, genome tiers, or locked panels was altered.
+
+**Case study gained a genome-count-by-pipeline-stage table and two numeric breakdowns**, both re-derived
+directly from `data/genome_inventory/provenance_audit_log.txt` and `config/provenance_exclude_bioprojects.tsv`
+rather than from memory. Pipeline-stage table: provenance audit (bin/02) = 125, tiered 97 primary / 10
+quality-review / 18 excluded (D13); Prokka annotation (bin/05) = 107 = primary + quality-review; Panaroo
+pangenome (bin/06) = 97, primary tier only; consensus-building (bin/08-09) = 97, the same genomes. Quality-review genomes are annotated (so they can still be examined later) but are kept out of Panaroo and the consensus. **[Corrected 2026-10-02: the first version of this paragraph said Panaroo ran on 107 genomes and "corrected" the user's premise that quality-review genomes were kept out of it. That was wrong, and the user's premise was right: `bin/06_panaroo_pangenome.py` selects primary-tier genomes only, `results/pangenome/gene_presence_absence.Rtab` has 97 genome columns, and the 2026-09-25 correction above already said "Panaroo on the 97 primary genomes". The 107 figure belongs to bin/05 (Prokka) only.]** 18 excluded genomes, all carrying engineering/mutagenesis signals in metadata: 5
+(PRJNA386688, transposon mutagenesis constructs), 7 (PRJNA1102004, gene-knockout study language), 3
+(PRJNA315548, chxR mutagenesis), 1 (PRJNA517183, tet9 resistance marker), 1 (PRJNA53863, tet1 resistance
+marker), 1 (PRJNA39293, lateral-gene-transfer study language). 10 quality-review genomes, three distinct
+flag types: 5 on raw assembly metrics (2x PRJNA53849/PRJNA53857, CheckM contamination 7.15% + chromosome
+~41,100nt longer than the panel median of 1,042,743bp; 1x PRJNA53859, +19,111nt, no contamination flag; 1x
+PRJNA352770, CheckM completeness 91.61%, -16,904nt; 1x PRJNA1137892, CheckM completeness 93.78%, -9,511nt),
+4x PRJNA234355 (BioProject title itself records "Laboratory adaptation of Chlamydia trachomatis" — genuine
+clinical isolates serially passaged in culture), 1x PRJNA1066129/GCF_036285905.1 (BioProject title names a
+different organism, Bordetella pertussis, against a C. trachomatis-labeled strain — a submission-metadata
+inconsistency, not an assembly-quality flag). An earlier draft of this breakdown undercounted the
+metric-flagged group as six instead of five genomes; caught and corrected before delivery.
+
+**White paper's genome-verification section (Section 2, Section 3) brought into sync with the case
+study's simplified narrative.** Once the case study's "two problems" narrative was reduced to one, two
+downstream white-paper sentences were left stale — "found two distinct provenance problems behind them"
+and "excluding both problem groups" — and were corrected to singular ("a single provenance problem" / "that
+problem group"). Section 3's "Genome tiering" paragraph, previously vague ("a second, independent check...
+found more problems" with no specifics), was rewritten with named, concrete examples: tetracycline-
+resistance markers, transposon-insertion constructs, and gene-knockout study language for the excluded
+tier; an assembly completeness or contamination score outside the panel's normal range, a chromosome length
+meaningfully off the panel median, a laboratory-passage BioProject record, and one metadata-species-
+mismatch case for the quality-review tier. This matches the case study's specificity in kind without
+importing its full numeric table, preserving the deliberate division of labor between the two documents:
+the case study carries full numeric specificity (exact counts, CheckM scores, bp deviations, BioProject
+accessions); the white paper stays principle-first with at most one or two concrete illustrative details.
+
+**Technical finding: a large Claude Docs `docx` export can arrive silently corrupted via the direct
+base64-decode path.** Exporting a Claude Docs artifact to `.docx` returns the file inline as a base64
+string. For the white paper (~12,700 base64 characters), reproducing that exact string — once pasted
+directly into a Bash command, once written via the Write tool to a scratch file first — twice produced a
+file of the *correct* byte length (9,530 bytes) that nonetheless failed its ZIP CRC check inside
+`word/document.xml`, `word/styles.xml`, and `word/numbering.xml` on open (`python-docx`: `BadZipFile`/
+`Bad CRC-32 for file`). Both attempts failed in the same specific way, which points to a transcription-
+fidelity limit on very long base64 blobs (content silently altered without the length changing) rather than
+a one-off fluke, and means **the export "succeeding" and the byte count matching are not sufficient checks**
+for a binary deliverable built this way. **Workaround that worked:** export the same tab as
+`format: "markdown"` instead (plain UTF-8 text, human/grep-checkable) and convert to `.docx` locally with
+`pandoc`, rather than decoding the tool's base64 `docx` output directly. Recommended for any future
+Claude-Docs-to-`.docx` export in this project, especially past a few KB of content. The case study's two
+earlier `.docx` exports this same session used the direct-decode path and were delivered without this
+specific check (python-docx open + paragraph read-back) — worth a quick open-and-skim before relying on
+that exported copy, though the live Claude Docs artifact itself was never at risk, only the exported file
+could be. See `docs/lessons_learned.md` section 1 for the fuller lesson.
+
+**Deliverables.** Updated `.docx` exports of both documents were delivered to the user directly (not
+committed to git — these are Claude Docs artifacts, not repo files): the case study's provenance paragraph,
+new reconciliation table, and quality-review breakdown; the white paper's Section 2/Section 3 fixes. Both
+artifacts' live copies (links above and in `docs/HANDOVER.md`) are the current, authoritative versions.
+
+## Update 2026-10-02: white paper gains the 125-genome verification; case study corrected
+
+Documentation-only. No pipeline step, decision, or locked panel changed.
+
+**White paper.** Section 2 now states explicitly how the 125 RefSeq genomes themselves were verified (this had
+been missing: the paper described only the excluded 149 GenBank-only genomes). Four independent checks, each
+taken from this file's own findings log: record integrity (bin/01: 125/125 confirmed, md5 and length checks
+passed); species identity (bin/03 fastANI: all pairs >= 98.90%, 0 flagged); provenance and assembly quality
+(bin/02: 97 primary / 10 quality-review / 18 excluded, including the audit-gap finding that name-based keyword
+rules missed BioProjects whose titles describe experiments, fixed with title rules plus the 8 kb-from-median /
+CheckM < 97% automatic flags); label-to-sequence consistency (bin/04 ompA: 125/125 extracted, 3 of 104 labelled
+genomes disagree with their nearest neighbour). Section 3's tiering paragraph was trimmed of an overclaim (see
+below).
+
+**Case study corrected (my error on 2026-10-01).** The genome-count table and the paragraph under it said
+Panaroo ran on 107 genomes and that quality-review genomes were "pangenome-included". Wrong: Panaroo (bin/06)
+ran on the 97 primary-tier genomes only; 107 is the Prokka (bin/05) count. Checked against `bin/06`'s code and
+the 97 columns of `results/pangenome/gene_presence_absence.Rtab` before correcting. Table row and paragraph fixed
+in the live artifact and in the exported `.docx`; the 2026-10-01 entry above is annotated.
+
+**Overclaim removed from both documents.** Both said quality-review genomes were "then tested against the finished
+design separately". For the chromosomal panel that had not happened at that point: the D13 check was closed won't-fix under D26 (it was run later the same day, see the evening update and D28).
+It did happen for the plasmid (bin/15: every plasmid-carrying genome in the alignment, quality-review included,
+is 99.95-100% identical to the consensus), and the case study now says exactly that and no more. The white paper
+now says only that quality-review genomes were kept out of the pangenome and consensus as their own visible tier.
+
+**Both `.docx` copies were rebuilt without any base64 round-trip** (white paper: markdown edited locally, then
+`pandoc`; case study: the previously delivered `.docx` patched in place with `python-docx`), and opened and read
+back before delivery. See `docs/lessons_learned.md` section 1.
+
+## Update 2026-10-02 (evening): quality-review genomes tested against the 7 locked chromosomal sets (D28)
+
+**Pipeline step added.** `bin/18_qr_oligo_check.py` (config: `config/final_chromosomal_oligos.tsv`, 21 oligos
+for the 7 sets, sequences compared programmatically against `Oligo_QC_Reference.xlsx` before delivery; outputs
+`results/qr_oligo_check/{oligo_hits.tsv,set_by_genome.tsv,summary.txt}` and `reports/qr_oligo_check.xlsx`). Method:
+per-genome blastn-short (Expect 1000, DUST off, word_size 4, reward 1/penalty -1, gap 5/2); mismatches recomputed
+from the alignment so unaligned ends and gaps count; oligo classes EXACT / NEAR (<=2 mm) / WEAK (3-5 mm, gapped, or a
+primer mismatch in the last 3 nt) / NONE (>=6 mm); set verdicts EXACT / OK / AT_RISK / FAIL from pair geometry (F and R
+on the same contig, facing each other, amplicon <= 1000 bp, probe inside) and amplicon-length drift (> 20 nt vs the
+control median). The 97 primary genomes ran as a control (warning if > 5% AT_RISK/FAIL). The method was first
+validated on a mock repo with seven planted scenarios (scattered mismatches, missing site, wrong-geometry pairs,
+amplicon drift, 3'-end primer mismatch, probe mismatches), after one tuning fix: the default blastn-short seed missed
+a scattered-mismatch oligo, so word_size 4 and 1/-1 scoring were used.
+
+**Result.** Quality-review: 69 of 70 set-by-genome cases EXACT, 1 OK, 0 AT_RISK, 0 FAIL. Control: 97/97 EXACT for all
+7 sets. Amplicon length is identical in every genome for each set (mutL 127, aroB_primary 144, aroB_alt1 101,
+aroB_alt2 82, PSD2_primary 214, PSD2_alt1 82, group_306 90 bp). The single non-exact case is QH111L
+(GCF_001885175.1, NZ_CP018052.1) for PSD2_alt1, a backup set: forward and reverse primers exact, probe has one
+mismatch at position 23 of 28 (internal, not near either end).
+
+**Consequences.** D26's first item is superseded by D28; no sequence in either panel changes. The case study can now
+say the quality-review genomes were tested against the finished chromosomal design (previously only the plasmid had
+been, via bin/15). Lesson recorded in `docs/lessons_learned.md`: a tier set aside for quality reasons is cheap to test
+against the finished design, and that test is what makes the tier boundary defensible.
+
+**Committed:** `bin/18`, `config/final_chromosomal_oligos.tsv` and `results/qr_oligo_check/` were pushed to `main` as commit `6b00884` (2026-10-02); the D28 documentation updates went in a follow-up commit.

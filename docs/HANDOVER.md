@@ -1,14 +1,29 @@
 # HANDOVER: read this first at the start of every session
 
 Short, current-state file. Rewritten at the end of each session. Long-term decisions and findings live in
-`docs/PROJECT_STATE.md` (decision log D1-D26 + findings). If this file and PROJECT_STATE disagree, ask the user.
+`docs/PROJECT_STATE.md` (decision log D1-D28 + findings). If this file and PROJECT_STATE disagree, ask the user.
 
-Last updated: 2026-09-27 — **in-silico design phase of the project is complete.** Final chromosomal panel
-locked in (D22): 4 targets/7 sets. Plasmid target locked in (D25): 1 target/2 sets. 5 targets, 9 sets total,
-all D6/D18/D19/D20/D21-clean. Remaining housekeeping (D13 chromosomal quality-review check, two flagged
-backup-set primers, master-mix placeholders) closed as won't-fix/not-applicable by user decision (D26) —
-see Open Items. Only genuinely open items left: the ompA web BLAST (item 8) and committing deliverables to
-git (item 6).
+Last updated: 2026-10-02 — **project fully closed out; the locked panels have not changed since 2026-09-27.** Updates since then are documentation, plus one optional check added on 2026-10-02 evening: `bin/18` tested the 10 quality-review genomes against the 7 locked chromosomal sets, clean — 69/70 exact, 1 OK (QH111L, PSD2_alt1 backup set, one internal probe mismatch), 0 at risk/fail, control 97/97 (D28). Final chromosomal panel locked in
+(D22): 4 targets/7 sets. Plasmid target locked in (D25): 1 target/2 sets. 5 targets, 9 sets total, all
+D6/D18/D19/D20/D21-clean. Remaining housekeeping (D13 chromosomal quality-review check, two flagged
+backup-set primers, master-mix placeholders) closed as won't-fix/not-applicable (D26; the quality-review check was later run anyway, D28). The ompA web BLAST
+follow-up and any wet-lab step are confirmed out of scope (D27) — this project's deliverable is the
+in-silico design and its QC record. All oligo deliverables (chromosomal + plasmid) are committed to `main`
+on GitHub. **Two closing documents, both revised 2026-10-01:** the case study —
+*Case Study: C. trachomatis — Target Selection for Oligo Design*
+(https://claude.ai/code/artifact/16f0002d-0b4f-4fd2-bb40-dddde4e93536) — had its genome-provenance
+narrative reconciled against the real audit log and gained a genome-count-by-pipeline-stage table (see
+PROJECT_STATE.md's 2026-10-01 update for the full story); the companion white paper —
+*From Genome Selection to Assay Candidate*
+(https://claude.ai/code/artifact/78ece28a-0591-4b7c-a8e3-ad58c7260a6e) — had its genome-verification
+section (§2-3) brought into sync with the same narrative. Both are Claude Docs artifacts, not repo files;
+current `.docx` exports were delivered to the user directly, not committed. **Technical note for whoever
+exports either artifact to `.docx` next:** a large inline base64 `docx` export can decode to the right byte
+count yet still be internally corrupted (bad ZIP CRC) — export as `markdown` and convert locally with
+`pandoc` instead; see `docs/lessons_learned.md` §1 and PROJECT_STATE.md's 2026-10-01 update. **2026-10-02:** the white paper now documents how the 125 RefSeq genomes were verified (four checks), and a
+case-study error was fixed (Panaroo ran on the 97 primary genomes, not 107; quality-review genomes were never
+part of the pangenome) — see PROJECT_STATE.md's 2026-10-02 update. Only item 9
+(archiving old superseded handover files) remains genuinely open — see Open Items.
 
 ## Project
 In-silico design of a multiplex PCR/TaqMan assay for *Chlamydia trachomatis*: chromosomal targets + multicopy-plasmid
@@ -60,12 +75,13 @@ treated as superseded, not as ground truth**, for the four genes it covers.
 | Species check (fastANI) + redundancy | bin/03 | done: all >= 98.90% ANI; 58 clusters at >= 99.99 |
 | ompA serovar typing | bin/04 | done: 14 serovar groups |
 | Prokka annotation | bin/05 | done: 107 genomes (primary + quality-review), CDS median 897 |
-| Panaroo pangenome | bin/06 | done: 904 gene clusters, 874 core |
+| Panaroo pangenome | bin/06 | done: 904 gene clusters, 874 core (97 primary-tier genomes only; quality-review excluded) |
 | Exclusivity screening | bin/07 | done: 588/692 genes id85-clean with a usable conserved block |
 | Candidate region refinement + consensus | bin/08, bin/09 | done: `results/candidate_regions/candidate_regions.tsv` |
 | Primer3 design + post-filter (bin/10+) | *not run as bin/10* | done manually (not through the numbered pipeline) for 8 genes total — see below |
 | Web BLAST validation, final report | bin/11+ | oligo BLAST done manually for all 13 chromosomal sets (see below) |
-| Plasmid contig extraction (new) | bin/12 (`_incoming/bin/`, not yet pulled) | script written 2026-09-27; not yet run — see Plasmid target section below |
+| Plasmid contig extraction, consensus, design | bin/12-17 | done 2026-09-27, committed — see Plasmid target section below |
+| Quality-review genomes vs 7 locked chromosomal sets | bin/18 + `config/final_chromosomal_oligos.tsv` | done 2026-10-02: 69/70 exact, 1 OK, 0 at risk/fail; control 97/97 (D28). Outputs in `results/qr_oligo_check/`; committed and pushed to `main` (commit `6b00884`) |
 
 **Oligo design status (2026-09-27) — FINAL CHROMOSOMAL PANEL LOCKED IN (D22).** 4 targets, 7 sets, matching
 the user's "5-10 sets against 2-4 targets, then stop" instruction. See PROJECT_STATE.md's 2026-09-27 update
@@ -199,7 +215,7 @@ oligos — on the same D6/D18/D19/D20/D21 standard the chromosomal panel met bef
 stays parked per D23. The plasmid sub-project is now done, mirroring where the chromosomal panel landed
 after D22.
 
-## Key technical rules (see PROJECT_STATE for the full list, now D1-D22)
+## Key technical rules (see PROJECT_STATE for the full list, now D1-D28)
 - Primer3 caps internal oligos at 36 nt; probes are 20-28 nt (opt 22) — shorter = lower background fluorescence.
 - Tm gap probe - primers: >= 5 C hard floor, 7+ preferred (D6). **Compute it from an actual primer3/NN
   calculation on the real sequence (D19) — do not assume it from the settings file's target Tm values.**
@@ -218,9 +234,7 @@ after D22.
 2. ~~Combine Phase 1 + Phase 2 into one scored ranking and pick a final panel~~ — **done 2026-09-27 (D22)**:
    4 targets / 7 sets locked in, see the table above. `group_159/140/181` and `PSD2 Alt 2` are parked, not
    deleted — no further design work planned on them unless a final-panel gene fails downstream.
-3. ~~Quality-review-tier genome check (D13) for the chromosomal panel~~ — **closed, won't-fix, 2026-09-27
-   (D26).** 10 quality-review genomes were never tested against the 7 locked chromosomal sets. User decision:
-   this is optional extra-confidence documentation, not required for project completion, and will not be run.
+3. ~~Quality-review-tier genome check (D13) for the chromosomal panel~~ — **closed 2026-09-27 as won't-fix (D26), then run anyway and passed, 2026-10-02 (D28).** `bin/18` tested the 10 quality-review genomes against the 7 locked sets: 69/70 exact, 1 OK (QH111L, PSD2_alt1), 0 at risk/fail; control 97/97.
 4. ~~Two flagged structural components (PSD2 Alt 2 forward-primer hairpin; group_140 locus-2 reverse-primer
    3'-GC rule)~~ — **closed, won't-fix, 2026-09-27 (D26).** Both are on parked backup sets, not in the
    locked panel; user decision: leave as-is permanently rather than as an open item. Only worth revisiting if
@@ -228,19 +242,21 @@ after D22.
 5. ~~Real master-mix Mg2+, dNTP, oligo nM~~ — **not applicable, 2026-09-27 (D26).** Project scope is in-silico
    design only (no wet-lab phase); the placeholder concentrations above are the project's permanent, final
    values, not a pending input.
-6. **Commit the oligo design files to git** — `docs/HANDOVER.md`, `docs/PROJECT_STATE.md`, and
-   `docs/lessons_learned.md` were committed to `main` on 2026-09-27 (commit `860c638`); the oligo
-   deliverables themselves (Phase 1/2 design docs, BLAST FASTAs/validation writeups, the combined ranking,
-   `Oligo_QC_Reference.xlsx`, and now the plasmid deliverables) are still OneDrive-only — worth committing
-   now that the whole project is locked, into the repo's existing empty `results/oligos_chromosomal/`,
-   `results/oligos_plasmid/`, `results/specificity_validation/`, etc. placeholders.
+6. ~~Commit the oligo design files to git~~ — **done, 2026-09-27.** `docs/HANDOVER.md`,
+   `docs/PROJECT_STATE.md`, and `docs/lessons_learned.md` were committed on `main` (commit `860c638`); the
+   chromosomal + plasmid oligo deliverables (design docs, BLAST FASTAs/validation writeups, the combined
+   ranking, both `Oligo_QC_Reference.xlsx` spreadsheets, `bin/12`-`17`) followed in commit `90d0d05`, and the
+   FASTA files a blanket `.gitignore` rule had silently excluded were added back with targeted exceptions in
+   commit `68930f5`. Nothing design-related remains OneDrive-only.
 7. ~~Plasmid target — design + QC~~ — **done 2026-09-27 (D25):** Primary+Reserve locked in, same
    D6/D18/D19/D20/D21 standard as the chromosomal panel. See the "Plasmid target" section above.
    nvCT-specific design remains parked (D23), not blocking — no further action planned there unless a real,
    independently-sourced nvCT reference and confirmed deletion coordinates (NC_012630.1, FM865439.1, still
    unconfirmed) surface later.
-8. User: web BLAST of the D/Ep6/S19-121 ompA (95.6% to nearest); if poor hits -> move to quality-review.
-   (Carried over, unresolved since 2026-09-24.)
+8. ~~User: web BLAST of the D/Ep6/S19-121 ompA (95.6% to nearest); if poor hits -> move to
+   quality-review.~~ — **closed, won't-run, 2026-09-27 (D27).** Confirmed out of scope: this project
+   delivers the in-silico design and its QC record, not a fully re-verified genome tier list. D/Ep6/S19-121
+   stays primary-tier as originally recorded.
 9. The two old pre-restart handover .md files still need to go into `docs/archive/` (user to supply).
    Separately, the 2026-09-24/26 side session's own handover/status/lessons docs
    (`01_LESSONS_LEARNT.md`, `02_PROJECT_STATUS.md`, `03_DETAILED_HANDOVER.md` in OneDrive
