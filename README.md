@@ -111,6 +111,7 @@ species are listed in `docs/exclusivity_panel_accessions.tsv` and `docs/exclusiv
 
 - `docs/PROJECT_STATE.md`: decision log (D1-D29) and dated findings; the authoritative record.
 - `docs/lessons_learned.md`: what went wrong, how it was caught, and what to do differently.
+- [Case study (PDF)](docs/Case_Study_C_trachomatis_Oligonucleotide_Screening.pdf): a short narrative of the project, its verification checkpoints and its limitations.
 
 ## Author
 
