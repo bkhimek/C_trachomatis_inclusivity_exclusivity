@@ -72,3 +72,4 @@ results/exclusivity/blast_*.tsv
 !results/oligos_chromosomal/*.fasta
 !results/oligos_plasmid/*.fasta
 !results/plasmid/consensus/*.fasta
+docs/HANDOVER.md
