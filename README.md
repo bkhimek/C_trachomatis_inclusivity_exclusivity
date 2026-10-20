@@ -5,8 +5,8 @@ chromosomal targets and a multicopy-plasmid target. The project selects targets 
 complete genomes, screens them against related and clinically relevant species, designs primers and probes
 to an explicit standard, and records every decision and its evidence.
 
-**Status.** Complete as an in-silico design (closed 2026-09-27; one further quality-review check added
-2026-10-02). Wet-lab validation is out of scope, so every result here is a computational screen, not a
+**Status.** Complete as an in-silico design (closed 2026-09-27; two further checks added: quality-review genomes on
+2026-10-02 and duplex cross-interactions on 2026-10-20). Wet-lab validation is out of scope, so every result here is a computational screen, not a
 measured assay performance.
 
 ## Results at a glance
@@ -34,6 +34,10 @@ measured assay performance.
 - **Quality-review genomes tested against the finished design (`bin/18`).** For the seven chromosomal sets,
   69 of 70 set-by-genome cases bind exactly and one binds within tolerance (a single internal probe
   mismatch); none is at risk or fails. The 97 primary genomes run as a control bind 97 of 97.
+- **Proposed duplex (`bin/19`).** The intended final assay pairs one chromosomal set with one plasmid set. Cross-dimers
+  between the two sets were computed for all 14 combinations (126 oligo pairs): none is MEDIUM or HIGH on the same severity
+  scale as the within-set checks (strongest structure Tm 21.5 °C, or 27.0 °C under the project reaction conditions).
+  This is oligo-oligo thermodynamics only; dye assignment and real multiplex behaviour are laboratory questions.
 
 The oligo sequences are in `config/final_chromosomal_oligos.tsv` (21 chromosomal oligos) and
 `results/oligos_plasmid/PLASMID_PRIMARY_RESERVE_DESIGN.md` (6 plasmid oligos, with Tm and structure QC).
@@ -67,6 +71,7 @@ The oligo sequences are in `config/final_chromosomal_oligos.tsv` (21 chromosomal
 | manual | Chromosomal Primer3 design, structure QC and web BLAST (recorded in `docs/PROJECT_STATE.md`) |
 | `bin/12`-`17` | Plasmid: contig extraction, orientation fix, consensus, identity check, conserved windows, primer design |
 | `bin/18` | Quality-review genomes against the seven locked chromosomal sets |
+| `bin/19` | Cross-dimer check between each chromosomal set and each plasmid set (the proposed duplex) |
 | `bin/90` | Export of human-readable reports |
 
 Numbers 10 and 11 are intentionally unused. The decision log refers to some earlier script numbers; where it
@@ -79,7 +84,7 @@ differs from this table, the table reflects the scripts in `bin/`.
 2. **Explicit thresholds.** Conserved means at least 99% agreement per position; an exclusivity gap is a
    stretch of at least 150 bp below 85% identity to every non-target genome; a probe must have a Tm at least
    5 °C above the highest primer Tm. None of these are software defaults.
-3. **One source of truth.** Decisions D1-D28 and dated findings live in `docs/PROJECT_STATE.md`; scripts read
+3. **One source of truth.** Decisions D1-D29 and dated findings live in `docs/PROJECT_STATE.md`; scripts read
    parameters from `config/`.
 4. **Recompute, do not transcribe.** Any number that drives a decision is recomputed from primary data
    (`docs/lessons_learned.md`).
@@ -104,7 +109,7 @@ species are listed in `docs/exclusivity_panel_accessions.tsv` and `docs/exclusiv
 
 ## Documentation
 
-- `docs/PROJECT_STATE.md`: decision log (D1-D28) and dated findings; the authoritative record.
+- `docs/PROJECT_STATE.md`: decision log (D1-D29) and dated findings; the authoritative record.
 - `docs/lessons_learned.md`: what went wrong, how it was caught, and what to do differently.
 
 ## Author

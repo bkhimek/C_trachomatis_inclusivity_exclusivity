@@ -1,0 +1,26 @@
+bin/19 duplex cross-interaction check (D29)
+primer3-py 2.3.1; conditions (b) = {'mv_conc': 50.0, 'dv_conc': 3.0, 'dntp_conc': 0.8, 'dna_conc': 250.0}
+positive control: 56.2 C -> HIGH
+
+14 chromosomal x plasmid combinations, 126 cross pairs (7 chromosomal sets x 2 plasmid sets x 9 pairs)
+combinations with no MEDIUM/HIGH cross-dimer under either condition: 14 of 14
+strongest cross-dimer structure Tm: 21.5 C (default conditions), 27.0 C (project conditions)
+weakest (most negative) primer-primer 3'-end dG: -4.38 kcal/mol (informational, no threshold)
+
+chromosomal set plasmid set       worst Tm default worst Tm project  verdict
+mutL           Plasmid_Primary          4.8 C LOW        9.2 C LOW  PASS
+mutL           Plasmid_Reserve         17.1 C LOW       21.5 C LOW  PASS
+aroB_primary   Plasmid_Primary          3.0 C LOW        9.0 C LOW  PASS
+aroB_primary   Plasmid_Reserve          3.3 C LOW        9.8 C LOW  PASS
+aroB_alt1      Plasmid_Primary          5.5 C LOW       10.1 C LOW  PASS
+aroB_alt1      Plasmid_Reserve         21.5 C LOW       27.0 C LOW  PASS
+aroB_alt2      Plasmid_Primary         12.6 C LOW       18.6 C LOW  PASS
+aroB_alt2      Plasmid_Reserve         10.1 C LOW       16.1 C LOW  PASS
+PSD2_primary   Plasmid_Primary         15.4 C LOW       20.0 C LOW  PASS
+PSD2_primary   Plasmid_Reserve          6.7 C LOW       12.6 C LOW  PASS
+PSD2_alt1      Plasmid_Primary         10.0 C LOW       14.6 C LOW  PASS
+PSD2_alt1      Plasmid_Reserve       -10.9 C NONE      -3.9 C NONE  PASS
+group_306      Plasmid_Primary         10.9 C LOW       15.3 C LOW  PASS
+group_306      Plasmid_Reserve        -2.0 C NONE        3.7 C LOW  PASS
+
+Scope: oligo-oligo thermodynamics only. Not covered: BLAST cross-hits between targets, dye and channel assignment, real multiplex behaviour (laboratory evaluation).

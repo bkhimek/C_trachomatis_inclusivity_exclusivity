@@ -1,0 +1,15 @@
+chromosomal_set	plasmid_set	worst_pair_default	worst_tm_default_c	worst_class_default	worst_pair_project	worst_tm_project_c	worst_class_project	medium_or_high_pairs	verdict
+mutL	Plasmid_Primary	mutL_F / Plasmid_Primary_R	4.8	LOW	mutL_F / Plasmid_Primary_R	9.2	LOW	0	PASS
+mutL	Plasmid_Reserve	mutL_R / Plasmid_Reserve_Probe	17.1	LOW	mutL_R / Plasmid_Reserve_Probe	21.5	LOW	0	PASS
+aroB_primary	Plasmid_Primary	aroB_probe / Plasmid_Primary_F	3.0	LOW	aroB_probe / Plasmid_Primary_F	9.0	LOW	0	PASS
+aroB_primary	Plasmid_Reserve	aroB_probe / Plasmid_Reserve_Probe	3.3	LOW	aroB_probe / Plasmid_Reserve_Probe	9.8	LOW	0	PASS
+aroB_alt1	Plasmid_Primary	aroB_alt1_R / Plasmid_Primary_R	5.5	LOW	aroB_alt1_R / Plasmid_Primary_R	10.1	LOW	0	PASS
+aroB_alt1	Plasmid_Reserve	aroB_alt1_F / Plasmid_Reserve_F	21.5	LOW	aroB_alt1_F / Plasmid_Reserve_F	27.0	LOW	0	PASS
+aroB_alt2	Plasmid_Primary	aroB_alt2_R / Plasmid_Primary_Probe	12.6	LOW	aroB_alt2_R / Plasmid_Primary_Probe	18.6	LOW	0	PASS
+aroB_alt2	Plasmid_Reserve	aroB_alt2_R / Plasmid_Reserve_Probe	10.1	LOW	aroB_alt2_R / Plasmid_Reserve_Probe	16.1	LOW	0	PASS
+PSD2_primary	Plasmid_Primary	PSD2_R / Plasmid_Primary_Probe	15.4	LOW	PSD2_R / Plasmid_Primary_Probe	20.0	LOW	0	PASS
+PSD2_primary	Plasmid_Reserve	PSD2_probe / Plasmid_Reserve_F	6.7	LOW	PSD2_probe / Plasmid_Reserve_F	12.6	LOW	0	PASS
+PSD2_alt1	Plasmid_Primary	PSD2_alt1_probe / Plasmid_Primary_Probe	10.0	LOW	PSD2_alt1_probe / Plasmid_Primary_Probe	14.6	LOW	0	PASS
+PSD2_alt1	Plasmid_Reserve	PSD2_alt1_probe / Plasmid_Reserve_Probe	-10.9	NONE	PSD2_alt1_probe / Plasmid_Reserve_Probe	-3.9	NONE	0	PASS
+group_306	Plasmid_Primary	group_306_F / Plasmid_Primary_Probe	10.9	LOW	group_306_F / Plasmid_Primary_Probe	15.3	LOW	0	PASS
+group_306	Plasmid_Reserve	group_306_F / Plasmid_Reserve_R	-2.0	NONE	group_306_F / Plasmid_Reserve_R	3.7	LOW	0	PASS

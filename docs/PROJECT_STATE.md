@@ -3,7 +3,7 @@
 Single source of truth for the restart. Where this file disagrees with the archived handover
 documents in `docs/archive/`, this file wins. Where this file disagrees with any document outside
 `docs/` (including OneDrive `Claude outputs/`, current or `previous/`), this file wins too — see the
-2026-09-27 update below for why that now needs saying explicitly. Last updated: 2026-10-02 — D28 added (quality-review genomes tested against the 7 locked chromosomal sets with `bin/18`: clean; see the 2026-10-02 evening update at the end). Previous header: 2026-10-01 — **project fully closed out** (unchanged since 2026-09-27; this update is
+2026-09-27 update below for why that now needs saying explicitly. Last updated: 2026-10-20 — D29 added (cross-interactions between the chromosomal and plasmid sets of the proposed duplex checked with `bin/19`: all 14 combinations clean; D20 wording clarified; see the 2026-10-20 update at the end). Previous header: 2026-10-02 — D28 added (quality-review genomes tested against the 7 locked chromosomal sets with `bin/18`: clean; see the 2026-10-02 evening update at the end). Previous header: 2026-10-01 — **project fully closed out** (unchanged since 2026-09-27; this update is
 documentation-only, see the 2026-10-01 update at the end of this file). D25: plasmid target locked in
 (Primary+Reserve, 2 sets, D6/D18/D19/D20/D21-clean, same standard as the chromosomal panel's D22). D26:
 remaining chromosomal housekeeping (D13 quality-review check, two flagged backup-set primers, master-mix
@@ -36,6 +36,7 @@ narrative consistency — see the note at the end of this file for where to find
 | D26 | (2026-09-27, approved) **Three remaining chromosomal-panel housekeeping items are closed, not left open:** (1) the D13 quality-review-tier check (10 genomes vs. the 7 locked chromosomal sets) is won't-fix, optional documentation, not required for completion **(superseded 2026-10-02 by D28: the check was run and was clean)**; (2) the two flagged structural components (PSD2 Alt 2 forward-primer hairpin, group_140 locus-2 reverse-primer 3'-GC rule) are won't-fix, since both are on parked backup sets never used in the locked panel; (3) real master-mix Mg2+/dNTP/oligo concentrations are **not applicable** — project scope is in-silico design only (no wet-lab phase), so the existing placeholder values (50mM Na+, 3.0mM Mg2+, 0.8mM dNTP, 250nM oligo) are the project's permanent, final basis for every Tm/gap calculation, not a pending input. | Project scope was clarified (portfolio/in-silico design exercise, not a wet-lab-bound assay) and these were confirmed not to be blockers. Neither D13 nor the two structural flags affect the sequences actually locked into either panel (chromosomal D22 or plasmid D25); they only ever mattered for genomes/candidates not used in the final design. |
 | D27 | (2026-09-27, stated) **The D/Ep6/S19-121 ompA web BLAST follow-up (open since 2026-09-24) and any wet-lab validation step are confirmed out of scope for this project**, not merely deferred. | Same rationale as D26: this project's deliverable is the in-silico design and its QC record, not a wet-lab-bound assay or a fully re-verified genome tier list. D/Ep6/S19-121 stays primary-tier as originally recorded (finding, 2026-09-24 update below) — the follow-up BLAST that might have moved it to quality-review will not be run. |
 | D28 | (2026-10-02, requested) **The D13 quality-review check for the chromosomal panel was run after all, superseding the won't-fix half of D26.** `bin/18_qr_oligo_check.py` BLASTed all 21 oligos of the 7 locked sets (blastn-short, Expect 1000, DUST off, word_size 4, reward 1/penalty -1) against the 10 quality-review genomes, with the 97 primary genomes as a control. Result: 69 of 70 set-by-genome cases EXACT, 1 OK (QH111L GCF_001885175.1, PSD2_alt1: probe has 1 internal mismatch at position 23 of 28, both primers exact, amplicon 82 bp as in every other genome), 0 AT_RISK, 0 FAIL; control 97/97 EXACT for every set; amplicon length identical across all 107 genomes in each set. | It was run as optional extra-confidence documentation (it closes the one loop the case study could not claim). The locked panel is unchanged; the other two D26 items (backup-set structural flags, master-mix placeholders) stay won't-fix/not-applicable. |
+| D29 | (2026-10-20, requested) **Cross-interactions between the chromosomal and plasmid sets of the proposed duplex were checked computationally (`bin/19_duplex_cross_check.py`), and D20 was clarified** (a predicted amplicon needs both primers; see D20). All 14 chromosomal x plasmid combinations (7 chromosomal sets x Plasmid Primary/Reserve; 9 cross heterodimers each, 126 pairs) have no MEDIUM or HIGH cross-dimer on the D21 severity scale. Strongest structure Tm: 21.5 °C under primer3-py default conditions (the conditions used for D21) and 27.0 °C under the project reaction conditions, both for `aroB_alt1_F` against `Plasmid_Reserve_F`. Positive control (an oligo against its reverse complement) 56.2 °C, HIGH. | An independent review of the case study pointed out that D21 covers only the three oligos of one set, while the proposed final assay runs six oligos in one reaction. This is oligo-oligo thermodynamics only: BLAST cross-hits between targets, dye and channel assignment and real multiplex behaviour remain for laboratory evaluation. No sequence in either panel changes, and the check does not choose which chromosomal set is paired with which plasmid set. |
 
 ## Open questions
 - RESOLVED (D10): Primer3 2.6.1 rejects probes longer than 36 nt.
@@ -189,7 +190,13 @@ a single probe or primer matching an off-target sequence cannot by itself genera
 Single-oligo "% identity to human/non-target" is retained as context in reports but is not itself a
 pass/fail criterion. *Rationale:* the untracked thread's QC report initially stated a blanket "all oligos
 pass" while its own table showed a 100%-identity, full-length hit for one probe; the pair-level check is
-what actually determines cross-reactivity risk.
+what actually determines cross-reactivity risk. **Clarified 2026-10-20 (D29):** as applied in every BLAST review in this log, a hit is
+treated as a predicted off-target amplicon only when the forward and the reverse primer both match, correctly oriented, within a
+plausible product distance (~400 bp) on the same accession; the probe then decides whether that product could give a TaqMan signal.
+A probe-plus-one-primer match without the opposite primer (for example `aroB_redesign_F` and `aroB_redesign_probe` against *C. suis*,
+where the reverse primer has no hit anywhere) is recorded as context but is not a predicted amplicon. The wording above ("partner primer
+or probe") is kept as written at the time; no verdict in this log changes, because every verdict was reached under the reading just
+given.
 
 **D21.** Oligo-dimer QC for a TaqMan set checks all three pairwise heterodimer combinations (F-R, F-Probe,
 R-Probe) plus each oligo's own hairpin and homodimer, via `primer3-py`'s `calc_hairpin`/`calc_homodimer`/
@@ -686,3 +693,39 @@ been, via bin/15). Lesson recorded in `docs/lessons_learned.md`: a tier set asid
 against the finished design, and that test is what makes the tier boundary defensible.
 
 **Committed:** `bin/18`, `config/final_chromosomal_oligos.tsv` and `results/qr_oligo_check/` were pushed to `main` as commit `6b00884` (2026-10-02); the D28 documentation updates went in a follow-up commit.
+
+## Update 2026-10-20: duplex cross-interaction check (D29) and D20 clarification
+
+Prompted by an independent review of the case study. The review asked whether cross-interactions between the selected
+chromosomal and plasmid oligos had been assessed together. They had not: D21 covers the three oligos of one set (F-R, F-Probe,
+R-Probe, plus each oligo's own hairpin and homodimer), and no step before `bin/19` compared oligos from different sets.
+
+**What was run.** `bin/19_duplex_cross_check.py` pairs every oligo of each of the 7 chromosomal sets (`config/final_chromosomal_oligos.tsv`)
+with every oligo of each plasmid set (`results/oligos_plasmid/plasmid_primary_reserve_oligos.fasta`): 14 combinations, 9 cross
+heterodimers each, 126 pairs. Structure Tm from primer3-py `calc_heterodimer`, severity by the D21 scale (NONE <0, LOW 0-40, MEDIUM 40-55,
+HIGH >=55 °C), computed under primer3-py default conditions (as in `bin/17`, so comparable with the within-set results) and again under the
+project reaction conditions (50 mM Na+, 3.0 mM Mg2+, 0.8 mM dNTP, 250 nM oligo) as a sensitivity check. The 3'-end stability of primer-primer
+pairs is reported for information (no threshold exists or was introduced). A positive control (an oligo against its own reverse complement)
+must come out HIGH or the script stops; it gave 56.2 °C.
+
+**Result.** All 14 combinations pass: no MEDIUM or HIGH cross-dimer under either condition. Strongest structure Tm 21.5 °C (default) and
+27.0 °C (project conditions), `aroB_alt1_F` against `Plasmid_Reserve_F`; the weakest primer-primer 3'-end stability is -4.38 kcal/mol.
+Per combination (worst pair, default / project conditions): mutL 4.8 / 9.2 (Primary), 17.1 / 21.5 (Reserve); aroB_primary 3.0 / 9.0,
+3.3 / 9.8; aroB_alt1 5.5 / 10.1, 21.5 / 27.0; aroB_alt2 12.6 / 18.6, 10.1 / 16.1; PSD2_primary 15.4 / 20.0, 6.7 / 12.6; PSD2_alt1
+10.0 / 14.6, -10.9 / -3.9; group_306 10.9 / 15.3, -2.0 / 3.7 °C. Every value is LOW or NONE.
+
+**Limits.** Oligo-oligo thermodynamics only. Not covered: BLAST cross-hits between the targets' oligos and the other target's sequence, dye
+and quencher choice and detection-channel assignment, and real multiplex behaviour (amplification efficiency, competition, limit of
+detection), all of which are laboratory questions. A clean result means no predicted strong oligo-oligo interaction, not a demonstrated
+working duplex.
+
+**D20 clarification.** Reviewing the exclusivity rule for the case study showed that D20's wording ("partner primer or probe") was broader
+than the rule actually applied: the aroB forward primer and probe both hit *C. suis* about 71 bp apart and were cleared because the reverse
+primer has no hit. The text of D20 now states the rule as applied (both primers needed for a predicted amplicon; the probe decides signal).
+No verdict changes.
+
+**Consequences.** No sequence in either panel changes. The case study, the white paper and the technical guide were revised the same day:
+"validation" in the case-study title replaced by "screening", specificity statements phrased as predictions under defined screening
+conditions, the duplex described as proposed, a scope-and-limitations section added to the case study, and ANI wording tightened to
+"species-level consistency". `bin/19` was first run in a cloud session with primer3-py 2.3.1; the run should be repeated in WSL (Primer3
+2.6.1) and `results/duplex_check/summary.txt` compared before the results are committed.

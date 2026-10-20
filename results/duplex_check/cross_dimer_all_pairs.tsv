@@ -1,0 +1,127 @@
+chromosomal_set	plasmid_set	oligo_a	oligo_b	roles	tm_default_c	class_default	tm_project_c	class_project	primer_end_dg_kcal_mol
+mutL	Plasmid_Primary	mutL_F	Plasmid_Primary_F	F-F	-23.1	NONE	-16.4	NONE	-2.85
+mutL	Plasmid_Primary	mutL_F	Plasmid_Primary_R	F-R	4.8	LOW	9.2	LOW	-1.39
+mutL	Plasmid_Primary	mutL_F	Plasmid_Primary_Probe	F-P	-48.5	NONE	-41.0	NONE	
+mutL	Plasmid_Primary	mutL_R	Plasmid_Primary_F	R-F	-39.1	NONE	-31.3	NONE	-2.17
+mutL	Plasmid_Primary	mutL_R	Plasmid_Primary_R	R-R	0.5	LOW	5.9	LOW	-1.10
+mutL	Plasmid_Primary	mutL_R	Plasmid_Primary_Probe	R-P	1.5	LOW	7.1	LOW	
+mutL	Plasmid_Primary	mutL_probe	Plasmid_Primary_F	P-F	-13.8	NONE	-6.7	NONE	
+mutL	Plasmid_Primary	mutL_probe	Plasmid_Primary_R	P-R	-30.5	NONE	-23.5	NONE	
+mutL	Plasmid_Primary	mutL_probe	Plasmid_Primary_Probe	P-P	-0.7	NONE	4.0	LOW	
+mutL	Plasmid_Reserve	mutL_F	Plasmid_Reserve_F	F-F	-19.6	NONE	-12.7	NONE	-3.31
+mutL	Plasmid_Reserve	mutL_F	Plasmid_Reserve_R	F-R	10.9	LOW	16.4	LOW	-1.47
+mutL	Plasmid_Reserve	mutL_F	Plasmid_Reserve_Probe	F-P	-11.7	NONE	-4.9	NONE	
+mutL	Plasmid_Reserve	mutL_R	Plasmid_Reserve_F	R-F	-31.1	NONE	-24.1	NONE	-2.27
+mutL	Plasmid_Reserve	mutL_R	Plasmid_Reserve_R	R-R	-40.8	NONE	-33.5	NONE	-2.17
+mutL	Plasmid_Reserve	mutL_R	Plasmid_Reserve_Probe	R-P	17.1	LOW	21.5	LOW	
+mutL	Plasmid_Reserve	mutL_probe	Plasmid_Reserve_F	P-F	-8.1	NONE	-2.3	NONE	
+mutL	Plasmid_Reserve	mutL_probe	Plasmid_Reserve_R	P-R	7.4	LOW	13.7	LOW	
+mutL	Plasmid_Reserve	mutL_probe	Plasmid_Reserve_Probe	P-P	-12.6	NONE	-7.0	NONE	
+aroB_primary	Plasmid_Primary	aroB_F	Plasmid_Primary_F	F-F	-43.6	NONE	-36.0	NONE	-0.61
+aroB_primary	Plasmid_Primary	aroB_F	Plasmid_Primary_R	F-R	-31.0	NONE	-24.5	NONE	1.04
+aroB_primary	Plasmid_Primary	aroB_F	Plasmid_Primary_Probe	F-P	-49.4	NONE	-41.9	NONE	
+aroB_primary	Plasmid_Primary	aroB_R	Plasmid_Primary_F	R-F	-24.1	NONE	-17.1	NONE	-3.58
+aroB_primary	Plasmid_Primary	aroB_R	Plasmid_Primary_R	R-R	-19.7	NONE	-12.9	NONE	-3.06
+aroB_primary	Plasmid_Primary	aroB_R	Plasmid_Primary_Probe	R-P	-24.1	NONE	-16.9	NONE	
+aroB_primary	Plasmid_Primary	aroB_probe	Plasmid_Primary_F	P-F	3.0	LOW	9.0	LOW	
+aroB_primary	Plasmid_Primary	aroB_probe	Plasmid_Primary_R	P-R	-23.3	NONE	-16.6	NONE	
+aroB_primary	Plasmid_Primary	aroB_probe	Plasmid_Primary_Probe	P-P	-49.1	NONE	-42.0	NONE	
+aroB_primary	Plasmid_Reserve	aroB_F	Plasmid_Reserve_F	F-F	-44.1	NONE	-37.0	NONE	-1.15
+aroB_primary	Plasmid_Reserve	aroB_F	Plasmid_Reserve_R	F-R	-44.2	NONE	-37.0	NONE	1.04
+aroB_primary	Plasmid_Reserve	aroB_F	Plasmid_Reserve_Probe	F-P	-31.8	NONE	-24.7	NONE	
+aroB_primary	Plasmid_Reserve	aroB_R	Plasmid_Reserve_F	R-F	-45.3	NONE	-38.3	NONE	-1.15
+aroB_primary	Plasmid_Reserve	aroB_R	Plasmid_Reserve_R	R-R	0.4	LOW	5.7	LOW	-3.38
+aroB_primary	Plasmid_Reserve	aroB_R	Plasmid_Reserve_Probe	R-P	-9.3	NONE	-2.9	NONE	
+aroB_primary	Plasmid_Reserve	aroB_probe	Plasmid_Reserve_F	P-F	-2.8	NONE	2.3	LOW	
+aroB_primary	Plasmid_Reserve	aroB_probe	Plasmid_Reserve_R	P-R	-25.8	NONE	-18.8	NONE	
+aroB_primary	Plasmid_Reserve	aroB_probe	Plasmid_Reserve_Probe	P-P	3.3	LOW	9.8	LOW	
+aroB_alt1	Plasmid_Primary	aroB_alt1_F	Plasmid_Primary_F	F-F	-35.3	NONE	-28.7	NONE	-0.54
+aroB_alt1	Plasmid_Primary	aroB_alt1_F	Plasmid_Primary_R	F-R	-45.1	NONE	-38.2	NONE	-1.60
+aroB_alt1	Plasmid_Primary	aroB_alt1_F	Plasmid_Primary_Probe	F-P	-48.4	NONE	-40.7	NONE	
+aroB_alt1	Plasmid_Primary	aroB_alt1_R	Plasmid_Primary_F	R-F	-2.1	NONE	4.3	LOW	-3.37
+aroB_alt1	Plasmid_Primary	aroB_alt1_R	Plasmid_Primary_R	R-R	5.5	LOW	10.1	LOW	-1.19
+aroB_alt1	Plasmid_Primary	aroB_alt1_R	Plasmid_Primary_Probe	R-P	2.2	LOW	7.9	LOW	
+aroB_alt1	Plasmid_Primary	aroB_alt1_probe	Plasmid_Primary_F	P-F	-37.8	NONE	-30.4	NONE	
+aroB_alt1	Plasmid_Primary	aroB_alt1_probe	Plasmid_Primary_R	P-R	-35.8	NONE	-28.5	NONE	
+aroB_alt1	Plasmid_Primary	aroB_alt1_probe	Plasmid_Primary_Probe	P-P	-39.9	NONE	-32.2	NONE	
+aroB_alt1	Plasmid_Reserve	aroB_alt1_F	Plasmid_Reserve_F	F-F	21.5	LOW	27.0	LOW	-3.44
+aroB_alt1	Plasmid_Reserve	aroB_alt1_F	Plasmid_Reserve_R	F-R	11.0	LOW	16.0	LOW	0.23
+aroB_alt1	Plasmid_Reserve	aroB_alt1_F	Plasmid_Reserve_Probe	F-P	-10.0	NONE	-2.8	NONE	
+aroB_alt1	Plasmid_Reserve	aroB_alt1_R	Plasmid_Reserve_F	R-F	14.8	LOW	19.3	LOW	-2.59
+aroB_alt1	Plasmid_Reserve	aroB_alt1_R	Plasmid_Reserve_R	R-R	0.4	LOW	6.1	LOW	-3.81
+aroB_alt1	Plasmid_Reserve	aroB_alt1_R	Plasmid_Reserve_Probe	R-P	-22.7	NONE	-16.1	NONE	
+aroB_alt1	Plasmid_Reserve	aroB_alt1_probe	Plasmid_Reserve_F	P-F	-26.1	NONE	-19.3	NONE	
+aroB_alt1	Plasmid_Reserve	aroB_alt1_probe	Plasmid_Reserve_R	P-R	-26.4	NONE	-20.1	NONE	
+aroB_alt1	Plasmid_Reserve	aroB_alt1_probe	Plasmid_Reserve_Probe	P-P	-25.7	NONE	-19.4	NONE	
+aroB_alt2	Plasmid_Primary	aroB_alt2_F	Plasmid_Primary_F	F-F	-10.8	NONE	-4.3	NONE	-0.61
+aroB_alt2	Plasmid_Primary	aroB_alt2_F	Plasmid_Primary_R	F-R	-75.3	NONE	-66.9	NONE	1.25
+aroB_alt2	Plasmid_Primary	aroB_alt2_F	Plasmid_Primary_Probe	F-P	-36.3	NONE	-28.7	NONE	
+aroB_alt2	Plasmid_Primary	aroB_alt2_R	Plasmid_Primary_F	R-F	-4.6	NONE	1.7	LOW	-3.68
+aroB_alt2	Plasmid_Primary	aroB_alt2_R	Plasmid_Primary_R	R-R	-21.8	NONE	-14.3	NONE	-0.20
+aroB_alt2	Plasmid_Primary	aroB_alt2_R	Plasmid_Primary_Probe	R-P	12.6	LOW	18.6	LOW	
+aroB_alt2	Plasmid_Primary	aroB_alt2_probe	Plasmid_Primary_F	P-F	-42.6	NONE	-35.1	NONE	
+aroB_alt2	Plasmid_Primary	aroB_alt2_probe	Plasmid_Primary_R	P-R	-6.4	NONE	0.0	LOW	
+aroB_alt2	Plasmid_Primary	aroB_alt2_probe	Plasmid_Primary_Probe	P-P	-8.7	NONE	-2.0	NONE	
+aroB_alt2	Plasmid_Reserve	aroB_alt2_F	Plasmid_Reserve_F	F-F	-21.9	NONE	-15.1	NONE	-1.15
+aroB_alt2	Plasmid_Reserve	aroB_alt2_F	Plasmid_Reserve_R	F-R	-23.8	NONE	-16.8	NONE	1.25
+aroB_alt2	Plasmid_Reserve	aroB_alt2_F	Plasmid_Reserve_Probe	F-P	-39.8	NONE	-32.6	NONE	
+aroB_alt2	Plasmid_Reserve	aroB_alt2_R	Plasmid_Reserve_F	R-F	-38.8	NONE	-31.4	NONE	-1.15
+aroB_alt2	Plasmid_Reserve	aroB_alt2_R	Plasmid_Reserve_R	R-R	-21.3	NONE	-14.6	NONE	0.51
+aroB_alt2	Plasmid_Reserve	aroB_alt2_R	Plasmid_Reserve_Probe	R-P	10.1	LOW	16.1	LOW	
+aroB_alt2	Plasmid_Reserve	aroB_alt2_probe	Plasmid_Reserve_F	P-F	-20.8	NONE	-13.0	NONE	
+aroB_alt2	Plasmid_Reserve	aroB_alt2_probe	Plasmid_Reserve_R	P-R	0.7	LOW	6.5	LOW	
+aroB_alt2	Plasmid_Reserve	aroB_alt2_probe	Plasmid_Reserve_Probe	P-P	-6.3	NONE	0.4	LOW	
+PSD2_primary	Plasmid_Primary	PSD2_F	Plasmid_Primary_F	F-F	-56.8	NONE	-49.0	NONE	0.36
+PSD2_primary	Plasmid_Primary	PSD2_F	Plasmid_Primary_R	F-R	-30.3	NONE	-23.0	NONE	-0.41
+PSD2_primary	Plasmid_Primary	PSD2_F	Plasmid_Primary_Probe	F-P	-48.1	NONE	-40.6	NONE	
+PSD2_primary	Plasmid_Primary	PSD2_R	Plasmid_Primary_F	R-F	-3.3	NONE	2.1	LOW	-2.29
+PSD2_primary	Plasmid_Primary	PSD2_R	Plasmid_Primary_R	R-R	9.6	LOW	14.6	LOW	-2.47
+PSD2_primary	Plasmid_Primary	PSD2_R	Plasmid_Primary_Probe	R-P	15.4	LOW	20.0	LOW	
+PSD2_primary	Plasmid_Primary	PSD2_probe	Plasmid_Primary_F	P-F	-30.4	NONE	-22.9	NONE	
+PSD2_primary	Plasmid_Primary	PSD2_probe	Plasmid_Primary_R	P-R	-5.7	NONE	0.7	LOW	
+PSD2_primary	Plasmid_Primary	PSD2_probe	Plasmid_Primary_Probe	P-P	-3.5	NONE	3.1	LOW	
+PSD2_primary	Plasmid_Reserve	PSD2_F	Plasmid_Reserve_F	F-F	-53.9	NONE	-46.3	NONE	-2.26
+PSD2_primary	Plasmid_Reserve	PSD2_F	Plasmid_Reserve_R	F-R	-53.9	NONE	-46.3	NONE	-2.26
+PSD2_primary	Plasmid_Reserve	PSD2_F	Plasmid_Reserve_Probe	F-P	-62.8	NONE	-54.6	NONE	
+PSD2_primary	Plasmid_Reserve	PSD2_R	Plasmid_Reserve_F	R-F	-2.9	NONE	3.6	LOW	-1.68
+PSD2_primary	Plasmid_Reserve	PSD2_R	Plasmid_Reserve_R	R-R	-4.9	NONE	0.8	LOW	-2.90
+PSD2_primary	Plasmid_Reserve	PSD2_R	Plasmid_Reserve_Probe	R-P	-8.6	NONE	-2.2	NONE	
+PSD2_primary	Plasmid_Reserve	PSD2_probe	Plasmid_Reserve_F	P-F	6.7	LOW	12.6	LOW	
+PSD2_primary	Plasmid_Reserve	PSD2_probe	Plasmid_Reserve_R	P-R	-36.1	NONE	-29.0	NONE	
+PSD2_primary	Plasmid_Reserve	PSD2_probe	Plasmid_Reserve_Probe	P-P	-20.2	NONE	-13.6	NONE	
+PSD2_alt1	Plasmid_Primary	PSD2_alt1_F	Plasmid_Primary_F	F-F	-10.4	NONE	-3.9	NONE	-2.59
+PSD2_alt1	Plasmid_Primary	PSD2_alt1_F	Plasmid_Primary_R	F-R	-36.8	NONE	-29.7	NONE	-2.42
+PSD2_alt1	Plasmid_Primary	PSD2_alt1_F	Plasmid_Primary_Probe	F-P	-20.1	NONE	-13.5	NONE	
+PSD2_alt1	Plasmid_Primary	PSD2_alt1_R	Plasmid_Primary_F	R-F	-54.9	NONE	-47.6	NONE	-0.03
+PSD2_alt1	Plasmid_Primary	PSD2_alt1_R	Plasmid_Primary_R	R-R	-24.5	NONE	-17.6	NONE	0.01
+PSD2_alt1	Plasmid_Primary	PSD2_alt1_R	Plasmid_Primary_Probe	R-P	-21.1	NONE	-14.9	NONE	
+PSD2_alt1	Plasmid_Primary	PSD2_alt1_probe	Plasmid_Primary_F	P-F	-54.9	NONE	-47.6	NONE	
+PSD2_alt1	Plasmid_Primary	PSD2_alt1_probe	Plasmid_Primary_R	P-R	-44.0	NONE	-36.2	NONE	
+PSD2_alt1	Plasmid_Primary	PSD2_alt1_probe	Plasmid_Primary_Probe	P-P	10.0	LOW	14.6	LOW	
+PSD2_alt1	Plasmid_Reserve	PSD2_alt1_F	Plasmid_Reserve_F	F-F	-31.2	NONE	-24.1	NONE	-0.89
+PSD2_alt1	Plasmid_Reserve	PSD2_alt1_F	Plasmid_Reserve_R	F-R	-13.9	NONE	-6.9	NONE	-4.38
+PSD2_alt1	Plasmid_Reserve	PSD2_alt1_F	Plasmid_Reserve_Probe	F-P	-33.3	NONE	-26.3	NONE	
+PSD2_alt1	Plasmid_Reserve	PSD2_alt1_R	Plasmid_Reserve_F	R-F	-23.8	NONE	-17.6	NONE	-1.11
+PSD2_alt1	Plasmid_Reserve	PSD2_alt1_R	Plasmid_Reserve_R	R-R	-23.8	NONE	-17.3	NONE	0.12
+PSD2_alt1	Plasmid_Reserve	PSD2_alt1_R	Plasmid_Reserve_Probe	R-P	-22.0	NONE	-15.3	NONE	
+PSD2_alt1	Plasmid_Reserve	PSD2_alt1_probe	Plasmid_Reserve_F	P-F	-52.0	NONE	-44.2	NONE	
+PSD2_alt1	Plasmid_Reserve	PSD2_alt1_probe	Plasmid_Reserve_R	P-R	-28.0	NONE	-20.6	NONE	
+PSD2_alt1	Plasmid_Reserve	PSD2_alt1_probe	Plasmid_Reserve_Probe	P-P	-10.9	NONE	-3.9	NONE	
+group_306	Plasmid_Primary	group_306_F	Plasmid_Primary_F	F-F	-26.2	NONE	-19.6	NONE	-2.24
+group_306	Plasmid_Primary	group_306_F	Plasmid_Primary_R	F-R	-7.1	NONE	-0.9	NONE	-0.44
+group_306	Plasmid_Primary	group_306_F	Plasmid_Primary_Probe	F-P	10.9	LOW	15.3	LOW	
+group_306	Plasmid_Primary	group_306_R	Plasmid_Primary_F	R-F	-40.3	NONE	-33.5	NONE	-0.32
+group_306	Plasmid_Primary	group_306_R	Plasmid_Primary_R	R-R	-1.2	NONE	4.8	LOW	-1.77
+group_306	Plasmid_Primary	group_306_R	Plasmid_Primary_Probe	R-P	-23.3	NONE	-17.1	NONE	
+group_306	Plasmid_Primary	group_306_probe	Plasmid_Primary_F	P-F	-29.4	NONE	-22.8	NONE	
+group_306	Plasmid_Primary	group_306_probe	Plasmid_Primary_R	P-R	-56.2	NONE	-48.7	NONE	
+group_306	Plasmid_Primary	group_306_probe	Plasmid_Primary_Probe	P-P	-57.3	NONE	-49.4	NONE	
+group_306	Plasmid_Reserve	group_306_F	Plasmid_Reserve_F	F-F	-43.6	NONE	-36.5	NONE	-0.39
+group_306	Plasmid_Reserve	group_306_F	Plasmid_Reserve_R	F-R	-2.0	NONE	3.7	LOW	-0.44
+group_306	Plasmid_Reserve	group_306_F	Plasmid_Reserve_Probe	F-P	-10.9	NONE	-4.2	NONE	
+group_306	Plasmid_Reserve	group_306_R	Plasmid_Reserve_F	R-F	-31.2	NONE	-24.1	NONE	-1.11
+group_306	Plasmid_Reserve	group_306_R	Plasmid_Reserve_R	R-R	-9.9	NONE	-3.8	NONE	-0.49
+group_306	Plasmid_Reserve	group_306_R	Plasmid_Reserve_Probe	R-P	-33.3	NONE	-26.3	NONE	
+group_306	Plasmid_Reserve	group_306_probe	Plasmid_Reserve_F	P-F	-32.3	NONE	-25.9	NONE	
+group_306	Plasmid_Reserve	group_306_probe	Plasmid_Reserve_R	P-R	-34.5	NONE	-28.0	NONE	
+group_306	Plasmid_Reserve	group_306_probe	Plasmid_Reserve_Probe	P-P	-42.4	NONE	-35.1	NONE	
