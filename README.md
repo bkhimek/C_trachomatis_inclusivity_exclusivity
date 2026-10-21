@@ -12,8 +12,8 @@ measured assay performance.
 ## Results at a glance
 
 - **Reference set.** 125 complete RefSeq genomes, tiered 97 primary / 10 quality-review / 18 excluded.
-  149 GenBank-only genomes from a single study of engineered laboratory strains (PRJNA558398) were rejected
-  before the reference set was built.
+  A further 149 non-RefSeq (GenBank-only) genomes were excluded from the analysis: all came from a single
+  study of engineered laboratory strains (PRJNA558398) and were rejected before the reference set was built.
 - **Pangenome** (Panaroo, 97 primary genomes): 904 gene clusters, 874 core genes.
 - **Exclusivity screen** against 123 non-target genomes (35 species): 692 of 874 core genes contain a stretch
   of at least 150 bp that is below 85% identical to every genome in the panel; 588 of those also hold at
@@ -46,7 +46,8 @@ The oligo sequences are in `config/final_chromosomal_oligos.tsv` (21 chromosomal
 
 - Results are in-silico. No wet-lab verification against reference strains or near-neighbour DNA was done.
 - Conclusions describe the curated collection (125 RefSeq genomes), not the whole species; a lineage absent
-  from RefSeq complete genomes is not covered.
+  from RefSeq complete genomes is not covered. The 149 non-RefSeq genomes mentioned above were excluded, not
+  analysed.
 - The plasmid design is a standard consensus design. An nvCT-specific design (the Swedish new variant with a
   377 bp plasmid deletion) was not performed: its published coordinates and accessions could not be
   independently confirmed, so that work is parked (decision D23), and detection of nvCT by the plasmid sets
@@ -72,7 +73,6 @@ The oligo sequences are in `config/final_chromosomal_oligos.tsv` (21 chromosomal
 | `bin/12`-`17` | Plasmid: contig extraction, orientation fix, consensus, identity check, conserved windows, primer design |
 | `bin/18` | Quality-review genomes against the seven locked chromosomal sets |
 | `bin/19` | Cross-dimer check between each chromosomal set and each plasmid set (the proposed duplex) |
-| `bin/90` | Export of human-readable reports |
 
 Numbers 10 and 11 are intentionally unused. The decision log refers to some earlier script numbers; where it
 differs from this table, the table reflects the scripts in `bin/`.
@@ -97,7 +97,7 @@ differs from this table, the table reflects the scripts in `bin/`.
 | `config/` | Primer3 settings, provenance rules, final chromosomal oligo table |
 | `data/` | Inventories and metadata (genome downloads and BLAST databases are gitignored) |
 | `results/` | Per-step outputs, final oligo tables and validation reports |
-| `docs/` | Decision log, handover, lessons learned, tool versions, exclusivity panel lists |
+| `docs/` | Decision log, lessons learned, case study (PDF), tool versions, exclusivity panel lists |
 
 ## Environment
 
