@@ -97,7 +97,7 @@ differs from this table, the table reflects the scripts in `bin/`.
 | `config/` | Primer3 settings, provenance rules, final chromosomal oligo table |
 | `data/` | Inventories and metadata (genome downloads and BLAST databases are gitignored) |
 | `results/` | Per-step outputs, final oligo tables and validation reports |
-| `docs/` | Decision log, lessons learned, case study (PDF), tool versions, exclusivity panel lists |
+| `docs/` | Decision log, lessons learned, case study and white paper (PDF), tool versions, exclusivity panel lists |
 
 ## Environment
 
@@ -112,6 +112,7 @@ species are listed in `docs/exclusivity_panel_accessions.tsv` and `docs/exclusiv
 - `docs/PROJECT_STATE.md`: decision log (D1-D29) and dated findings; the authoritative record.
 - `docs/lessons_learned.md`: what went wrong, how it was caught, and what to do differently.
 - [Case study (PDF)](docs/Case_Study_C_trachomatis_Oligonucleotide_Screening.pdf): a short narrative of the project, its verification checkpoints and its limitations.
+- [White paper (PDF)](docs/Genome_Selection_White_Paper.pdf): a four-page argument for verifying the reference genome set before assay design, drawing on this project and the Swedish plasmid variant.
 
 ## Author
 
