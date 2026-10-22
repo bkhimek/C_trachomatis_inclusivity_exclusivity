@@ -31,9 +31,9 @@ measured assay performance.
 - **Standard met by every set.** Probe Tm at least 5 °C above the highest primer Tm (6.08-8.07 °C across all
   sets); Tm computed from the real sequence; no structural flags in any of the three oligo pairs (F-R,
   F-probe, R-probe); BLAST against the human genome and core_nt with a pair-level rule for off-target hits.
-- **Quality-review genomes tested against the finished design (`bin/18`).** For the seven chromosomal sets,
-  69 of 70 set-by-genome cases bind exactly and one binds within tolerance (a single internal probe
-  mismatch); none is at risk or fails. The 97 primary genomes run as a control bind 97 of 97.
+- **Quality-review genomes tested against the finished design (`bin/18`).** Each of the ten quality-review genomes was checked
+  against each of the seven chromosomal sets (70 cases): 69 bind exactly and one binds within tolerance (a single
+  internal probe mismatch); none is at risk or fails. The 97 primary genomes run as a control bind 97 of 97.
 - **Proposed duplex (`bin/19`).** The intended final assay pairs one chromosomal set with one plasmid set. Cross-dimers
   between the two sets were computed for all 14 combinations (126 oligo pairs): none is MEDIUM or HIGH on the same severity
   scale as the within-set checks (strongest structure Tm 21.5 °C, or 27.0 °C under the project reaction conditions).
