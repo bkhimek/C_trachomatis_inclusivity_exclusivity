@@ -727,8 +727,10 @@ No verdict changes.
 **Consequences.** No sequence in either panel changes. The case study, the white paper and the technical guide were revised the same day:
 "validation" in the case-study title replaced by "screening", specificity statements phrased as predictions under defined screening
 conditions, the duplex described as proposed, a scope-and-limitations section added to the case study, and ANI wording tightened to
-"species-level consistency". `bin/19` was first run in a cloud session with primer3-py 2.3.1; the run should be repeated in WSL (Primer3
-2.6.1) and `results/duplex_check/summary.txt` compared before the results are committed.
+"species-level consistency". `bin/19` was first run in a cloud session with primer3-py 2.3.1. **Reproduced in WSL on
+2026-10-22** (primer3-py 2.3.1, the same version; results folder clean before the run): the output was identical to the
+committed results (positive control 56.2 C, 14 of 14 combinations pass, strongest cross-dimer 21.5 C default and
+27.0 C project conditions) and `git diff` on `results/duplex_check` was empty, so nothing needed committing.
 
 ## Update 2026-10-22: documentation finalised (case study, white paper)
 
@@ -768,3 +770,5 @@ Paper*), which is superseded and not updated. Content points checked against thi
 **Repository.** The case study PDF replaced the previous copy in commit `f0614ce`, together with a `README.md` change that
 explains the 70 quality-review cases; the white paper PDF and a README entry were added in commit `6fa7467`. `HANDOVER.md`,
 `sync_and_stage_oligos.sh` and `track_b_analysis/` remain local and untracked.
+
+**Open item closed.** The 2026-10-20 note that `bin/19` should be repeated in WSL is resolved: see the end of the 2026-10-20 update above.
